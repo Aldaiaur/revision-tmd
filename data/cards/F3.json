@@ -1,0 +1,1248 @@
+{
+  "schema_version": 1,
+  "fiche": "F3",
+  "fichier": "F3_emballages_specifications_marquage.md",
+  "cards": [
+    {
+      "id": "F3.A.Q1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "1",
+        "ligne": 22
+      },
+      "type": "question_ouverte",
+      "question": "Groupes d'emballage pour : 8, 2, 1, 4.3, 5.1, 3, 9 ?",
+      "reponse_courte": "**8 oui · 2 non · 1 non · 4.3 oui · 5.1 oui · 3 oui · 9 oui**",
+      "raisonnement": "Pas de GE pour les classes 1, 2 et 7 ni pour les divisions 5.2 et 6.2. La classe 9 en compte pour certaines rubriques (UN 3077, UN 3082…).",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 la ligne « 9 » est lue sur une case cochée peu lisible",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "3970fda97923"
+    },
+    {
+      "id": "F3.A.Q2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "2",
+        "ligne": 23
+      },
+      "type": "question_ouverte",
+      "question": "Emballages intérieurs en verre pour 10 L d'acétal sur passagers ?",
+      "reponse_courte": "**10 récipients**",
+      "raisonnement": "IE 353, 5 L max par colis → 2 colis ; verre intérieur ≤ **1 L** → 10 récipients.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "5137a4843015"
+    },
+    {
+      "id": "F3.A.Q3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "3",
+        "ligne": 24
+      },
+      "type": "question_ouverte",
+      "question": "Masse nette maximale d'un 4G ?",
+      "reponse_courte": "**400 kg**",
+      "raisonnement": "Tableau 5.0.C puis 6.2.12.7.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "5.0.C",
+        "6.2.12.7"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "14e9de445926"
+    },
+    {
+      "id": "F3.A.Q4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "4",
+        "ligne": 25
+      },
+      "type": "question_ouverte",
+      "question": "Gravage 3A2 / Y / S / SK / SML 3560",
+      "reponse_courte": "Jerrican en acier à **ouverture totale** · GE d'essai II · solides ou liquides en récipients intérieurs · code du pays (SK) · fabricant (SML 3560)",
+      "raisonnement": "Il manque l'**année** dans ce gravage.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8fb4547ccc89"
+    },
+    {
+      "id": "F3.A.Q5",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "5",
+        "ligne": 26
+      },
+      "type": "vrai_faux",
+      "question": "0,3 L de diallylamine + 2,5 L de furaldéhydes : même colis ? passagers ?",
+      "reponse_courte": "**Oui** (compatibles, table 9.3.A) · passagers **oui**",
+      "raisonnement": "Q = 0,3/1 + 2,5/5 = **0,8** ≤ 1.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "9.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "145640b6d7c9"
+    },
+    {
+      "id": "F3.A.Q6",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "6",
+        "ligne": 27
+      },
+      "type": "vrai_faux",
+      "question": "Colis sur passagers ? UN 2710 (verre 2 L, 1A2) · UN 1474 (plastique 2 kg, 4D) · UN 2876 (métal 12 kg, 1A1) · UN 1830 (verre 1 L, 4H2)",
+      "reponse_courte": "**Oui · Oui · Non · Oui**",
+      "raisonnement": "Méthode : PI de la colonne I, quantité par emballage intérieur, types d'extérieur permis. Le corrigé ne donne pas les motifs.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 la coche de la ligne 1 est décalée sur la diapo",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b73946fa7535"
+    },
+    {
+      "id": "F3.A.Q7",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "7",
+        "ligne": 28
+      },
+      "type": "calcul",
+      "question": "Q pour 0,3 kg de manèbe + 0,2 L de pentène-1",
+      "reponse_courte": "0,3/25 + 0,2/1 = 0,212 → **Q = 0,3**",
+      "raisonnement": "Limites : 25 kg et 1 L. Pas d'incompatibilité (9.3.A).",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "9.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "7217d4ee212a"
+    },
+    {
+      "id": "F3.A.Q8",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "8",
+        "ligne": 29
+      },
+      "type": "calcul",
+      "question": "Q pour 20 kg de nitrite de sodium + 8 kg de fluorure de sodium",
+      "reponse_courte": "20/25 + 8/100 = 0,88 → **Q = 0,9**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "4e3dbd4832c4"
+    },
+    {
+      "id": "F3.A.Q9",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "9",
+        "ligne": 30
+      },
+      "type": "vrai_faux",
+      "question": "45 kg d'UN 3089 (GE II) dans un emballage gravé « 3H2 / Y 50 / S / 08 / CH » ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": "IE 448 autorise bien le 3H2, **mais** fabriqué en 2008 : la durée de 5 ans des jerricans plastique est dépassée (5.0.2.15). À refaire avec la date du jour : plus évident encore en 2026.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢 méthode",
+      "ref_dgr": [
+        "5.0.2.15"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "39bbe50ba2fa"
+    },
+    {
+      "id": "F3.A.Q10",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "10",
+        "ligne": 31
+      },
+      "type": "question_ouverte",
+      "question": "Emballages intérieurs en verre pour 5 L d'acétal sur cargo",
+      "reponse_courte": "**2 récipients**",
+      "raisonnement": "IE 364, 60 L par colis → 1 colis ; verre ≤ 2,5 L → 2 récipients. (La diapo écrit « IE 353 » par erreur dans la méthode.)",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "3f5800d480a0"
+    },
+    {
+      "id": "F3.A.Q11",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "11",
+        "ligne": 32
+      },
+      "type": "calcul",
+      "question": "Étiquette(s) sur 50 L de trichloréthylène",
+      "reponse_courte": "**Sans corrigé**",
+      "raisonnement": "Trichloréthylène = 6.1 GE III : étiquette **Toxic**. Pas de CAO si 50 L ≤ limite passagers (à lire en J). « Sens de chargement » (flèches) seulement si emballage combiné avec récipients intérieurs de liquides (7.1.4.4). Ni corrosif ni comburant.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.4.4"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "f5e5c427ec4a"
+    },
+    {
+      "id": "F3.A.Q12",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "12",
+        "ligne": 33
+      },
+      "type": "calcul",
+      "question": "Q pour UN 1759 (10 kg, GE II) + UN 1813 (0,3 kg) + UN 2680 (4,5 kg)",
+      "reponse_courte": "10/15 + 0,3/15 + 4,5/15 = 0,9866 → **Q = 1**",
+      "raisonnement": "Arrondi au dixième supérieur : 0,99 → 1,0.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "15e1b47e063c"
+    },
+    {
+      "id": "F3.A.Q13",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "13",
+        "ligne": 34
+      },
+      "type": "vrai_faux",
+      "question": "Benzonitrile 0,5 L + iodure de mercure 15 kg : même colis sur passagers ?",
+      "reponse_courte": "**Oui**, corrigé **Q = 0,6**",
+      "raisonnement": "À recalculer : 0,5/limite + 15/limite avec les valeurs de 4.2. Avec 5 L et 25 kg, je trouve 0,1 + 0,6 = 0,7.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b356cc2eb531"
+    },
+    {
+      "id": "F3.A.Q14",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "14",
+        "ligne": 35
+      },
+      "type": "calcul",
+      "question": "Nitrite de sodium 20 kg + fluorure de sodium 8 kg (PI 559 et 670)",
+      "reponse_courte": "Corrigé : **Oui, Q = 0,7**",
+      "raisonnement": "C'est le même cas qu'à Q8, où Q = 0,88 → **0,9**.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "39899ddee8ee"
+    },
+    {
+      "id": "F3.A.Q15",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "15",
+        "ligne": 36
+      },
+      "type": "vrai_faux",
+      "question": "Nitroamidon humidifié 0,9 kg + hafnium en poudre humidifié 6 kg",
+      "reponse_courte": "**Non**, corrigé **Q = 1,1**",
+      "raisonnement": "Q > 1 : pas dans un même colis sur passagers.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 valeur de Q non recalculée",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "a8c422a8285b"
+    },
+    {
+      "id": "F3.A.Q16",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "16",
+        "ligne": 37
+      },
+      "type": "question_ouverte",
+      "question": "Marquage d'un suremballage opaque ?",
+      "reponse_courte": "Mention **« OVERPACK »** (7.1.7.1) ; marques et étiquettes des colis internes **reprises** si elles ne sont pas visibles ; nombre de colis",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.7.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "ce38a75d1ced"
+    },
+    {
+      "id": "F3.A.Q17",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "17",
+        "ligne": 38
+      },
+      "type": "vrai_faux",
+      "question": "6HA1 pour 20 L d'UN 1993 GE I ?",
+      "reponse_courte": "**Oui**",
+      "raisonnement": "IE 361 (cargo) autorise le 6HA1 (composite). GE I : l'emballage doit porter **X**.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "760cd04988ed"
+    },
+    {
+      "id": "F3.A.Q18",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "18",
+        "ligne": 39
+      },
+      "type": "question_ouverte",
+      "question": "10 kg de pesticide au phosphure d'aluminium",
+      "reponse_courte": "**UN 3048**, **6.1**, **GE I**, PI **672**, **15 kg** par colis ; **interdit sur avion passagers** ; dans un 4C2 : récipients intérieurs **en verre ≤ 1 kg chacun**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "d21db4c1426e"
+    },
+    {
+      "id": "F3.A.Q19",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "19",
+        "ligne": 40
+      },
+      "type": "question_ouverte",
+      "question": "5 L de produits pour parfumerie GE II en quantités limitées",
+      "reponse_courte": "**UN 1266** · **Y341** · intérieur plastique **0,5 L** · extérieur **1 L**",
+      "raisonnement": "Conclusion : 5 L ne tiennent pas dans un seul colis LQ.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b66a93551264"
+    },
+    {
+      "id": "F3.A.Q20",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "20",
+        "ligne": 41
+      },
+      "type": "question_ouverte",
+      "question": "0,5 L d'acide fluorhydrique (UN 1790, 50 %, GE II) en LQ",
+      "reponse_courte": "**Y840** · intérieur **0,1 L** · colis **0,5 L** · intérieurs en métal **résistants à la corrosion**",
+      "raisonnement": "Le livret dit « plastique », la diapo répond pour le **métal** : incohérence. Le HF attaque le verre : plastique ou métal résistant.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "e15db3ad3ea8"
+    },
+    {
+      "id": "F3.A.Q21",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "21",
+        "ligne": 42
+      },
+      "type": "vrai_faux",
+      "question": "LQ : UN 1688 (0,5 kg, Y644) + « cyanure d'argent » (0,5 kg, Y644) + « permanganate de sodium » (0,5 kg, Y544) : même colis ?",
+      "reponse_courte": "**Non** : 0,5/1 + 0,5/1 + 0,5/2,5 = **1,2** > 1",
+      "raisonnement": "🟢 pour le principe",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴 les numéros ONU du livret (1337, 1638) ne correspondent pas aux noms",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "e751cc568dc8"
+    },
+    {
+      "id": "F3.A.Q22",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "22",
+        "ligne": 43
+      },
+      "type": "vrai_faux",
+      "question": "LQ : acétone 0,3 L (Y341) + bromure d'acétyle 0,1 L (Y840) + alcools n.s.a. GE I 0,05 L (Y341)",
+      "reponse_courte": "**Oui**, compatibles, 0,3/1 + 0,1/0,5 + 0,05/1 = 0,55 → **Q = 0,6**",
+      "raisonnement": "Pour un GE I, la colonne G renvoie normalement à **Y340** (30 mL) : à contrôler avant d'accepter ce corrigé.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8158ff9932e7"
+    },
+    {
+      "id": "F3.A.Q23",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "23",
+        "ligne": 44
+      },
+      "type": "question_ouverte",
+      "question": "20 kg d'UN 2940 (GE II) : quel emballage unique ?",
+      "reponse_courte": "Seul **1A2 / Y30 / S / 05 / F / APA 376**",
+      "raisonnement": "GE II → **Y** minimum : le **4G/Z** est exclu. Le 1A1/Y14 et le 1B2/Y15 sont trop faibles en masse brute. Le **1D/X30** n'est pas autorisé par IE 470.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f2c921418ffb"
+    },
+    {
+      "id": "F3.A.Q24",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "24",
+        "ligne": 45
+      },
+      "type": "vrai_faux",
+      "question": "4 bouteilles plastique de 1 L d'UN 2684 dans un « 4G / Z 25 / S / 05 / GB » ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": "IE 354 exige la performance du **GE II**, donc **Y** au minimum.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "84da20d5b1dd"
+    },
+    {
+      "id": "F3.A.Q25",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage",
+        "question": "25",
+        "ligne": 46
+      },
+      "type": "vrai_faux",
+      "question": "3 L de tripropylamine + 3 L de diisobutylamine : étiquette CAO ?",
+      "reponse_courte": "**Oui**",
+      "raisonnement": "Sur passagers Q = 3/5 + 3/5 = 1,2 > 1 → CAO ; sur cargo Q = 3/60 + 3/60 = 0,1.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "bdc3cb33d534"
+    },
+    {
+      "id": "F3.A-Q26.Q4-g-z-s-02-f-bvt-15",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage > Q26 — décodage (éléments lus dans l'ordre du corrigé ; la diapo du gravage lui-même est une image)",
+        "question": "4G / Z / S / 02 / F / BVT (+ « 15 »)",
+        "ligne": 53
+      },
+      "type": "classement",
+      "question": "Décoder le gravage 4G / Z / S / 02 / F / BVT (+ « 15 »)",
+      "reponse_courte": "Caisse en carton · GE d'essai III · masse brute max **15 kg** · solides ou récipients intérieurs · 2002 · France, fabricant BVT",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "70670240bae5"
+    },
+    {
+      "id": "F3.A-Q26.Q1-a1-x-1-5-200-05-e-523",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage > Q26 — décodage (éléments lus dans l'ordre du corrigé ; la diapo du gravage lui-même est une image)",
+        "question": "1A1 / X / 1.5 / 200 / 05 / E / 523",
+        "ligne": 54
+      },
+      "type": "classement",
+      "question": "Décoder le gravage 1A1 / X / 1.5 / 200 / 05 / E / 523",
+      "reponse_courte": "Fût en acier à ouverture partielle · GE d'essai I · densité relative **1,5** · pression d'essai **200 kPa** · 2005 · Espagne, fabricant 523",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "d4f7b72dd5e4"
+    },
+    {
+      "id": "F3.A-Q26.Q1-h2-y-s-04-d-vh33-10",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage > Q26 — décodage (éléments lus dans l'ordre du corrigé ; la diapo du gravage lui-même est une image)",
+        "question": "1H2 / Y / S / 04 / D / VH33 (+ « 10 »)",
+        "ligne": 55
+      },
+      "type": "classement",
+      "question": "Décoder le gravage 1H2 / Y / S / 04 / D / VH33 (+ « 10 »)",
+      "reponse_courte": "Fût en plastique à ouverture totale · GE d'essai II · masse brute max **10 kg** · solides ou récipients intérieurs · 2004 · Allemagne, fabricant VH33",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "57e7aadd215a"
+    },
+    {
+      "id": "F3.A-Q26-final",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "A. Emballages et instructions d'emballage > Q26 — décodage (éléments lus dans l'ordre du corrigé ; la diapo du gravage lui-même est une image)",
+        "question": "Question finale : quel gravage complémentaire sur ce dernier",
+        "ligne": 57
+      },
+      "type": "question_ouverte",
+      "question": "Q26 : quel gravage complémentaire sur le dernier emballage (1H2 / Y / S / 04 / D / VH33) ?",
+      "reponse_courte": "Question finale : *quel gravage complémentaire sur ce dernier emballage ?* Corrigé : l'**année de fabrication** (6.0.4.2.1 f, figure 6.0.B). 🟠",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "Question finale : *quel gravage complémentaire sur ce dernier emballage ?* Corrigé : l'**année de fabrication** (6.0.4.2.1 f, figure 6.0.B). 🟠",
+      "ref_dgr": [
+        "6.0.B",
+        "6.0.4.2.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "68f65f38218a"
+    },
+    {
+      "id": "F3.B.Q1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "B. Spécifications et épreuves de résistance",
+        "question": "1",
+        "ligne": 65
+      },
+      "type": "question_ouverte",
+      "question": "Masse nette max d'une caisse en plastique expansé ? Code ?",
+      "reponse_courte": "**60 kg** · **4H1** (6.2.13.8, tableau 5.0.C)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "5.0.C",
+        "6.2.13.8"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f8ad8583a653"
+    },
+    {
+      "id": "F3.B.Q2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "B. Spécifications et épreuves de résistance",
+        "question": "2",
+        "ligne": 66
+      },
+      "type": "question_ouverte",
+      "question": "4H2 / Y / S / 97 / CH",
+      "reponse_courte": "Caisse en plastique compact · GE II · solides ou récipients intérieurs · année 1997 · Suisse",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "4d3a1bdadadc"
+    },
+    {
+      "id": "F3.B.Q3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "B. Spécifications et épreuves de résistance",
+        "question": "3",
+        "ligne": 67
+      },
+      "type": "question_ouverte",
+      "question": "Capacité max d'un composite 6HD2 (plastique dans contreplaqué) ?",
+      "reponse_courte": "**60 L et 75 kg** (6.2.17.5 et 6.2.17.6)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "6.2.17.5",
+        "6.2.17.6"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "63d505f7e93f"
+    },
+    {
+      "id": "F3.B.Q4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "B. Spécifications et épreuves de résistance",
+        "question": "4",
+        "ligne": 68
+      },
+      "type": "question_ouverte",
+      "question": "1A1 / X / 1.3 / 200 / 05 / GB / 123",
+      "reponse_courte": "Fût acier ouverture partielle · GE I · densité 1,3 · 200 kPa · 2005 · Royaume-Uni, fabricant 123",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8ad580330bb1"
+    },
+    {
+      "id": "F3.C1.Q1",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "1",
+        "ligne": 78
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Tous ?",
+      "reponse_courte": "**Désignation exacte**, **n° UN/ID**, **nom et adresse de l'expéditeur et du destinataire**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "696470c42b10"
+    },
+    {
+      "id": "F3.C1.Q2",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "2",
+        "ligne": 79
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Quantités limitées ?",
+      "reponse_courte": "Corrigé : « inscription quantités limitées ». **Aujourd'hui : losange « Y »**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [
+        "7.1.A",
+        "7.1.4.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "8e813a2e4a83"
+    },
+    {
+      "id": "F3.C1.Q3",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "3",
+        "ligne": 80
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Classes 2 à 6 et 8, plusieurs colis ?",
+      "reponse_courte": "**Quantité nette** de chaque colis",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e8e9611b49fa"
+    },
+    {
+      "id": "F3.C1.Q4",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "4",
+        "ligne": 81
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Division 6.2 ?",
+      "reponse_courte": "**Nom et téléphone** d'une personne responsable",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "4c832494e730"
+    },
+    {
+      "id": "F3.C1.Q5",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "5",
+        "ligne": 82
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Glace carbonique (UN 1845) ?",
+      "reponse_courte": "**Masse nette** de glace carbonique",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "178c44ecf977"
+    },
+    {
+      "id": "F3.C1.Q6",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "6",
+        "ligne": 83
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Gaz liquéfiés réfrigérés ?",
+      "reponse_courte": "**Flèches d'orientation** et mention « Keep upright » sur des faces espacées de 120° (ou sur chaque face)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b29bd369ef29"
+    },
+    {
+      "id": "F3.C1.Q7",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "7",
+        "ligne": 84
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — Générateurs chimiques d'oxygène (A144) ?",
+      "reponse_courte": "Mention « **Air crew protective breathing equipment (smoke hood) in accordance with Special Provision A144** »",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "68daa03fb026"
+    },
+    {
+      "id": "F3.C1.Q8",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C1. Marquages (Q1 à Q8)",
+        "question": "8",
+        "ligne": 85
+      },
+      "type": "question_ouverte",
+      "question": "Marquage à ajouter — UN 3373 ?",
+      "reponse_courte": "Mention « **Biological substance, Category B** » + losange UN 3373",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8e1c14733aec"
+    },
+    {
+      "id": "F3.C2.Q9",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "9",
+        "ligne": 93
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — Hydrazine anhydre (UN 2029) ?",
+      "reponse_courte": "**3 + 6.1 + 8 + CAO** (la Q18 d'identification donne « passagers : non » pour 2 L) + flèches",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 sans corrigé",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "cf66b4b07f54"
+    },
+    {
+      "id": "F3.C2.Q10",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "10",
+        "ligne": 94
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — Codes (RMD, MAG, RIS, RRE, ROX, RXS, RSB, RFS) ?",
+      "reponse_courte": "**Marchandises dangereuses diverses · masses magnétisées · substances infectieuses · matières radioactives en colis exceptés · matières comburantes · explosifs de sécurité · polymères expansibles en granulés · solides inflammables**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "11abc2f79bcd"
+    },
+    {
+      "id": "F3.C2.Q11",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "11",
+        "ligne": 95
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — 10 L d'UN 1114 (benzène) ?",
+      "reponse_courte": "**3** + **CAO** (10 L dépassent la limite passagers) + flèches",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 sans corrigé",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "3ff715a754cf"
+    },
+    {
+      "id": "F3.C2.Q12",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "12",
+        "ligne": 96
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — 1 L d'UN 2744 (chloroformiate de cyclobutyle) ?",
+      "reponse_courte": "**6.1 + 3 + 8** + flèches ; CAO si 1 L dépasse la limite passagers",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 sans corrigé",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "5175f1bbf53d"
+    },
+    {
+      "id": "F3.C2.Q13",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "13",
+        "ligne": 97
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — 20 L d'UN 3227 (auto-réactif liquide type E) + A20 ?",
+      "reponse_courte": "Étiquette **4.1** ; lis A20 pour les mentions supplémentaires",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 sans corrigé",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "4feeb5fe9342"
+    },
+    {
+      "id": "F3.C2.Q14",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "14",
+        "ligne": 98
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — 15 L de chloroformiate de cyclobutyle ?",
+      "reponse_courte": "**6.1 + 3 + 8** + **CAO** probable (15 L) + flèches",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 sans corrigé",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "bc511d85fbdd"
+    },
+    {
+      "id": "F3.C2.Q15",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "15",
+        "ligne": 99
+      },
+      "type": "question_ouverte",
+      "question": "Étiquettes attendues — 0,5 L de diallylamine en quantités limitées ?",
+      "reponse_courte": "**3 + 6.1 + 8** + losange **Y** (et flèches)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 sans corrigé : les sources que j'ai trouvées confirment les étiquettes de danger sur les colis Y",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "2f6678c975a1"
+    },
+    {
+      "id": "F3.C2-codes-imp",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F3",
+        "fichier": "F3_emballages_specifications_marquage.md",
+        "section": "C. Marquage et étiquetage > C2. Étiquettes (Q9 à Q15) — le corrigé dit seulement « voir 4.2 »",
+        "question": "Codes de la Q6 du récapitulatif : RCL liquides cryogéniques ",
+        "ligne": 101
+      },
+      "type": "question_ouverte",
+      "question": "Codes : RCL, RFL, RRY, MAG, ROP, RFG, RCM, RXC ?",
+      "reponse_courte": "Codes de la Q6 du récapitulatif : **RCL** liquides cryogéniques · **RFL** liquide inflammable · **RRY** radioactive · **MAG** masses magnétisées · **ROP** peroxydes organiques · **RFG** gaz inflammable · **RCM** corrosif · **RXC** explosifs, groupe de compatibilité C. 🟢",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "Codes de la Q6 du récapitulatif : **RCL** liquides cryogéniques · **RFL** liquide inflammable · **RRY** radioactive · **MAG** masses magnétisées · **ROP** peroxydes organiques · **RFG** gaz inflammable · **RCM** corrosif · **RXC** explosifs, groupe de compatibilité C. 🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "6f613a852d62"
+    }
+  ]
+}

@@ -1,0 +1,1631 @@
+{
+  "schema_version": 1,
+  "fiche": "F4",
+  "fichier": "F4_documents_traitement_recap_expeditions.md",
+  "cards": [
+    {
+      "id": "F4.A-Q1.expediteur-et-destinataire-eloignes-de-l",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Q1 — Colis « Organic peroxide type D, liquid, UN 3105 » (Malmö → Nairobi)",
+        "question": "Expéditeur et destinataire éloignés de la désignation",
+        "ligne": 15
+      },
+      "type": "relecture_document",
+      "question": "Colis UN 3105 (Organic peroxide type D, liquid) — constat : Expéditeur et destinataire éloignés de la désignation. Correction ?",
+      "reponse_courte": "Les **placer à côté de la désignation exacte** (7.1.4.1 b)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢 méthode : parcourir le colis dans l'ordre",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "7eb7e543c73d"
+    },
+    {
+      "id": "F4.A-Q1.nom-technique-absent",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Q1 — Colis « Organic peroxide type D, liquid, UN 3105 » (Malmö → Nairobi)",
+        "question": "Nom technique absent",
+        "ligne": 16
+      },
+      "type": "relecture_document",
+      "question": "Colis UN 3105 (Organic peroxide type D, liquid) — constat : Nom technique absent. Correction ?",
+      "reponse_courte": "Ajouter le **nom technique** entre parenthèses",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢 méthode : parcourir le colis dans l'ordre",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f765e6d9f72e"
+    },
+    {
+      "id": "F4.A-Q1.etiquettes-absentes",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Q1 — Colis « Organic peroxide type D, liquid, UN 3105 » (Malmö → Nairobi)",
+        "question": "Étiquettes absentes",
+        "ligne": 17
+      },
+      "type": "relecture_document",
+      "question": "Colis UN 3105 (Organic peroxide type D, liquid) — constat : Étiquettes absentes. Correction ?",
+      "reponse_courte": "**5.2**, « **Keep away from heat** » et **flèches d'orientation**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢 méthode : parcourir le colis dans l'ordre",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "0b1e5f10f86a"
+    },
+    {
+      "id": "F4.A-Q1.gravage-un-du-colis-absent",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Q1 — Colis « Organic peroxide type D, liquid, UN 3105 » (Malmö → Nairobi)",
+        "question": "Gravage UN du colis absent",
+        "ligne": 18
+      },
+      "type": "relecture_document",
+      "question": "Colis UN 3105 (Organic peroxide type D, liquid) — constat : Gravage UN du colis absent. Correction ?",
+      "reponse_courte": "Ajouter le **marquage de spécification UN** de l'emballage",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢 méthode : parcourir le colis dans l'ordre",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e2c62451b3d6"
+    },
+    {
+      "id": "F4.A-Q2",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Q2 — DGD de l'UN 3018",
+        "question": "Q2 — DGD de l'UN 3018",
+        "ligne": 22
+      },
+      "type": "question_ouverte",
+      "question": "DGD de l'UN 3018 : quelles corrections ?",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "Corrigé : désignation **« Organophosphorus pesticide, liquid, toxic (Parathion) »** (et non « Organiphosphorus… ») ; instruction d'emballage **658**, pas 603. 🟠 (PI à relire en 4.2 ; GE I donc en principe cargo seul : vérifie la mention « Cargo aircraft only »)",
+      "statut": "a_relire",
+      "statut_source": "Corrigé : désignation « Organophosphorus pesticide, liquid, toxic (Parathion) » (et non « Organiphosphorus… ») ; instruction d'emballage 658, pas 603. 🟠 (PI à",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "828ec379a5fc"
+    },
+    {
+      "id": "F4.A-Q3",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Q3 — DGD de l'UN 2683",
+        "question": "Q3 — DGD de l'UN 2683",
+        "ligne": 25
+      },
+      "type": "question_ouverte",
+      "question": "DGD de l'UN 2683 : quelles corrections ?",
+      "reponse_courte": "Corrigé : désignation en **anglais** « **Ammonium sulphide solution** » ; emballage « **3 composite packagings** (6HA1) × 1 L » ; PI **855**, pas 808. 🟠",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "Corrigé : désignation en anglais « Ammonium sulphide solution » ; emballage « 3 composite packagings (6HA1) × 1 L » ; PI 855, pas 808. 🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "dab00f82f8d3"
+    },
+    {
+      "id": "F4.A-T.Q3",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Questions de « Traitement » sur les documents (Q3 et Q4)",
+        "question": "3",
+        "ligne": 31
+      },
+      "type": "question_ouverte",
+      "question": "Durée de conservation d'une copie des documents par l'exploitant",
+      "reponse_courte": "**3 mois** (règle de 9.8.1 ; la diapo ne met pas la bonne réponse en évidence)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 relire 9.8.1",
+      "ref_dgr": [
+        "9.8.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "6baf86737b3c"
+    },
+    {
+      "id": "F4.A-T.Q4",
+      "module": "Documents",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "A. Documents d'accompagnement du fret > Questions de « Traitement » sur les documents (Q3 et Q4)",
+        "question": "4",
+        "ligne": 32
+      },
+      "type": "vrai_faux",
+      "question": "Le groupe de compatibilité des explosifs figure-t-il sur la NOTOC ?",
+      "reponse_courte": "**Oui** (9.5.1.3)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "9.5.1.3"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "9ef86c4a9caa"
+    },
+    {
+      "id": "F4.B.Q1",
+      "module": "Traitement",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "B. Traitement des marchandises dangereuses",
+        "question": "1",
+        "ligne": 40
+      },
+      "type": "vrai_faux",
+      "question": "Trois ULD : (5.2 + 5.1) · (8 + 2.2 + 3) · (4.3 + 8)",
+      "reponse_courte": "**Oui · Oui · Non**",
+      "raisonnement": "Table 9.3.A (séparation) : 5.2 et 5.1 compatibles ; 8, 2.2 et 3 compatibles ; 4.3 et 8 **incompatibles**.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 à relire en 9.3.A",
+      "ref_dgr": [
+        "9.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f11a099599cf"
+    },
+    {
+      "id": "F4.B.Q2",
+      "module": "Traitement",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "B. Traitement des marchandises dangereuses",
+        "question": "2",
+        "ligne": 41
+      },
+      "type": "vrai_faux",
+      "question": "Cinq colis : UN 2461 (3) · UN 2802 (8) · UN 1066 (2.2) · UN 1476 (5.1) · UN 3088 (4.2) dans un même suremballage",
+      "reponse_courte": "**Non**",
+      "raisonnement": "9.3.A : les classes **3 et 4.2 sont incompatibles avec la 5.1**.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "9.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e41a97d4b2f0"
+    },
+    {
+      "id": "F4.B.Q5",
+      "module": "Traitement",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "B. Traitement des marchandises dangereuses",
+        "question": "5",
+        "ligne": 42
+      },
+      "type": "question_ouverte",
+      "question": "Suremballage de 5 colis (6.1, 8, 3, 5.1, 2.2) : lequel retirer ?",
+      "reponse_courte": "Le colis **5.1**",
+      "raisonnement": "9.3.A : 5.1 incompatible avec 3.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "9.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f84e8ed605d8"
+    },
+    {
+      "id": "F4.C-Q1.Q1",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "1",
+        "ligne": 52
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Le symbole ✱ indique la modification d'un paragraphe",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "App. B.2.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e7abfe37e2ac"
+    },
+    {
+      "id": "F4.C-Q1.Q2",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "2",
+        "ligne": 53
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Un cerclage peut être considéré comme un suremballage",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "App. A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "7745499242a2"
+    },
+    {
+      "id": "F4.C-Q1.Q3",
+      "module": "Identification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "3",
+        "ligne": 54
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : La DOT correspond toujours à l'appellation commerciale",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "4.2.1.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "baac5d84f74b"
+    },
+    {
+      "id": "F4.C-Q1.Q4",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "4",
+        "ligne": 55
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : 1 TBq = 10¹² Bq",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.2.3",
+        "App. B.2.2.3"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "cc98c898f1c0"
+    },
+    {
+      "id": "F4.C-Q1.Q5",
+      "module": "Identification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "5",
+        "ligne": 56
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Le n° 3363 est un numéro ID",
+      "reponse_courte": "**Non** (c'est un UN)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "4.1.6.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "dd898c559cd7"
+    },
+    {
+      "id": "F4.C-Q1.Q6",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "6",
+        "ligne": 57
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Le GE indique le degré de danger",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "App. A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "08c57d741975"
+    },
+    {
+      "id": "F4.C-Q1.Q7",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "7",
+        "ligne": 58
+      },
+      "type": "vrai_faux",
+      "question": "GE pour la division 4.3 ?",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "3.5.1.3.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "9be7a3767cbf"
+    },
+    {
+      "id": "F4.C-Q1.Q8",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "8",
+        "ligne": 59
+      },
+      "type": "vrai_faux",
+      "question": "GE pour la division 2.1 ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "3.0.3.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "0223d5251839"
+    },
+    {
+      "id": "F4.C-Q1.Q9",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "9",
+        "ligne": 60
+      },
+      "type": "vrai_faux",
+      "question": "GE pour la classe 7 ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "3.0.3.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "0f4990bcae22"
+    },
+    {
+      "id": "F4.C-Q1.Q10",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "10",
+        "ligne": 61
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : « Y » devant une PI = quantité limitée",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "4.1.6.7"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "01b403354e36"
+    },
+    {
+      "id": "F4.C-Q1.Q11",
+      "module": "Identification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "11",
+        "ligne": 62
+      },
+      "type": "vrai_faux",
+      "question": "La tétrazine est-elle réglementée ?",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "9a80812cb7dd"
+    },
+    {
+      "id": "F4.C-Q1.Q12",
+      "module": "Identification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "12",
+        "ligne": 63
+      },
+      "type": "vrai_faux",
+      "question": "Le R141b (1,1-dichloro-1-fluoroéthane) est-il réglementé ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "5920ca36006c"
+    },
+    {
+      "id": "F4.C-Q1.Q13",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "13",
+        "ligne": 64
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Aérosol de gaz lacrymogène en bagage de soute",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "d17b84ab401f"
+    },
+    {
+      "id": "F4.C-Q1.Q14",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "14",
+        "ligne": 65
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Briquet à gaz en bagage cabine",
+      "reponse_courte": "**Non** (sur la personne seulement)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e4bd3ef30663"
+    },
+    {
+      "id": "F4.C-Q1.Q15",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "15",
+        "ligne": 66
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Aérosol de 750 mL dans ses bagages",
+      "reponse_courte": "**Non** (0,5 kg ou 0,5 L par aérosol)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8108fa5c4bdd"
+    },
+    {
+      "id": "F4.C-Q1.Q16",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "16",
+        "ligne": 67
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : 4 kg de viande congelée + 3 kg de glace carbonique en bagage à main",
+      "reponse_courte": "**Non** (2,5 kg max)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f9dc1d5be6c2"
+    },
+    {
+      "id": "F4.C-Q1.Q17",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "17",
+        "ligne": 68
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : La 1.4S est le seul explosif acceptable sur avion passagers",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "3.1.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "08fa24da4e06"
+    },
+    {
+      "id": "F4.C-Q1.Q18",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "18",
+        "ligne": 69
+      },
+      "type": "vrai_faux",
+      "question": "Liquide inflammable PE 22 °C, PIE 37 °C → GE III ?",
+      "reponse_courte": "**Non** (PIE > 35 et PE < 23 → **GE II**)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "3.3.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "44b5763d6cbd"
+    },
+    {
+      "id": "F4.C-Q1.Q19",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "19",
+        "ligne": 70
+      },
+      "type": "vrai_faux",
+      "question": "Matière émettant 5 L/min de gaz inflammable par kg au contact de l'eau → GE II ?",
+      "reponse_courte": "Corrigé : **Non** · **Correct : Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "ff1341dae74a"
+    },
+    {
+      "id": "F4.C-Q1.Q20",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q1 — Vingt affirmations (corrigé lu sur les cases cochées)",
+        "question": "20",
+        "ligne": 71
+      },
+      "type": "vrai_faux",
+      "question": "Vrai ou faux : Cinq récipients en verre pour 5 kg de nitrate de béryllium sur passagers",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b129d2482a75"
+    },
+    {
+      "id": "F4.C-Q2",
+      "module": "Classification",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q2 — Nouvelle molécule, pesticide cuivrique liquide : toxique GE II, PIE 45 °C, PE 35 °C, 1 colis de 10 L",
+        "question": "Q2 — Nouvelle molécule, pesticide cuivrique liquide : toxique GE II, PIE 45 °C, PE 35 °C, 1 colis de 10 L",
+        "ligne": 73
+      },
+      "type": "question_ouverte",
+      "question": "Pesticide cuivrique liquide : toxique GE II, PIE 45 °C, PE 35 °C, 1 colis de 10 L. Classement, désignation, conditions ?",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "| Élément | Réponse |\n|---|---|\n| Classement du danger inflammable | PIE > 35 et 23 ≤ PE ≤ 60 → **3 GE III** |\n| Danger prépondérant | 6.1 GE II **l'emporte** sur 3 GE III (3.10.A) |\n| Risque principal / subsidiaire / GE | **6.1 / 3 / II** |\n| Désignation | Pesticide à base de cuivre, liquide, toxique, inflammable (PE ≥ 23 °C) — **UN 3009** |\n| Conditions | **Avion cargo uniquement**, PI **662**, **60 L** max par colis |\n\n🔴 La **méthode écrite** sur la diapo (« 3 GE I, donc 3 I – 6.1 ») est un copier-coller de la Q4 de la classification et contredit le résultat affiché. Le résultat est juste ; le raisonnement à retenir est celui du tableau ci-dessus.",
+      "statut": "a_relire",
+      "statut_source": "🔴 La méthode écrite sur la diapo (« 3 GE I, donc 3 I – 6.1 ») est un copier-coller de la Q4 de la classification et contredit le résultat affiché. Le résultat",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [
+        "3.10.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet",
+        "piege-corrige"
+      ],
+      "difficulte": 3,
+      "hash_source": "645191b1a808"
+    },
+    {
+      "id": "F4.C-Q3",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q3 — Générateur d'oxygène chimique en AOG, Condor Flugdienst",
+        "question": "Q3 — Générateur d'oxygène chimique en AOG, Condor Flugdienst",
+        "ligne": 85
+      },
+      "type": "question_ouverte",
+      "question": "Générateur d'oxygène chimique en AOG, Condor Flugdienst : accepté ?",
+      "reponse_courte": "Corrigé : **DE-04 : non accepté au transport**. 🔴 (variation d'exploitant, à relire en 2.8)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "obsolete",
+      "statut_source": "Corrigé : DE-04 : non accepté au transport. 🔴 (variation d'exploitant, à relire en 2.8)",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet",
+        "variation"
+      ],
+      "difficulte": 3,
+      "hash_source": "7b366d3a4cad"
+    },
+    {
+      "id": "F4.C-Q4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "C. Récapitulatif > Q4 — 2 L de diallylamine sur cargo, gravage « 1H1 / Y / 1.3 / 300 / 05 / GB / 1234 »",
+        "question": "Q4 — 2 L de diallylamine sur cargo, gravage « 1H1 / Y / 1.3 / 300 / 05 / GB / 1234 »",
+        "ligne": 88
+      },
+      "type": "question_ouverte",
+      "question": "2 L de diallylamine sur cargo, gravage « 1H1 / Y / 1.3 / 300 / 05 / GB / 1234 » : étiquettes, lecture du gravage, décision ?",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "| Élément | Réponse |\n|---|---|\n| Étiquettes | **3, 6.1, 8**, **CAO** (2 L au-delà de la limite passagers) et **flèches** |\n| Gravage | Fût en plastique à **ouverture partielle** (1H1) · GE d'essai II · densité 1,3 · pression d'essai 300 kPa · **2005** · GB · fabricant 1234 |\n| Décision | **Non acceptable** |\n| Motif | Fût plastique de **2005** : durée de **5 ans** dépassée (5.0.2.15) |\n\n🟠 Le texte de la diapo écrit « 1A1 » mais décrit un fût plastique : c'est bien **1H1** (coquille).",
+      "statut": "a_relire",
+      "statut_source": "🟠 Le texte de la diapo écrit « 1A1 » mais décrit un fût plastique : c'est bien 1H1 (coquille).",
+      "ref_dgr": [
+        "5.0.2.15"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "6c821a28f680"
+    },
+    {
+      "id": "F4.D-cas1",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "D. Réalisation d'expéditions (6 cas) > Cas 1 — Quantités exceptées : 15 pochettes de 30 g de diamidomagnésium",
+        "question": "Cas 1 — Quantités exceptées : 15 pochettes de 30 g de diamidomagnésium",
+        "ligne": 105
+      },
+      "type": "question_ouverte",
+      "question": "Cas 1 — Quantités exceptées : 15 pochettes de 30 g de diamidomagnésium",
+      "reponse_courte": "Le diamidomagnésium est de division **4.2** ; 15 × 30 g = 450 g.\n**Marque EQ** à compléter : **classe 4.2** + **Jacques Durand – 8 rue de l'Église – 41000 Blois**. 🟠 Vérifier le code E (colonne F) : E2 convient si 30 g en intérieur et 500 g en extérieur.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "Marque EQ à compléter : classe 4.2 + Jacques Durand – 8 rue de l'Église – 41000 Blois. 🟠 Vérifier le code E (colonne F) : E2 convient si 30 g en intérieur et 5",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "9d89d4b1391b"
+    },
+    {
+      "id": "F4.D-cas2",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "D. Réalisation d'expéditions (6 cas) > Cas 2 — 1 kg d'allumettes de sûreté en pochettes de 10 g, quantités exceptées",
+        "question": "Cas 2 — 1 kg d'allumettes de sûreté en pochettes de 10 g, quantités exceptées",
+        "ligne": 109
+      },
+      "type": "question_ouverte",
+      "question": "Cas 2 — 1 kg d'allumettes de sûreté en pochettes de 10 g, quantités exceptées",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "| Élément | Réponse |\n|---|---|\n| Conditionnement | Allumettes **solidement emballées** pour éviter tout mouvement et toute inflammation par frottement : papier ou feuille, ou emballages intérieurs clos (IE 455) |\n| Marque EQ | **Classe 4.1** + nom et adresse de l'expéditeur : **Tous Feux Toutes Flammes – 27 place du 14 juillet – 69000 Lyon** |",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "004f57df0693"
+    },
+    {
+      "id": "F4.D-cas3",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "D. Réalisation d'expéditions (6 cas) > Cas 3 — 50 L de N,N-diéthylaniline, un colis (caisse en contreplaqué)",
+        "question": "Cas 3 — 50 L de N,N-diéthylaniline, un colis (caisse en contreplaqué)",
+        "ligne": 115
+      },
+      "type": "question_ouverte",
+      "question": "Cas 3 — 50 L de N,N-diéthylaniline, un colis (caisse en contreplaqué)",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "| Document | Contenu |\n|---|---|\n| DGD | **UN 2432 · N,N-Diethylaniline · 6.1 · GE III · 1 plywood box × 50 L · PI 655** |\n| LTA | « **Dangerous goods as per attached DGD** » · 1 colis · **60 kg** · nature « Dangerous goods » |\n| Colis | Désignation + UN 2432 + expéditeur + destinataire, étiquette **Toxic**, flèches d'orientation, gravage UN de la caisse |",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "fc49284120d1"
+    },
+    {
+      "id": "F4.D-cas4",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "D. Réalisation d'expéditions (6 cas) > Cas 4 — 15 kg de gallium (UN 2803) sur le vol MH 384 (Toronto/Montréal → Kuala Lumpur)",
+        "question": "Cas 4 — 15 kg de gallium (UN 2803) sur le vol MH 384 (Toronto/Montréal → Kuala Lumpur)",
+        "ligne": 122
+      },
+      "type": "question_ouverte",
+      "question": "Cas 4 — 15 kg de gallium (UN 2803) sur le vol MH 384 (Toronto/Montréal → Kuala Lumpur)",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "Méthode : **lire la variation d'exploitant avant d'emballer**. **MH-08 : gallium interdit** → changer de compagnie. 🔴 (variation de 2014)\nPour mémoire, le reste du corrigé : passagers 20 kg max (15 kg passe) · **IE 867** · lire **A69 et A804** · DGD « UN 2803, Gallium, 8, III, 1 plywood drum × 15 kg, 867 » · LTA 20 kg « Dangerous goods ».\n🟠 Les trois emballages proposés : 1D, 1A1, 6HA1. Le corrigé retient le **1D** (fût en contreplaqué) ; le raisonnement complet dépend de la PI 867.",
+      "statut": "a_relire",
+      "statut_source": "Méthode : lire la variation d'exploitant avant d'emballer. MH-08 : gallium interdit → changer de compagnie. 🔴 (variation de 2014) · 🟠 Les trois emballages proposés : 1D, 1A1, 6HA1. Le corrigé retient le 1D (fût en contreplaqué) ; le raisonnement complet dépend de la PI 867.",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet",
+        "partie-perimee",
+        "variation"
+      ],
+      "difficulte": 3,
+      "hash_source": "41d921e63a7e"
+    },
+    {
+      "id": "F4.D-cas5",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "D. Réalisation d'expéditions (6 cas) > Cas 5 — 5 L de méthylcyclohexanols (UN 2617, GE III) en quantités limitées sur un vol SW",
+        "question": "Cas 5 — 5 L de méthylcyclohexanols (UN 2617, GE III) en quantités limitées sur un vol SW",
+        "ligne": 127
+      },
+      "type": "question_ouverte",
+      "question": "Cas 5 — 5 L de méthylcyclohexanols (UN 2617, GE III) en quantités limitées sur un vol SW",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "Méthode identique : **SW-02 : quantités limitées interdites** → changer de compagnie. 🔴\nPour mémoire : DGD « UN 2617, Methylcyclohexanols, 3, III, 1 fibreboard box × 5 L, **Y344** » ; LTA 15 kg. Pas de « Limited quantity » en colonne Authorization. 🟠 À confronter aux règles actuelles sur la DGD des colis Y (voir F1, Section D1).",
+      "statut": "a_relire",
+      "statut_source": "Méthode identique : SW-02 : quantités limitées interdites → changer de compagnie. 🔴 · Pour mémoire : DGD « UN 2617, Methylcyclohexanols, 3, III, 1 fibreboard box × 5 L, Y344 » ; LTA 15 kg. Pas de « Limited quantity » en colonne Authorization. 🟠",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet",
+        "partie-perimee"
+      ],
+      "difficulte": 3,
+      "hash_source": "f06158e5f717"
+    },
+    {
+      "id": "F4.D-cas6",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "D. Réalisation d'expéditions (6 cas) > Cas 6 — Londres → Paris, British Airways, passagers : quatre produits dans une caisse en carton",
+        "question": "Cas 6 — Londres → Paris, British Airways, passagers : quatre produits dans une caisse en carton",
+        "ligne": 131
+      },
+      "type": "question_ouverte",
+      "question": "Cas 6 — Londres → Paris, British Airways, passagers : quatre produits dans une caisse en carton",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "| UN | Produit | Classe (sub.) | GE | Quantité | PI |\n|---|---|---|---|---|---|\n| 2303 | Isopropenylbenzene | 3 | III | 5 L | 355 |\n| 1090 | Acetone | 3 | II | 1 L | 353 |\n| 2218 | Acrylic acid, stabilized | 8 (3) | II | 0,5 L | 851 |\n| 1885 | Benzidine | 6.1 | II | 1 kg | 669 |\n\n- DGD : « All packed in one fibreboard box », **Q = 0,9** (corrigé).\n- Étiquettes : **3, 8, 6.1** ; flèches d'orientation ; gravage 4G/Y/…/13/GB/AIRPAV (masse max 30 kg, fabriquée en 2013).\n- LTA : **125-1234 5678** · 25 kg · « Dangerous goods ».\n🟠 Recalcule Q avec les colonnes J de ta Liste 4.2 : la somme doit donner 0,9 après arrondi. Les variations BA sont à ignorer.\n\n**Leçon commune aux cas 4, 5 et 6** : l'ordre des gestes est (1) classer, (2) lire 4.2, (3) **lire 2.8 pour le transporteur**, (4) choisir l'emballage, (5) marquer, (6) DGD et LTA.\n\n---",
+      "statut": "a_relire",
+      "statut_source": "🟠 Recalcule Q avec les colonnes J de ta Liste 4.2 : la somme doit donner 0,9 après arrondi. Les variations BA sont à ignorer.",
+      "ref_dgr": [
+        "4.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet",
+        "variation"
+      ],
+      "difficulte": 3,
+      "hash_source": "9922ea1436b2"
+    },
+    {
+      "id": "F4.E-cas1.orthographe-diisobutilamine",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "Orthographe « Diisobutilamine »",
+        "ligne": 153
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : Orthographe « Diisobutilamine ». Correction ?",
+      "reponse_courte": "**Diisobutylamine**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8809f43a157a"
+    },
+    {
+      "id": "F4.E-cas1.orthographe-maneb-manebe-selon-les-endro",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "Orthographe « Maneb » / « Manebe » selon les endroits",
+        "ligne": 154
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : Orthographe « Maneb » / « Manebe » selon les endroits. Correction ?",
+      "reponse_courte": "**Maneb** (cohérence DGD / colis)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "32151980388a"
+    },
+    {
+      "id": "F4.E-cas1.pi-305-pour-la-diisobutylamine",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "PI 305 pour la diisobutylamine",
+        "ligne": 155
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : PI 305 pour la diisobutylamine. Correction ?",
+      "reponse_courte": "**354**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "94739de7cdf7"
+    },
+    {
+      "id": "F4.E-cas1.pi-419-pour-le-manebe",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "PI 419 pour le manèbe",
+        "ligne": 156
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : PI 419 pour le manèbe. Correction ?",
+      "reponse_courte": "**468**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "077ad00f4359"
+    },
+    {
+      "id": "F4.E-cas1.4h1-non-traduit",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "« 4H1 » non traduit",
+        "ligne": 157
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : « 4H1 » non traduit. Correction ?",
+      "reponse_courte": "**Plastic box** (caisse en plastique expansé)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "97d9cb9de09e"
+    },
+    {
+      "id": "F4.E-cas1.gravage-4h1-z-s-06-d",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "Gravage 4H1 / Z / S / 06 / D",
+        "ligne": 158
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : Gravage 4H1 / Z / S / 06 / D. Correction ?",
+      "reponse_courte": "**Y** au minimum (IE 354 et 468 exigent le GE II) · fabriqué en **2006** : plastique de plus de 5 ans",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "16d5c4aae25b"
+    },
+    {
+      "id": "F4.E-cas1.mentions-shipper-repetees-sur-le-colis",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "Mentions « Shipper » répétées sur le colis",
+        "ligne": 159
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : Mentions « Shipper » répétées sur le colis. Correction ?",
+      "reponse_courte": "La seconde doit être **Consignee**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "6600805c2546"
+    },
+    {
+      "id": "F4.E-cas1.q-0-6",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 1 — Passagers : UN 2361 diisobutylamine + UN 2210 manèbe, « all packed in one 4H1, Q = 0,6 »",
+        "question": "Q = 0,6",
+        "ligne": 160
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : Q = 0,6. Correction ?",
+      "reponse_courte": "Non commenté par le corrigé : à recalculer avec 4.2",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "d569591ead70"
+    },
+    {
+      "id": "F4.E-cas2.mlononitrile",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "« Mlononitrile »",
+        "ligne": 165
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : « Mlononitrile ». Correction ?",
+      "reponse_courte": "**Malononitrile**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "4dabe77341fb"
+    },
+    {
+      "id": "F4.E-cas2.classe-61",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "Classe « 61 »",
+        "ligne": 166
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : Classe « 61 ». Correction ?",
+      "reponse_courte": "**6.1**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "de02203f1d0c"
+    },
+    {
+      "id": "F4.E-cas2.4g",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "« 4G »",
+        "ligne": 167
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : « 4G ». Correction ?",
+      "reponse_courte": "**Fibreboard box**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "20de0e4ecbc9"
+    },
+    {
+      "id": "F4.E-cas2.pi-644",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "PI 644",
+        "ligne": 168
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : PI 644. Correction ?",
+      "reponse_courte": "**Y644**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b2d1432d91c9"
+    },
+    {
+      "id": "F4.E-cas2.limited-quantity-en-colonne-authorizatio",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "« Limited quantity » en colonne Authorization",
+        "ligne": 169
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : « Limited quantity » en colonne Authorization. Correction ?",
+      "reponse_courte": "**Barré**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "obsolete",
+      "statut_source": "🔴 règle de 2014 : revérifier DGD et marquage des colis Y sur la 67e édition",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "a3d48929b797"
+    },
+    {
+      "id": "F4.E-cas2.colis-inscription-limited-quantity",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "Colis : inscription « LIMITED QUANTITY »",
+        "ligne": 170
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : Colis : inscription « LIMITED QUANTITY ». Correction ?",
+      "reponse_courte": "**Barrée** : remplacée par le **losange « Y »**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "obsolete",
+      "statut_source": "🔴 règle de 2014 : revérifier DGD et marquage des colis Y sur la 67e édition",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "aa223153203f"
+    },
+    {
+      "id": "F4.E-cas2.colis-dangerous-goods-6-1",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 2 — Quantités limitées : UN 2647, « Mlononitrile », classe « 61 », « One 4G × 1 kg », PI 644, « Limited quantity » en Authorization",
+        "question": "Colis : « Dangerous goods (6.1) »",
+        "ligne": 171
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : Colis : « Dangerous goods (6.1) ». Correction ?",
+      "reponse_courte": "Remplacé par **UN 2647 – Malononitrile** (désignation exacte + UN)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "a0158b132076"
+    },
+    {
+      "id": "F4.E-cas3.baruim-baryum",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "« Baruim » / « Baryum »",
+        "ligne": 178
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : « Baruim » / « Baryum ». Correction ?",
+      "reponse_courte": "**Barium**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "0366b987fe82"
+    },
+    {
+      "id": "F4.E-cas3.classe-4",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "Classe « 4 »",
+        "ligne": 179
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Classe « 4 ». Correction ?",
+      "reponse_courte": "**4.3**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "02bb3ceb9d1c"
+    },
+    {
+      "id": "F4.E-cas3.1-box-15-l",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "« 1 box × 15 L »",
+        "ligne": 180
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : « 1 box × 15 L ». Correction ?",
+      "reponse_courte": "**Fibreboard box × 15 kg** (solide)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e8a4b5cafe57"
+    },
+    {
+      "id": "F4.E-cas3.pi-415",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "PI 415",
+        "ligne": 181
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : PI 415. Correction ?",
+      "reponse_courte": "**484**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "9afc61271f0f"
+    },
+    {
+      "id": "F4.E-cas3.aeroports-cdg-et-sydney",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "Aéroports « CDG » et « Sydney »",
+        "ligne": 182
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Aéroports « CDG » et « Sydney ». Correction ?",
+      "reponse_courte": "Écrire le nom de la ville : **PARIS** et **SYDNEY** (corrigé, en rouge)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "342952cb5d5d"
+    },
+    {
+      "id": "F4.E-cas3.dgd-la-chimie-centrale-colis-la-chimie-i",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "DGD : « La chimie centrale » ; colis : « La Chimie Industrielle »",
+        "ligne": 183
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : DGD : « La chimie centrale » ; colis : « La Chimie Industrielle ». Correction ?",
+      "reponse_courte": "Même raison sociale partout (mon constat, non relevé par le corrigé)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e97d4c502141"
+    },
+    {
+      "id": "F4.E-cas3.colis-deux-blocs-shipper",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "Colis : deux blocs « Shipper »",
+        "ligne": 184
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Colis : deux blocs « Shipper ». Correction ?",
+      "reponse_courte": "Celui d'Australian Manufacture doit porter **Consignee**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "aff48d689b6c"
+    },
+    {
+      "id": "F4.E-cas3.gravage-4g-75-06-f-bvt-1235",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "Gravage « 4G / 75 / 06 / F / BVT 1235 »",
+        "ligne": 185
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Gravage « 4G / 75 / 06 / F / BVT 1235 ». Correction ?",
+      "reponse_courte": "Il manque la **lettre de groupe** (X, Y ou Z). Le corrigé écrit « Y ou Z » ; comme l'UN 1400 est de **GE II** (la PI 484 est celle du GE II), c'est **Y** au minimum",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "26eac78f0afc"
+    },
+    {
+      "id": "F4.E-cas3.signature-magasinier-le-22-fevrier-2013",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F4",
+        "fichier": "F4_documents_traitement_recap_expeditions.md",
+        "section": "E. Correction d'expéditions (3 cas) > Cas 3 — Passagers : UN 1400 baryum (Paris → Sydney)",
+        "question": "Signature : « magasinier », « le 22 février 2013 »",
+        "ligne": 186
+      },
+      "type": "relecture_document",
+      "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Signature : « magasinier », « le 22 février 2013 ». Correction ?",
+      "reponse_courte": "**Warehouse agent**, **22 February 2013** ; **Emergency contact** à ajouter ; signature « M. BELVAL »",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "1d3762a6501b"
+    }
+  ]
+}

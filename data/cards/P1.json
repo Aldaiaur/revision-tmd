@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "fiche": "P1",
+  "fichier": "phase1_socle_themes_1-4.md",
+  "cards": [
+    {
+      "id": "P1.Q1-1",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 1",
+        "question": "1.1",
+        "ligne": 18
+      },
+      "type": "qcm",
+      "question": "Quelle colonne donne l'instruction d'emballage pour avion passagers ?",
+      "reponse_courte": "**B (colonne I)**, quantité max en J. Cargo seul : K / L. Piège : G/H concernent les quantités limitées.",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "G"
+        },
+        {
+          "lettre": "B",
+          "texte": "I"
+        },
+        {
+          "lettre": "C",
+          "texte": "K"
+        },
+        {
+          "lettre": "D",
+          "texte": "M"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "b38b185f79a9"
+    },
+    {
+      "id": "P1.Q1-2",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 1",
+        "question": "1.2",
+        "ligne": 21
+      },
+      "type": "question_ouverte",
+      "question": "Associe : (a) colonne F, (b) colonne M, (c) colonne N, (d) colonnes G et H. Contenus : ERG, disposition spéciale, EQ, quantités limitées.",
+      "reponse_courte": "(a) EQ, (b) disposition spéciale, (c) ERG, (d) quantités limitées (PI Y et quantité max).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "bce5243d59f4"
+    },
+    {
+      "id": "P1.Q1-3",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 1",
+        "question": "1.3",
+        "ligne": 23
+      },
+      "type": "question_ouverte",
+      "question": "Lecture complète (à faire sur ton DGR) : relève les colonnes A à N pour UN 1090 Acétone.",
+      "reponse_courte": "Valeurs de contrôle : classe 3, étiquette « Flammable liquid », GE II, EQ E2, LQ Y341 (1 L), passagers PI 353 (5 L), CAO PI 364 (60 L). Vérifie aussi la colonne M.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "2524e50772ca"
+    },
+    {
+      "id": "P1.Q1-4",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 1",
+        "question": "1.4",
+        "ligne": 25
+      },
+      "type": "question_ouverte",
+      "question": "Un « Forbidden » apparaît en colonne J et en colonne L pour une matière. Que fais-tu ?",
+      "reponse_courte": "Marchandise interdite sur tout aéronef, sauf approbation/dérogation des États concernés. Ne rien expédier sans cette autorisation écrite.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "d72d18c498ac"
+    },
+    {
+      "id": "P1.Q1-5",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 1",
+        "question": "1.5",
+        "ligne": 27
+      },
+      "type": "question_ouverte",
+      "question": "Que représente « ID 8000 » ? Classe, GE, PI de quantités limitées ?",
+      "reponse_courte": "Ce n'est pas un numéro ONU : « Consumer commodity », classe 9, pas de GE, PI **Y963**, jusqu'à 30 kg brut par colis. Un ID est attribué par l'IATA/OACI aux articles sans UN.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "8895dbb08383"
+    },
+    {
+      "id": "P1.Q1-6",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 1",
+        "question": "1.6",
+        "ligne": 29
+      },
+      "type": "question_ouverte",
+      "question": "Combien de lignes le DGR contient-il pour UN 3481 et pour UN 3480 ?",
+      "reponse_courte": "UN 3481 : **deux lignes** (contenues dans un équipement, emballées avec un équipement). UN 3480 : une ligne (batteries seules). Piège : la PI change selon la ligne.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "63aa7670ef3a"
+    },
+    {
+      "id": "P1.Q2-1",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.1",
+        "ligne": 32
+      },
+      "type": "qcm",
+      "question": "Où un passager peut-il placer une batterie lithium de rechange ou une batterie externe (power bank) ?",
+      "reponse_courte": "**B.** Batteries de rechange et power banks : cabine uniquement, bornes protégées.",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Bagage en soute"
+        },
+        {
+          "lettre": "B",
+          "texte": "Bagage cabine uniquement"
+        },
+        {
+          "lettre": "C",
+          "texte": "Les deux"
+        },
+        {
+          "lettre": "D",
+          "texte": "Interdit"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "7e8ce372049d"
+    },
+    {
+      "id": "P1.Q2-2",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.2",
+        "ligne": 35
+      },
+      "type": "question_ouverte",
+      "question": "Un ordinateur avec batterie lithium-ion de 130 Wh, plus une batterie de rechange de 130 Wh. Conditions ?",
+      "reponse_courte": "Batterie > 100 Wh et ≤ 160 Wh : **approbation de l'exploitant**, maximum **2** batteries de rechange. Piège : la batterie installée compte dans la limite Wh, pas la rechange seule.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "63ea9d660583"
+    },
+    {
+      "id": "P1.Q2-3",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.3",
+        "ligne": 37
+      },
+      "type": "question_ouverte",
+      "question": "Batterie lithium-ion de 170 Wh en bagage passager ?",
+      "reponse_courte": "**Interdit** en bagage passager (> 160 Wh).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "018be2a64827"
+    },
+    {
+      "id": "P1.Q2-4",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.4",
+        "ligne": 39
+      },
+      "type": "question_ouverte",
+      "question": "Où voyage une cigarette électronique ?",
+      "reponse_courte": "Cabine uniquement.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "bf5a9c0942f1"
+    },
+    {
+      "id": "P1.Q2-5",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.5",
+        "ligne": 41
+      },
+      "type": "question_ouverte",
+      "question": "Lequel est un code de variation d'exploitant : « USG-08 » ou « QR-05 » ?",
+      "reponse_courte": "**QR-05** (code 2 lettres de compagnie). USG = variation d'État (3 lettres). Les numéros sont illustratifs.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1",
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "1bd29ec3c524"
+    },
+    {
+      "id": "P1.Q2-6",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.6",
+        "ligne": 43
+      },
+      "type": "question_ouverte",
+      "question": "Quelle quantité maximale de glace carbonique par passager pour conserver des denrées périssables, et à quelles conditions ?",
+      "reponse_courte": "**2,5 kg** par passager, emballage ventilé permettant le dégagement de CO₂, avec approbation de l'exploitant.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "6c2c97d43679"
+    },
+    {
+      "id": "P1.Q2-7",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 2",
+        "question": "2.7",
+        "ligne": 45
+      },
+      "type": "question_ouverte",
+      "question": "La Liste 4.2 autorise un envoi, mais l'exploitant a une variation qui l'interdit. Que dois-tu faire ?",
+      "reponse_courte": "Appliquer la règle **la plus restrictive** : tu ne peux pas expédier avec cet exploitant. Tu changes de compagnie ou tu ajustes l'envoi. Les variations sont en 2.8, pas en 4.2.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1",
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "1a55d7b88dbd"
+    },
+    {
+      "id": "P1.Q3-1",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.1",
+        "ligne": 48
+      },
+      "type": "question_ouverte",
+      "question": "Classe de : (a) acétone, (b) carbure de calcium, (c) hydroxyde de sodium en solution, (d) azote comprimé, (e) glace carbonique.",
+      "reponse_courte": "(a) 3, (b) 4.3, (c) 8, (d) 2.2, (e) 9.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "528d7f175059"
+    },
+    {
+      "id": "P1.Q3-2",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.2",
+        "ligne": 50
+      },
+      "type": "question_ouverte",
+      "question": "Liquide : PE 45 °C, PEI 90 °C → GE ? PE 10 °C, PEI 60 °C → GE ? PE 5 °C, PEI 30 °C → GE ?",
+      "reponse_courte": "PE 45/PEI 90 → GE III. PE 10/PEI 60 → GE II. PEI 30 (≤ 35 °C) → **GE I** quel que soit le PE. Piège : le PEI prime.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "0473e2980e22"
+    },
+    {
+      "id": "P1.Q3-3",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.3",
+        "ligne": 52
+      },
+      "type": "vrai_faux",
+      "question": "Un liquide à PE 75 °C (aucun autre danger) est-il de classe 3 ?",
+      "reponse_courte": "Non (PE > 60 °C). Pas classe 3. À vérifier : environnement ou autres dangers.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "5aa4b0a1bd82"
+    },
+    {
+      "id": "P1.Q3-4",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.4",
+        "ligne": 54
+      },
+      "type": "question_ouverte",
+      "question": "Une matière détruit toute l'épaisseur de la peau après 30 min d'exposition. GE ?",
+      "reponse_courte": "**GE II** (> 3 min et ≤ 60 min).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "a1372d94544b"
+    },
+    {
+      "id": "P1.Q3-5",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.5",
+        "ligne": 56
+      },
+      "type": "qcm",
+      "question": "Quelle classe/division est exclue de la table de prépondérance des risques et détermine toujours le risque principal ?",
+      "reponse_courte": "**C.** Les classes 1, 2, 7 et divisions 5.2, 6.2 (et 4.1 autoréactifs) ne figurent pas dans la table : leur risque principal est fixé par leur nature.",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "3"
+        },
+        {
+          "lettre": "B",
+          "texte": "6.1"
+        },
+        {
+          "lettre": "C",
+          "texte": "7"
+        },
+        {
+          "lettre": "D",
+          "texte": "8"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "e7c9d40e1d94"
+    },
+    {
+      "id": "P1.Q3-6",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.6",
+        "ligne": 58
+      },
+      "type": "question_ouverte",
+      "question": "Méthanol : classe, risque subsidiaire, étiquettes ?",
+      "reponse_courte": "Classe **3**, risque subsidiaire **6.1** (UN 1230, GE II). Deux étiquettes : 3 et 6.1.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "1f6ffe47e660"
+    },
+    {
+      "id": "P1.Q3-7",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.7",
+        "ligne": 60
+      },
+      "type": "question_ouverte",
+      "question": "Cite les 3 divisions de la classe 2 et un exemple de chacune.",
+      "reponse_courte": "2.1 gaz inflammable (propane), 2.2 non inflammable non toxique (azote), 2.3 toxique (chlore).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "90bccebf182d"
+    },
+    {
+      "id": "P1.Q3-8",
+      "module": "Classification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 3",
+        "question": "3.8",
+        "ligne": 62
+      },
+      "type": "vrai_faux",
+      "question": "La FDS (rubrique 14) donne UN 1993 pour ton mélange. Peux-tu t'y fier sans vérifier ?",
+      "reponse_courte": "Non. La responsabilité de la classification est celle de l'expéditeur ; la FDS est une aide, souvent rédigée pour un autre mode.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "e1aaa1b9237b"
+    },
+    {
+      "id": "P1.Q4-1",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 4",
+        "question": "4.1",
+        "ligne": 65
+      },
+      "type": "question_ouverte",
+      "question": "Ordre d'écriture d'une ligne de DGD ?",
+      "reponse_courte": "N° ONU, DOT, classe (risque subsidiaire), GE.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "f1f9f455cbb0"
+    },
+    {
+      "id": "P1.Q4-2",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 4",
+        "question": "4.2",
+        "ligne": 67
+      },
+      "type": "question_ouverte",
+      "question": "Laquelle est correcte ? (A) « UN1993, Flammable liquid, n.s.a., 3, II » (B) « UN1993, Flammable liquid, n.s.a. (Acetone, Toluene), 3, II » (C) « UN1993, Acetone/Toluene mixture, 3, II »",
+      "reponse_courte": "**B.** Les n.s.a. exigent les noms techniques entre parenthèses, jusqu'à deux composants prépondérants.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "fb033dafb50b"
+    },
+    {
+      "id": "P1.Q4-3",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 4",
+        "question": "4.3",
+        "ligne": 69
+      },
+      "type": "question_ouverte",
+      "question": "Ton produit est une solution qui n'a pas de ligne propre. Que fais-tu ?",
+      "reponse_courte": "Choisir l'entrée n.s.a. adaptée et ajouter « Solution » ou « Mixture » si applicable. Ne pas inventer de nom.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "7a804b900485"
+    },
+    {
+      "id": "P1.Q4-4",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 4",
+        "question": "4.4",
+        "ligne": 71
+      },
+      "type": "question_ouverte",
+      "question": "UN 1977 (azote liquide réfrigéré) : quel GE écrire sur la DGD ?",
+      "reponse_courte": "**Aucun** : la classe 2 n'a pas de GE. Piège : ne pas inscrire « GE III » par habitude.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "fcd5fc50e0cf"
+    },
+    {
+      "id": "P1.Q4-5",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 4",
+        "question": "4.5",
+        "ligne": 73
+      },
+      "type": "question_ouverte",
+      "question": "Que signifie un identifiant « ID » à la place de « UN » ?",
+      "reponse_courte": "Numéro d'identification attribué à des articles sans numéro ONU (usage aérien).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "370385c29bb1"
+    },
+    {
+      "id": "P1.Q4-6",
+      "module": "Identification",
+      "source": {
+        "fiche": "P1",
+        "fichier": "phase1_socle_themes_1-4.md",
+        "section": "Thème 4",
+        "question": "4.6",
+        "ligne": 75
+      },
+      "type": "question_ouverte",
+      "question": "Dans la Liste 4.2, quelle partie du libellé constitue la DOT : le texte en gras ou en italique ?",
+      "reponse_courte": "Le texte en **gras** est la DOT ; l'italique n'en fait pas partie (vérifie la convention sur ton édition).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-1"
+      ],
+      "difficulte": 2,
+      "hash_source": "331480b71871"
+    }
+  ]
+}

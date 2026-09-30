@@ -1,0 +1,1405 @@
+{
+  "schema_version": 1,
+  "fiche": "F1",
+  "fichier": "F1_generalites_champ_restrictions.md",
+  "cards": [
+    {
+      "id": "F1.A.Q1",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "1",
+        "ligne": 13
+      },
+      "type": "question_ouverte",
+      "question": "Autorité compétente en France ?",
+      "reponse_courte": "**DGAC**",
+      "raisonnement": "Le corrigé renvoie à la « divergence FRG-01 » (variation d'État).",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟢 réponse · 🔴 code de variation",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "partie-perimee",
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "7c58ce8b1ec8"
+    },
+    {
+      "id": "F1.A.Q2",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "2",
+        "ligne": 14
+      },
+      "type": "vrai_faux",
+      "question": "Avions transportant des DG pour soins vétérinaires en vol : dispensés ?",
+      "reponse_courte": "**Vrai** (1.2.7.1 b)",
+      "raisonnement": "Les DG servant à soigner un patient ou un animal pendant le vol sont exclues du champ d'application.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "1.2.7.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "f30b704dfefd"
+    },
+    {
+      "id": "F1.A.Q3",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "3",
+        "ligne": 15
+      },
+      "type": "vrai_faux",
+      "question": "DG pour épandage agricole : dispensées ?",
+      "reponse_courte": "**Vrai** (1.2.7.1 c)",
+      "raisonnement": "Même logique : opérations aériennes spécialisées exclues.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "1.2.7.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "bd94cb55e2a1"
+    },
+    {
+      "id": "F1.A.Q4",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "4",
+        "ligne": 16
+      },
+      "type": "vrai_faux",
+      "question": "DG destinées aux mécaniciens d'entretien de l'exploitant : dispensées ?",
+      "reponse_courte": "**Faux** (2.5.2.1)",
+      "raisonnement": "Le matériel de maintenance transporté comme fret reste soumis à la réglementation. À rapprocher de Restrictions Q33.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.5.2.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "5b2d41454897"
+    },
+    {
+      "id": "F1.A.Q5",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "5",
+        "ligne": 17
+      },
+      "type": "calcul",
+      "question": "Périodicité de l'actualisation des connaissances ?",
+      "reponse_courte": "**2 ans**, sauf périodicité plus courte fixée par l'autorité",
+      "raisonnement": "🟢 Le recyclage reste de 24 mois. Depuis le 01/01/2023 la formation suit l'approche par compétences (CBTA) ; les tableaux 1.5.A/1.5.B n'existent plus.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "1.5.A",
+        "1.5.B"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "4967ec77b88f"
+    },
+    {
+      "id": "F1.A.Q6",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "6",
+        "ligne": 18
+      },
+      "type": "question_ouverte",
+      "question": "Harasse (*crates*) ?",
+      "reponse_courte": "Emballage extérieur à **parois à claire-voie** ; non accepté en aérien **sauf comme suremballage**",
+      "raisonnement": "Appendice A.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "App. A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "94a57eaca06a"
+    },
+    {
+      "id": "F1.A.Q7",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "7",
+        "ligne": 19
+      },
+      "type": "question_ouverte",
+      "question": "Bouteille (*cylinder*) ?",
+      "reponse_courte": "Récipient à pression transportable, **contenance en eau ≤ 150 L**",
+      "raisonnement": "Appendice A.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "App. A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "148d7076354c"
+    },
+    {
+      "id": "F1.A.Q8",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "8",
+        "ligne": 20
+      },
+      "type": "calcul",
+      "question": "SGH (*GHS*) ?",
+      "reponse_courte": "Système Général Harmonisé de classification et d'étiquetage des produits chimiques (ONU, ST/SG/AC.10/30)",
+      "raisonnement": "Le corrigé cite la **Rév. 4** : retenir la définition, pas le numéro de révision.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "876c5f8215d9"
+    },
+    {
+      "id": "F1.A.Q9",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "9",
+        "ligne": 21
+      },
+      "type": "question_ouverte",
+      "question": "Suremballage (*overpack*) ?",
+      "reponse_courte": "Contenant utilisé par **un seul expéditeur** pour réunir un ou plusieurs colis en **une seule unité de manutention** ; les colis qu'il contient restent emballés, marqués et étiquetés en tous points",
+      "raisonnement": "Appendice A ; marquage « OVERPACK » : voir F3 (Emballages Q16).",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "App. A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "39dda14d965b"
+    },
+    {
+      "id": "F1.A.Q10",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "10",
+        "ligne": 22
+      },
+      "type": "question_ouverte",
+      "question": "Utilisation exclusive (*exclusive use*) ?",
+      "reponse_courte": "(**Classe 7 uniquement**) usage par un seul expéditeur d'un avion ou d'un grand conteneur, chargement/déchargement selon ses instructions",
+      "raisonnement": "Appendice A.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "App. A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "bd2d6dacb224"
+    },
+    {
+      "id": "F1.A.Q11",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "11",
+        "ligne": 23
+      },
+      "type": "question_ouverte",
+      "question": "Autorité compétente DG : Estonie, Qatar, Zambie",
+      "reponse_courte": "Estonie : Ministry of Economic Affairs and Communications · Qatar : Civil Aviation Department · Zambie : Department of Civil Aviation",
+      "raisonnement": "Appendice D.1. Je déduis l'appariement de l'ordre des réponses sur la diapo.",
+      "developpement": null,
+      "statut": "obsolete",
+      "statut_source": "🔴 à relire en Appendice D",
+      "nature_rouge": "perime",
+      "ref_dgr": [
+        "App. D.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "691a9958832d"
+    },
+    {
+      "id": "F1.A.Q12",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "12",
+        "ligne": 24
+      },
+      "type": "question_ouverte",
+      "question": "Autorité compétente classe 7 : Kenya, Tanzanie, Albanie",
+      "reponse_courte": "Kenya : Ministry of Health / Radiation Protection Board · Tanzanie : Tanzania Atomic Energy Commission · Albanie : Radiation Protection Commission",
+      "raisonnement": "Appendice D.2. Même remarque sur l'appariement.",
+      "developpement": null,
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [
+        "App. D.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "39fd9fe355d4"
+    },
+    {
+      "id": "F1.A.Q13",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "13",
+        "ligne": 25
+      },
+      "type": "calcul",
+      "question": "Préfixes giga, nano, méga, téra",
+      "reponse_courte": "giga = 10⁹ · nano = 10⁻⁹ · méga = 10⁶ · téra = 10¹²",
+      "raisonnement": "Indispensable pour la classe 7 (1 TBq = 10¹² Bq).",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "1c5b6c68b9a6"
+    },
+    {
+      "id": "F1.A.Q14",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "A. Généralités (14 questions)",
+        "question": "14",
+        "ligne": 26
+      },
+      "type": "question_ouverte",
+      "question": "J/kg, keV, kPa",
+      "reponse_courte": "joule par kilogramme · kilo-électronvolt · kilopascal",
+      "raisonnement": "Appendice B.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "App. B"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "aa5910b98136"
+    },
+    {
+      "id": "F1.B.Q1",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "B. Présentation du DGR (1 question)",
+        "question": "1",
+        "ligne": 34
+      },
+      "type": "question_ouverte",
+      "question": "Où trouve-t-on abréviations et symboles ?",
+      "reponse_courte": "**Appendice B** (B.2.x : unités, préfixes). Les autres choix (Appendice F, Partie 4, 6.0.3) sont des leurres.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠 vérifier la lettre de l'appendice dans ton édition",
+      "ref_dgr": [
+        "6.0.3",
+        "App. B",
+        "App. F"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "6f83d3cc05cd"
+    },
+    {
+      "id": "F1.C-Q1",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "C. Champ d'application (2 questions)",
+        "question": "Q1 — Formation des pilotes (tableau 1.5.A de l'époque)",
+        "ligne": 40
+      },
+      "type": "question_ouverte",
+      "question": "Formation des pilotes (ancien tableau 1.5.A) : quels contenus étaient exigés ?",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "| Contenu | Oui / Non |\n|---|---|\n| Procédures d'acceptation | Non |\n| Stockage et chargement | **Oui** |\n| Instructions d'emballage | Non |\n| Classification | Non |\n| Liste des marchandises dangereuses | **Oui** |\n\n🔴 Ce tableau a disparu avec la CBTA. Garde la **logique** : la formation est proportionnée à la fonction exercée, pas la grille.",
+      "statut": "obsolete",
+      "statut_source": "🔴 Ce tableau a disparu avec la CBTA. Garde la logique : la formation est proportionnée à la fonction exercée, pas la grille.",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-complet"
+      ],
+      "difficulte": 3,
+      "hash_source": "e7d43cced8aa"
+    },
+    {
+      "id": "F1.C-Q2.identification-emballage-marquage-etique",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "C. Champ d'application (2 questions) > Q2 — Qui est responsable ? (1.3.2 et 1.4.1) 🟢",
+        "question": "Identification, Emballage, Marquage, Étiquetage",
+        "ligne": 56
+      },
+      "type": "classement",
+      "question": "Qui est responsable de : Identification, Emballage, Marquage, Étiquetage ?",
+      "reponse_courte": "**Expéditeur**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "Q2 — Qui est responsable ? (1.3.2 et 1.4.1) 🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "a79e7d1c0c5d"
+    },
+    {
+      "id": "F1.C-Q2.acceptation-chargement-stockage-avant-em",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "C. Champ d'application (2 questions) > Q2 — Qui est responsable ? (1.3.2 et 1.4.1) 🟢",
+        "question": "Acceptation, Chargement, Stockage avant embarquement, Conservation des documents, Compte rendu d'incidents, Inspection",
+        "ligne": 57
+      },
+      "type": "classement",
+      "question": "Qui est responsable de : Acceptation, Chargement, Stockage avant embarquement, Conservation des documents, Compte rendu d'incidents, Inspection ?",
+      "reponse_courte": "**Exploitant**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "Q2 — Qui est responsable ? (1.3.2 et 1.4.1) 🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "5397cc635153"
+    },
+    {
+      "id": "F1.C-Q2-mnemo",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "C. Champ d'application (2 questions) > Q2 — Qui est responsable ? (1.3.2 et 1.4.1) 🟢",
+        "question": "Moyen mnémotechnique : l'expéditeur prépare le colis (il l'i",
+        "ligne": 59
+      },
+      "type": "question_ouverte",
+      "question": "Moyen mnémotechnique : qui fait quoi entre expéditeur et exploitant ?",
+      "reponse_courte": "Moyen mnémotechnique : l'expéditeur prépare le colis (il l'identifie, l'emballe, le marque, l'étiquette et signe la DGD) ; l'exploitant contrôle, charge et rend compte.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "2555e17ad989"
+    },
+    {
+      "id": "F1.D1.Q1",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "1",
+        "ligne": 69
+      },
+      "type": "vrai_faux",
+      "question": "10 pochettes × 15 g de ferrosilicium en quantités exceptées ?",
+      "reponse_courte": "**Oui** ; UN 1408, **4.3 (6.1)**, code **E1** (30 g par emballage intérieur, 1 000 g par extérieur), table 2.6.A",
+      "raisonnement": "150 g ≤ 1 000 g et 15 g ≤ 30 g. **Marque EQ** (hachures) à compléter avec la classe **4.3** et le nom/adresse de l'expéditeur (Dupont, 12 rue du Pont, Lille). Piège du livret : énoncé « GE III », diapo « GE II ». Avec E2 (GE II) la réponse reste Oui (150 g ≤ 500 g).",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟢 méthode · 🔴 la marque d'exemple du corrigé porte « 4.1 (6.1) » alors que la réponse est **4.3**",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [
+        "2.6.A"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "5265122114d7"
+    },
+    {
+      "id": "F1.D1.Q14",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "14",
+        "ligne": 70
+      },
+      "type": "vrai_faux",
+      "question": "5.1 GE III en quantités exceptées ?",
+      "reponse_courte": "**Vrai** (2.6.2.2 d)",
+      "raisonnement": "Tout dépend du **code E** de la colonne F, pas de la classe seule.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.6.2.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "32dba3adc559"
+    },
+    {
+      "id": "F1.D1.Q15",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "15",
+        "ligne": 71
+      },
+      "type": "vrai_faux",
+      "question": "1.4S en quantités exceptées ?",
+      "reponse_courte": "**Faux** (2.6.2.2)",
+      "raisonnement": "La classe 1 est exclue des quantités exceptées.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.6.2.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "ac0ad9844e9e"
+    },
+    {
+      "id": "F1.D1.Q24",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "24",
+        "ligne": 72
+      },
+      "type": "vrai_faux",
+      "question": "10 flacons × 25 g de gallium (UN 2803, GE III) en EQ : acceptable par Air France ?",
+      "reponse_courte": "**Non** (2.6.2.2 g)",
+      "raisonnement": "UN 2803 est exclu des quantités exceptées.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.6.2.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "a05be6ca053c"
+    },
+    {
+      "id": "F1.D1.Q16",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "16",
+        "ligne": 73
+      },
+      "type": "vrai_faux",
+      "question": "Quantités limitées : l'instruction d'emballage est toujours précédée de « Y » ?",
+      "reponse_courte": "**Vrai** (2.7.5.4)",
+      "raisonnement": "Colonne G de la Liste 4.2.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.7.5.4",
+        "4.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b318e5e7ab3c"
+    },
+    {
+      "id": "F1.D1.Q17",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "17",
+        "ligne": 74
+      },
+      "type": "vrai_faux",
+      "question": "Colis en quantités limitées ≤ 30 kg brut ?",
+      "reponse_courte": "**Vrai** (2.7.4.2)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.7.4.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "ea1167e9c82b"
+    },
+    {
+      "id": "F1.D1.Q18",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "18",
+        "ligne": 75
+      },
+      "type": "vrai_faux",
+      "question": "Emballage unique en quantités limitées ?",
+      "reponse_courte": "**Faux** (2.7.5.3)",
+      "raisonnement": "L'emballage combiné est la règle.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "2.7.5.3"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "9233c584ce0a"
+    },
+    {
+      "id": "F1.D1.Q28",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "28",
+        "ligne": 76
+      },
+      "type": "vrai_faux",
+      "question": "Colis de 35 kg en quantités limitées ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": "35 kg > 30 kg brut.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b4d72cf3d430"
+    },
+    {
+      "id": "F1.D1.Q29",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "29",
+        "ligne": 77
+      },
+      "type": "vrai_faux",
+      "question": "Emballage unique en LQ ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": "Même règle que Q18.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "d6e397cffff3"
+    },
+    {
+      "id": "F1.D1-marque-lq",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D1. Quantités exceptées et limitées",
+        "question": "🔴 Marque LQ : en 2014 le corrigé parle d'une inscription « ",
+        "ligne": 79
+      },
+      "type": "question_ouverte",
+      "question": "Quantités limitées : quelle marque aujourd'hui, et que dit la fiche sur la DGD et les étiquettes ?",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "🔴 **Marque LQ** : en 2014 le corrigé parle d'une inscription « Limited Quantity ». Aujourd'hui la marque est le **losange « Y »** (≥ 100 × 100 mm). Les sources 2021-2024 que j'ai trouvées indiquent que la DGD reste exigée avec « Y » en colonne PI et que les étiquettes de danger restent obligatoires : **je n'ai pas le texte du DGR 67e pour le confirmer**, à contrôler en 2.7, 7.1 et 8.1.",
+      "statut": "a_relire",
+      "statut_source": "🟠 à contrôler en 2.7, 7.1 et 8.1 (texte du DGR 67e non consulté par la fiche)",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b9386b71ed10"
+    },
+    {
+      "id": "F1.D2.Q4",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "4",
+        "ligne": 85
+      },
+      "type": "question_ouverte",
+      "question": "Fauteuil roulant à batterie versable",
+      "reponse_courte": "**Déconnecter et isoler les bornes**",
+      "raisonnement": null,
+      "developpement": "**État actuel (éd. 67, source secondaire)** : Idem ; voir aussi Q6.",
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e360008b6b38"
+    },
+    {
+      "id": "F1.D2.Q5",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "5",
+        "ligne": 86
+      },
+      "type": "vrai_faux",
+      "question": "Deux aérosols de 750 mL chacun",
+      "reponse_courte": "**Non** : chaque aérosol ≤ **0,5 kg ou 0,5 L**",
+      "raisonnement": null,
+      "developpement": "**État actuel (éd. 67, source secondaire)** : Total ≤ 2 kg ou 2 L.",
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "a9a244fffec1"
+    },
+    {
+      "id": "F1.D2.Q6",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "6",
+        "ligne": 87
+      },
+      "type": "vrai_faux",
+      "question": "Le commandant de bord est-il informé de l'emplacement du fauteuil à accumulateurs versables ?",
+      "reponse_courte": "**Oui**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8db11fddde26"
+    },
+    {
+      "id": "F1.D2.Q7",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "7",
+        "ligne": 88
+      },
+      "type": "vrai_faux",
+      "question": "Allumettes de sûreté",
+      "reponse_courte": "**Oui, sur la personne**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "8ea07f59f59d"
+    },
+    {
+      "id": "F1.D2.Q8",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "8",
+        "ligne": 89
+      },
+      "type": "question_ouverte",
+      "question": "Munitions de chasse/sport",
+      "reponse_courte": "**5 kg**",
+      "raisonnement": null,
+      "developpement": "**État actuel (éd. 67, source secondaire)** : Soute uniquement, emballées, avec accord de l'exploitant.",
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "aa9e84186af7"
+    },
+    {
+      "id": "F1.D2.Q9",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "9",
+        "ligne": 90
+      },
+      "type": "vrai_faux",
+      "question": "Thermomètre au mercure d'usage personnel",
+      "reponse_courte": "**Oui si dans son étui**",
+      "raisonnement": null,
+      "developpement": "**État actuel (éd. 67, source secondaire)** : En 2026 : **bagage de soute uniquement**, dans son étui. La diapo ne le précise pas.",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "e97e1023fe2a"
+    },
+    {
+      "id": "F1.D2.Q10",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "10",
+        "ligne": 91
+      },
+      "type": "question_ouverte",
+      "question": "Glace carbonique par passager",
+      "reponse_courte": "**2,5 kg**",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "35f3ed7029c5"
+    },
+    {
+      "id": "F1.D2.Q30",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "30",
+        "ligne": 92
+      },
+      "type": "question_ouverte",
+      "question": "Batterie Li-ion 22 V, « 10 ampères » : puissance ?",
+      "reponse_courte": "**220 Wh**",
+      "raisonnement": null,
+      "developpement": "**État actuel (éd. 67, source secondaire)** : Wh = V × **Ah**. Le livret écrit « ampères » : c'est une capacité en ampères-heures qu'il faut.",
+      "statut": "a_relire",
+      "statut_source": "🔴 pour l'énoncé · 🟢 pour la formule",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "8815dbdb51df"
+    },
+    {
+      "id": "F1.D2.Q31",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D2. Passagers et équipage (table 2.3.A)",
+        "question": "31",
+        "ligne": 93
+      },
+      "type": "vrai_faux",
+      "question": "Cette batterie (220 Wh) dans un équipement, en cabine ?",
+      "reponse_courte": "**Non**",
+      "raisonnement": null,
+      "developpement": "**État actuel (éd. 67, source secondaire)** : 220 Wh > 160 Wh. Règle actuelle : ≤ 100 Wh sans condition ; 101 à 160 Wh avec accord de l'exploitant, 2 maximum.",
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "128b230f299a"
+    },
+    {
+      "id": "F1.D3.Q2",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "2",
+        "ligne": 99
+      },
+      "type": "question_ouverte",
+      "question": "Comment les passagers sont-ils informés ? (1.4.3.2)",
+      "reponse_courte": "**Sans corrigé lisible** : aucune option n'est mise en évidence sur la diapo. D'après 1.4.3.2, les avis se trouvent aux points de vente des billets, d'enregistrement/embarquement et de retrait des bagages ; **« dans les avions » n'y figure pas**",
+      "raisonnement": "Lecture personnelle du texte, à vérifier.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "1.4.3.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "sans-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "81853e9f4ef1"
+    },
+    {
+      "id": "F1.D3.Q3",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "3",
+        "ligne": 100
+      },
+      "type": "vrai_faux",
+      "question": "Définition des marchandises dangereuses conforme aux critères IATA ?",
+      "reponse_courte": "**Oui** (définition 2.0)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "2d6aba860312"
+    },
+    {
+      "id": "F1.D3.Q11",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "11",
+        "ligne": 101
+      },
+      "type": "vrai_faux",
+      "question": "Animaux vivants sachant infectés : transport interdit ?",
+      "reponse_courte": "**Vrai, sauf dérogation** (2.1.2 c)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.1.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "b491797255b8"
+    },
+    {
+      "id": "F1.D3.Q27",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "27",
+        "ligne": 102
+      },
+      "type": "vrai_faux",
+      "question": "Animaux volontairement contaminés : possible avec dérogation ?",
+      "reponse_courte": "**Oui** (2.1.2 c)",
+      "raisonnement": "L'accord des autorités est indispensable.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.1.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "6831b9ecaef9"
+    },
+    {
+      "id": "F1.D3.Q12",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "12",
+        "ligne": 103
+      },
+      "type": "vrai_faux",
+      "question": "DG du « lot de bord » dispensées ?",
+      "reponse_courte": "**Vrai** (2.5.1.1)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.5.1.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "c10a723aebf4"
+    },
+    {
+      "id": "F1.D3.Q13",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "13",
+        "ligne": 104
+      },
+      "type": "vrai_faux",
+      "question": "Produits vendus à bord par l'équipage non inclus ?",
+      "reponse_courte": "**Vrai** (2.5.1.2)",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.5.1.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "d7fb911c1a5b"
+    },
+    {
+      "id": "F1.D3.Q33",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "33",
+        "ligne": 105
+      },
+      "type": "vrai_faux",
+      "question": "Pièces de rechange d'avion sans respecter la réglementation ?",
+      "reponse_courte": "**Non** (2.5.2.1)",
+      "raisonnement": "Un article de rechange reste une marchandise dangereuse s'il répond aux critères.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "2.5.2.1"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [],
+      "difficulte": 2,
+      "hash_source": "c9930d69d195"
+    },
+    {
+      "id": "F1.D3.Q26",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D3. Exclusions et cas particuliers",
+        "question": "26",
+        "ligne": 106
+      },
+      "type": "vrai_faux",
+      "question": "Vol Air France Berlin → Moscou : variations de l'État français applicables ?",
+      "reponse_courte": "**Oui** (2.8.1.1.2)",
+      "raisonnement": "Les variations d'un État s'appliquent à **ses** exploitants quelle que soit la route.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢 méthode",
+      "ref_dgr": [
+        "2.8.1.1.2"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "53a72b20b386"
+    },
+    {
+      "id": "F1.D4.Q19",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "19",
+        "ligne": 112
+      },
+      "type": "vrai_faux",
+      "question": "Exploitants vers la Chine : accord écrit préalable de l'administration chinoise ?",
+      "reponse_courte": "Vrai",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : CNG-01",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "b9ee1e6355af"
+    },
+    {
+      "id": "F1.D4.Q20",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "20",
+        "ligne": 113
+      },
+      "type": "vrai_faux",
+      "question": "Garuda Indonesia : quantités limitées ?",
+      "reponse_courte": "Non (sauf ID 8000)",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : GA-03",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "e99072751ca9"
+    },
+    {
+      "id": "F1.D4.Q21",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "21",
+        "ligne": 114
+      },
+      "type": "vrai_faux",
+      "question": "British Airways : radioactifs ?",
+      "reponse_courte": "Non",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : BA-05",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "a4c33f97aa62"
+    },
+    {
+      "id": "F1.D4.Q22",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "22",
+        "ligne": 115
+      },
+      "type": "vrai_faux",
+      "question": "Skippers Aviation : peroxydes organiques ?",
+      "reponse_courte": "Non",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : JW-04",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "c58f5b6a6d09"
+    },
+    {
+      "id": "F1.D4.Q23",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "23",
+        "ligne": 116
+      },
+      "type": "vrai_faux",
+      "question": "Middle East Airlines : peroxyde de sodium sur cargo ?",
+      "reponse_courte": "Non",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : ME-07",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "f8b296a68031"
+    },
+    {
+      "id": "F1.D4.Q25",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "25",
+        "ligne": 117
+      },
+      "type": "question_ouverte",
+      "question": "Générateur chimique d'oxygène sur cargo Alaskan Airlines",
+      "reponse_courte": "Interdit, sur passagers **et** cargo",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : AS-01",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "6018b311b020"
+    },
+    {
+      "id": "F1.D4.Q32",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "32",
+        "ligne": 118
+      },
+      "type": "vrai_faux",
+      "question": "Hawaiian Airlines : classe 7 ?",
+      "reponse_courte": "Non",
+      "raisonnement": null,
+      "developpement": "**Référence 2014** : HA-04",
+      "statut": "obsolete",
+      "statut_source": "🔴",
+      "nature_rouge": "perime",
+      "ref_dgr": [],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "6994a30809d9"
+    },
+    {
+      "id": "F1.D4-reflexe",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "F1",
+        "fichier": "F1_generalites_champ_restrictions.md",
+        "section": "D. Restrictions (33 questions) > D4. Variations d'État et d'exploitant (Section 2.8)",
+        "question": "Ces sept réponses sont périmées : les variations changent ch",
+        "ligne": 120
+      },
+      "type": "question_ouverte",
+      "question": "Variations d'État et d'exploitant : quel réflexe avant de choisir le transporteur ?",
+      "reponse_courte": null,
+      "raisonnement": null,
+      "developpement": "Ces sept réponses sont **périmées** : les variations changent chaque année. Ce qui reste vrai, c'est le **réflexe** : la Liste 4.2 ne les montre pas, donc on ouvre la Section 2.8 avant de choisir le transporteur (voir aussi F4, « Réalisation d'expéditions » Q4 et Q5).",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "4.2",
+        "2.8"
+      ],
+      "edition_ref": "54-55",
+      "edition_verifiee": null,
+      "tags": [
+        "variation"
+      ],
+      "difficulte": 2,
+      "hash_source": "b05d9b44e62c"
+    }
+  ]
+}

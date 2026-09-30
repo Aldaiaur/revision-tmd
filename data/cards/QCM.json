@@ -1,0 +1,935 @@
+{
+  "schema_version": 1,
+  "fiche": "QCM",
+  "fichier": "iata_dgr_questions.md",
+  "cards": [
+    {
+      "id": "QCM.Q1",
+      "module": "Classification",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q1",
+        "ligne": 8
+      },
+      "type": "qcm",
+      "question": "Quelle division correspond aux matières sujettes à l'inflammation spontanée (pyrophoriques, auto-échauffantes) ?",
+      "reponse_courte": "**B.** 4.2",
+      "raisonnement": "Division 4.2 : matières sujettes à l'inflammation spontanée (Section 3.4). 4.1 = solides inflammables, 4.3 = dégagent des gaz inflammables au contact de l'eau.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "4.1"
+        },
+        {
+          "lettre": "B",
+          "texte": "4.2"
+        },
+        {
+          "lettre": "C",
+          "texte": "4.3"
+        },
+        {
+          "lettre": "D",
+          "texte": "5.1"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "3.4"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "d192263395fc"
+    },
+    {
+      "id": "QCM.Q2",
+      "module": "Classification",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q2",
+        "ligne": 11
+      },
+      "type": "qcm",
+      "question": "Un groupe d'emballage III indique :",
+      "reponse_courte": "**C.** Un danger mineur",
+      "raisonnement": "GE III = danger mineur ; GE II = moyen ; GE I = grave.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Un danger grave"
+        },
+        {
+          "lettre": "B",
+          "texte": "Un danger moyen"
+        },
+        {
+          "lettre": "C",
+          "texte": "Un danger mineur"
+        },
+        {
+          "lettre": "D",
+          "texte": "Une matière interdite en passager"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "f62d09590841"
+    },
+    {
+      "id": "QCM.Q3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q3",
+        "ligne": 14
+      },
+      "type": "qcm",
+      "question": "Dans le marquage d'un emballage UN « 4G/Y25/S/26/F/xxx », que signifie la lettre « Y » ?",
+      "reponse_courte": "**B.** Homologué pour les GE II et III",
+      "raisonnement": "Code UN : X = GE I, II, III ; **Y = GE II et III** ; Z = GE III seul (Section 6).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Emballage homologué pour les GE I, II et III"
+        },
+        {
+          "lettre": "B",
+          "texte": "Homologué pour les GE II et III"
+        },
+        {
+          "lettre": "C",
+          "texte": "Homologué pour le GE III uniquement"
+        },
+        {
+          "lettre": "D",
+          "texte": "Emballage réutilisable"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "6"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "5f19a4a8a534"
+    },
+    {
+      "id": "QCM.Q4",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q4",
+        "ligne": 17
+      },
+      "type": "qcm",
+      "question": "Quelles sont les quantités maximales par emballage intérieur / extérieur pour le code de quantités exceptées E1 ?",
+      "reponse_courte": "**B.** 30 g (mL) / 1 000 g (mL)",
+      "raisonnement": "E1 : 30 g/mL en intérieur, **1 000 g/mL** en extérieur. E2 = 30/500, E3 = 30/300, E4 = 1/500, E5 = 1/300 (Section 2.6).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "30 g (mL) / 500 g (mL)"
+        },
+        {
+          "lettre": "B",
+          "texte": "30 g (mL) / 1 000 g (mL)"
+        },
+        {
+          "lettre": "C",
+          "texte": "1 g (mL) / 500 g (mL)"
+        },
+        {
+          "lettre": "D",
+          "texte": "1 g (mL) / 300 g (mL)"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "2.6"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "9207b123e0af"
+    },
+    {
+      "id": "QCM.Q5",
+      "module": "Marquage",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q5",
+        "ligne": 20
+      },
+      "type": "qcm",
+      "question": "Quelle est la dimension minimale de la marque « quantités exceptées » sur un colis (cas général) ?",
+      "reponse_courte": "**C.** 100 × 100 mm",
+      "raisonnement": "Marque EQ : hachures rouges ou noires, minimum 100 × 100 mm (Section 7.1.6).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "50 × 50 mm"
+        },
+        {
+          "lettre": "B",
+          "texte": "74 × 74 mm"
+        },
+        {
+          "lettre": "C",
+          "texte": "100 × 100 mm"
+        },
+        {
+          "lettre": "D",
+          "texte": "148 × 148 mm"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "7.1.6"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "ca0b0301a60c"
+    },
+    {
+      "id": "QCM.Q6",
+      "module": "Marquage",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q6",
+        "ligne": 23
+      },
+      "type": "qcm",
+      "question": "Quelle marque doit porter un colis de quantités limitées expédié par avion ?",
+      "reponse_courte": "**A.** Un losange avec la lettre « Y » au centre",
+      "raisonnement": "Marque LQ aérien : losange avec « Y » au centre (Section 7.1.5). Les losanges à bordure noire sans « Y » sont la marque LQ route/mer.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Un losange avec la lettre « Y » au centre"
+        },
+        {
+          "lettre": "B",
+          "texte": "Un losange avec la lettre « E »"
+        },
+        {
+          "lettre": "C",
+          "texte": "Une étiquette « Cargo Aircraft Only »"
+        },
+        {
+          "lettre": "D",
+          "texte": "Le numéro ONU dans un carré"
+        }
+      ],
+      "bonne_lettre": "A",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "7.1.5"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "77f22f7fa056"
+    },
+    {
+      "id": "QCM.Q7",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q7",
+        "ligne": 26
+      },
+      "type": "qcm",
+      "question": "Quelle est la masse brute maximale d'un colis de quantités limitées (marque Y) par voie aérienne, cas général ?",
+      "reponse_courte": "**C.** 30 kg",
+      "raisonnement": "Colis Y : masse brute max **30 kg** (cas général, Section 2.7). Les quantités par emballage intérieur dépendent du code Y (ex. Y341, Y344).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "10 kg"
+        },
+        {
+          "lettre": "B",
+          "texte": "20 kg"
+        },
+        {
+          "lettre": "C",
+          "texte": "30 kg"
+        },
+        {
+          "lettre": "D",
+          "texte": "50 kg"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "2.7"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "22235f9adffa"
+    },
+    {
+      "id": "QCM.Q8",
+      "module": "Documents",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q8",
+        "ligne": 29
+      },
+      "type": "qcm",
+      "question": "De la glace carbonique (UN 1845) est utilisée comme réfrigérant pour des marchandises non dangereuses. Une Déclaration de l'Expéditeur (DGD) est-elle exigée ?",
+      "reponse_courte": "**C.** Non",
+      "raisonnement": "Glace carbonique comme réfrigérant pour marchandises non dangereuses : pas de DGD. Marquage UN 1845 + masse nette en kg, mention sur la LTA (Section 5.0.2, PI 954).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Oui, toujours"
+        },
+        {
+          "lettre": "B",
+          "texte": "Oui, seulement en cargo"
+        },
+        {
+          "lettre": "C",
+          "texte": "Non"
+        },
+        {
+          "lettre": "D",
+          "texte": "Oui, si plus de 2,5 kg"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "5.0.2"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "0d876b4b6ea5"
+    },
+    {
+      "id": "QCM.Q9",
+      "module": "Emballages",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q9",
+        "ligne": 32
+      },
+      "type": "qcm",
+      "question": "Quelle est la quantité nette maximale de glace carbonique par colis (passager comme cargo) ?",
+      "reponse_courte": "**D.** 200 kg",
+      "raisonnement": "200 kg nets max par colis en passager comme en cargo (PI 954). Étiquette Classe 9 requise lorsque UN 1845 est expédié comme marchandise.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "2,5 kg"
+        },
+        {
+          "lettre": "B",
+          "texte": "30 kg"
+        },
+        {
+          "lettre": "C",
+          "texte": "100 kg"
+        },
+        {
+          "lettre": "D",
+          "texte": "200 kg"
+        }
+      ],
+      "bonne_lettre": "D",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "ff8aaa068872"
+    },
+    {
+      "id": "QCM.Q10",
+      "module": "Emballages",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q10",
+        "ligne": 35
+      },
+      "type": "qcm",
+      "question": "Des batteries lithium-ion contenues dans un équipement (UN 3481) relèvent de quelle instruction d'emballage ?",
+      "reponse_courte": "**C.** PI 967",
+      "raisonnement": "UN 3481 : PI 965 (seule), PI 966 (emballée avec équipement), **PI 967 (contenue dans équipement)**.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "PI 965"
+        },
+        {
+          "lettre": "B",
+          "texte": "PI 966"
+        },
+        {
+          "lettre": "C",
+          "texte": "PI 967"
+        },
+        {
+          "lettre": "D",
+          "texte": "PI 970"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "d0b738a8a3c9"
+    },
+    {
+      "id": "QCM.Q11",
+      "module": "Emballages",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q11",
+        "ligne": 38
+      },
+      "type": "qcm",
+      "question": "Quel état de charge maximal est exigé pour des batteries lithium-ion UN 3480 expédiées seules (PI 965, sections IA et IB) ?",
+      "reponse_courte": "**B.** 30 %",
+      "raisonnement": "UN 3480 seule : SoC ≤ **30 %** de la capacité nominale (PI 965 sections IA/IB). La section II de la PI 965 a été supprimée depuis 2022.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "20 %"
+        },
+        {
+          "lettre": "B",
+          "texte": "30 %"
+        },
+        {
+          "lettre": "C",
+          "texte": "50 %"
+        },
+        {
+          "lettre": "D",
+          "texte": "100 %"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "200568ada1bb"
+    },
+    {
+      "id": "QCM.Q12",
+      "module": "Classification",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q12",
+        "ligne": 41
+      },
+      "type": "qcm",
+      "question": "Quel est le numéro ONU d'une substance infectieuse de catégorie A susceptible de provoquer une maladie chez l'homme ?",
+      "reponse_courte": "**C.** UN 2814",
+      "raisonnement": "**UN 2814** : Cat. A, affecte l'homme. UN 2900 : Cat. A, animaux uniquement. UN 3373 : Cat. B. UN 3291 : déchets d'hôpital. PI 620.",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "UN 2900"
+        },
+        {
+          "lettre": "B",
+          "texte": "UN 3373"
+        },
+        {
+          "lettre": "C",
+          "texte": "UN 2814"
+        },
+        {
+          "lettre": "D",
+          "texte": "UN 3291"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "a77c635b7988"
+    },
+    {
+      "id": "QCM.Q13",
+      "module": "Marquage",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q13",
+        "ligne": 44
+      },
+      "type": "qcm",
+      "question": "Pour un colis UN 3373 (Substance biologique, catégorie B), quelle affirmation est exacte ?",
+      "reponse_courte": "**B.** Pas de DGD, marque en losange UN 3373 et mention « Biological substance, Category B »",
+      "raisonnement": "UN 3373 (PI 650) : pas de DGD ni d'étiquette 6.2 ; marque losange « UN 3373 » + « Biological substance, Category B ».",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "DGD obligatoire"
+        },
+        {
+          "lettre": "B",
+          "texte": "Pas de DGD, marque en losange UN 3373 et mention « Biological substance, Category B »"
+        },
+        {
+          "lettre": "C",
+          "texte": "Interdit en passager"
+        },
+        {
+          "lettre": "D",
+          "texte": "Étiquette Classe 6.2 obligatoire"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "016f206c0933"
+    },
+    {
+      "id": "QCM.Q14",
+      "module": "Classification",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q14",
+        "ligne": 47
+      },
+      "type": "qcm",
+      "question": "Une matière est classée magnétisée (PI 953) si le champ mesuré à quelle distance de la surface du colis atteint au moins 0,159 A/m ?",
+      "reponse_courte": "**C.** 2,1 m",
+      "raisonnement": "Champ ≥ 0,159 A/m (200 nT) à **2,1 m** de la surface : matière magnétisée, PI 953 (Section 3.9.2.2).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "0,5 m"
+        },
+        {
+          "lettre": "B",
+          "texte": "1,0 m"
+        },
+        {
+          "lettre": "C",
+          "texte": "2,1 m"
+        },
+        {
+          "lettre": "D",
+          "texte": "4,6 m"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "3.9.2.2"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "7805bc3bea78"
+    },
+    {
+      "id": "QCM.Q15",
+      "module": "Marquage",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q15",
+        "ligne": 50
+      },
+      "type": "qcm",
+      "question": "Les flèches d'orientation sont exigées sur un emballage combiné contenant des liquides en récipients intérieurs (cas général, hors exceptions de faible volume) :",
+      "reponse_courte": "**B.** Oui",
+      "raisonnement": "Orientation obligatoire pour emballages combinés avec récipients intérieurs de liquides, sauf exceptions (récipients ≤ 120 mL avec absorbant, etc.) (Section 7.1.4.4).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Jamais par avion"
+        },
+        {
+          "lettre": "B",
+          "texte": "Oui"
+        },
+        {
+          "lettre": "C",
+          "texte": "Uniquement en cargo"
+        },
+        {
+          "lettre": "D",
+          "texte": "Uniquement pour la classe 3"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "7.1.4.4"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "509c7f3e30ae"
+    },
+    {
+      "id": "QCM.Q16",
+      "module": "Marquage",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q16",
+        "ligne": 53
+      },
+      "type": "qcm",
+      "question": "Un suremballage contenant des colis de marchandises dangereuses doit :",
+      "reponse_courte": "**A.** Être marqué « OVERPACK » et reprendre les marques et étiquettes des colis si elles ne sont pas visibles",
+      "raisonnement": "Suremballage : mention « OVERPACK », marques et étiquettes reprises si non visibles, et indication du nombre de colis (Section 7.1.7).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Être marqué « OVERPACK » et reprendre les marques et étiquettes des colis si elles ne sont pas visibles"
+        },
+        {
+          "lettre": "B",
+          "texte": "Porter uniquement l'étiquette Classe 9"
+        },
+        {
+          "lettre": "C",
+          "texte": "Être scellé et non transparent"
+        },
+        {
+          "lettre": "D",
+          "texte": "Porter un nouveau numéro ONU"
+        }
+      ],
+      "bonne_lettre": "A",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "7.1.7"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "d0b402e6f6de"
+    },
+    {
+      "id": "QCM.Q17",
+      "module": "Documents",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q17",
+        "ligne": 56
+      },
+      "type": "qcm",
+      "question": "Dans quelle langue la DGD doit-elle obligatoirement être rédigée ?",
+      "reponse_courte": "**C.** Anglais",
+      "raisonnement": "La DGD est en anglais (une traduction peut s'y ajouter) (Section 8.1).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Langue du pays d'origine"
+        },
+        {
+          "lettre": "B",
+          "texte": "Langue du pays de destination"
+        },
+        {
+          "lettre": "C",
+          "texte": "Anglais"
+        },
+        {
+          "lettre": "D",
+          "texte": "Français ou anglais"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "8.1"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "8dc39663af98"
+    },
+    {
+      "id": "QCM.Q18",
+      "module": "Traitement",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q18",
+        "ligne": 59
+      },
+      "type": "qcm",
+      "question": "Le NOTOC (Notification to Captain) a pour objet :",
+      "reponse_courte": "**A.** D'informer le commandant de bord des marchandises dangereuses chargées",
+      "raisonnement": "NOTOC établi par l'exploitant : informe le commandant de bord des marchandises dangereuses à bord (Section 9.5).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "D'informer le commandant de bord des marchandises dangereuses chargées"
+        },
+        {
+          "lettre": "B",
+          "texte": "De remplacer la DGD"
+        },
+        {
+          "lettre": "C",
+          "texte": "D'informer l'autorité de destination"
+        },
+        {
+          "lettre": "D",
+          "texte": "De valider la formation de l'expéditeur"
+        }
+      ],
+      "bonne_lettre": "A",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "9.5"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "7a5484ddf3ca"
+    },
+    {
+      "id": "QCM.Q19",
+      "module": "Généralités",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q19",
+        "ligne": 62
+      },
+      "type": "qcm",
+      "question": "La formation initiale en marchandises dangereuses doit être renouvelée (recyclage) :",
+      "reponse_courte": "**B.** Tous les 24 mois",
+      "raisonnement": "Recyclage tous les **24 mois** ; un recyclage dans les 3 derniers mois de validité court à partir de l'échéance (Section 1.5).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "Tous les 12 mois"
+        },
+        {
+          "lettre": "B",
+          "texte": "Tous les 24 mois"
+        },
+        {
+          "lettre": "C",
+          "texte": "Tous les 36 mois"
+        },
+        {
+          "lettre": "D",
+          "texte": "Tous les 60 mois"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "1.5"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "db29641586d5"
+    },
+    {
+      "id": "QCM.Q20",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "QCM",
+        "fichier": "iata_dgr_questions.md",
+        "section": "QCM",
+        "question": "Q20",
+        "ligne": 65
+      },
+      "type": "qcm",
+      "question": "Un colis de matières radioactives à indice de transport 0 et dont le débit de dose maximal en surface est ≤ 0,005 mSv/h relève de la catégorie :",
+      "reponse_courte": "**A.** I-BLANCHE",
+      "raisonnement": "Catégorie I-BLANCHE : TI = 0 et débit de dose en surface ≤ 0,005 mSv/h (Section 10.3).",
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "I-BLANCHE"
+        },
+        {
+          "lettre": "B",
+          "texte": "II-JAUNE"
+        },
+        {
+          "lettre": "C",
+          "texte": "III-JAUNE"
+        },
+        {
+          "lettre": "D",
+          "texte": "Exempté de toute étiquette"
+        }
+      ],
+      "bonne_lettre": "A",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "10.3"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "qcm-20"
+      ],
+      "difficulte": 2,
+      "hash_source": "8e552177959b"
+    }
+  ]
+}

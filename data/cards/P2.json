@@ -1,0 +1,810 @@
+{
+  "schema_version": 1,
+  "fiche": "P2",
+  "fichier": "phase2_application_themes_5-9.md",
+  "cards": [
+    {
+      "id": "P2.Q5-1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 5",
+        "question": "5.1",
+        "ligne": 19
+      },
+      "type": "question_ouverte",
+      "question": "Associe PI 620, 650, 953, 954, 202 à : magnétisées, glace carbonique, UN 3373, catégorie A, gaz liquéfiés réfrigérés.",
+      "reponse_courte": "620 = catégorie A ; 650 = UN 3373 ; 953 = matières magnétisées ; 954 = glace carbonique ; 202 = gaz liquéfiés réfrigérés.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "03978c52a018"
+    },
+    {
+      "id": "P2.Q5-2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 5",
+        "question": "5.2",
+        "ligne": 21
+      },
+      "type": "question_ouverte",
+      "question": "Colonne J indique « Forbidden », colonne L indique une PI. Que peut-on faire ?",
+      "reponse_courte": "Uniquement avion **tout-cargo** avec la PI de la colonne K/L, dans la limite de la colonne L.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "75c0bd1b0315"
+    },
+    {
+      "id": "P2.Q5-3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 5",
+        "question": "5.3",
+        "ligne": 23
+      },
+      "type": "question_ouverte",
+      "question": "Quantité en colonne J : « 5 L ». S'agit-il de la quantité par colis ou par envoi ?",
+      "reponse_courte": "**Par colis**. Piège : la quantité nette maximale n'est pas cumulée sur l'envoi.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "397b2304ce19"
+    },
+    {
+      "id": "P2.Q5-4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 5",
+        "question": "5.4",
+        "ligne": 25
+      },
+      "type": "question_ouverte",
+      "question": "L'unité « kg G » signifie ?",
+      "reponse_courte": "Masse **brute** en kg (ID 8000, Y963, certaines LQ). Piège : ne pas confondre avec le net.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "6a16c94ccc81"
+    },
+    {
+      "id": "P2.Q5-5",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 5",
+        "question": "5.5",
+        "ligne": 27
+      },
+      "type": "vrai_faux",
+      "question": "Un suremballage peut-il contenir des colis de matières différentes ? Que faut-il écrire dessus ?",
+      "reponse_courte": "Oui, si compatibles. Inscrire « OVERPACK », reprendre marques et étiquettes si non visibles, mentionner le nombre de colis.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "0b4e8f22d1db"
+    },
+    {
+      "id": "P2.Q5-6",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 5",
+        "question": "5.6",
+        "ligne": 29
+      },
+      "type": "question_ouverte",
+      "question": "Lecture (DGR) : UN 1830 Acide sulfurique GE II. Relève PI passagers, PI cargo, PI de LQ, EQ.",
+      "reponse_courte": "Valeurs de contrôle : passagers PI 851 (1 L), cargo PI 855 (30 L), LQ Y840 (0,5 L), EQ E2. À confirmer.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "060a34dcc703"
+    },
+    {
+      "id": "P2.Q6-1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 6",
+        "question": "6.1",
+        "ligne": 32
+      },
+      "type": "question_ouverte",
+      "question": "Décode : « 1A2/X1.8/100/26/F/ABC ».",
+      "reponse_courte": "1 = fût, A = acier, 2 = tête amovible ; X = GE I, II, III ; 1.8 = densité relative ; 100 = pression d'épreuve hydraulique en kPa ; 26 = année ; F = France ; ABC = fabricant.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "878658aab242"
+    },
+    {
+      "id": "P2.Q6-2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 6",
+        "question": "6.2",
+        "ligne": 34
+      },
+      "type": "question_ouverte",
+      "question": "Que signifient les lettres X, Y, Z ?",
+      "reponse_courte": "X = GE I, II, III ; Y = II, III ; Z = III.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "50994746c6f5"
+    },
+    {
+      "id": "P2.Q6-3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 6",
+        "question": "6.3",
+        "ligne": 36
+      },
+      "type": "question_ouverte",
+      "question": "Décode « 4G/Y25/S/26/F/ABC ». Peut-on y mettre des liquides ?",
+      "reponse_courte": "4 = caisse, G = carton, Y = GE II/III, 25 = masse brute max en kg, S = solides ou emballages intérieurs, 26 = année, F = France. Oui, des liquides dans des récipients intérieurs (emballage combiné), pas en vrac.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "0804d0f410eb"
+    },
+    {
+      "id": "P2.Q6-4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 6",
+        "question": "6.4",
+        "ligne": 38
+      },
+      "type": "question_ouverte",
+      "question": "« 1H1/Y1.6/150/26/F/ABC » : que signifient 1.6 et 150 ?",
+      "reponse_courte": "1.6 = densité relative maximale, 150 = pression d'épreuve en kPa.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "0941c7f9176b"
+    },
+    {
+      "id": "P2.Q6-5",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 6",
+        "question": "6.5",
+        "ligne": 40
+      },
+      "type": "question_ouverte",
+      "question": "Quelle marque désigne un jerrican en plastique à fond non amovible ?",
+      "reponse_courte": "3H1 (3 jerrican, H plastique, 1 fond non amovible).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "03c6a47eaedc"
+    },
+    {
+      "id": "P2.Q6-6",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 6",
+        "question": "6.6",
+        "ligne": 42
+      },
+      "type": "question_ouverte",
+      "question": "Pression de test additionnelle exigée pour l'aérien pour des emballages contenant des liquides ?",
+      "reponse_courte": "Résister à une différence de pression de **95 kPa** pour les liquides en aérien (à confirmer en Section 6).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "6"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "a8b958d55045"
+    },
+    {
+      "id": "P2.Q7-1",
+      "module": "Marquage",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 7",
+        "question": "7.1",
+        "ligne": 45
+      },
+      "type": "qcm",
+      "question": "Quelle liste est obligatoire sur un colis entièrement réglementé ?",
+      "reponse_courte": "**A.**",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "UN + DOT, expéditeur/destinataire, marquage UN"
+        },
+        {
+          "lettre": "B",
+          "texte": "UN seul"
+        },
+        {
+          "lettre": "C",
+          "texte": "DOT seule"
+        },
+        {
+          "lettre": "D",
+          "texte": "Classe seule"
+        }
+      ],
+      "bonne_lettre": "A",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "c03b78868c08"
+    },
+    {
+      "id": "P2.Q7-2",
+      "module": "Marquage",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 7",
+        "question": "7.2",
+        "ligne": 48
+      },
+      "type": "question_ouverte",
+      "question": "Quand appose-t-on l'étiquette « Cargo Aircraft Only » ?",
+      "reponse_courte": "Quand le colis n'est admis que sur avion tout-cargo (PI colonne K/L, ou UN 3480 seul).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "4bb02d9456fc"
+    },
+    {
+      "id": "P2.Q7-3",
+      "module": "Marquage",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 7",
+        "question": "7.3",
+        "ligne": 50
+      },
+      "type": "question_ouverte",
+      "question": "Où placer l'étiquette de risque subsidiaire ?",
+      "reponse_courte": "À côté de l'étiquette principale, sur la même face.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "f0ffb71520f1"
+    },
+    {
+      "id": "P2.Q7-4",
+      "module": "Marquage",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 7",
+        "question": "7.4",
+        "ligne": 52
+      },
+      "type": "question_ouverte",
+      "question": "Quelle étiquette de manutention est exigée pour UN 1977 ?",
+      "reponse_courte": "« **Cryogenic liquid** » plus flèches d'orientation.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "592bff548881"
+    },
+    {
+      "id": "P2.Q7-5",
+      "module": "Marquage",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 7",
+        "question": "7.5",
+        "ligne": 54
+      },
+      "type": "question_ouverte",
+      "question": "Flèches d'orientation : cas d'exemption courant ?",
+      "reponse_courte": "Récipients intérieurs de 120 mL ou moins avec matériau absorbant suffisant, selon la règle générale (vérifier le texte de la Section 7).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "7"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "7a284bcb62ed"
+    },
+    {
+      "id": "P2.Q7-6",
+      "module": "Marquage",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 7",
+        "question": "7.6",
+        "ligne": 56
+      },
+      "type": "question_ouverte",
+      "question": "UN 3480 batteries seules : étiquettes et restriction aéronef ?",
+      "reponse_courte": "Étiquette de batteries lithium classe 9 (Class 9A) et étiquette CAO ; tout-cargo uniquement.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "03eb7c9b2085"
+    },
+    {
+      "id": "P2.Q8-1",
+      "module": "Documents",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 8",
+        "question": "8.1",
+        "ligne": 59
+      },
+      "type": "question_ouverte",
+      "question": "Quels envois n'ont pas de DGD ?",
+      "reponse_courte": "UN 3373 ; glace carbonique comme réfrigérant d'un envoi non dangereux ; LQ (selon les règles applicables) ; EQ (mais mention sur la LTA).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "60c8e3ec4cb0"
+    },
+    {
+      "id": "P2.Q8-2",
+      "module": "Documents",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 8",
+        "question": "8.2",
+        "ligne": 61
+      },
+      "type": "question_ouverte",
+      "question": "Que doit indiquer la LTA pour des quantités exceptées ?",
+      "reponse_courte": "« Dangerous Goods in Excepted Quantities » avec le nombre de colis.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "20b464f8ee7f"
+    },
+    {
+      "id": "P2.Q8-3",
+      "module": "Documents",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 8",
+        "question": "8.3",
+        "ligne": 63
+      },
+      "type": "question_ouverte",
+      "question": "Que doit contenir la DGD en plus des lignes de marchandises ?",
+      "reponse_courte": "Expéditeur, destinataire, n° de LTA, aéroports de départ/destination, case « passagers et cargo » ou « cargo seulement » (une barrée), mention radioactif/non radioactif (une barrée), informations de manutention, déclaration signée et datée.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "3a7c0fc97f6c"
+    },
+    {
+      "id": "P2.Q8-4",
+      "module": "Documents",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 8",
+        "question": "8.4",
+        "ligne": 65
+      },
+      "type": "question_ouverte",
+      "question": "Repère les erreurs : « UN 1789, Acide chlorhydrique, 8, II, 2 caisses 4G × 1 L, PI 851 ; cases Passagers et Cargo et Cargo seulement non barrées ; pas de signature ; pas de mention radioactif/non radioactif. »",
+      "reponse_courte": "(a) DOT en français au lieu de l'anglais (« Hydrochloric acid ») ; (b) les deux cases non barrées ; (c) signature/date absentes ; (d) mention radioactif/non radioactif non barrée.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "18e844a673e5"
+    },
+    {
+      "id": "P2.Q8-5",
+      "module": "Documents",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 8",
+        "question": "8.5",
+        "ligne": 67
+      },
+      "type": "question_ouverte",
+      "question": "Que faire figurer pour un suremballage ?",
+      "reponse_courte": "« Overpack Used » et les lignes des colis qu'il contient.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "cf73f97ef86f"
+    },
+    {
+      "id": "P2.Q8-6",
+      "module": "Documents",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 8",
+        "question": "8.6",
+        "ligne": 69
+      },
+      "type": "question_ouverte",
+      "question": "Qui répond de l'exactitude de la DGD ?",
+      "reponse_courte": "**L'expéditeur**, jamais l'exploitant. L'exploitant refuse en cas de non-conformité.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "96d82a73f143"
+    },
+    {
+      "id": "P2.Q9-1",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 9",
+        "question": "9.1",
+        "ligne": 72
+      },
+      "type": "question_ouverte",
+      "question": "Que fait l'exploitant avant d'accepter le colis ?",
+      "reponse_courte": "Vérification par **liste de contrôle d'acceptation** : DGD, marquage, étiquettes, intégrité, absence de fuite.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "12a9abb6ed1c"
+    },
+    {
+      "id": "P2.Q9-2",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 9",
+        "question": "9.2",
+        "ligne": 74
+      },
+      "type": "question_ouverte",
+      "question": "Séparation des toxiques (6.1) et infectieux (6.2) ?",
+      "reponse_courte": "Ne pas charger à proximité de denrées destinées à la consommation.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "3500c0957208"
+    },
+    {
+      "id": "P2.Q9-3",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 9",
+        "question": "9.3",
+        "ligne": 76
+      },
+      "type": "question_ouverte",
+      "question": "Colis CAO : règle de chargement ?",
+      "reponse_courte": "Chargés de manière **accessible à l'équipage** en vol (avec exceptions listées).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "13c1364d0999"
+    },
+    {
+      "id": "P2.Q9-4",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 9",
+        "question": "9.4",
+        "ligne": 78
+      },
+      "type": "question_ouverte",
+      "question": "À quoi sert le NOTOC ?",
+      "reponse_courte": "Notification au commandant de bord des marchandises dangereuses chargées.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "85b63d79e647"
+    },
+    {
+      "id": "P2.Q9-5",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 9",
+        "question": "9.5",
+        "ligne": 80
+      },
+      "type": "question_ouverte",
+      "question": "Un colis fuit à l'acceptation.",
+      "reponse_courte": "Ne pas charger. Isoler, nettoyer si nécessaire, signaler et informer l'expéditeur.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "61800d3f478b"
+    },
+    {
+      "id": "P2.Q9-6",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P2",
+        "fichier": "phase2_application_themes_5-9.md",
+        "section": "Thème 9",
+        "question": "9.6",
+        "ligne": 82
+      },
+      "type": "question_ouverte",
+      "question": "Comment utiliser la table de ségrégation ?",
+      "reponse_courte": "Selon les étiquettes des colis : si la table interdit la cohabitation, séparer physiquement pour éviter toute interaction en cas de fuite.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-2"
+      ],
+      "difficulte": 2,
+      "hash_source": "49fc3bdcb379"
+    }
+  ]
+}

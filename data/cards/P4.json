@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "fiche": "P4",
+  "fichier": "phase4_examen_blanc_1.md",
+  "cards": [
+    {
+      "id": "P4.Q1",
+      "module": "Identification",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "1",
+        "ligne": 8
+      },
+      "type": "qcm",
+      "question": "Quelle colonne de la Liste 4.2 donne la PI pour avion tout-cargo ?",
+      "reponse_courte": "**C** (colonnes K/L).",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "G"
+        },
+        {
+          "lettre": "B",
+          "texte": "I"
+        },
+        {
+          "lettre": "C",
+          "texte": "K"
+        },
+        {
+          "lettre": "D",
+          "texte": "M"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "c516de3f04a2"
+    },
+    {
+      "id": "P4.Q2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "2",
+        "ligne": 10
+      },
+      "type": "question_ouverte",
+      "question": "UN 3480 seules : restriction et état de charge ?",
+      "reponse_courte": "Tout-cargo uniquement ; SoC ≤ 30 %.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "153859dfd89f"
+    },
+    {
+      "id": "P4.Q3",
+      "module": "Classification",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "3",
+        "ligne": 12
+      },
+      "type": "question_ouverte",
+      "question": "Liquide, PE 15 °C, PEI 60 °C : GE ?",
+      "reponse_courte": "**GE II** (PEI > 35 °C, PE < 23 °C).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "bbed1cdc5d50"
+    },
+    {
+      "id": "P4.Q4",
+      "module": "Classification",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "4",
+        "ligne": 14
+      },
+      "type": "question_ouverte",
+      "question": "Matière corrosive détruisant la peau en 30 min : GE ?",
+      "reponse_courte": "**GE II** (> 3 min et ≤ 60 min).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "f7be08318d80"
+    },
+    {
+      "id": "P4.Q5",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "5",
+        "ligne": 16
+      },
+      "type": "question_ouverte",
+      "question": "Où placer une batterie de rechange lithium (passager) ?",
+      "reponse_courte": "Cabine uniquement.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "c9742c931529"
+    },
+    {
+      "id": "P4.Q6",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "6",
+        "ligne": 18
+      },
+      "type": "question_ouverte",
+      "question": "Ordinateur avec batterie de 130 Wh : condition ?",
+      "reponse_courte": "Approbation de l'exploitant (> 100 à ≤ 160 Wh), maximum 2 batteries de rechange.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "78cef8b8497a"
+    },
+    {
+      "id": "P4.Q7",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "7",
+        "ligne": 20
+      },
+      "type": "question_ouverte",
+      "question": "Code EQ E1 : quantités max intérieur/extérieur ?",
+      "reponse_courte": "30 g/mL en intérieur, 1 000 g/mL en extérieur.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "acc35c8ec998"
+    },
+    {
+      "id": "P4.Q8",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "8",
+        "ligne": 22
+      },
+      "type": "question_ouverte",
+      "question": "Dans « 4G/Y25/S/26/F/ABC », que signifie « Y » ?",
+      "reponse_courte": "Emballage homologué GE II et III.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "bf217154a5b9"
+    },
+    {
+      "id": "P4.Q9",
+      "module": "Documents",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "9",
+        "ligne": 24
+      },
+      "type": "question_ouverte",
+      "question": "Langue obligatoire de la DGD ?",
+      "reponse_courte": "Anglais.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "4193a0e31dc8"
+    },
+    {
+      "id": "P4.Q10",
+      "module": "Documents",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "10",
+        "ligne": 26
+      },
+      "type": "question_ouverte",
+      "question": "Glace carbonique comme réfrigérant : quelle mention en LTA ?",
+      "reponse_courte": "« Dry ice », UN 1845, nombre de colis, quantité nette.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "1142f6804dcf"
+    },
+    {
+      "id": "P4.Q11",
+      "module": "Documents",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "11",
+        "ligne": 28
+      },
+      "type": "vrai_faux",
+      "question": "UN 3373 : DGD ?",
+      "reponse_courte": "Non.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "20efaa6a230f"
+    },
+    {
+      "id": "P4.Q12",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "12",
+        "ligne": 30
+      },
+      "type": "question_ouverte",
+      "question": "UN 2814 en passagers : quantité par colis ?",
+      "reponse_courte": "50 mL ou 50 g par colis (à confirmer).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "b872b1079a35"
+    },
+    {
+      "id": "P4.Q13",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "13",
+        "ligne": 32
+      },
+      "type": "question_ouverte",
+      "question": "Indice de transport : définition ?",
+      "reponse_courte": "Débit de dose maximal à 1 m × 100.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "39c1766eb5c8"
+    },
+    {
+      "id": "P4.Q14",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "14",
+        "ligne": 34
+      },
+      "type": "calcul",
+      "question": "Colis I-BLANCHE : seuils ?",
+      "reponse_courte": "TI = 0 et surface ≤ 0,005 mSv/h.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "a2aef9d1346c"
+    },
+    {
+      "id": "P4.Q15",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "15",
+        "ligne": 36
+      },
+      "type": "question_ouverte",
+      "question": "Numéros UN des colis exceptés radioactifs ?",
+      "reponse_courte": "UN 2908 à 2911 (et UN 3507 pour l'UF₆).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "a9744e7fcb15"
+    },
+    {
+      "id": "P4.Q16",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "16",
+        "ligne": 38
+      },
+      "type": "question_ouverte",
+      "question": "Séparation des toxiques et infectieux ?",
+      "reponse_courte": "Ne pas charger près de denrées.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "e8343c1170ed"
+    },
+    {
+      "id": "P4.Q17",
+      "module": "Traitement",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "17",
+        "ligne": 40
+      },
+      "type": "question_ouverte",
+      "question": "Rôle du NOTOC ?",
+      "reponse_courte": "Informer le commandant de bord des marchandises dangereuses chargées.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "e5385c271587"
+    },
+    {
+      "id": "P4.Q18",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "18",
+        "ligne": 42
+      },
+      "type": "question_ouverte",
+      "question": "Validité de la formation initiale ?",
+      "reponse_courte": "24 mois (recyclage dans les 3 derniers mois : validité à partir de l'échéance).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "ffcfe267f5a6"
+    },
+    {
+      "id": "P4.Q19",
+      "module": "Restrictions",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "19",
+        "ligne": 44
+      },
+      "type": "qcm",
+      "question": "Lequel est un code de variation d'exploitant ?",
+      "reponse_courte": "**B** (AF-03, code 2 lettres de compagnie).",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "CAG-02"
+        },
+        {
+          "lettre": "B",
+          "texte": "AF-03"
+        }
+      ],
+      "bonne_lettre": "B",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "f56c6e9fa839"
+    },
+    {
+      "id": "P4.Q20",
+      "module": "Classification",
+      "source": {
+        "fiche": "P4",
+        "fichier": "phase4_examen_blanc_1.md",
+        "section": "Questions",
+        "question": "20",
+        "ligne": 46
+      },
+      "type": "qcm",
+      "question": "Quelle classe est exclue de la table de prépondérance ?",
+      "reponse_courte": "**C** (classe 7).",
+      "raisonnement": null,
+      "developpement": null,
+      "choix": [
+        {
+          "lettre": "A",
+          "texte": "3"
+        },
+        {
+          "lettre": "B",
+          "texte": "8"
+        },
+        {
+          "lettre": "C",
+          "texte": "7"
+        },
+        {
+          "lettre": "D",
+          "texte": "6.1"
+        }
+      ],
+      "bonne_lettre": "C",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "examen-blanc-1",
+        "phase-4"
+      ],
+      "difficulte": 2,
+      "hash_source": "6306e0670f3e"
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "fiche": "P3",
+  "fichier": "phase3_cas_speciaux_themes_10-12.md",
+  "cards": [
+    {
+      "id": "P3.Q10-1",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 10",
+        "question": "10.1",
+        "ligne": 18
+      },
+      "type": "question_ouverte",
+      "question": "Définis l'indice de transport (TI).",
+      "reponse_courte": "Débit de dose maximal à 1 m de la surface en mSv/h, multiplié par 100.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "db7eb7c000e0"
+    },
+    {
+      "id": "P3.Q10-2",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 10",
+        "question": "10.2",
+        "ligne": 20
+      },
+      "type": "question_ouverte",
+      "question": "Un colis présente TI = 0,6 et surface 0,02 mSv/h. Catégorie ?",
+      "reponse_courte": "**II-JAUNE** (TI ≤ 1 et surface entre 0,005 et 0,5 mSv/h).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "d673624f6b60"
+    },
+    {
+      "id": "P3.Q10-3",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 10",
+        "question": "10.3",
+        "ligne": 22
+      },
+      "type": "question_ouverte",
+      "question": "Quels UN désignent les colis exceptés radioactifs ?",
+      "reponse_courte": "UN 2908, 2909, 2910, 2911 (et UN 3507 pour l'UF₆ en petite quantité).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "441438b73436"
+    },
+    {
+      "id": "P3.Q10-4",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 10",
+        "question": "10.4",
+        "ligne": 24
+      },
+      "type": "question_ouverte",
+      "question": "Que contient l'étiquette radioactive II et III ?",
+      "reponse_courte": "Le nom du radionucléide (ou « LSA/SCO »), l'**activité** en Bq et le **TI**.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "8aabef101d38"
+    },
+    {
+      "id": "P3.Q10-5",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 10",
+        "question": "10.5",
+        "ligne": 26
+      },
+      "type": "question_ouverte",
+      "question": "Quelles informations propres à la classe 7 figurent sur la DGD ?",
+      "reponse_courte": "Radionucléide, forme physique/chimique, activité en Bq (préfixe SI), catégorie, TI, mention « Radioactive ».",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "87a8c3ad6c55"
+    },
+    {
+      "id": "P3.Q10-6",
+      "module": "Classe 7",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 10",
+        "question": "10.6",
+        "ligne": 28
+      },
+      "type": "question_ouverte",
+      "question": "Quel TI maximal par colis ou suremballage (utilisation non exclusive) ?",
+      "reponse_courte": "**10**. Au-delà : utilisation exclusive, avec conditions.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "c5cb84580f84"
+    },
+    {
+      "id": "P3.Q11-1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.1",
+        "ligne": 31
+      },
+      "type": "question_ouverte",
+      "question": "UN 3480 seules : où peuvent-elles voyager et à quel état de charge ?",
+      "reponse_courte": "Uniquement **tout-cargo** ; SoC ≤ **30 %** (PI 965 sections IA/IB).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "a3343b12aa70"
+    },
+    {
+      "id": "P3.Q11-2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.2",
+        "ligne": 33
+      },
+      "type": "question_ouverte",
+      "question": "Batteries lithium-ion dans un appareil (UN 3481) : PI ?",
+      "reponse_courte": "**PI 967** (contenues) ; PI 966 si emballées avec l'équipement.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "5b5dfcc2cc53"
+    },
+    {
+      "id": "P3.Q11-3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.3",
+        "ligne": 35
+      },
+      "type": "question_ouverte",
+      "question": "Section II de la PI 966 : DGD ? marque ? LTA ?",
+      "reponse_courte": "Pas de DGD ; marque lithium sur le colis ; mention sur la LTA.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "28a211329aca"
+    },
+    {
+      "id": "P3.Q11-4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.4",
+        "ligne": 37
+      },
+      "type": "question_ouverte",
+      "question": "Associe PI 968, 969, 970 aux cas : seules, avec équipement, contenues.",
+      "reponse_courte": "968 = seules ; 969 = avec équipement ; 970 = contenues.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "145231716af9"
+    },
+    {
+      "id": "P3.Q11-5",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.5",
+        "ligne": 39
+      },
+      "type": "question_ouverte",
+      "question": "Glace carbonique UN 1845 : marquage et LTA ?",
+      "reponse_courte": "Marque « UN 1845 », poids net en kg, étiquette classe 9 si expédiée comme marchandise ; LTA : « Dry ice », UN 1845, nombre de colis, quantité nette.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "5f06b6973517"
+    },
+    {
+      "id": "P3.Q11-6",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.6",
+        "ligne": 41
+      },
+      "type": "question_ouverte",
+      "question": "UN 3373 : DGD ? marquage ? quantités par emballage ?",
+      "reponse_courte": "Pas de DGD ; marque losange « UN 3373 » + « Biological substance, Category B » ; PI 650 (récipient primaire ≤ 1 L, extérieur ≤ 4 L ou 4 kg selon les cas, à confirmer).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "9f858806dbfe"
+    },
+    {
+      "id": "P3.Q11-7",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.7",
+        "ligne": 43
+      },
+      "type": "question_ouverte",
+      "question": "Catégorie A UN 2814 : PI et quantités en passagers ?",
+      "reponse_courte": "PI 620 ; passagers 50 mL ou 50 g par colis ; cargo 4 L ou 4 kg (à confirmer).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "184dbce6e27d"
+    },
+    {
+      "id": "P3.Q11-8",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.8",
+        "ligne": 45
+      },
+      "type": "question_ouverte",
+      "question": "Matière magnétisée : seuil et étiquette ?",
+      "reponse_courte": "≥ 0,159 A/m à 2,1 m ; étiquette « Magnetized material ».",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "e2c150687d06"
+    },
+    {
+      "id": "P3.Q11-9",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.9",
+        "ligne": 47
+      },
+      "type": "question_ouverte",
+      "question": "UN 3245 : classe et PI ?",
+      "reponse_courte": "Classe 9 ; PI 959.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "1a79ba54871c"
+    },
+    {
+      "id": "P3.Q11-10",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.10",
+        "ligne": 49
+      },
+      "type": "question_ouverte",
+      "question": "Batterie lithium endommagée ou défectueuse : peut-on l'expédier ?",
+      "reponse_courte": "**Interdit** sauf approbation de l'autorité (batteries hors type testé).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "65bec2cd6a24"
+    },
+    {
+      "id": "P3.Q11-11",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.11",
+        "ligne": 51
+      },
+      "type": "vrai_faux",
+      "question": "UN 1845 expédiée comme marchandise (et non comme réfrigérant) : DGD ?",
+      "reponse_courte": "Oui : la DGD est exigée pour UN 1845 comme marchandise.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "2537e51b90f1"
+    },
+    {
+      "id": "P3.Q11-12",
+      "module": "Emballages",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 11",
+        "question": "11.12",
+        "ligne": 53
+      },
+      "type": "question_ouverte",
+      "question": "ID 8000 : PI et masse max ?",
+      "reponse_courte": "Y963, jusqu'à 30 kg brut par colis.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "cas-speciaux",
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "e28729ec8e1c"
+    },
+    {
+      "id": "P3.Q12-1",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 12",
+        "question": "12.1",
+        "ligne": 56
+      },
+      "type": "question_ouverte",
+      "question": "Quelle est la relation entre OACI et IATA DGR ?",
+      "reponse_courte": "Les IT OACI sont la base légale ; le DGR est **au moins aussi restrictif**.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "fd65d1f270e6"
+    },
+    {
+      "id": "P3.Q12-2",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 12",
+        "question": "12.2",
+        "ligne": 58
+      },
+      "type": "question_ouverte",
+      "question": "Responsabilités de l'expéditeur ?",
+      "reponse_courte": "Classer, emballer, marquer, étiqueter, documenter, former le personnel.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "72dc5a446068"
+    },
+    {
+      "id": "P3.Q12-3",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 12",
+        "question": "12.3",
+        "ligne": 60
+      },
+      "type": "question_ouverte",
+      "question": "Responsabilités de l'exploitant ?",
+      "reponse_courte": "Acceptation, chargement, NOTOC, information des passagers, signalement des incidents.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "6faa0ca11940"
+    },
+    {
+      "id": "P3.Q12-4",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 12",
+        "question": "12.4",
+        "ligne": 62
+      },
+      "type": "question_ouverte",
+      "question": "Validité de la formation ?",
+      "reponse_courte": "**24 mois** ; recyclage dans les 3 derniers mois : validité à partir de l'échéance.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "e9a406d1d1e2"
+    },
+    {
+      "id": "P3.Q12-5",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 12",
+        "question": "12.5",
+        "ligne": 64
+      },
+      "type": "question_ouverte",
+      "question": "Que doit conserver l'employeur ?",
+      "reponse_courte": "Les dossiers de formation.",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "473b6fba26fa"
+    },
+    {
+      "id": "P3.Q12-6",
+      "module": "Généralités",
+      "source": {
+        "fiche": "P3",
+        "fichier": "phase3_cas_speciaux_themes_10-12.md",
+        "section": "Thème 12",
+        "question": "12.6",
+        "ligne": 66
+      },
+      "type": "question_ouverte",
+      "question": "Marchandises « à haut risque » (sûreté) ?",
+      "reponse_courte": "Certains DG à haut risque exigent un **plan de sûreté** (liste en Section 1).",
+      "raisonnement": null,
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
+      "ref_dgr": [
+        "1"
+      ],
+      "edition_ref": "non précisée",
+      "edition_verifiee": null,
+      "tags": [
+        "phase-3"
+      ],
+      "difficulte": 2,
+      "hash_source": "6c1825e9c44b"
+    }
+  ]
+}

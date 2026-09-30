@@ -1,0 +1,850 @@
+{
+  "$comment": "Règles d'import des fiches. 'match' = sous-chaîne du chemin de titres (H2 > H3 > paragraphe en gras) qui précède le tableau ou la section. Les questions construites par 'question' sont des gabarits ; les réponses sont toujours copiées telles quelles.",
+  "sourceDir": "../Données exercice IATA IATA",
+  "longAnswerChars": 240,
+  "longReasoningChars": 200,
+  "fiches": [
+    {
+      "fiche": "F1",
+      "fichier": "F1_generalites_champ_restrictions.md",
+      "edition_ref": "54-55",
+      "ignoreSections": [
+        "Bilan pour l'examen"
+      ],
+      "tables": [
+        {
+          "match": "A. Généralités",
+          "code": "A",
+          "kind": "qr",
+          "module": "Généralités"
+        },
+        {
+          "match": "B. Présentation du DGR",
+          "code": "B",
+          "kind": "qr",
+          "module": "Généralités"
+        },
+        {
+          "match": "Q1 — Formation des pilotes",
+          "code": "C-Q1",
+          "kind": "section",
+          "module": "Généralités",
+          "question": "Formation des pilotes (ancien tableau 1.5.A) : quels contenus étaient exigés ?",
+          "perimeTotal": true
+        },
+        {
+          "match": "Q2 — Qui est responsable",
+          "code": "C-Q2",
+          "kind": "matrix",
+          "module": "Généralités",
+          "question": "Qui est responsable de : {Opération} ?",
+          "key": "{Opération}",
+          "answer": [
+            "Responsable"
+          ]
+        },
+        {
+          "match": "D1. Quantités exceptées et limitées",
+          "code": "D1",
+          "kind": "qr",
+          "module": "Restrictions"
+        },
+        {
+          "match": "D2. Passagers et équipage",
+          "code": "D2",
+          "kind": "qr",
+          "module": "Restrictions"
+        },
+        {
+          "match": "D3. Exclusions et cas particuliers",
+          "code": "D3",
+          "kind": "qr",
+          "module": "Restrictions"
+        },
+        {
+          "match": "D4. Variations d'État et d'exploitant",
+          "code": "D4",
+          "kind": "qr",
+          "module": "Restrictions",
+          "roles": {
+            "Référence 2014": "extra"
+          },
+          "tags": [
+            "variation"
+          ]
+        }
+      ],
+      "paragraphs": [
+        {
+          "startsWith": "🔴 **Marque LQ**",
+          "code": "D1-marque-lq",
+          "module": "Restrictions",
+          "question": "Quantités limitées : quelle marque aujourd'hui, et que dit la fiche sur la DGD et les étiquettes ?",
+          "statut": "🟠 à contrôler en 2.7, 7.1 et 8.1 (texte du DGR 67e non consulté par la fiche)"
+        },
+        {
+          "startsWith": "Ces sept réponses sont",
+          "code": "D4-reflexe",
+          "module": "Restrictions",
+          "question": "Variations d'État et d'exploitant : quel réflexe avant de choisir le transporteur ?"
+        },
+        {
+          "startsWith": "Moyen mnémotechnique",
+          "code": "C-Q2-mnemo",
+          "module": "Généralités",
+          "question": "Moyen mnémotechnique : qui fait quoi entre expéditeur et exploitant ?",
+          "statut": "🟢"
+        }
+      ]
+    },
+    {
+      "fiche": "F2",
+      "fichier": "F2_classification_identification.md",
+      "edition_ref": "54-55",
+      "ignoreSections": [
+        "Rappels de méthode",
+        "Bilan"
+      ],
+      "tables": [
+        {
+          "match": "A. Classification",
+          "header": "Données",
+          "code": "A",
+          "kind": "qr",
+          "module": "Classification",
+          "questionPrefix": "Classer : "
+        },
+        {
+          "match": "Q7 — combinaisons de dangers",
+          "code": "A-Q7",
+          "kind": "matrix",
+          "module": "Classification",
+          "question": "Combinaison « {Caractéristiques} » : classe, GE, subsidiaire ?",
+          "key": "{Caractéristiques}",
+          "statut": "🟢",
+          "rowStatut": {
+            "3": "🟠 ligne 3 : « 6.1 (l) » ambigu ; si toxicité par inhalation GE I, le 6.1 l'emporte (voir 3.10.A)"
+          }
+        },
+        {
+          "match": "Q8 — 1er et 2e risque",
+          "code": "A-Q8",
+          "kind": "matrix",
+          "module": "Classification",
+          "question": "1er risque {1er risque} + 2e risque {2e risque} : classe, GE, subsidiaire ?",
+          "key": "{1er risque} {2e risque}",
+          "statut": "🟢"
+        },
+        {
+          "match": "Q9 — Classe 3, (PIE, PE)",
+          "code": "A-Q9",
+          "kind": "pairs",
+          "module": "Classification",
+          "question": "Classe 3 — PIE / PE = {0} °C : GE ?",
+          "statut": "🟢"
+        },
+        {
+          "match": "B1. Numéros ONU",
+          "code": "B1",
+          "kind": "qr",
+          "module": "Identification",
+          "questionPrefix": "N° ONU/ID (ou interdit) : ",
+          "rowQuestion": {
+            "3": "Vrai ou faux : {Produit}"
+          }
+        },
+        {
+          "match": "B2. Lectures complètes",
+          "code": "B2",
+          "kind": "qr",
+          "module": "Identification",
+          "questionPrefix": "Lecture Liste 4.2 : ",
+          "forcePrefix": true
+        },
+        {
+          "match": "Q4 — Avion passagers et cargo",
+          "code": "B3-Q4",
+          "kind": "matrix",
+          "module": "Identification",
+          "question": "Avion passagers et cargo, ou cargo seulement ? {Produit}",
+          "key": "{Produit}"
+        },
+        {
+          "match": "Q13 — Classe 3 : (PE, PIE)",
+          "code": "B3-Q13",
+          "kind": "pairs",
+          "module": "Classification",
+          "question": "Classe 3 — PE / PIE = {0} °C : GE ?",
+          "statut": "🟢",
+          "rowStatut": {
+            "2b": "🔴 le livret donne 40 °C, la diapo 29 °C ; avec 40 °C : GE II (incohérence livret / diapo)"
+          }
+        },
+        {
+          "match": "Q18 — Une expédition est-elle acceptable",
+          "code": "B3-Q18",
+          "kind": "matrix",
+          "module": "Identification",
+          "question": "UN {UN}, {Quantité} (un colis) : passagers, cargo seulement, ou interdit ?",
+          "key": "UN {UN}",
+          "rowStatut": {
+            "4": "🔴 UN 2529 : le livret dit 10 L, la diapo 1 L (incohérence) ; pour 10 L, relire les colonnes I et K"
+          }
+        },
+        {
+          "match": "Q24 — Passagers / CAO",
+          "code": "B3-Q24",
+          "kind": "matrix",
+          "module": "Identification",
+          "question": "{Expédition} : acceptable sur avion passagers ? sur CAO ?",
+          "key": "{Expédition}",
+          "statut": "🟠 le corrigé ne donne pas les motifs : lire colonnes I/K, PI et A1"
+        },
+        {
+          "match": "Q20 et Q21 — Huit produits",
+          "code": "B3-Q20",
+          "kind": "matrix",
+          "module": "Identification",
+          "question": "Liste 4.2 — {Produit} : UN/ID, classe, étiquette, GE, passagers, cargo, DP ?",
+          "key": "{Produit}",
+          "rowStatut": {
+            "3": "🔴 le livret écrit « tétrafluorure » ; le corrigé traite le tétrachlorure (UN 1846) : coquille du livret"
+          }
+        },
+        {
+          "match": "B4. Notifications NOTOC",
+          "code": "B4",
+          "kind": "matrix",
+          "module": "Identification",
+          "question": "NOTOC — désignation exacte (anglais) de {UN / ID} ?",
+          "key": "{UN / ID}",
+          "statut": "🟠 appariement numéro / désignation déduit de l'ordre des diapos : contrôler en Liste 4.2"
+        },
+        {
+          "match": "Q17 (désignation, UN, GE",
+          "code": "B5-Q17",
+          "kind": "matrix",
+          "module": "Identification",
+          "type": "a_trous",
+          "question": "Compléter pour {Produit} : UN, GE, classe, subsidiaire, PI, quantités passagers / cargo",
+          "key": "{Produit}"
+        },
+        {
+          "match": "B6. Questions à choix",
+          "code": "B6",
+          "kind": "qr",
+          "module": "Identification"
+        }
+      ],
+      "paragraphs": [
+        {
+          "startsWith": "**Q16**",
+          "code": "B5-Q16",
+          "module": "Identification",
+          "question": "UN 2616, 1723, 2901, 2534, 3108, 1700 : GE, classe, subsidiaire, étiquettes de danger et de manutention ?",
+          "tags": [
+            "sans-corrige"
+          ]
+        },
+        {
+          "startsWith": "**Q10 — pourquoi GE II",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "⚠ Ligne 3",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🔴 Ligne 2 à droite",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🔴 UN 2529",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🟠 Le corrigé ne donne pas",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🔴 Le livret écrit",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🟠 L'appariement",
+          "code": "ignore"
+        }
+      ]
+    },
+    {
+      "fiche": "F3",
+      "fichier": "F3_emballages_specifications_marquage.md",
+      "edition_ref": "54-55",
+      "ignoreSections": [
+        "Rappels de méthode",
+        "Bilan"
+      ],
+      "tables": [
+        {
+          "match": "A. Emballages et instructions d'emballage",
+          "header": "Raisonnement",
+          "code": "A",
+          "kind": "qr",
+          "module": "Emballages"
+        },
+        {
+          "match": "Q26 — décodage",
+          "code": "A-Q26",
+          "kind": "matrix",
+          "module": "Emballages",
+          "question": "Décoder le gravage {Gravage}",
+          "key": "{Gravage}",
+          "statut": "🟢"
+        },
+        {
+          "match": "B. Spécifications et épreuves",
+          "code": "B",
+          "kind": "qr",
+          "module": "Emballages"
+        },
+        {
+          "match": "C1. Marquages",
+          "code": "C1",
+          "kind": "qr",
+          "module": "Marquage",
+          "question": "Marquage à ajouter — {Colis concerné} ?"
+        },
+        {
+          "match": "C2. Étiquettes",
+          "code": "C2",
+          "kind": "qr",
+          "module": "Marquage",
+          "question": "Étiquettes attendues — {Expédition} ?"
+        }
+      ],
+      "paragraphs": [
+        {
+          "startsWith": "Question finale",
+          "code": "A-Q26-final",
+          "module": "Emballages",
+          "question": "Q26 : quel gravage complémentaire sur le dernier emballage (1H2 / Y / S / 04 / D / VH33) ?"
+        },
+        {
+          "startsWith": "Codes de la Q6 du récapitulatif",
+          "code": "C2-codes-imp",
+          "module": "Marquage",
+          "question": "Codes : RCL, RFL, RRY, MAG, ROP, RFG, RCM, RXC ?"
+        },
+        {
+          "startsWith": "Règle : étiquettes",
+          "code": "ignore"
+        }
+      ]
+    },
+    {
+      "fiche": "F4",
+      "fichier": "F4_documents_traitement_recap_expeditions.md",
+      "edition_ref": "54-55",
+      "ignoreSections": [
+        "Bilan",
+        "Q5 et Q6 — NOTOC et codes"
+      ],
+      "tables": [
+        {
+          "match": "Q1 — Colis « Organic peroxide",
+          "code": "A-Q1",
+          "kind": "errors",
+          "module": "Documents",
+          "question": "Colis UN 3105 (Organic peroxide type D, liquid) — constat : {Constat}. Correction ?",
+          "key": "{Constat}",
+          "statut": "🟢 méthode : parcourir le colis dans l'ordre"
+        },
+        {
+          "match": "Q2 — DGD de l'UN 3018",
+          "code": "A-Q2",
+          "kind": "section",
+          "module": "Documents",
+          "question": "DGD de l'UN 3018 : quelles corrections ?"
+        },
+        {
+          "match": "Q3 — DGD de l'UN 2683",
+          "code": "A-Q3",
+          "kind": "section",
+          "module": "Documents",
+          "question": "DGD de l'UN 2683 : quelles corrections ?"
+        },
+        {
+          "match": "Questions de « Traitement » sur les documents",
+          "code": "A-T",
+          "kind": "qr",
+          "module": "Documents"
+        },
+        {
+          "match": "B. Traitement des marchandises dangereuses",
+          "code": "B",
+          "kind": "qr",
+          "module": "Traitement"
+        },
+        {
+          "match": "Q1 — Vingt affirmations",
+          "code": "C-Q1",
+          "kind": "qr",
+          "module": "Généralités",
+          "type": "vrai_faux",
+          "questionPrefix": "Vrai ou faux : ",
+          "moduleByKey": {
+            "1": "Généralités",
+            "2": "Généralités",
+            "3": "Identification",
+            "4": "Généralités",
+            "5": "Identification",
+            "6": "Classification",
+            "7": "Classification",
+            "8": "Classification",
+            "9": "Classification",
+            "10": "Restrictions",
+            "11": "Identification",
+            "12": "Identification",
+            "13": "Restrictions",
+            "14": "Restrictions",
+            "15": "Restrictions",
+            "16": "Restrictions",
+            "17": "Restrictions",
+            "18": "Classification",
+            "19": "Classification",
+            "20": "Emballages"
+          }
+        },
+        {
+          "match": "Q2 — Nouvelle molécule",
+          "code": "C-Q2",
+          "kind": "section",
+          "module": "Classification",
+          "question": "Pesticide cuivrique liquide : toxique GE II, PIE 45 °C, PE 35 °C, 1 colis de 10 L. Classement, désignation, conditions ?"
+        },
+        {
+          "match": "Q3 — Générateur d'oxygène chimique",
+          "code": "C-Q3",
+          "kind": "section",
+          "module": "Restrictions",
+          "question": "Générateur d'oxygène chimique en AOG, Condor Flugdienst : accepté ?"
+        },
+        {
+          "match": "Q4 — 2 L de diallylamine",
+          "code": "C-Q4",
+          "kind": "section",
+          "module": "Emballages",
+          "question": "2 L de diallylamine sur cargo, gravage « 1H1 / Y / 1.3 / 300 / 05 / GB / 1234 » : étiquettes, lecture du gravage, décision ?"
+        },
+        {
+          "match": "Cas 1 — Quantités exceptées",
+          "code": "D-cas1",
+          "kind": "section",
+          "module": "Expéditions"
+        },
+        {
+          "match": "Cas 2 — 1 kg d'allumettes",
+          "code": "D-cas2",
+          "kind": "section",
+          "module": "Expéditions"
+        },
+        {
+          "match": "Cas 3 — 50 L de N,N-diéthylaniline",
+          "code": "D-cas3",
+          "kind": "section",
+          "module": "Expéditions"
+        },
+        {
+          "match": "Cas 4 — 15 kg de gallium",
+          "code": "D-cas4",
+          "kind": "section",
+          "module": "Expéditions"
+        },
+        {
+          "match": "Cas 5 — 5 L de méthylcyclohexanols",
+          "code": "D-cas5",
+          "kind": "section",
+          "module": "Expéditions"
+        },
+        {
+          "match": "Cas 6 — Londres → Paris",
+          "code": "D-cas6",
+          "kind": "section",
+          "module": "Expéditions"
+        },
+        {
+          "match": "Cas 1 — Passagers : UN 2361",
+          "code": "E-cas1",
+          "kind": "errors",
+          "module": "Expéditions",
+          "question": "Correction d'expédition (UN 2361 + UN 2210, passagers) — erreur : {Erreur}. Correction ?",
+          "key": "{Erreur}"
+        },
+        {
+          "match": "Cas 2 — Quantités limitées : UN 2647",
+          "code": "E-cas2",
+          "kind": "errors",
+          "module": "Expéditions",
+          "question": "Correction d'expédition (UN 2647 en quantités limitées) — erreur : {Erreur}. Correction ?",
+          "key": "{Erreur}",
+          "rowStatut": {
+            "5": "🔴 règle de 2014 : revérifier DGD et marquage des colis Y sur la 67e édition",
+            "6": "🔴 règle de 2014 : revérifier DGD et marquage des colis Y sur la 67e édition"
+          }
+        },
+        {
+          "match": "Cas 3 — Passagers : UN 1400",
+          "code": "E-cas3",
+          "kind": "errors",
+          "module": "Expéditions",
+          "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : {Erreur}. Correction ?",
+          "key": "{Erreur}",
+          "statut": "🟠 corrections lues sur les annotations rouges des diapos"
+        }
+      ],
+      "paragraphs": [
+        {
+          "startsWith": "Le colis porte",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🟢 Méthode : parcourir",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🔴 Ces corrections illustrent",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "🟠 Corrections lues",
+          "code": "ignore"
+        }
+      ]
+    },
+    {
+      "fiche": "F5",
+      "fichier": "F5_classe7_radioactifs.md",
+      "edition_ref": "54-55",
+      "ignoreSections": [
+        "Rappels de méthode",
+        "Bilan"
+      ],
+      "tables": [
+        {
+          "match": "A. Choix de l'emballage",
+          "code": "A",
+          "kind": "matrix",
+          "module": "Classe 7",
+          "type": "calcul",
+          "question": "{Radionucléide}, forme {Forme} : A1/A2 retenu, envoi exempté, excepté max., type A, type B max. ?",
+          "key": "{Radionucléide}",
+          "roles": {
+            "Corrigé": "status"
+          },
+          "nature": "erreur_corrigee",
+          "corrigeLabel": "Type B max. (corrigé 2014)",
+          "baseStatut": "🟠 A1/A2 du corrigé 2014 : relire la table 10.3.A de la 67e édition"
+        },
+        {
+          "match": "B. Exercices « On donne",
+          "code": "B",
+          "kind": "matrix",
+          "module": "Classe 7",
+          "type": "calcul",
+          "question": "{Cas} — {Nucléide, activité, forme} : colis, UN, désignation, TI, étiquette ?",
+          "key": "{Cas}"
+        },
+        {
+          "match": "C. Marquage et étiquetage, Q1",
+          "code": "C",
+          "kind": "matrix",
+          "module": "Classe 7",
+          "type": "calcul",
+          "question": "Débit en surface {Surface (µSv/h)} µSv/h, à 1 m {À 1 m (µSv/h)} µSv/h : TI et catégorie ?",
+          "key": "{Surface (µSv/h)}-{À 1 m (µSv/h)}"
+        },
+        {
+          "match": "D. Documentation (DGD)",
+          "code": "D",
+          "kind": "qr",
+          "module": "Classe 7",
+          "type": "relecture_document",
+          "question": "Rectifier la DGD : {DGD donnée}"
+        },
+        {
+          "match": "Cas 1 — Londres → Johannesburg",
+          "code": "E-cas1",
+          "kind": "section",
+          "module": "Classe 7"
+        },
+        {
+          "match": "Cas 2 — Sn-119m",
+          "code": "E-cas2",
+          "kind": "section",
+          "module": "Classe 7"
+        },
+        {
+          "match": "F. Correction d'expédition",
+          "code": "F",
+          "kind": "errors",
+          "module": "Classe 7",
+          "question": "Correction d'expédition classe 7 (Na-24, 110 GBq, type A, TI 1,4) — constat : {Constat}. Correction ?",
+          "key": "{Constat}"
+        },
+        {
+          "match": "G. Chargement des avions",
+          "code": "G",
+          "kind": "qr",
+          "module": "Classe 7"
+        }
+      ],
+      "paragraphs": [
+        {
+          "startsWith": "« Activité minimum »",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Les valeurs A1/A2 sont celles",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Ces trois diapos",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Colis de type A, Na-24",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Distances minimales de séparation",
+          "code": "G-distances",
+          "module": "Classe 7",
+          "question": "Distances minimales de séparation avec les passagers (TI 3,3 · 4 · 5,1 · 6,5) et règle d'isolement ?",
+          "statut": "🟠 valeurs du tableau 10.3.C / 10.9.C de 2014 : relire la 67e édition"
+        }
+      ]
+    },
+    {
+      "fiche": "T",
+      "fichier": "T_test_serieA_correction.md",
+      "edition_ref": "54-55",
+      "ignoreSections": [
+        "Bilan de la fiche",
+        "Statut"
+      ],
+      "tables": [
+        {
+          "match": "Questions 1 à 12",
+          "code": "Q1-12",
+          "kind": "qr",
+          "module": "Restrictions",
+          "moduleByKey": {
+            "1": "Restrictions",
+            "2": "Classification",
+            "3": "Emballages",
+            "4": "Emballages",
+            "5": "Classification",
+            "6": "Identification",
+            "7": "Restrictions",
+            "8": "Emballages",
+            "9": "Identification",
+            "10": "Emballages",
+            "11": "Marquage",
+            "12": "Traitement"
+          }
+        },
+        {
+          "match": "Question 13 (25 points)",
+          "code": "Q13",
+          "kind": "section",
+          "module": "Documents",
+          "sectionLevel": 2,
+          "question": "Test série A, Q13 (25 pts) : 10 L de bronopol, Singapore Airlines Singapour → Londres. Identification, LTA, colis, DGD ?"
+        },
+        {
+          "match": "Question 14 (25 points) — Air France, Paris → Karachi : trouver les erreurs > LTA",
+          "code": "Q14-LTA",
+          "kind": "errors",
+          "module": "Documents",
+          "question": "Test série A, Q14 — LTA : {Erreur dans le document}. Correction ?",
+          "key": "{Erreur dans le document}",
+          "roles": {
+            "Référence du corrigé": "ref"
+          }
+        },
+        {
+          "match": "> Colis",
+          "code": "Q14-colis",
+          "kind": "errors",
+          "module": "Documents",
+          "question": "Test série A, Q14 — colis : {Erreur}. Correction ?",
+          "key": "{Erreur}",
+          "rowStatut": {
+            "4": "🔴 variation PKG-02 de 2014 : à ignorer"
+          }
+        },
+        {
+          "match": "> DGD",
+          "code": "Q14-DGD",
+          "kind": "errors",
+          "module": "Documents",
+          "question": "Test série A, Q14 — DGD : {Erreur}. Correction ?",
+          "key": "{Erreur}",
+          "rowStatut": {
+            "10": "🔴 variation FRG-07 de 2014 : à ignorer"
+          }
+        },
+        {
+          "match": "Anomalies du corrigé",
+          "code": "Q14-anomalies",
+          "kind": "section",
+          "module": "Documents",
+          "question": "Test série A, Q14 : quelles anomalies le corrigé laisse-t-il passer (villes, n° de LTA, Q) ?"
+        },
+        {
+          "match": "Questions 15 à 19",
+          "code": "Q15-19",
+          "kind": "qr",
+          "module": "Classe 7"
+        }
+      ],
+      "paragraphs": [
+        {
+          "startsWith": "**Données.** 10 L",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "**Données.** Un colis",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Matériel",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Légende",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "Barème",
+          "code": "ignore"
+        },
+        {
+          "startsWith": "**Deux lectures utiles",
+          "code": "ignore"
+        }
+      ]
+    }
+  ],
+  "exercices": [
+    {
+      "fiche": "P1",
+      "fichier": "phase1_socle_themes_1-4.md",
+      "format": "phase",
+      "moduleByTheme": {
+        "1": "Identification",
+        "2": "Restrictions",
+        "3": "Classification",
+        "4": "Identification"
+      },
+      "tags": [
+        "phase-1"
+      ]
+    },
+    {
+      "fiche": "P2",
+      "fichier": "phase2_application_themes_5-9.md",
+      "format": "phase",
+      "moduleByTheme": {
+        "5": "Emballages",
+        "6": "Emballages",
+        "7": "Marquage",
+        "8": "Documents",
+        "9": "Traitement"
+      },
+      "tags": [
+        "phase-2"
+      ]
+    },
+    {
+      "fiche": "P3",
+      "fichier": "phase3_cas_speciaux_themes_10-12.md",
+      "format": "phase",
+      "moduleByTheme": {
+        "10": "Classe 7",
+        "11": "Emballages",
+        "12": "Généralités"
+      },
+      "tags": [
+        "phase-3"
+      ],
+      "tagsByTheme": {
+        "11": [
+          "cas-speciaux"
+        ]
+      }
+    },
+    {
+      "fiche": "P4",
+      "fichier": "phase4_examen_blanc_1.md",
+      "format": "phase",
+      "tags": [
+        "phase-4",
+        "examen-blanc-1"
+      ],
+      "moduleByKey": {
+        "1": "Identification",
+        "2": "Emballages",
+        "3": "Classification",
+        "4": "Classification",
+        "5": "Restrictions",
+        "6": "Restrictions",
+        "7": "Restrictions",
+        "8": "Emballages",
+        "9": "Documents",
+        "10": "Documents",
+        "11": "Documents",
+        "12": "Emballages",
+        "13": "Classe 7",
+        "14": "Classe 7",
+        "15": "Classe 7",
+        "16": "Traitement",
+        "17": "Traitement",
+        "18": "Généralités",
+        "19": "Restrictions",
+        "20": "Classification"
+      }
+    },
+    {
+      "fiche": "QCM",
+      "fichier": "iata_dgr_questions.md",
+      "reponses": "iata_dgr_reponses.md",
+      "format": "qcm",
+      "tags": [
+        "qcm-20"
+      ],
+      "moduleByKey": {
+        "1": "Classification",
+        "2": "Classification",
+        "3": "Emballages",
+        "4": "Restrictions",
+        "5": "Marquage",
+        "6": "Marquage",
+        "7": "Restrictions",
+        "8": "Documents",
+        "9": "Emballages",
+        "10": "Emballages",
+        "11": "Emballages",
+        "12": "Classification",
+        "13": "Marquage",
+        "14": "Classification",
+        "15": "Marquage",
+        "16": "Marquage",
+        "17": "Documents",
+        "18": "Traitement",
+        "19": "Généralités",
+        "20": "Classe 7"
+      }
+    }
+  ]
+}
