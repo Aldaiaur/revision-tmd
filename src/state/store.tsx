@@ -3,6 +3,8 @@ import { DEFAULT_SETTINGS, loadAll, openStore, type DB, type NoteDGR, type Revie
 import type { Note } from '../model/filters.ts';
 import { en } from '../i18n/en.ts';
 import { fr, type Dict } from '../i18n/fr.ts';
+import { CONFIG } from '../model/config.ts';
+import { computeStates, localDay, type CardState } from '../srs/leitner.ts';
 
 export const CURRENT_SELECTION = 'Sélection courante';
 
@@ -13,6 +15,8 @@ type Store = Snapshot & {
   lastNote: Map<string, Note>;
   notesById: Map<string, NoteDGR>;
   selected: Set<string>;
+  leitner: Map<string, CardState>;
+  today: string;
   rate: (cardId: string, note: Note, mode?: Review['mode']) => Promise<void>;
   saveNote: (n: NoteDGR) => Promise<void>;
   setSelected: (ids: Iterable<string>) => Promise<void>;
@@ -111,6 +115,9 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     [db, snap.settings],
   );
 
+  const leitner = useMemo(() => computeStates(snap.reviews, CONFIG.leitner, snap.settings.dateExamen), [snap.reviews, snap.settings.dateExamen]);
+  const today = localDay(new Date());
+
   const t = snap.settings.langue === 'en' ? en : fr;
 
   const value: Store = {
@@ -121,6 +128,8 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     lastNote,
     notesById,
     selected,
+    leitner,
+    today,
     rate,
     saveNote,
     setSelected,

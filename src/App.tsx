@@ -5,10 +5,12 @@ import { Review } from './ui/screens/Review.tsx';
 import { Catalogue } from './ui/screens/Catalogue.tsx';
 import { SettingsScreen } from './ui/screens/Settings.tsx';
 import { PrintScreen } from './ui/screens/Print.tsx';
+import { Home } from './ui/screens/Home.tsx';
 
 type RouteDef = { key: string; label: (t: ReturnType<typeof useStore>['t']) => string; render: () => ReactNode };
 
 const ROUTES: RouteDef[] = [
+  { key: 'accueil', label: (t) => t.nav.accueil, render: () => <Home /> },
   { key: 'revision', label: (t) => t.nav.revision, render: () => <Review /> },
   { key: 'catalogue', label: (t) => t.nav.catalogue, render: () => <Catalogue /> },
   { key: 'impression', label: (t) => t.nav.impression, render: () => <PrintScreen /> },

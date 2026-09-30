@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Card } from '../../model/card.ts';
 import { applyFilter, DEFAULT_FILTER, type Filter, type Note } from '../../model/filters.ts';
+import { CONFIG } from '../../model/config.ts';
+import { dailyQueue } from '../../srs/leitner.ts';
 import { ALL_CARDS, CARD_BY_ID } from '../../data/cards.ts';
 import { useStore } from '../../state/store.tsx';
 import { FilterBar } from '../FilterBar.tsx';
@@ -8,14 +9,16 @@ import { Banners, CardMeta, Recto, Verso } from '../CardFaces.tsx';
 import { NoteForm } from '../NoteForm.tsx';
 import { shuffle, useHotkeys } from '../hooks.ts';
 
-export type SessionOrder = (cards: Card[]) => Card[];
-
-export function Review({ order, extraOptions }: { order?: SessionOrder; extraOptions?: React.ReactNode } = {}) {
-  const { t, lastNote, settings, updateSettings } = useStore();
+export function Review() {
+  const { t, lastNote, settings, updateSettings, leitner, today } = useStore();
   const [filter, setFilter] = useState<Filter>(DEFAULT_FILTER);
+  const [dues, setDues] = useState(() => window.location.hash.includes('dues'));
   const [queue, setQueue] = useState<string[] | null>(null);
   const matching = useMemo(() => applyFilter(ALL_CARDS, filter, lastNote), [filter, lastNote]);
-  const planned = useMemo(() => (order ? order(matching) : matching), [order, matching]);
+  const planned = useMemo(
+    () => (dues ? dailyQueue(matching, leitner, today, CONFIG.leitner.nouvellesParSession) : matching),
+    [dues, matching, leitner, today],
+  );
 
   const start = () => setQueue((settings.melanger ? shuffle(planned) : planned).map((c) => c.id));
 
@@ -26,7 +29,10 @@ export function Review({ order, extraOptions }: { order?: SessionOrder; extraOpt
       <h1>{t.revision.titre}</h1>
       <FilterBar filter={filter} onChange={setFilter} count={matching.length} />
       <div className="actions">
-        {extraOptions}
+        <label className="check">
+          <input type="checkbox" checked={dues} onChange={(e) => setDues(e.target.checked)} /> {t.revision.dues}
+          <span className="muted small">(+ {CONFIG.leitner.nouvellesParSession} nouvelles max.)</span>
+        </label>
         <label className="check">
           <input type="checkbox" checked={settings.melanger} onChange={(e) => void updateSettings({ melanger: e.target.checked })} /> {t.revision.melanger}
         </label>
@@ -40,7 +46,7 @@ export function Review({ order, extraOptions }: { order?: SessionOrder; extraOpt
 }
 
 function Session({ ids, onQuit, onRestart }: { ids: string[]; onQuit: () => void; onRestart: () => void }) {
-  const { t, rate } = useStore();
+  const { t, rate, leitner } = useStore();
   const [i, setI] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [choice, setChoice] = useState<string | null>(null);
@@ -49,6 +55,7 @@ function Session({ ids, onQuit, onRestart }: { ids: string[]; onQuit: () => void
   const cardRef = useRef<HTMLElement>(null);
   const done = i >= ids.length;
   const card = done ? null : CARD_BY_ID.get(ids[i]!)!;
+  const box = card ? leitner.get(card.id)?.box : undefined;
 
   const grade = (n: Note) => {
     if (!card || !flipped) return;
@@ -106,6 +113,7 @@ function Session({ ids, onQuit, onRestart }: { ids: string[]; onQuit: () => void
       <div className="session-top">
         <span aria-live="polite">{t.revision.progression(i + 1, ids.length)}</span>
         <progress max={ids.length} value={i} />
+        <span className="muted small">{box ? `Boîte ${box}` : 'Nouvelle'}</span>
         <button type="button" className="link" onClick={onQuit}>
           {t.revision.quitter}
         </button>

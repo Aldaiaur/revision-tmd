@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { applyFilter, DEFAULT_FILTER, type Filter } from '../../model/filters.ts';
 import { weakIds } from '../../model/weak.ts';
+import { CONFIG } from '../../model/config.ts';
 import { ALL_CARDS } from '../../data/cards.ts';
 import type { PrintFormat } from '../../storage/db.ts';
 import { useStore } from '../../state/store.tsx';
@@ -10,9 +11,13 @@ import { FilterBar } from '../FilterBar.tsx';
 
 type Source = 'filtre' | 'cochees' | 'faibles';
 
-/** Sélection « points faibles » : extensible (le jalon 5 y ajoute les boîtes Leitner 1 et 2). */
+/** Sélection « points faibles » : ratées ou hésitées récemment, plus les boîtes Leitner faibles (app-config.json). */
 export type WeakSelector = (ctx: ReturnType<typeof useStore>) => Set<string>;
-const defaultWeak: WeakSelector = (s) => weakIds(s.reviews);
+const defaultWeak: WeakSelector = (s) => {
+  const set = weakIds(s.reviews, CONFIG.pointsFaibles.dernieresRevisions);
+  for (const [id, st] of s.leitner) if (CONFIG.pointsFaibles.boites.includes(st.box)) set.add(id);
+  return set;
+};
 
 export function PrintScreen({ weak = defaultWeak }: { weak?: WeakSelector }) {
   const store = useStore();

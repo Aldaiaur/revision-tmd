@@ -1,0 +1,29 @@
+{
+  "$comment": "Réglages de l'app. Aucune valeur réglementaire DGR ici : seulement la mécanique de révision et d'examen blanc.",
+  "leitner": {
+    "intervallesJours": [1, 2, 4, 8, 16],
+    "nouvellesParSession": 20
+  },
+  "pointsFaibles": {
+    "dernieresRevisions": 3,
+    "boites": [1, 2]
+  },
+  "examen": {
+    "dureeMin": 180,
+    "seuil": 0.8,
+    "nbQuestions": 40,
+    "bonusBoitesFaibles": 2,
+    "poidsModules": {
+      "Généralités": 1,
+      "Restrictions": 1,
+      "Classification": 1,
+      "Identification": 1,
+      "Emballages": 1,
+      "Marquage": 1,
+      "Documents": 1,
+      "Traitement": 1,
+      "Expéditions": 1,
+      "Classe 7": 1
+    }
+  }
+}
