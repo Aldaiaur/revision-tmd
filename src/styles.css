@@ -232,3 +232,74 @@ textarea { font: inherit; color: inherit; width: 100%; }
 main:focus, main:focus-visible { outline: none; }
 .flashcard:focus { outline: none; }
 .flashcard:focus-visible { outline: 3px solid var(--focus); }
+
+/* ───────── Impression ───────── */
+@page { size: A4 portrait; margin: 0; }
+.print-screen { display: grid; grid-template-columns: 20rem 1fr; gap: 1.5rem; padding: 1.5rem; align-items: start; }
+.print-controls { position: sticky; top: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; display: grid; gap: .75rem; max-height: calc(100vh - 2rem); overflow: auto; }
+.print-controls h1 { margin: 0; }
+.print-controls fieldset { border: 1px solid var(--border); border-radius: 8px; display: grid; gap: .3rem; }
+.print-controls legend { font-weight: 600; font-size: .9rem; }
+.offset-row { display: flex; gap: 1rem; }
+.offset-row input { width: 5rem; }
+.print-main { display: grid; gap: 1rem; min-width: 0; }
+.print-preview { --scale: .5; overflow-x: auto; }
+.sheet-box { width: calc(210mm * var(--scale)); height: calc(297mm * var(--scale)); margin: 0 auto 1rem; box-shadow: 0 2px 8px rgb(0 0 0 / .25); }
+.sheet-box > .sheet { transform: scale(var(--scale)); transform-origin: 0 0; }
+
+.sheet {
+  position: relative; width: 210mm; height: 297mm; overflow: hidden;
+  background: #fff; color: #000;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  --p-stable: #0b5e26; --p-relire: #7a4500; --p-obsolete: #9a1a12;
+}
+.sheet-head { position: absolute; top: 3mm; left: 10mm; right: 10mm; font-size: 6.5pt; color: #333; }
+.sheet-foot { position: absolute; bottom: 4mm; left: 10mm; right: 10mm; font-size: 6pt; text-align: center; color: #333; }
+.sheet-grid { position: absolute; inset: 0; }
+.crop-marks { position: absolute; left: 0; top: 0; }
+.slot { position: absolute; }
+.slot-strip { display: flex; }
+.strip-half { position: relative; flex: 1; }
+.fold-line { width: 0; border-left: .3mm dashed #000; }
+
+.pc { position: absolute; inset: 0; padding: 2.2mm 3mm 2mm; display: flex; flex-direction: column; gap: 1mm; border: .2mm dotted #9a9a9a; line-height: 1.22; }
+.pc-head { display: flex; gap: 2mm; align-items: center; font-size: 6.5pt; color: #222; border-bottom: .15mm solid #bbb; padding-bottom: .6mm; }
+.pc-face { border: .15mm solid #000; border-radius: .8mm; padding: 0 .8mm; font-weight: 700; }
+.pc-module { flex: 1; }
+.pc-statut { display: inline-flex; gap: .8mm; align-items: center; font-weight: 700; }
+.sheet .status-stable { color: var(--p-stable); }
+.sheet .status-a_relire { color: var(--p-relire); }
+.sheet .status-obsolete { color: var(--p-obsolete); }
+.pc-ed { color: #444; }
+.pc-body { flex: 1; overflow: hidden; font-size: 10pt; }
+.pc-body p { margin: 0 0 .8mm; }
+.pc-body .md table { font-size: .85em; margin: .5mm 0; }
+.pc-body .md th, .pc-body .md td { padding: .2mm .8mm; border-color: #999; }
+.pc-body ul, .pc-body ol { margin: .5mm 0; padding-left: 4mm; }
+.pc-question { font-weight: 600; }
+.pc-choix { list-style: none; padding: 0; margin: 1mm 0 0; }
+.pc-reponse { font-weight: 500; }
+.pc-corrige { color: var(--p-obsolete); font-size: .85em; }
+.pc-raison { font-size: .85em; font-style: italic; color: #222; }
+.pc-overflow { display: none; margin: 0; font-size: 6pt; font-style: italic; }
+.pc-body[data-overflow] + .pc-overflow { display: block; }
+.pc-foot { display: flex; justify-content: space-between; gap: 2mm; font-size: 6pt; color: #333; }
+.pc-foot:empty { display: none; }
+.pc-note { white-space: nowrap; }
+.pc-blank { display: inline-block; width: 28mm; border-bottom: .2mm solid #000; }
+.pc-watermark { position: absolute; left: 0; right: 0; top: 40%; text-align: center; font-weight: 800; font-size: 13pt; color: rgb(0 0 0 / .22); transform: rotate(-10deg); pointer-events: none; }
+
+@media (max-width: 900px) {
+  .print-screen { grid-template-columns: 1fr; }
+  .print-controls { position: static; max-height: none; }
+}
+
+@media print {
+  html, body { background: #fff !important; }
+  body { display: block; min-height: 0; }
+  .app-header, .app-footer, .skip-link, .no-print { display: none !important; }
+  main, .print-screen, .print-main, .print-preview { display: block !important; padding: 0 !important; margin: 0 !important; overflow: visible !important; }
+  .sheet-box { width: auto; height: auto; margin: 0; box-shadow: none; break-after: page; }
+  .sheet-box:last-child { break-after: auto; }
+  .sheet-box > .sheet { transform: none; }
+}
