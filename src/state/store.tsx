@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { DEFAULT_SETTINGS, loadAll, openStore, type DB, type NoteDGR, type Review, type Settings, type Snapshot } from '../storage/db.ts';
+import { DEFAULT_SETTINGS, loadAll, openStore, type DB, type ExamRun, type JournalEntry, type NoteDGR, type Review, type Settings, type Snapshot } from '../storage/db.ts';
 import type { Note } from '../model/filters.ts';
 import { en } from '../i18n/en.ts';
 import { fr, type Dict } from '../i18n/fr.ts';
@@ -22,6 +22,8 @@ type Store = Snapshot & {
   setSelected: (ids: Iterable<string>) => Promise<void>;
   toggleSelected: (id: string) => Promise<void>;
   updateSettings: (patch: Partial<Settings>) => Promise<void>;
+  saveExam: (run: ExamRun) => Promise<ExamRun>;
+  addJournal: (e: JournalEntry) => Promise<void>;
   reload: () => Promise<void>;
 };
 
@@ -115,6 +117,26 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     [db, snap.settings],
   );
 
+  const saveExam = useCallback(
+    async (run: ExamRun) => {
+      const saved = { ...run };
+      if (db) saved.seq = await db.put('exams', saved);
+      else saved.seq ??= Date.now();
+      setSnap((s) => ({ ...s, exams: [...s.exams.filter((e) => e.seq !== saved.seq), saved] }));
+      return saved;
+    },
+    [db],
+  );
+
+  const addJournal = useCallback(
+    async (e: JournalEntry) => {
+      const saved = { ...e };
+      if (db) saved.seq = await db.add('journal', saved);
+      setSnap((s) => ({ ...s, journal: [...s.journal, saved] }));
+    },
+    [db],
+  );
+
   const leitner = useMemo(() => computeStates(snap.reviews, CONFIG.leitner, snap.settings.dateExamen), [snap.reviews, snap.settings.dateExamen]);
   const today = localDay(new Date());
 
@@ -135,6 +157,8 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     setSelected,
     toggleSelected,
     updateSettings,
+    saveExam,
+    addJournal,
     reload,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

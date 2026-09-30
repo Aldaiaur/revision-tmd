@@ -350,3 +350,27 @@ a.button.primary { background: var(--accent); color: var(--accent-text); font-we
   .tiles { grid-template-columns: 2fr repeat(4, 1fr); }
   .tile-main { grid-column: auto; }
 }
+
+/* ───────── Examen blanc ───────── */
+.exam-top { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-bottom: .75rem; }
+.exam-top h1 { margin: 0; flex: 1; }
+.timer { font: 700 1.6rem/1 var(--font); font-variant-numeric: tabular-nums; }
+.timer-low { color: var(--obsolete); }
+.exam-grid { display: flex; flex-wrap: wrap; gap: .25rem; margin-bottom: 1rem; }
+.exam-grid button { width: 2.4rem; padding: .25rem 0; font-variant-numeric: tabular-nums; font-size: .85rem; }
+.exam-grid button.done { background: var(--surface-2); font-weight: 700; }
+.exam-grid button.current { border: 2px solid var(--accent); }
+.choix-radio { border: none; padding: 0; display: grid; gap: .5rem; }
+.exam-answer textarea { margin-top: .5rem; }
+.correction-list { display: grid; gap: .75rem; padding-left: 1.5rem; }
+.correction { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--border); border-radius: 8px; padding: .75rem 1rem; }
+.correction.ok { border-left-color: var(--stable); }
+.correction.ko { border-left-color: var(--obsolete); }
+.grade[aria-pressed='true'] { background: var(--surface-2); outline: 2px solid currentColor; }
+.verdict { font-weight: 700; }
+.journal-form { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; margin-top: .5rem; padding: .5rem; background: var(--surface-2); border-radius: 8px; }
+.journal-form .grow { flex: 1; display: flex; gap: .5rem; align-items: center; }
+.journal-form .grow input { flex: 1; }
+.simple-table { border-collapse: collapse; }
+.simple-table th, .simple-table td { border: 1px solid var(--border); padding: .3rem .6rem; text-align: left; }
+.journal { font-size: .9rem; }
