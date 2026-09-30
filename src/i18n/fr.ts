@@ -47,6 +47,7 @@ export const fr = {
     statutSource: 'Statut dans la fiche',
     obsoleteBandeau: 'Carte obsolète ou erronée : consultable, mais à ne pas mémoriser.',
     aRelireBandeau: 'Réponse non définitive : valeur à relire dans votre DGR en vigueur.',
+    majBandeau: 'Mis à jour par le cours 2026 : lisez la note « Mise à jour 2026 » dans le développement, elle prime sur la réponse 2014.',
     piegeBandeau: 'Piège : le corrigé 2014 contient une erreur que la fiche corrige.',
     noteTitre: 'Valeur relue dans mon DGR',
     notePlaceholder: 'Valeur lue dans la 67e édition…',

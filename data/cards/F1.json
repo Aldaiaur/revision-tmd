@@ -743,15 +743,21 @@
       "question": "Quantités limitées : quelle marque aujourd'hui, et que dit la fiche sur la DGD et les étiquettes ?",
       "reponse_courte": null,
       "raisonnement": null,
-      "developpement": "🔴 **Marque LQ** : en 2014 le corrigé parle d'une inscription « Limited Quantity ». Aujourd'hui la marque est le **losange « Y »** (≥ 100 × 100 mm). Les sources 2021-2024 que j'ai trouvées indiquent que la DGD reste exigée avec « Y » en colonne PI et que les étiquettes de danger restent obligatoires : **je n'ai pas le texte du DGR 67e pour le confirmer**, à contrôler en 2.7, 7.1 et 8.1.",
+      "developpement": "🔴 **Marque LQ** : en 2014 le corrigé parle d'une inscription « Limited Quantity ». Aujourd'hui la marque est le **losange « Y »** (≥ 100 × 100 mm). Les sources 2021-2024 que j'ai trouvées indiquent que la DGD reste exigée avec « Y » en colonne PI et que les étiquettes de danger restent obligatoires : **je n'ai pas le texte du DGR 67e pour le confirmer**, à contrôler en 2.7, 7.1 et 8.1.\n\n**Mise à jour 2026** (cours p. 68, voir F6.A.Q5) : confirmé, losange « Y » de **10 × 10 cm**, réductible à 5 × 5 cm.",
       "statut": "a_relire",
       "statut_source": "🟠 à contrôler en 2.7, 7.1 et 8.1 (texte du DGR 67e non consulté par la fiche)",
       "ref_dgr": [],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "b9386b71ed10"
+      "hash_source": "b9386b71ed10",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F1.D2.Q4",

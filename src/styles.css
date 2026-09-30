@@ -375,3 +375,5 @@ a.button.primary { background: var(--accent); color: var(--accent-text); font-we
 .simple-table th, .simple-table td { border: 1px solid var(--border); padding: .3rem .6rem; text-align: left; }
 .journal { font-size: .9rem; }
 .banner-ok { background: var(--good-bg); border-color: var(--stable); }
+.banner-maj { background: var(--piege-bg); border-color: var(--accent); font-weight: 600; }
+.pc-maj { font-weight: 700; }

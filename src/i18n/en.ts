@@ -47,6 +47,7 @@ export const en: Dict = {
     statutSource: 'Status in the sheet',
     obsoleteBandeau: 'Obsolete or wrong card: available for reference, do not memorise.',
     aRelireBandeau: 'Not a final answer: re-check the value in your current DGR.',
+    majBandeau: 'Updated by the 2026 course: read the “Mise à jour 2026” note in the details, it overrides the 2014 answer.',
     piegeBandeau: 'Trap: the 2014 answer key contains an error that the sheet corrects.',
     noteTitre: 'Value read in my DGR',
     notePlaceholder: 'Value read in the 67th edition…',

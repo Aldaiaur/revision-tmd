@@ -167,7 +167,7 @@
       "question": "Durée de conservation d'une copie des documents par l'exploitant",
       "reponse_courte": "**3 mois** (règle de 9.8.1 ; la diapo ne met pas la bonne réponse en évidence)",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 77, voir F6.D.Q2) : l'**expéditeur** conserve la DGD **3 mois**. La durée de conservation par l'exploitant reste à relire en 9.8.1.",
       "statut": "a_relire",
       "statut_source": "🟠 relire 9.8.1",
       "ref_dgr": [
@@ -175,9 +175,15 @@
       ],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "6baf86737b3c"
+      "hash_source": "6baf86737b3c",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F4.A-T.Q4",
@@ -951,17 +957,22 @@
       "question": "Cas 3 — 50 L de N,N-diéthylaniline, un colis (caisse en contreplaqué)",
       "reponse_courte": null,
       "raisonnement": null,
-      "developpement": "| Document | Contenu |\n|---|---|\n| DGD | **UN 2432 · N,N-Diethylaniline · 6.1 · GE III · 1 plywood box × 50 L · PI 655** |\n| LTA | « **Dangerous goods as per attached DGD** » · 1 colis · **60 kg** · nature « Dangerous goods » |\n| Colis | Désignation + UN 2432 + expéditeur + destinataire, étiquette **Toxic**, flèches d'orientation, gravage UN de la caisse |",
+      "developpement": "| Document | Contenu |\n|---|---|\n| DGD | **UN 2432 · N,N-Diethylaniline · 6.1 · GE III · 1 plywood box × 50 L · PI 655** |\n| LTA | « **Dangerous goods as per attached DGD** » · 1 colis · **60 kg** · nature « Dangerous goods » |\n| Colis | Désignation + UN 2432 + expéditeur + destinataire, étiquette **Toxic**, flèches d'orientation, gravage UN de la caisse |\n\n**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**.",
       "statut": "a_relire",
       "statut_source": "(aucune pastille)",
       "ref_dgr": [],
       "edition_ref": "54-55",
       "edition_verifiee": null,
       "tags": [
-        "cas-complet"
+        "cas-complet",
+        "maj-2026"
       ],
       "difficulte": 3,
-      "hash_source": "fc49284120d1"
+      "hash_source": "fc49284120d1",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F4.D-cas4",
@@ -1521,15 +1532,21 @@
       "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Aéroports « CDG » et « Sydney ». Correction ?",
       "reponse_courte": "Écrire le nom de la ville : **PARIS** et **SYDNEY** (corrigé, en rouge)",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
       "statut": "a_relire",
       "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
       "ref_dgr": [],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "342952cb5d5d"
+      "hash_source": "342952cb5d5d",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F4.E-cas3.dgd-la-chimie-centrale-colis-la-chimie-i",
@@ -1617,15 +1634,21 @@
       "question": "Correction d'expédition (UN 1400 baryum, Paris → Sydney) — erreur : Signature : « magasinier », « le 22 février 2013 ». Correction ?",
       "reponse_courte": "**Warehouse agent**, **22 February 2013** ; **Emergency contact** à ajouter ; signature « M. BELVAL »",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 77 et 81, voir F6.D.Q3 et Q13-14) : confirmé, pas de signature tapée à la machine ; signature électronique admise avec « Original received electronically » ; titre et lieu du signataire devenus optionnels.",
       "statut": "a_relire",
       "statut_source": "🟠 corrections lues sur les annotations rouges des diapos",
       "ref_dgr": [],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "1d3762a6501b"
+      "hash_source": "1d3762a6501b",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     }
   ]
 }

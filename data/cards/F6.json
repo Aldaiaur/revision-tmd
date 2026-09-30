@@ -1,0 +1,1352 @@
+{
+  "schema_version": 1,
+  "fiche": "F6",
+  "fichier": "F6_cours_2026_marquage_documents.md",
+  "cards": [
+    {
+      "id": "F6.A.Q1",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "1",
+        "ligne": 12
+      },
+      "type": "question_ouverte",
+      "question": "Qualité exigée des marques sur un colis ?",
+      "reponse_courte": "Visibles (non masquées), sur **une seule face**, durables et lisibles, sur fond contrastant, **en anglais**",
+      "raisonnement": "7.1.3 · cours p. 66",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.3"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "6c0a760ca9f8"
+    },
+    {
+      "id": "F6.A.Q2",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "2",
+        "ligne": 13
+      },
+      "type": "question_ouverte",
+      "question": "Hauteur minimale du n° ONU/ID selon la taille du colis ?",
+      "reponse_courte": "< 5 L ou 5 kg : taille appropriée · ≤ 30 L ou 30 kg : **6 mm** · > 30 L ou 30 kg : **12 mm**",
+      "raisonnement": "7.1.4.4 · cours p. 66. Pour les autres marques, c'est seulement une recommandation.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.4.4"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "b519ee986393"
+    },
+    {
+      "id": "F6.A.Q3",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "3",
+        "ligne": 14
+      },
+      "type": "question_ouverte",
+      "question": "Marques de base sur tout colis ?",
+      "reponse_courte": "Désignation officielle + **UN/ID xxxx** (nom technique si ✱ en colonne B) · nom et adresse complets de l'expéditeur et du destinataire · quantité nette (ou brute « kg G »)",
+      "raisonnement": "7.1.4.1 · cours p. 67",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "87e1c751ef3f"
+    },
+    {
+      "id": "F6.A.Q4",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "4",
+        "ligne": 15
+      },
+      "type": "question_ouverte",
+      "question": "Quand la quantité n'a-t-elle pas à être marquée sur le colis ?",
+      "reponse_courte": "Envoi d'un seul colis · plusieurs colis **identiques** (même UN, désignation, GE et quantité) · colis ID 8000, quel que soit leur nombre",
+      "raisonnement": "7.1.4.1 · cours p. 67",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.4.1"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "7c8155643260"
+    },
+    {
+      "id": "F6.A.Q5",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "5",
+        "ligne": 16
+      },
+      "type": "calcul",
+      "question": "Marque des quantités limitées aériennes : forme et taille ?",
+      "reponse_courte": "Losange noir et blanc avec **« Y »** au centre, **10 × 10 cm**, réductible à **5 × 5 cm** si le colis l'impose",
+      "raisonnement": "7.1.4.2 · cours p. 68. La marque LQ route/mer (sans Y) peut s'ajouter mais ne la remplace pas.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.4.2"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "11da5d8d5a86"
+    },
+    {
+      "id": "F6.A.Q6",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "6",
+        "ligne": 17
+      },
+      "type": "calcul",
+      "question": "Marque « matière dangereuse pour l'environnement » : pour qui ?",
+      "reponse_courte": "Colis d'**UN 3077** et **UN 3082** (sauf si A197 s'applique) ; 10 × 10 cm, réductible ; une marque ADR/IMDG déjà apposée peut rester",
+      "raisonnement": "7.1.5.3 · cours p. 68",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.5.3"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "2c9ef4068b31"
+    },
+    {
+      "id": "F6.A.Q7",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "A. Marquage des colis (7.1)",
+        "question": "7",
+        "ligne": 18
+      },
+      "type": "vrai_faux",
+      "question": "Toutes les marques et étiquettes doivent-elles être sur la même face ?",
+      "reponse_courte": "Oui en principe. Si la place manque : déplacer d'abord **expéditeur/destinataire**, puis **n° UN + désignation + quantité nette** (de préférence sur la face de l'expéditeur/destinataire)",
+      "raisonnement": "Cours p. 74. Rien n'oblige à les mettre sur la face de la marque d'homologation.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "1bb1d470340b"
+    },
+    {
+      "id": "F6.B.Q1",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "B. Étiquetage des colis (7.2)",
+        "question": "1",
+        "ligne": 24
+      },
+      "type": "calcul",
+      "question": "Format d'une étiquette de danger ?",
+      "reponse_courte": "Losange **10 × 10 cm**, ligne intérieure à environ **5 mm** du bord, couleurs et symboles du modèle ; bordure pointillée sauf sur fond contrastant. Réduction possible pour les classes **2 et 6.2**",
+      "raisonnement": "7.2.2 · cours p. 69",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.2.2"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "1828d17abb39"
+    },
+    {
+      "id": "F6.B.Q2",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "B. Étiquetage des colis (7.2)",
+        "question": "2",
+        "ligne": 25
+      },
+      "type": "vrai_faux",
+      "question": "Le texte de la nature du risque dans l'étiquette est-il obligatoire ?",
+      "reponse_courte": "Non en règle générale ; **certaines divergences** l'imposent (en anglais)",
+      "raisonnement": "7.2 · cours p. 70",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "7812824423a8"
+    },
+    {
+      "id": "F6.B.Q3",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "B. Étiquetage des colis (7.2)",
+        "question": "3",
+        "ligne": 26
+      },
+      "type": "calcul",
+      "question": "Étiquette CAO : quand et quel format ?",
+      "reponse_courte": "Colis préparé selon une **instruction d'emballage cargo seul** ; **120 × 110 mm**",
+      "raisonnement": "7.2 · cours p. 71",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "cd585350e96b"
+    },
+    {
+      "id": "F6.B.Q4",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "B. Étiquetage des colis (7.2)",
+        "question": "4",
+        "ligne": 27
+      },
+      "type": "calcul",
+      "question": "Flèches d'orientation : quand et quel format ?",
+      "reponse_courte": "Emballages **combinés** et suremballages contenant des **liquides** (exemptions en 7.2.4.4) ; **74 × 105 mm**",
+      "raisonnement": "Cours p. 71",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.2.4.4"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "9c9b358c5dbe"
+    },
+    {
+      "id": "F6.B.Q5",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "B. Étiquetage des colis (7.2)",
+        "question": "5",
+        "ligne": 28
+      },
+      "type": "calcul",
+      "question": "Étiquette « masse magnétisée » (UN 2807) ?",
+      "reponse_courte": "Remplace l'étiquette classe 9 ; **110 × 90 mm** ; signalée en colonne D de 4.2",
+      "raisonnement": "Cours p. 71",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "4644d47f8df4"
+    },
+    {
+      "id": "F6.B.Q6",
+      "module": "Marquage",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "B. Étiquetage des colis (7.2)",
+        "question": "6",
+        "ligne": 29
+      },
+      "type": "calcul",
+      "question": "Étiquettes « liquide cryogénique » et « keep away from heat » : pour quoi ?",
+      "reponse_courte": "Cryogénique : liquides cryogéniques · Protéger de la chaleur : **4.1 autoréactifs** et **5.2 peroxydes organiques** ; les deux en **74 × 105 mm**, signalées en colonne D",
+      "raisonnement": "Cours p. 71",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "2d3891bddce4"
+    },
+    {
+      "id": "F6.C.Q1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "1",
+        "ligne": 35
+      },
+      "type": "question_ouverte",
+      "question": "Emballage en commun (« all packed in one ») : conditions ?",
+      "reponse_courte": "Pas de réaction dangereuse entre les matières · chaque PI respectée · **calcul de Q** · marquage sans particularité · DGD adaptée",
+      "raisonnement": "5.0.2.11 · cours p. 63",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "5.0.2.11"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "2b0a3100770b"
+    },
+    {
+      "id": "F6.C.Q2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "2",
+        "ligne": 36
+      },
+      "type": "calcul",
+      "question": "Deux interdictions pour réunir des colis dans un suremballage ?",
+      "reponse_courte": "Matières pouvant réagir dangereusement entre elles · matières à **séparer selon 9.3.A**",
+      "raisonnement": "5.0.1.5 · cours p. 95. Exemples : 3 / 5.1, 4.2 / 5.1, 4.3 / 8.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "9.3.A",
+        "5.0.1.5"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "b7954ee44011"
+    },
+    {
+      "id": "F6.C.Q3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "3",
+        "ligne": 37
+      },
+      "type": "vrai_faux",
+      "question": "Un suremballage peut-il contenir aussi des marchandises non réglementées ?",
+      "reponse_courte": "**Oui**",
+      "raisonnement": "5.0.1.5.4 · cours p. 95",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "5.0.1.5.4"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "20a59f471cd5"
+    },
+    {
+      "id": "F6.C.Q4",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "4",
+        "ligne": 38
+      },
+      "type": "question_ouverte",
+      "question": "Batteries lithium ou sodium (UN 3480, 3090, 3551, hors section II) : avec quoi ne pas les suremballer ?",
+      "reponse_courte": "Classe 1 (**sauf 1.4S**), gaz inflammables 2.1, classe 3, 4.1 et 5.1",
+      "raisonnement": "Cours p. 95 (2025). À vérifier dans 9.3.A.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "9.3.A"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "429ee58320f4"
+    },
+    {
+      "id": "F6.C.Q5",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "5",
+        "ligne": 39
+      },
+      "type": "question_ouverte",
+      "question": "Un seul suremballage : quand faut-il reporter marques et étiquettes ?",
+      "reponse_courte": "Si **toutes** sont visibles : rien à reporter. Si **une seule** ne l'est plus : reporter **toutes** les marques et étiquettes (sauf les quantités nettes) sur une face + mention **OVERPACK** de **12 mm** de haut",
+      "raisonnement": "7.1.7 et 7.2.7 · cours p. 96",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "7.1.7",
+        "7.2.7"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "35b2976fbe53"
+    },
+    {
+      "id": "F6.C.Q6",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "6",
+        "ligne": 40
+      },
+      "type": "question_ouverte",
+      "question": "Un suremballage se déclare-t-il sur la DGD si tout est visible ?",
+      "reponse_courte": "**Toujours**, quel que soit le nombre de suremballages et la visibilité : mention **« OVERPACK USED »** après la liste des colis qu'il contient",
+      "raisonnement": "8.1 · cours p. 103",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "b1ee222b55c9"
+    },
+    {
+      "id": "F6.C.Q7",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "C. Emballage en commun et suremballage",
+        "question": "7",
+        "ligne": 41
+      },
+      "type": "question_ouverte",
+      "question": "Plusieurs suremballages : que faut-il ajouter sur la DGD ?",
+      "reponse_courte": "Le **code alphanumérique** de chaque suremballage (#1, #2…) et la **quantité nette totale** ; suremballages identiques regroupés : « OVERPACK USED × 2 » + « total quantity **per overpack** »",
+      "raisonnement": "Cours p. 103 à 106. Le mot NET n'est pas clairement exigé : les exemples officiels se contredisent.",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "5e5a6d9a6318"
+    },
+    {
+      "id": "F6.D.Q1",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "1",
+        "ligne": 47
+      },
+      "type": "calcul",
+      "question": "Modèles de DGD admis et langue ?",
+      "reponse_courte": "Modèle **en colonnes** ou modèle « **informatique** » ; format A3 ou A4 ; **en anglais** ; l'ancien modèle est **interdit depuis le 31/12/2024**",
+      "raisonnement": "8.1.1 · cours p. 77",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "8.1.1"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "5da91c2e460a"
+    },
+    {
+      "id": "F6.D.Q2",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "2",
+        "ligne": 48
+      },
+      "type": "question_ouverte",
+      "question": "Combien d'exemplaires, et combien de temps l'expéditeur la conserve-t-il ?",
+      "reponse_courte": "**2 exemplaires** papier remis à l'exploitant ; conservation **3 mois** par l'expéditeur",
+      "raisonnement": "8.1.1 · cours p. 77",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "8.1.1"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "cd8daa531f25"
+    },
+    {
+      "id": "F6.D.Q3",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "3",
+        "ligne": 49
+      },
+      "type": "question_ouverte",
+      "question": "DGD électronique : signature et mention ?",
+      "reponse_courte": "Signature électronique **ou** nom du signataire en **majuscules**, avec la mention **« Original received electronically »**",
+      "raisonnement": "8.1 · cours p. 77 et 81",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "7b639ad5ec0a"
+    },
+    {
+      "id": "F6.D.Q4",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "4",
+        "ligne": 50
+      },
+      "type": "question_ouverte",
+      "question": "Numéro de LTA sur la DGD : qui, quand ?",
+      "reponse_courte": "Peut être ajouté ou corrigé après l'établissement (souvent par le transitaire), mais **obligatoirement rempli avant la remise à la compagnie**",
+      "raisonnement": "8.1.6 · cours p. 78 et 86",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "5b4971f2babb"
+    },
+    {
+      "id": "F6.D.Q5",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "5",
+        "ligne": 51
+      },
+      "type": "question_ouverte",
+      "question": "« Passenger and cargo aircraft » / « Cargo aircraft only » : une DGD peut-elle mélanger des colis passagers et des colis cargo seul ?",
+      "reponse_courte": "On raye la mention inutile. **Oui** : un seul colis cargo seul suffit à déclarer « Cargo aircraft only », même si les autres colis suivent des PI passagers",
+      "raisonnement": "8.1.6 · cours p. 78 et 87",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "70fe7770de24"
+    },
+    {
+      "id": "F6.D.Q6",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "6",
+        "ligne": 52
+      },
+      "type": "question_ouverte",
+      "question": "Aéroports de départ et de destination sur la DGD ?",
+      "reponse_courte": "Cases **optionnelles** ; si on les remplit : nom de l'aéroport ou de la ville **en toutes lettres**",
+      "raisonnement": "8.1.6 · cours p. 79 et 86",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "f87861d55e8c"
+    },
+    {
+      "id": "F6.D.Q7",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "7",
+        "ligne": 53
+      },
+      "type": "vrai_faux",
+      "question": "Une même DGD peut-elle mêler matières radioactives et non radioactives ?",
+      "reponse_courte": "**Non** : on raye « Radioactive » ou « Non-radioactive », jamais les deux",
+      "raisonnement": "8.1.6 · cours p. 79",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "25936a39b366"
+    },
+    {
+      "id": "F6.D.Q8",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "8",
+        "ligne": 54
+      },
+      "type": "question_ouverte",
+      "question": "Quatre séquences de la case « Nature and quantity » ?",
+      "reponse_courte": "(1) **Identification** : UN/ID, désignation, classe (danger subsidiaire), GE · (2) nombre et type d'emballages, quantité par colis · (3) **instruction d'emballage** · (4) **autorisations**",
+      "raisonnement": "8.1.6 · cours p. 80 et 82. Modèle informatique : séquences séparées par « // » ou par des retours à la ligne.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "4f6c31eb62ca"
+    },
+    {
+      "id": "F6.D.Q9",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "9",
+        "ligne": 55
+      },
+      "type": "question_ouverte",
+      "question": "Première séquence : d'où viennent les valeurs ?",
+      "reponse_courte": "UN/ID = colonne **A**, désignation = colonne **B** (+ noms techniques si ✱, singulier ou pluriel admis), classe = colonne **C** (+ danger subsidiaire ajouté par une DP), GE = colonne **E** (même si une DP impose un emballage plus performant)",
+      "raisonnement": "8.1.3 · cours p. 83",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "8.1.3"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "9eed3f4ecfbc"
+    },
+    {
+      "id": "F6.D.Q10",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "10",
+        "ligne": 56
+      },
+      "type": "question_ouverte",
+      "question": "Deuxième séquence : comment décrire les colis ?",
+      "reponse_courte": null,
+      "raisonnement": "8.1.6.9.2 · cours p. 84",
+      "developpement": "Description anglaise officielle du **tableau 5.0.C** (« fibreboard box »…), nombre en chiffres ou en lettres, **sans** le code d'homologation ni les emballages intérieurs ; unité de 4.2 (L, kg, kg G) ; colis identiques regroupés : « 2 fibreboard boxes × 5 L »",
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "5.0.C",
+        "8.1.6.9.2"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "176ac76cf456"
+    },
+    {
+      "id": "F6.D.Q11",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "11",
+        "ligne": 57
+      },
+      "type": "question_ouverte",
+      "question": "Troisième et quatrième séquences ?",
+      "reponse_courte": "N° de PI des colonnes **G, I ou K** · autorisations : toute approbation d'autorité à mentionner (A1, A2, citerne mobile, 5.0.6.7, peroxydes, dérogations) ; PI 965 ou 968 section **IB** : « IB » en séquence 3 ou 4",
+      "raisonnement": "8.1.6.9.4 · cours p. 85 et 148",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "5.0.6.7",
+        "8.1.6.9.4"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "409c6a5eaeb1"
+    },
+    {
+      "id": "F6.D.Q12",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "12",
+        "ligne": 58
+      },
+      "type": "question_ouverte",
+      "question": "Case « Additional handling information » : que peut-on devoir y écrire ?",
+      "reponse_courte": "Mentions imposées par certaines matières ; **numéro d'appel d'urgence 24 h/24** si un pays ou une compagnie l'exige (pour la France : **FRG-07**) ; s'il est sous-traité, souvent un n° de contrat",
+      "raisonnement": "8.1.6.11 · cours p. 80 et 90",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "8.1.6.11"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "4c43f7b8af54"
+    },
+    {
+      "id": "F6.D.Q13",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "13",
+        "ligne": 59
+      },
+      "type": "question_ouverte",
+      "question": "Nom, titre, lieu et date de signature ?",
+      "reponse_courte": "**Nom** du signataire obligatoire, **titre** et **lieu** devenus optionnels ; date de préférence **AAAA-MM-JJ** (ou JJ/MM/AAAA, ou en toutes lettres avec le **mois en anglais**)",
+      "raisonnement": "8.1.6 · cours p. 81",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "99f5a6412b40"
+    },
+    {
+      "id": "F6.D.Q14",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "14",
+        "ligne": 60
+      },
+      "type": "question_ouverte",
+      "question": "Signature : que refuse-t-on ?",
+      "reponse_courte": "La signature **tapée à la machine** ; admises : manuscrite, fac-similé (si autorisé), électronique",
+      "raisonnement": "8.1.6 · cours p. 81",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "8.1.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "2d486fdaed08"
+    },
+    {
+      "id": "F6.D.Q15",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "D. Déclaration de l'expéditeur — DGD (8.1)",
+        "question": "15",
+        "ligne": 61
+      },
+      "type": "question_ouverte",
+      "question": "Envois dispensés de DGD ?",
+      "reponse_courte": null,
+      "raisonnement": "8.0.1.2 · cours p. 91. IE 977 et 978 : batteries sodium (2025).",
+      "developpement": "UN 3164 (IE 208 a) · UN 3373 (IE 650) · UN 1845 comme réfrigérant de marchandises non dangereuses ou d'un envoi sans DGD (IE 954) · UN 3245 (IE 959) · UN 2807 (IE 953) · quantités exceptées · lithium/sodium **section II** (IE 966, 967, 969, 970, 977, 978) · radioactifs en colis exceptés. Une mention reste due sur la **LTA**",
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "8.0.1.2"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "c62822a8a9ef"
+    },
+    {
+      "id": "F6.E.Q1",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "E. Lettre de transport aérien — LTA / AWB",
+        "question": "1",
+        "ligne": 67
+      },
+      "type": "question_ouverte",
+      "question": "Formule à écrire en « Handling information » quand il y a une DGD ?",
+      "reponse_courte": "« Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »), + « Cargo Aircraft Only » / « CAO » si besoin",
+      "raisonnement": "Cours p. 144",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴 mes fiches 2014 (test Q13, Q14, F4 cas 3, F5 cas 1) écrivent **« attached »** : formule **refusée depuis le 1er janvier 2025**",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026",
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "4e38e582173d"
+    },
+    {
+      "id": "F6.E.Q2",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "E. Lettre de transport aérien — LTA / AWB",
+        "question": "2",
+        "ligne": 68
+      },
+      "type": "question_ouverte",
+      "question": "LTA couvrant aussi des marchandises non dangereuses ?",
+      "reponse_courte": "Indiquer le **nombre de colis** de marchandises dangereuses avant ou après la formule (ex. « 5 packages dangerous goods as per associated… »)",
+      "raisonnement": "Cours p. 144 et 145",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "9afe98905fa2"
+    },
+    {
+      "id": "F6.E.Q3",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "E. Lettre de transport aérien — LTA / AWB",
+        "question": "3",
+        "ligne": 69
+      },
+      "type": "question_ouverte",
+      "question": "« Nature and quantity of goods » sur la LTA ?",
+      "reponse_courte": "Description **générale** (douane/tarif) : « Produits chimiques », « Ammunition », « Household goods »…",
+      "raisonnement": "Cours p. 144 et 145",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "43df9a525718"
+    },
+    {
+      "id": "F6.E.Q4",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "E. Lettre de transport aérien — LTA / AWB",
+        "question": "4",
+        "ligne": 70
+      },
+      "type": "question_ouverte",
+      "question": "Envoi sans DGD : ordre des informations sur la LTA ?",
+      "reponse_courte": "N° UN/ID (sauf UN 2807) · désignation · nombre de colis · quantité nette par colis pour la carboglace · autre mention exigée (ex. section II de l'IE 966)",
+      "raisonnement": "Cours p. 144",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "d5e147a15d89"
+    },
+    {
+      "id": "F6.E.Q5",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "E. Lettre de transport aérien — LTA / AWB",
+        "question": "5",
+        "ligne": 71
+      },
+      "type": "question_ouverte",
+      "question": "Mention LTA pour des quantités exceptées ? Pour une matière non réglementée ?",
+      "reponse_courte": "« **Dangerous Goods in Excepted Quantities** » + nombre de colis · « **Not Restricted** » après la description, ou « Not Restricted, as per Special Provision Axxx »",
+      "raisonnement": "Cours p. 144",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "6176e0dab3bc"
+    },
+    {
+      "id": "F6.E.Q6",
+      "module": "Documents",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "E. Lettre de transport aérien — LTA / AWB",
+        "question": "6",
+        "ligne": 72
+      },
+      "type": "question_ouverte",
+      "question": "Mentions LTA pour UN 3373, UN 3245, UN 2807, UN 3164 ?",
+      "reponse_courte": "« UN 3373, Biological substance, category B » (+ responsable et téléphone) · « UN 3245, GMO » (ou GMMO) · « Magnetized material » · « UN 3164, Articles pressurized, hydraulic » (ou pneumatic), + nombre de colis",
+      "raisonnement": "Cours p. 144 et 146",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "47a19dea1365"
+    },
+    {
+      "id": "F6.F.Q1",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "F. Carboglace UN 1845",
+        "question": "1",
+        "ligne": 78
+      },
+      "type": "question_ouverte",
+      "question": "Carboglace pour un produit non dangereux : colis, marques, documents ?",
+      "reponse_courte": "IE **954** (tenue au froid, **dégazage** du CO₂) · marques : expéditeur/destinataire, « **UN 1845 DRY ICE** », étiquette **classe 9**, **masse nette** en kg (aussi sur le suremballage) · **pas de DGD** ; LTA : UN 1845 Dry ice, nombre de colis, masse nette",
+      "raisonnement": "Cours p. 141",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "68d40c54540b"
+    },
+    {
+      "id": "F6.F.Q2",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "F. Carboglace UN 1845",
+        "question": "2",
+        "ligne": 79
+      },
+      "type": "question_ouverte",
+      "question": "Carboglace pour un produit dangereux ?",
+      "reponse_courte": null,
+      "raisonnement": "Cours p. 142",
+      "developpement": "IE 954 **et** IE de la matière · marques et étiquettes de la matière + UN 1845 DRY ICE, classe 9, masse nette · **DGD obligatoire** : carboglace dans le colis → règles de l'emballage en commun **sans calcul de Q** ; carboglace dans le suremballage → règles du suremballage",
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "90c75636ce09"
+    },
+    {
+      "id": "F6.F.Q3",
+      "module": "Emballages",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "F. Carboglace UN 1845",
+        "question": "3",
+        "ligne": 80
+      },
+      "type": "question_ouverte",
+      "question": "FRG-07 : numéro d'urgence sur un colis sans DGD (carboglace…) ?",
+      "reponse_courte": "**Supprimé en 2026** d'après le cours : ne plus l'exiger sur le colis",
+      "raisonnement": "Cours p. 68, 91 et 141",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🔴 contredit les pratiques 2014 : à confirmer en 2.8 de la 67e",
+      "nature_rouge": "erreur_corrigee",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026",
+        "piege-corrige"
+      ],
+      "difficulte": 2,
+      "hash_source": "d9f0cb17ecd9"
+    },
+    {
+      "id": "F6.G.Q1",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "G. Pré-acheminement routier (ADR)",
+        "question": "1",
+        "ligne": 86
+      },
+      "type": "question_ouverte",
+      "question": "Colis préparé pour l'aérien et acheminé par la route : quelle règle ?",
+      "reponse_courte": "Classement, identification, emballage, marquage, étiquetage selon l'**IATA DGR** ; documentation selon **IATA et ADR** ; **chargement selon l'ADR** (ADR 1.1.4.2.1)",
+      "raisonnement": "Cours p. 111",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "1.1.4.2.1"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "963b023aaa4f"
+    },
+    {
+      "id": "F6.G.Q2",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "G. Pré-acheminement routier (ADR)",
+        "question": "2",
+        "ligne": 87
+      },
+      "type": "question_ouverte",
+      "question": "Pourquoi faut-il une déclaration ADR en plus de la DGD ?",
+      "reponse_courte": "La DGD aérienne n'admet pas d'informations en plus, et il manque des données routières (code tunnel, masse brute…) ; mention « **Transport selon 1.1.4.2.1** »",
+      "raisonnement": "Cours p. 111 et 112",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "1.1.4.2.1"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "138febb33106"
+    },
+    {
+      "id": "F6.G.Q3",
+      "module": "Expéditions",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "G. Pré-acheminement routier (ADR)",
+        "question": "3",
+        "ligne": 88
+      },
+      "type": "question_ouverte",
+      "question": "Pré-acheminement : QE, QL, 1.1.3.6, pleine application ?",
+      "reponse_courte": "QE : max. **1 000 colis** par véhicule · QL : masse brute à communiquer, marquage du véhicule au-delà de **8 t** · 1.1.3.6 : déclaration ADR + extincteur de **2 kg** · pleine application : panneaux orange, équipements, conducteur formé",
+      "raisonnement": "Cours p. 112",
+      "developpement": null,
+      "statut": "a_relire",
+      "statut_source": "🟠",
+      "ref_dgr": [
+        "1.1.3.6"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "4b1b7c83136f"
+    },
+    {
+      "id": "F6.H.Q1",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "H. Méthode et formation",
+        "question": "1",
+        "ligne": 94
+      },
+      "type": "question_ouverte",
+      "question": "Ordre de travail pour préparer une expédition aérienne ?",
+      "reponse_courte": null,
+      "raisonnement": "Cours p. 114",
+      "developpement": "Classement (FDS rubrique 14) → **divergences 2.8** (États de départ/arrivée, compagnie et son État) → **4.2** (DP, limites passagers/cargo, PI) → **section 5** (PI : unique ou combiné, quantités, types) → sections 5 et 6 (conditionnement, homologation, remplissage, calage) → **section 7** (marques et étiquettes) → suremballage éventuel → **8.1** (documents)",
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [
+        "5",
+        "7"
+      ],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "8b998d54ab90"
+    },
+    {
+      "id": "F6.H.Q2",
+      "module": "Généralités",
+      "source": {
+        "fiche": "F6",
+        "fichier": "F6_cours_2026_marquage_documents.md",
+        "section": "H. Méthode et formation",
+        "question": "2",
+        "ligne": 95
+      },
+      "type": "question_ouverte",
+      "question": "Formation CBTA : les cinq étapes et la validité ?",
+      "reponse_courte": "Besoins définis par l'**entreprise** → programme adapté → évaluation **pendant** la session → évaluation **après**, par l'entreprise → maintien des compétences pendant les **2 ans** de validité",
+      "raisonnement": "Cours p. 154. On ne traite que les expéditions couvertes par sa formation.",
+      "developpement": null,
+      "statut": "stable",
+      "statut_source": "🟢",
+      "ref_dgr": [],
+      "edition_ref": "67 (cours 2026)",
+      "edition_verifiee": null,
+      "tags": [
+        "cours-2026"
+      ],
+      "difficulte": 2,
+      "hash_source": "8d39d2017866"
+    }
+  ]
+}

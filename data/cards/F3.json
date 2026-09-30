@@ -393,7 +393,7 @@
       "question": "Marquage d'un suremballage opaque ?",
       "reponse_courte": "Mention **« OVERPACK »** (7.1.7.1) ; marques et étiquettes des colis internes **reprises** si elles ne sont pas visibles ; nombre de colis",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 96 et 103, voir F6.C.Q5-6) : mention OVERPACK en lettres de **12 mm** ; « OVERPACK USED » est toujours porté sur la DGD.",
       "statut": "stable",
       "statut_source": "🟢",
       "ref_dgr": [
@@ -401,9 +401,15 @@
       ],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "ce38a75d1ced"
+      "hash_source": "ce38a75d1ced",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F3.A.Q17",
@@ -868,7 +874,7 @@
       "question": "Marquage à ajouter — Quantités limitées ?",
       "reponse_courte": "Corrigé : « inscription quantités limitées ». **Aujourd'hui : losange « Y »**",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 68, voir F6.A.Q5) : confirmé, losange « Y » de **10 × 10 cm**, réductible à 5 × 5 cm.",
       "statut": "a_relire",
       "statut_source": "🔴",
       "nature_rouge": "erreur_corrigee",
@@ -879,10 +885,15 @@
       "edition_ref": "54-55",
       "edition_verifiee": null,
       "tags": [
+        "maj-2026",
         "piege-corrige"
       ],
       "difficulte": 2,
-      "hash_source": "8e813a2e4a83"
+      "hash_source": "8e813a2e4a83",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F3.C1.Q3",

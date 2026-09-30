@@ -26,6 +26,7 @@ export function Banners({ card }: { card: Card }) {
         </p>
       )}
       {card.statut === 'a_relire' && card.nature_rouge === 'erreur_corrigee' && <p className="banner banner-piege">{t.carte.piegeBandeau}</p>}
+      {card.tags.includes('maj-2026') && <p className="banner banner-maj">{t.carte.majBandeau}</p>}
       {card.statut === 'a_relire' && <p className="banner banner-relire">{t.carte.aRelireBandeau}</p>}
     </>
   );
@@ -76,7 +77,7 @@ export function Verso({ card, full = true }: { card: Card; full?: boolean }) {
         </div>
       )}
       {full && card.developpement && (
-        <details className="developpement" open={!card.reponse_courte}>
+        <details className="developpement" open={!card.reponse_courte || card.tags.includes('maj-2026')}>
           <summary>{t.carte.developpement}</summary>
           <Markdown text={card.developpement} />
         </details>

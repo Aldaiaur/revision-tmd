@@ -560,17 +560,22 @@
       "question": "Que doit contenir la DGD en plus des lignes de marchandises ?",
       "reponse_courte": "Expéditeur, destinataire, n° de LTA, aéroports de départ/destination, case « passagers et cargo » ou « cargo seulement » (une barrée), mention radioactif/non radioactif (une barrée), informations de manutention, déclaration signée et datée.",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
       "statut": "a_relire",
       "statut_source": "(aucune pastille)",
       "ref_dgr": [],
       "edition_ref": "non précisée",
       "edition_verifiee": null,
       "tags": [
+        "maj-2026",
         "phase-2"
       ],
       "difficulte": 2,
-      "hash_source": "3a7c0fc97f6c"
+      "hash_source": "3a7c0fc97f6c",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "P2.Q8-4",

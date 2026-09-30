@@ -1,4 +1,145 @@
 {
   "schema_version": 1,
-  "cards": {}
+  "cards": {
+    "F4.D-cas3": {
+      "tags": [
+        "cas-complet",
+        "maj-2026"
+      ],
+      "developpement": "| Document | Contenu |\n|---|---|\n| DGD | **UN 2432 · N,N-Diethylaniline · 6.1 · GE III · 1 plywood box × 50 L · PI 655** |\n| LTA | « **Dangerous goods as per attached DGD** » · 1 colis · **60 kg** · nature « Dangerous goods » |\n| Colis | Désignation + UN 2432 + expéditeur + destinataire, étiquette **Toxic**, flèches d'orientation, gravage UN de la caisse |\n\n**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**.",
+      "hash_source": "fc49284120d1",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F5.E-cas1": {
+      "tags": [
+        "cas-complet",
+        "maj-2026",
+        "partie-perimee",
+        "variation"
+      ],
+      "developpement": "- A2(Au-193) = **2 TBq** < 5 TBq → **Type B(U)** → **UN 2916**.\n- DGD : « UN 2916 · Radioactive material, Type B(U) package · 7 · Au-193, metal solid, 1 Type B(U) package × 5 TBq · **II-Yellow**, TI 0.8, dims 40 × 30 × 30 cm · certificat d'agrément B(U) ».\n- LTA : 777-1234 5678 · « Dangerous goods as per attached DGD » · 20 kg · « Radioactive material ».\n- Colis : expéditeur et destinataire, **UN 2916**, désignation, « **Type B(U)** », marque d'identification de l'agrément (corrigé : GB-ART12) et numéro de série.\n- 🔴 Variations GB et Afrique du Sud de 2014 : à ignorer.\n\n**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**.",
+      "hash_source": "d02e68cc3648",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "T.Q13": {
+      "tags": [
+        "cas-complet",
+        "maj-2026",
+        "partie-perimee",
+        "variation"
+      ],
+      "developpement": "**Données.** 10 L de 2-bromo-2-nitropropane-1,3-diol (bronopol). Emballages disponibles : deux combinés (caisse carton 4G) ou un emballage unique (composite 6HA1). Expéditeur : Chemical Inc., Changi Airport ; destinataire : UK Chem, Londres ; LTA 000/9999 8888.\n\n### Identification (ce que le corrigé en déduit)\n\n- **UN 3241**, « 2-Bromo-2-nitropropane-1,3-diol », **division 4.1, GE III**.\n- Instruction d'emballage **457** (passagers et cargo) ; le corrigé écrit la ligne de DGD « UN3241, 2-Bromo-2-nitropropane-1,3-diol, 4.1 III // **2 fibreboard boxes × 5 L** //457 ».\n- Choix des **deux caisses 4G** : c'est le corrigé qui tranche.\n\n### LTA (lettre de transport aérien)\n\n| Case | Valeur du corrigé |\n|---|---|\n| Aéroport de départ | **Singapore** |\n| Destination | **LHR**, London |\n| Nombre de colis | **2** |\n| Poids brut | **20 kg** |\n| Informations de manutention | **« Dangerous goods as per attached DGD »** |\n| Numéro de LTA | **000-9999 8888** |\n\n### Colis\n\n- Désignation et numéro : **UN3241 – 2-Bromo-2-nitropropane-1,3-diol**.\n- Expéditeur et destinataire en toutes lettres (adresses de l'énoncé).\n- Étiquette de danger **4.1** (inflammable solide) + étiquette de manutention **« Keep away from heat »**.\n- **Flèches d'orientation** : un exemplaire noir visible et un second, en grisé, sur la face opposée.\n- Mention **« Dangerous goods »** sur la face de droite.\n- **Gravage** : **4G / Y15 / S / 14 / GB / FD45**.\n\n### DGD\n\n- Expéditeur : Chemical Inc. ; destinataire : UK Chem ; LTA **000-9999 8888** ; page **1 sur 1**.\n- Aéroport de départ **SINGAPORE**, destination **LONDON**, avec **« CARGO AIRCRAFT ONLY » rayé** : avion passagers et cargo.\n- Type d'expédition : **non radioactif** (la mention « radioactive » est rayée).\n- Description : **UN3241, 2-Bromo-2-nitropropane-1,3-diol, 4.1 III // 2 fibreboard boxes × 5 L // 457**.\n- Contact d'urgence (+47…), puis **« The packages containing UN3241 must be protected from direct sunlight and all sources of heat and be placed in adequately ventilated areas »**.\n- Signataire : **I. Chang, export manager** ; **Singapore 2014.01.05** ; signature.\n\n### Statut\n\n- 🟢 La **structure de la DGD** (expéditeur, destinataire, aéroports, type d'expédition, ligne ONU / DOT / classe / GE / quantité et type de colis / instruction d'emballage, contact d'urgence, déclaration, signature, date) reste la même.\n- 🟠 Les **valeurs** (PI 457, quantité maximale par colis, étiquette « Keep away from heat », texte de manutention) sont à relire dans la ligne UN 3241 de la liste 4.2 et dans la disposition particulière de la 67e édition : le corrigé ne cite aucune référence pour cette question.\n- 🟠 Le numéro de téléphone de contact d'urgence (+47, préfixe norvégien pour un expéditeur de Singapour) est probablement un reste de modèle : il n'est pas justifié dans l'énoncé.\n- 🟠 Le **pays du gravage « GB »** est sans lien avec le pays de l'expéditeur : c'est le pays qui a autorisé la marque, pas celui de l'envoi.\n- 🔴 Aucune variation Singapore Airlines ou Singapour/Royaume-Uni n'est à retenir : elle date de 2014.\n\n---\n\n**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**.\n\n**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
+      "hash_source": "4fafa114c8f5",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "T.Q14-LTA.information-de-manutention-dangerous-goo": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**. La correction du corrigé 2014 (« ajouter ATTACHED ») est donc **fausse aujourd'hui**.",
+      "hash_source": "0be43de528b5",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "T.Q14-DGD.contact-d-urgence": {
+      "tags": [
+        "maj-2026",
+        "variation"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 80 et 90, voir F6.D.Q12) : FRG-07 impose toujours un **numéro d'urgence 24 h/24** dans la case « Additional handling information » de la DGD. Ce n'est pas une variation périmée. Seule l'obligation sur le **colis sans DGD** est supprimée en 2026 (F6.F.Q3).",
+      "hash_source": "3323f5eba4de",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F4.E-cas3.aeroports-cdg-et-sydney": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
+      "hash_source": "342952cb5d5d",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "T.Q14-DGD.aeroports-de-depart-destination": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
+      "hash_source": "44a007acfa56",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "P2.Q8-3": {
+      "tags": [
+        "maj-2026",
+        "phase-2"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
+      "hash_source": "3a7c0fc97f6c",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F1.D1-marque-lq": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "🔴 **Marque LQ** : en 2014 le corrigé parle d'une inscription « Limited Quantity ». Aujourd'hui la marque est le **losange « Y »** (≥ 100 × 100 mm). Les sources 2021-2024 que j'ai trouvées indiquent que la DGD reste exigée avec « Y » en colonne PI et que les étiquettes de danger restent obligatoires : **je n'ai pas le texte du DGR 67e pour le confirmer**, à contrôler en 2.7, 7.1 et 8.1.\n\n**Mise à jour 2026** (cours p. 68, voir F6.A.Q5) : confirmé, losange « Y » de **10 × 10 cm**, réductible à 5 × 5 cm.",
+      "hash_source": "b9386b71ed10",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F3.C1.Q2": {
+      "tags": [
+        "maj-2026",
+        "piege-corrige"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 68, voir F6.A.Q5) : confirmé, losange « Y » de **10 × 10 cm**, réductible à 5 × 5 cm.",
+      "hash_source": "8e813a2e4a83",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "QCM.Q6": {
+      "tags": [
+        "maj-2026",
+        "qcm-20"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 68, voir F6.A.Q5) : confirmé, losange « Y » de **10 × 10 cm**, réductible à 5 × 5 cm.",
+      "hash_source": "77f22f7fa056",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "T.Q14-DGD.signature-a-la-machine-a-ecrire": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 77 et 81, voir F6.D.Q3 et Q13-14) : confirmé, pas de signature tapée à la machine ; signature électronique admise avec « Original received electronically » ; titre et lieu du signataire devenus optionnels.",
+      "hash_source": "d720c8960e04",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F4.E-cas3.signature-magasinier-le-22-fevrier-2013": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 77 et 81, voir F6.D.Q3 et Q13-14) : confirmé, pas de signature tapée à la machine ; signature électronique admise avec « Original received electronically » ; titre et lieu du signataire devenus optionnels.",
+      "hash_source": "1d3762a6501b",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F4.A-T.Q3": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 77, voir F6.D.Q2) : l'**expéditeur** conserve la DGD **3 mois**. La durée de conservation par l'exploitant reste à relire en 9.8.1.",
+      "hash_source": "6baf86737b3c",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "F3.A.Q16": {
+      "tags": [
+        "maj-2026"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 96 et 103, voir F6.C.Q5-6) : mention OVERPACK en lettres de **12 mm** ; « OVERPACK USED » est toujours porté sur la DGD.",
+      "hash_source": "ce38a75d1ced",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    },
+    "QCM.Q16": {
+      "tags": [
+        "maj-2026",
+        "qcm-20"
+      ],
+      "developpement": "**Mise à jour 2026** (cours p. 96 et 103, voir F6.C.Q5-6) : mention OVERPACK en lettres de **12 mm** ; « OVERPACK USED » est toujours porté sur la DGD.",
+      "hash_source": "d0b402e6f6de",
+      "note": "Mise à jour cours FORM-EDIT 2026"
+    }
+  }
 }

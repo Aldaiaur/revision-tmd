@@ -481,7 +481,7 @@
       "question": "Test série A, Q13 (25 pts) : 10 L de bronopol, Singapore Airlines Singapour → Londres. Identification, LTA, colis, DGD ?",
       "reponse_courte": null,
       "raisonnement": null,
-      "developpement": "**Données.** 10 L de 2-bromo-2-nitropropane-1,3-diol (bronopol). Emballages disponibles : deux combinés (caisse carton 4G) ou un emballage unique (composite 6HA1). Expéditeur : Chemical Inc., Changi Airport ; destinataire : UK Chem, Londres ; LTA 000/9999 8888.\n\n### Identification (ce que le corrigé en déduit)\n\n- **UN 3241**, « 2-Bromo-2-nitropropane-1,3-diol », **division 4.1, GE III**.\n- Instruction d'emballage **457** (passagers et cargo) ; le corrigé écrit la ligne de DGD « UN3241, 2-Bromo-2-nitropropane-1,3-diol, 4.1 III // **2 fibreboard boxes × 5 L** //457 ».\n- Choix des **deux caisses 4G** : c'est le corrigé qui tranche.\n\n### LTA (lettre de transport aérien)\n\n| Case | Valeur du corrigé |\n|---|---|\n| Aéroport de départ | **Singapore** |\n| Destination | **LHR**, London |\n| Nombre de colis | **2** |\n| Poids brut | **20 kg** |\n| Informations de manutention | **« Dangerous goods as per attached DGD »** |\n| Numéro de LTA | **000-9999 8888** |\n\n### Colis\n\n- Désignation et numéro : **UN3241 – 2-Bromo-2-nitropropane-1,3-diol**.\n- Expéditeur et destinataire en toutes lettres (adresses de l'énoncé).\n- Étiquette de danger **4.1** (inflammable solide) + étiquette de manutention **« Keep away from heat »**.\n- **Flèches d'orientation** : un exemplaire noir visible et un second, en grisé, sur la face opposée.\n- Mention **« Dangerous goods »** sur la face de droite.\n- **Gravage** : **4G / Y15 / S / 14 / GB / FD45**.\n\n### DGD\n\n- Expéditeur : Chemical Inc. ; destinataire : UK Chem ; LTA **000-9999 8888** ; page **1 sur 1**.\n- Aéroport de départ **SINGAPORE**, destination **LONDON**, avec **« CARGO AIRCRAFT ONLY » rayé** : avion passagers et cargo.\n- Type d'expédition : **non radioactif** (la mention « radioactive » est rayée).\n- Description : **UN3241, 2-Bromo-2-nitropropane-1,3-diol, 4.1 III // 2 fibreboard boxes × 5 L // 457**.\n- Contact d'urgence (+47…), puis **« The packages containing UN3241 must be protected from direct sunlight and all sources of heat and be placed in adequately ventilated areas »**.\n- Signataire : **I. Chang, export manager** ; **Singapore 2014.01.05** ; signature.\n\n### Statut\n\n- 🟢 La **structure de la DGD** (expéditeur, destinataire, aéroports, type d'expédition, ligne ONU / DOT / classe / GE / quantité et type de colis / instruction d'emballage, contact d'urgence, déclaration, signature, date) reste la même.\n- 🟠 Les **valeurs** (PI 457, quantité maximale par colis, étiquette « Keep away from heat », texte de manutention) sont à relire dans la ligne UN 3241 de la liste 4.2 et dans la disposition particulière de la 67e édition : le corrigé ne cite aucune référence pour cette question.\n- 🟠 Le numéro de téléphone de contact d'urgence (+47, préfixe norvégien pour un expéditeur de Singapour) est probablement un reste de modèle : il n'est pas justifié dans l'énoncé.\n- 🟠 Le **pays du gravage « GB »** est sans lien avec le pays de l'expéditeur : c'est le pays qui a autorisé la marque, pas celui de l'envoi.\n- 🔴 Aucune variation Singapore Airlines ou Singapour/Royaume-Uni n'est à retenir : elle date de 2014.\n\n---",
+      "developpement": "**Données.** 10 L de 2-bromo-2-nitropropane-1,3-diol (bronopol). Emballages disponibles : deux combinés (caisse carton 4G) ou un emballage unique (composite 6HA1). Expéditeur : Chemical Inc., Changi Airport ; destinataire : UK Chem, Londres ; LTA 000/9999 8888.\n\n### Identification (ce que le corrigé en déduit)\n\n- **UN 3241**, « 2-Bromo-2-nitropropane-1,3-diol », **division 4.1, GE III**.\n- Instruction d'emballage **457** (passagers et cargo) ; le corrigé écrit la ligne de DGD « UN3241, 2-Bromo-2-nitropropane-1,3-diol, 4.1 III // **2 fibreboard boxes × 5 L** //457 ».\n- Choix des **deux caisses 4G** : c'est le corrigé qui tranche.\n\n### LTA (lettre de transport aérien)\n\n| Case | Valeur du corrigé |\n|---|---|\n| Aéroport de départ | **Singapore** |\n| Destination | **LHR**, London |\n| Nombre de colis | **2** |\n| Poids brut | **20 kg** |\n| Informations de manutention | **« Dangerous goods as per attached DGD »** |\n| Numéro de LTA | **000-9999 8888** |\n\n### Colis\n\n- Désignation et numéro : **UN3241 – 2-Bromo-2-nitropropane-1,3-diol**.\n- Expéditeur et destinataire en toutes lettres (adresses de l'énoncé).\n- Étiquette de danger **4.1** (inflammable solide) + étiquette de manutention **« Keep away from heat »**.\n- **Flèches d'orientation** : un exemplaire noir visible et un second, en grisé, sur la face opposée.\n- Mention **« Dangerous goods »** sur la face de droite.\n- **Gravage** : **4G / Y15 / S / 14 / GB / FD45**.\n\n### DGD\n\n- Expéditeur : Chemical Inc. ; destinataire : UK Chem ; LTA **000-9999 8888** ; page **1 sur 1**.\n- Aéroport de départ **SINGAPORE**, destination **LONDON**, avec **« CARGO AIRCRAFT ONLY » rayé** : avion passagers et cargo.\n- Type d'expédition : **non radioactif** (la mention « radioactive » est rayée).\n- Description : **UN3241, 2-Bromo-2-nitropropane-1,3-diol, 4.1 III // 2 fibreboard boxes × 5 L // 457**.\n- Contact d'urgence (+47…), puis **« The packages containing UN3241 must be protected from direct sunlight and all sources of heat and be placed in adequately ventilated areas »**.\n- Signataire : **I. Chang, export manager** ; **Singapore 2014.01.05** ; signature.\n\n### Statut\n\n- 🟢 La **structure de la DGD** (expéditeur, destinataire, aéroports, type d'expédition, ligne ONU / DOT / classe / GE / quantité et type de colis / instruction d'emballage, contact d'urgence, déclaration, signature, date) reste la même.\n- 🟠 Les **valeurs** (PI 457, quantité maximale par colis, étiquette « Keep away from heat », texte de manutention) sont à relire dans la ligne UN 3241 de la liste 4.2 et dans la disposition particulière de la 67e édition : le corrigé ne cite aucune référence pour cette question.\n- 🟠 Le numéro de téléphone de contact d'urgence (+47, préfixe norvégien pour un expéditeur de Singapour) est probablement un reste de modèle : il n'est pas justifié dans l'énoncé.\n- 🟠 Le **pays du gravage « GB »** est sans lien avec le pays de l'expéditeur : c'est le pays qui a autorisé la marque, pas celui de l'envoi.\n- 🔴 Aucune variation Singapore Airlines ou Singapour/Royaume-Uni n'est à retenir : elle date de 2014.\n\n---\n\n**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**.\n\n**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
       "statut": "a_relire",
       "statut_source": "- 🟢 La structure de la DGD (expéditeur, destinataire, aéroports, type d'expédition, ligne ONU / DOT / classe / GE / quantité et type de colis / instruction d'e · - 🟠 Les valeurs (PI 457, quantité maximale par colis, étiquette « Keep away from heat », texte de manutention) sont à relire dans la ligne UN 3241 de la liste · - 🟠 Le numéro de téléphone de contact d'urgence (+47, préfixe norvégien pour un expéditeur de Singapour) est probablement un reste de modèle : il n'est pas jus · - 🟠 Le pays du gravage « GB » est sans lien avec le pays de l'expéditeur : c'est le pays qui a autorisé la marque, pas celui de l'envoi. · - 🔴 Aucune variation Singapore Airlines ou Singapour/Royaume-Uni n'est à retenir : elle date de 2014.",
       "nature_rouge": "perime",
@@ -490,11 +490,16 @@
       "edition_verifiee": null,
       "tags": [
         "cas-complet",
+        "maj-2026",
         "partie-perimee",
         "variation"
       ],
       "difficulte": 3,
-      "hash_source": "4fafa114c8f5"
+      "hash_source": "4fafa114c8f5",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "T.Q14-LTA.information-de-manutention-dangerous-goo",
@@ -510,7 +515,7 @@
       "question": "Test série A, Q14 — LTA : Information de manutention « Dangerous goods as per Shipper's Declaration ». Correction ?",
       "reponse_courte": "Ajouter **ATTACHED**",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**. La correction du corrigé 2014 (« ajouter ATTACHED ») est donc **fausse aujourd'hui**.",
       "statut": "a_relire",
       "statut_source": "(aucune pastille)",
       "ref_dgr": [
@@ -518,9 +523,15 @@
       ],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "0be43de528b5"
+      "hash_source": "0be43de528b5",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "T.Q14-LTA.nature-des-marchandises-chemical",
@@ -759,7 +770,7 @@
       "question": "Test série A, Q14 — DGD : Aéroports de départ / destination. Correction ?",
       "reponse_courte": "**PARIS** et **KARACHI** en toutes lettres",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 79 et 86, voir F6.D.Q6) : les aéroports de départ et de destination sont des cases **optionnelles** de la DGD ; si on les remplit, c'est en toutes lettres.",
       "statut": "a_relire",
       "statut_source": "(aucune pastille)",
       "ref_dgr": [
@@ -768,9 +779,15 @@
       ],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "44a007acfa56"
+      "hash_source": "44a007acfa56",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "T.Q14-DGD.type-d-expedition",
@@ -956,18 +973,22 @@
       "question": "Test série A, Q14 — DGD : Contact d'urgence. Correction ?",
       "reponse_courte": "**+(33) 1 99 99 99 99** présent ; référence FRG-07 (variation), 2.8",
       "raisonnement": null,
-      "developpement": null,
-      "statut": "obsolete",
-      "statut_source": "🔴 variation FRG-07 de 2014 : à ignorer",
-      "nature_rouge": "perime",
+      "developpement": "**Mise à jour 2026** (cours p. 80 et 90, voir F6.D.Q12) : FRG-07 impose toujours un **numéro d'urgence 24 h/24** dans la case « Additional handling information » de la DGD. Ce n'est pas une variation périmée. Seule l'obligation sur le **colis sans DGD** est supprimée en 2026 (F6.F.Q3).",
+      "statut": "a_relire",
+      "statut_source": "(aucune pastille)",
       "ref_dgr": [],
       "edition_ref": "54-55",
       "edition_verifiee": null,
       "tags": [
+        "maj-2026",
         "variation"
       ],
       "difficulte": 2,
-      "hash_source": "3323f5eba4de"
+      "hash_source": "3323f5eba4de",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "T.Q14-DGD.signature-a-la-machine-a-ecrire",
@@ -983,7 +1004,7 @@
       "question": "Test série A, Q14 — DGD : Signature à la machine à écrire. Correction ?",
       "reponse_courte": "Signature manuscrite : « Un signature à la machine à écrire n'est pas acceptable »",
       "raisonnement": null,
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 77 et 81, voir F6.D.Q3 et Q13-14) : confirmé, pas de signature tapée à la machine ; signature électronique admise avec « Original received electronically » ; titre et lieu du signataire devenus optionnels.",
       "statut": "a_relire",
       "statut_source": "(aucune pastille)",
       "ref_dgr": [
@@ -991,9 +1012,15 @@
       ],
       "edition_ref": "54-55",
       "edition_verifiee": null,
-      "tags": [],
+      "tags": [
+        "maj-2026"
+      ],
       "difficulte": 2,
-      "hash_source": "d720c8960e04"
+      "hash_source": "d720c8960e04",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "T.Q14-anomalies",

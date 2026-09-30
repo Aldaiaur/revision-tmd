@@ -11,17 +11,18 @@ Généré par `npm run import`. Ne pas éditer : les décisions manuelles vont d
 | F3 (F3_emballages_specifications_marquage.md) | 49 | 20 | 29 | 0 | 0 |
 | F4 (F4_documents_traitement_recap_expeditions.md) | 64 | 16 | 45 | 3 | 8 |
 | F5 (F5_classe7_radioactifs.md) | 52 | 17 | 35 | 0 | 3 |
-| T (T_test_serieA_correction.md) | 46 | 3 | 40 | 3 | 6 |
+| T (T_test_serieA_correction.md) | 46 | 3 | 41 | 2 | 6 |
+| F6 (F6_cours_2026_marquage_documents.md) | 49 | 20 | 29 | 0 | 4 |
 | P1 (phase1_socle_themes_1-4.md) | 27 | 0 | 27 | 0 | 0 |
 | P2 (phase2_application_themes_5-9.md) | 30 | 0 | 30 | 0 | 0 |
 | P3 (phase3_cas_speciaux_themes_10-12.md) | 24 | 0 | 24 | 0 | 0 |
 | P4 (phase4_examen_blanc_1.md) | 20 | 0 | 20 | 0 | 0 |
 | QCM (iata_dgr_questions.md) | 20 | 0 | 20 | 0 | 0 |
-| **Total** | **494** | 111 | 366 | 17 | 22 |
+| **Total** | **543** | 131 | 396 | 16 | 26 |
 
-Par module : Généralités 30 · Restrictions 57 · Classification 66 · Identification 88 · Emballages 72 · Marquage 29 · Documents 41 · Traitement 13 · Expéditions 30 · Classe 7 68
+Par module : Généralités 32 · Restrictions 57 · Classification 66 · Identification 88 · Emballages 82 · Marquage 42 · Documents 62 · Traitement 13 · Expéditions 33 · Classe 7 68
 
-Par type : question_ouverte 193 · vrai_faux 78 · calcul 53 · classement 80 · a_trous 6 · relecture_document 57 · qcm 27
+Par type : question_ouverte 229 · vrai_faux 82 · calcul 62 · classement 80 · a_trous 6 · relecture_document 57 · qcm 27
 
 ## 2. Cartes 🔴 : nature détectée (à confirmer)
 
@@ -84,18 +85,19 @@ Pour corriger une décision : `data/overrides.json` → `{ "<id>": { "statut": "
 | `T.Q1-12.Q7` | perime | obsolete | 🔴 |
 | `T.Q13` | perime | a_relire | - 🟢 La structure de la DGD (expéditeur, destinataire, aéroports, type d'expédition, ligne ONU / DOT / classe  |
 | `T.Q14-colis.texte-de-l-etiquette` | perime | obsolete | 🔴 variation PKG-02 de 2014 : à ignorer |
-| `T.Q14-DGD.contact-d-urgence` | perime | obsolete | 🔴 variation FRG-07 de 2014 : à ignorer |
 | `T.Q14-anomalies` | erreur_corrigee | a_relire | - 🔴 « KHARACHI » est écrit dans la case de destination corrigée : la ville est Karachi. Coquille du corrigé.  |
 | `T.Q15-19.Q16` | erreur_corrigee | a_relire | 🔴 |
 | `T.Q15-19.Q16-suite` | **à trier** | a_relire | 🔴 |
 | `T.Q15-19.Q19` | perime | a_relire | 🟢 pour le raisonnement · 🟠 pour les numéros de paragraphe (10.x) à relire en 67e · 🔴 pour toutes les référe |
+| `F6.E.Q1` | erreur_corrigee | a_relire | 🔴 mes fiches 2014 (test Q13, Q14, F4 cas 3, F5 cas 1) écrivent **« attached »** : formule **refusée depuis le |
+| `F6.F.Q3` | erreur_corrigee | a_relire | 🔴 contredit les pratiques 2014 : à confirmer en 2.8 de la 67e |
 
-## 3. Réponses à condenser (22)
+## 3. Réponses à condenser (26)
 
 Réponse de plus de 240 caractères, ou cas complet. Le texte intégral est dans `developpement`. Pour ajouter une réponse courte : `{ "<id>": { "reponse_courte": "…" } }` dans `data/overrides.json`.
 
 - `F1.C-Q1` (332 car.) — Formation des pilotes (ancien tableau 1.5.A) : quels contenus étaient exigés ?
-- `F1.D1-marque-lq` (377 car.) — Quantités limitées : quelle marque aujourd'hui, et que dit la fiche sur la DGD et les étiq
+- `F1.D1-marque-lq` (486 car.) — Quantités limitées : quelle marque aujourd'hui, et que dit la fiche sur la DGD et les étiq
 - `F1.D4-reflexe` (260 car.) — Variations d'État et d'exploitant : quel réflexe avant de choisir le transporteur ?
 - `F2.B2.Q9` (243 car.) — Lecture Liste 4.2 : Chlorocarbonate d'allyle
 - `F2.B5-Q16` (523 car.) — UN 2616, 1723, 2901, 2534, 3108, 1700 : GE, classe, subsidiaire, étiquettes de danger et d
@@ -103,19 +105,23 @@ Réponse de plus de 240 caractères, ou cas complet. Le texte intégral est dans
 - `F4.C-Q2` (626 car.) — Pesticide cuivrique liquide : toxique GE II, PIE 45 °C, PE 35 °C, 1 colis de 10 L. Classem
 - `F4.C-Q4` (453 car.) — 2 L de diallylamine sur cargo, gravage « 1H1 / Y / 1.3 / 300 / 05 / GB / 1234 » : étiquett
 - `F4.D-cas2` (334 car.) — Cas 2 — 1 kg d'allumettes de sûreté en pochettes de 10 g, quantités exceptées
-- `F4.D-cas3` (342 car.) — Cas 3 — 50 L de N,N-diéthylaniline, un colis (caisse en contreplaqué)
+- `F4.D-cas3` (596 car.) — Cas 3 — 50 L de N,N-diéthylaniline, un colis (caisse en contreplaqué)
 - `F4.D-cas4` (469 car.) — Cas 4 — 15 kg de gallium (UN 2803) sur le vol MH 384 (Toronto/Montréal → Kuala Lumpur)
 - `F4.D-cas5` (324 car.) — Cas 5 — 5 L de méthylcyclohexanols (UN 2617, GE III) en quantités limitées sur un vol SW
 - `F4.D-cas6` (818 car.) — Cas 6 — Londres → Paris, British Airways, passagers : quatre produits dans une caisse en c
-- `F5.E-cas1` (552 car.) — Cas 1 — Londres → Johannesburg : Au-193 « autre forme », 5 TBq, TI 0,8, colis 40 × 30 × 30
+- `F5.E-cas1` (806 car.) — Cas 1 — Londres → Johannesburg : Au-193 « autre forme », 5 TBq, TI 0,8, colis 40 × 30 × 30
 - `F5.E-cas2` (286 car.) — Cas 2 — Sn-119m, forme spéciale, 5 TBq ; 0,04 mSv/h à 1 m, 400 µSv/h en surface ; 65 × 50 
 - `F5.G-distances` (263 car.) — Distances minimales de séparation avec les passagers (TI 3,3 · 4 · 5,1 · 6,5) et règle d'i
 - `T.Q1-12.Q11` (359 car.) — Marquage et étiquetage d'une caisse en bois regroupant les colis : dicyclohexylamine 3 L, 
-- `T.Q13` (2939 car.) — Test série A, Q13 (25 pts) : 10 L de bronopol, Singapore Airlines Singapour → Londres. Ide
+- `T.Q13` (3372 car.) — Test série A, Q13 (25 pts) : 10 L de bronopol, Singapore Airlines Singapour → Londres. Ide
 - `T.Q14-anomalies` (493 car.) — Test série A, Q14 : quelles anomalies le corrigé laisse-t-il passer (villes, n° de LTA, Q)
 - `T.Q15-19.Q16-suite` (336 car.) — Sn-119(m), forme spéciale, 5 TBq, 0,04 mSv/h à 1 m, colis de type A → Ce qu'il faut rempli
 - `T.Q15-19.Q18` (356 car.) — Rectifier la DGD d'UN 3329 (Pu-239, forme spéciale, colis B(M) fissile)
 - `T.Q15-19.Q19` (957 car.) — Colis B(M) sur DHL Air Limited, Paris → Los Angeles : Cm-240, 35 TBq, TI 3,4, 70 kg
+- `F6.D.Q10` (251 car.) — Deuxième séquence : comment décrire les colis ?
+- `F6.D.Q15` (317 car.) — Envois dispensés de DGD ?
+- `F6.F.Q2` (260 car.) — Carboglace pour un produit dangereux ?
+- `F6.H.Q1` (339 car.) — Ordre de travail pour préparer une expédition aérienne ?
 
 ## 4. Lignes et blocs non convertis ou signalés (15)
 
@@ -172,6 +178,6 @@ Réponse de plus de 240 caractères, ou cas complet. Le texte intégral est dans
 
 ## 5. Overrides manuels
 
-- Appliqués : aucun
+- Appliqués : `F4.D-cas3`, `F5.E-cas1`, `T.Q13`, `T.Q14-LTA.information-de-manutention-dangerous-goo`, `T.Q14-DGD.contact-d-urgence`, `F4.E-cas3.aeroports-cdg-et-sydney`, `T.Q14-DGD.aeroports-de-depart-destination`, `P2.Q8-3`, `F1.D1-marque-lq`, `F3.C1.Q2`, `QCM.Q6`, `T.Q14-DGD.signature-a-la-machine-a-ecrire`, `F4.E-cas3.signature-magasinier-le-22-fevrier-2013`, `F4.A-T.Q3`, `F3.A.Q16`, `QCM.Q16`
 - Identifiants inconnus : aucun
 - Peut-être périmés (la ligne source a changé) : aucun

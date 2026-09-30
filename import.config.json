@@ -689,10 +689,7 @@
           "kind": "errors",
           "module": "Documents",
           "question": "Test série A, Q14 — DGD : {Erreur}. Correction ?",
-          "key": "{Erreur}",
-          "rowStatut": {
-            "10": "🔴 variation FRG-07 de 2014 : à ignorer"
-          }
+          "key": "{Erreur}"
         },
         {
           "match": "Anomalies du corrigé",
@@ -732,6 +729,89 @@
         {
           "startsWith": "**Deux lectures utiles",
           "code": "ignore"
+        }
+      ]
+    },
+    {
+      "fiche": "F6",
+      "fichier": "F6_cours_2026_marquage_documents.md",
+      "edition_ref": "67 (cours 2026)",
+      "ignoreSections": [],
+      "paragraphs": [],
+      "tables": [
+        {
+          "match": "A. Marquage des colis",
+          "code": "A",
+          "kind": "qr",
+          "module": "Marquage",
+          "tags": [
+            "cours-2026"
+          ]
+        },
+        {
+          "match": "B. Étiquetage des colis",
+          "code": "B",
+          "kind": "qr",
+          "module": "Marquage",
+          "tags": [
+            "cours-2026"
+          ]
+        },
+        {
+          "match": "C. Emballage en commun",
+          "code": "C",
+          "kind": "qr",
+          "module": "Emballages",
+          "tags": [
+            "cours-2026"
+          ]
+        },
+        {
+          "match": "D. Déclaration de l",
+          "code": "D",
+          "kind": "qr",
+          "module": "Documents",
+          "tags": [
+            "cours-2026"
+          ]
+        },
+        {
+          "match": "E. Lettre de transport",
+          "code": "E",
+          "kind": "qr",
+          "module": "Documents",
+          "tags": [
+            "cours-2026"
+          ],
+          "nature": "erreur_corrigee"
+        },
+        {
+          "match": "F. Carboglace",
+          "code": "F",
+          "kind": "qr",
+          "module": "Emballages",
+          "tags": [
+            "cours-2026"
+          ],
+          "nature": "erreur_corrigee"
+        },
+        {
+          "match": "G. Pré-acheminement",
+          "code": "G",
+          "kind": "qr",
+          "module": "Expéditions",
+          "tags": [
+            "cours-2026"
+          ]
+        },
+        {
+          "match": "H. Méthode et formation",
+          "code": "H",
+          "kind": "qr",
+          "module": "Généralités",
+          "tags": [
+            "cours-2026"
+          ]
         }
       ]
     }

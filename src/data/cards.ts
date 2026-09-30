@@ -2,7 +2,7 @@ import type { Card, CardFile } from '../model/card.ts';
 
 const files = import.meta.glob<CardFile>('../../data/cards/*.json', { eager: true, import: 'default' });
 
-const ORDER = ['F1', 'F2', 'F3', 'F4', 'F5', 'T', 'P1', 'P2', 'P3', 'P4', 'QCM'];
+const ORDER = ['F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'T', 'P1', 'P2', 'P3', 'P4', 'QCM'];
 
 export const CARD_FILES: CardFile[] = Object.values(files).sort((a, b) => ORDER.indexOf(a.fiche) - ORDER.indexOf(b.fiche));
 export const ALL_CARDS: Card[] = CARD_FILES.flatMap((f) => f.cards);

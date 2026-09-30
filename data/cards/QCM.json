@@ -250,7 +250,7 @@
       "question": "Quelle marque doit porter un colis de quantités limitées expédié par avion ?",
       "reponse_courte": "**A.** Un losange avec la lettre « Y » au centre",
       "raisonnement": "Marque LQ aérien : losange avec « Y » au centre (Section 7.1.5). Les losanges à bordure noire sans « Y » sont la marque LQ route/mer.",
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 68, voir F6.A.Q5) : confirmé, losange « Y » de **10 × 10 cm**, réductible à 5 × 5 cm.",
       "choix": [
         {
           "lettre": "A",
@@ -278,10 +278,15 @@
       "edition_ref": "non précisée",
       "edition_verifiee": null,
       "tags": [
+        "maj-2026",
         "qcm-20"
       ],
       "difficulte": 2,
-      "hash_source": "77f22f7fa056"
+      "hash_source": "77f22f7fa056",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "QCM.Q7",
@@ -710,7 +715,7 @@
       "question": "Un suremballage contenant des colis de marchandises dangereuses doit :",
       "reponse_courte": "**A.** Être marqué « OVERPACK » et reprendre les marques et étiquettes des colis si elles ne sont pas visibles",
       "raisonnement": "Suremballage : mention « OVERPACK », marques et étiquettes reprises si non visibles, et indication du nombre de colis (Section 7.1.7).",
-      "developpement": null,
+      "developpement": "**Mise à jour 2026** (cours p. 96 et 103, voir F6.C.Q5-6) : mention OVERPACK en lettres de **12 mm** ; « OVERPACK USED » est toujours porté sur la DGD.",
       "choix": [
         {
           "lettre": "A",
@@ -738,10 +743,15 @@
       "edition_ref": "non précisée",
       "edition_verifiee": null,
       "tags": [
+        "maj-2026",
         "qcm-20"
       ],
       "difficulte": 2,
-      "hash_source": "d0b402e6f6de"
+      "hash_source": "d0b402e6f6de",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "QCM.Q17",

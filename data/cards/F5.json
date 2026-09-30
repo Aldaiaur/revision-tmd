@@ -922,7 +922,7 @@
       "question": "Cas 1 — Londres → Johannesburg : Au-193 « autre forme », 5 TBq, TI 0,8, colis 40 × 30 × 30 cm, passagers",
       "reponse_courte": null,
       "raisonnement": null,
-      "developpement": "- A2(Au-193) = **2 TBq** < 5 TBq → **Type B(U)** → **UN 2916**.\n- DGD : « UN 2916 · Radioactive material, Type B(U) package · 7 · Au-193, metal solid, 1 Type B(U) package × 5 TBq · **II-Yellow**, TI 0.8, dims 40 × 30 × 30 cm · certificat d'agrément B(U) ».\n- LTA : 777-1234 5678 · « Dangerous goods as per attached DGD » · 20 kg · « Radioactive material ».\n- Colis : expéditeur et destinataire, **UN 2916**, désignation, « **Type B(U)** », marque d'identification de l'agrément (corrigé : GB-ART12) et numéro de série.\n- 🔴 Variations GB et Afrique du Sud de 2014 : à ignorer.",
+      "developpement": "- A2(Au-193) = **2 TBq** < 5 TBq → **Type B(U)** → **UN 2916**.\n- DGD : « UN 2916 · Radioactive material, Type B(U) package · 7 · Au-193, metal solid, 1 Type B(U) package × 5 TBq · **II-Yellow**, TI 0.8, dims 40 × 30 × 30 cm · certificat d'agrément B(U) ».\n- LTA : 777-1234 5678 · « Dangerous goods as per attached DGD » · 20 kg · « Radioactive material ».\n- Colis : expéditeur et destinataire, **UN 2916**, désignation, « **Type B(U)** », marque d'identification de l'agrément (corrigé : GB-ART12) et numéro de série.\n- 🔴 Variations GB et Afrique du Sud de 2014 : à ignorer.\n\n**Mise à jour 2026** (cours FORM-EDIT p. 144, voir carte F6.E.Q1) : sur la LTA, la formule est « Dangerous goods as per **associated** Shipper's Declaration » (ou « … as per associated DGD »). La formule avec « **attached** » est **refusée depuis le 1er janvier 2025**.",
       "statut": "a_relire",
       "statut_source": "- 🔴 Variations GB et Afrique du Sud de 2014 : à ignorer.",
       "nature_rouge": "perime",
@@ -931,11 +931,16 @@
       "edition_verifiee": null,
       "tags": [
         "cas-complet",
+        "maj-2026",
         "partie-perimee",
         "variation"
       ],
       "difficulte": 3,
-      "hash_source": "d02e68cc3648"
+      "hash_source": "d02e68cc3648",
+      "overrides_appliques": [
+        "developpement",
+        "tags"
+      ]
     },
     {
       "id": "F5.E-cas2",

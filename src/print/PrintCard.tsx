@@ -73,6 +73,7 @@ export function PrintVerso({ card, size }: { card: Card; size: 'small' | 'large'
       </FitBox>
       <Overflow card={card} />
       <div className="pc-foot">
+        {card.tags.includes('maj-2026') && <span className="pc-maj">⚠ Mis à jour 2026 : voir l'app</span>}
         {card.ref_dgr.length > 0 && <span>Réf. {card.ref_dgr.slice(0, 4).join(' · ')} (éd. {card.edition_ref})</span>}
         {card.statut === 'a_relire' && (
           <span className="pc-note">
