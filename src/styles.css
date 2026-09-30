@@ -215,7 +215,7 @@ textarea { font: inherit; color: inherit; width: 100%; }
 .card-list { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
 .card-row { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; }
 .card-row.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
-.card-row.status-row-obsolete .card-row-title { opacity: .75; }
+.card-row.status-row-obsolete .card-row-title { text-decoration: line-through; text-decoration-thickness: 1px; }
 .card-row-head { display: flex; gap: .5rem; align-items: center; padding: .35rem .6rem; }
 .card-row-title { flex: 1; display: flex; gap: .5rem; align-items: baseline; background: none; border: none; text-align: left; padding: .2rem; }
 .card-row-body { padding: 0 1rem 1rem 2.5rem; }
@@ -374,3 +374,4 @@ a.button.primary { background: var(--accent); color: var(--accent-text); font-we
 .simple-table { border-collapse: collapse; }
 .simple-table th, .simple-table td { border: 1px solid var(--border); padding: .3rem .6rem; text-align: left; }
 .journal { font-size: .9rem; }
+.banner-ok { background: var(--good-bg); border-color: var(--stable); }

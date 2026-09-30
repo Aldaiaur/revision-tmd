@@ -87,6 +87,7 @@ export const fr = {
     dateExamen: "Date d'examen",
     donnees: 'Données personnelles',
   },
+  a11y: { allerContenu: 'Aller au contenu', navPrincipale: 'Navigation principale' },
   commun: { fermer: 'Fermer', annuler: 'Annuler', oui: 'Oui', non: 'Non', enregistrer: 'Enregistrer' },
 };
 

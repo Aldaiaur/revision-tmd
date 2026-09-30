@@ -87,5 +87,6 @@ export const en: Dict = {
     dateExamen: 'Exam date',
     donnees: 'Personal data',
   },
+  a11y: { allerContenu: 'Skip to content', navPrincipale: 'Main navigation' },
   commun: { fermer: 'Close', annuler: 'Cancel', oui: 'Yes', non: 'No', enregistrer: 'Save' },
 };

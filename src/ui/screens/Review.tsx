@@ -110,6 +110,7 @@ function Session({ ids, onQuit, onRestart }: { ids: string[]; onQuit: () => void
 
   return (
     <div className="screen session">
+      <h1 className="sr-only">{t.revision.titre}</h1>
       <div className="session-top">
         <span aria-live="polite">{t.revision.progression(i + 1, ids.length)}</span>
         <progress max={ids.length} value={i} />

@@ -32,11 +32,11 @@ export function App() {
   return (
     <>
       <a className="skip-link" href="#main">
-        Aller au contenu
+        {t.a11y.allerContenu}
       </a>
       <header className="app-header no-print">
         <span className="brand">{t.appTitle}</span>
-        <nav aria-label="Navigation principale">
+        <nav aria-label={t.a11y.navPrincipale}>
           {ROUTES.map((r) => (
             <a key={r.key} href={`#/${r.key}`} aria-current={r === current ? 'page' : undefined}>
               {r.label(t)}
