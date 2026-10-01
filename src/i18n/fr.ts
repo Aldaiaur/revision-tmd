@@ -1,6 +1,6 @@
 export const fr = {
   appTitle: 'Révision IATA DGR',
-  nav: { accueil: 'Tableau de bord', revision: 'Réviser', catalogue: 'Catalogue', impression: 'Imprimer', examen: 'Examen blanc', reglages: 'Réglages' },
+  nav: { choix: 'Accueil', accueil: 'Tableau de bord', revision: 'Réviser', catalogue: 'Catalogue', impression: 'Imprimer', examen: 'Examen blanc', reglages: 'Réglages' },
   mention:
     "La responsabilité de la classification incombe à l'expéditeur. Vérifiez toujours dans l'édition officielle en vigueur du DGR IATA.",
   statut: { stable: 'Stable', a_relire: 'À vérifier', obsolete: 'Obsolète' },
@@ -87,6 +87,15 @@ export const fr = {
     langue: 'Langue',
     dateExamen: "Date d'examen",
     donnees: 'Données personnelles',
+  },
+  choix: {
+    titre: 'Choisir la révision',
+    intro: 'Sélectionnez la réglementation à réviser.',
+    iata: { titre: 'IATA DGR', sousTitre: 'Transport aérien', desc: 'Cartes, révision espacée, impression et examen blanc.', ouvrir: 'Réviser IATA' },
+    adr: { titre: 'ADR', sousTitre: 'Transport routier', desc: 'Contenu en préparation.', ouvrir: 'Voir ADR' },
+    bientot: 'Bientôt',
+    adrVide: 'La révision ADR arrive prochainement : aucune carte pour le moment.',
+    retour: "Retour à l'accueil",
   },
   a11y: { allerContenu: 'Aller au contenu', navPrincipale: 'Navigation principale' },
   commun: { fermer: 'Fermer', annuler: 'Annuler', oui: 'Oui', non: 'Non', enregistrer: 'Enregistrer' },

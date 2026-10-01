@@ -2,7 +2,7 @@ import type { Dict } from './fr.ts';
 
 export const en: Dict = {
   appTitle: 'IATA DGR revision',
-  nav: { accueil: 'Dashboard', revision: 'Review', catalogue: 'Catalogue', impression: 'Print', examen: 'Mock exam', reglages: 'Settings' },
+  nav: { choix: 'Home', accueil: 'Dashboard', revision: 'Review', catalogue: 'Catalogue', impression: 'Print', examen: 'Mock exam', reglages: 'Settings' },
   mention: 'Classification is the responsibility of the shipper. Always check the current official edition of the IATA DGR.',
   statut: { stable: 'Stable', a_relire: 'To verify', obsolete: 'Obsolete' },
   statutLong: {
@@ -87,6 +87,15 @@ export const en: Dict = {
     langue: 'Language',
     dateExamen: 'Exam date',
     donnees: 'Personal data',
+  },
+  choix: {
+    titre: 'Choose your revision',
+    intro: 'Select the regulation to review.',
+    iata: { titre: 'IATA DGR', sousTitre: 'Air transport', desc: 'Cards, spaced repetition, printing and mock exam.', ouvrir: 'Review IATA' },
+    adr: { titre: 'ADR', sousTitre: 'Road transport', desc: 'Content in preparation.', ouvrir: 'See ADR' },
+    bientot: 'Coming soon',
+    adrVide: 'ADR revision is coming soon: no cards yet.',
+    retour: 'Back to home',
   },
   a11y: { allerContenu: 'Skip to content', navPrincipale: 'Main navigation' },
   commun: { fermer: 'Close', annuler: 'Cancel', oui: 'Yes', non: 'No', enregistrer: 'Save' },

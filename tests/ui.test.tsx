@@ -110,3 +110,13 @@ describe('catalogue', () => {
     expect(await screen.findByRole('alert')).toBeTruthy();
   });
 });
+
+describe('accueil', () => {
+  it('propose IATA et ADR, ADR mène à une page vide', async () => {
+    mount();
+    expect(await screen.findByRole('heading', { name: 'Choisir la révision' })).toBeTruthy();
+    expect(screen.getByRole('link', { name: 'Réviser IATA' }).getAttribute('href')).toBe('#/accueil');
+    act(() => void (window.location.hash = '#/adr'));
+    await waitFor(() => expect(screen.getByText(/aucune carte pour le moment/)).toBeTruthy());
+  });
+});

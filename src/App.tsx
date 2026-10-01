@@ -7,10 +7,14 @@ import { SettingsScreen } from './ui/screens/Settings.tsx';
 import { PrintScreen } from './ui/screens/Print.tsx';
 import { Home } from './ui/screens/Home.tsx';
 import { Exam } from './ui/screens/Exam.tsx';
+import { Choice, AdrPlaceholder } from './ui/screens/Choice.tsx';
 
-type RouteDef = { key: string; label: (t: ReturnType<typeof useStore>['t']) => string; render: () => ReactNode };
+type RouteDef = { key: string; label: (t: ReturnType<typeof useStore>['t']) => string; render: () => ReactNode; hidden?: boolean };
 
+// La première route sert d'accueil par défaut (hash vide ou inconnu).
 const ROUTES: RouteDef[] = [
+  { key: 'choix', label: (t) => t.nav.choix, render: () => <Choice /> },
+  { key: 'adr', label: (t) => t.choix.adr.titre, render: () => <AdrPlaceholder />, hidden: true },
   { key: 'accueil', label: (t) => t.nav.accueil, render: () => <Home /> },
   { key: 'revision', label: (t) => t.nav.revision, render: () => <Review /> },
   { key: 'catalogue', label: (t) => t.nav.catalogue, render: () => <Catalogue /> },
@@ -37,7 +41,7 @@ export function App() {
       <header className="app-header no-print">
         <span className="brand">{t.appTitle}</span>
         <nav aria-label={t.a11y.navPrincipale}>
-          {ROUTES.map((r) => (
+          {ROUTES.filter((r) => !r.hidden).map((r) => (
             <a key={r.key} href={`#/${r.key}`} aria-current={r === current ? 'page' : undefined}>
               {r.label(t)}
             </a>
