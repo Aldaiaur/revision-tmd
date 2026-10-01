@@ -1,5 +1,7 @@
 import { useEffect, type ReactNode } from 'react';
 import { useStore } from './state/store.tsx';
+import { DeckProvider } from './state/deck.tsx';
+import { DECKS, type DeckId } from './data/cards.ts';
 import { useRoute } from './ui/hooks.ts';
 import { Review } from './ui/screens/Review.tsx';
 import { Catalogue } from './ui/screens/Catalogue.tsx';
@@ -7,14 +9,13 @@ import { SettingsScreen } from './ui/screens/Settings.tsx';
 import { PrintScreen } from './ui/screens/Print.tsx';
 import { Home } from './ui/screens/Home.tsx';
 import { Exam } from './ui/screens/Exam.tsx';
-import { Choice, AdrPlaceholder } from './ui/screens/Choice.tsx';
+import { Choice } from './ui/screens/Choice.tsx';
 
-type RouteDef = { key: string; label: (t: ReturnType<typeof useStore>['t']) => string; render: () => ReactNode; hidden?: boolean };
+type Dict = ReturnType<typeof useStore>['t'];
+type RouteDef = { key: string; label: (t: Dict) => string; render: () => ReactNode };
 
-// La première route sert d'accueil par défaut (hash vide ou inconnu).
-const ROUTES: RouteDef[] = [
-  { key: 'choix', label: (t) => t.nav.choix, render: () => <Choice /> },
-  { key: 'adr', label: (t) => t.choix.adr.titre, render: () => <AdrPlaceholder />, hidden: true },
+/** Écrans d'une révision (IATA sans préfixe : #/revision ; ADR préfixée : #/adr/revision). */
+const DECK_ROUTES: RouteDef[] = [
   { key: 'accueil', label: (t) => t.nav.accueil, render: () => <Home /> },
   { key: 'revision', label: (t) => t.nav.revision, render: () => <Review /> },
   { key: 'catalogue', label: (t) => t.nav.catalogue, render: () => <Catalogue /> },
@@ -23,37 +24,51 @@ const ROUTES: RouteDef[] = [
   { key: 'reglages', label: (t) => t.nav.reglages, render: () => <SettingsScreen /> },
 ];
 
+/** Route → révision et écran. Hash vide ou inconnu : accueil (choix de la révision). */
+function parse(route: string): { deck: DeckId; page: RouteDef | null } {
+  const adr = route === 'adr' || route.startsWith('adr/');
+  const key = adr ? route.slice(4) || 'accueil' : route;
+  return { deck: adr ? 'adr' : 'iata', page: DECK_ROUTES.find((r) => r.key === key) ?? null };
+}
+
 export function App() {
   const { t, ready } = useStore();
   const [route] = useRoute();
-  const current = ROUTES.find((r) => r.key === route) ?? ROUTES[0]!;
+  const { deck, page } = parse(route);
+  const prefix = DECKS[deck].prefix;
+  const l = t.decks[deck];
+  const pageLabel = page ? page.label(t) : t.nav.choix;
 
   useEffect(() => {
-    document.title = `${current.label(t)} · ${t.appTitle}`;
+    document.title = page ? `${pageLabel} · ${l.titre}` : t.choix.titre;
     document.getElementById('main')?.focus({ preventScroll: true });
-  }, [current, t]);
+  }, [page, pageLabel, l, t]);
 
   return (
-    <>
+    <DeckProvider value={DECKS[deck]}>
       <a className="skip-link" href="#main">
         {t.a11y.allerContenu}
       </a>
       <header className="app-header no-print">
-        <span className="brand">{t.appTitle}</span>
+        <span className="brand">{page ? l.titre : t.choix.marque}</span>
         <nav aria-label={t.a11y.navPrincipale}>
-          {ROUTES.filter((r) => !r.hidden).map((r) => (
-            <a key={r.key} href={`#/${r.key}`} aria-current={r === current ? 'page' : undefined}>
-              {r.label(t)}
-            </a>
-          ))}
+          <a href="#/choix" aria-current={page ? undefined : 'page'}>
+            {t.nav.choix}
+          </a>
+          {page &&
+            DECK_ROUTES.map((r) => (
+              <a key={r.key} href={`#/${prefix}${r.key}`} aria-current={r === page ? 'page' : undefined}>
+                {r.label(t)}
+              </a>
+            ))}
         </nav>
       </header>
       <main id="main" tabIndex={-1}>
-        {ready ? current.render() : null}
+        {ready ? (page ? page.render() : <Choice />) : null}
       </main>
       <footer className="app-footer no-print">
-        <p>{t.mention}</p>
+        <p>{l.mention}</p>
       </footer>
-    </>
+    </DeckProvider>
   );
 }

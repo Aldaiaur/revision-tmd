@@ -1,0 +1,141 @@
+{
+  "fiche": "A6",
+  "titre": "Document de transport, véhicule et conducteur",
+  "module": "Transport",
+  "fichier": "Tronc commun ; module gaz ; grille de contrôle TMD",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "question_ouverte",
+      "q": "Dans quel ordre décrire une marchandise sur le document de transport ?",
+      "r": "**N° ONU** (précédé de « UN ») · **désignation officielle** · **classe** (dangers subsidiaires entre parenthèses) · **groupe d'emballage** · **code tunnel**, dans cet ordre et sans rien intercaler.",
+      "why": "Exemple : UN 1796 ACIDE SULFONITRIQUE, 8 (5.1), I, (E).",
+      "ref": ["5.4.1.1.1"],
+      "diff": 1
+    },
+    {
+      "n": "Q2",
+      "type": "question_ouverte",
+      "q": "Outre la description de chaque marchandise, que doit indiquer le document de transport ?",
+      "r": "**Nombre et type** des colis · **quantité totale** de chaque marchandise · **noms et adresses** de l'expéditeur et du destinataire · pour la déclaration : société, nom du déclarant formé, lieu, date, signature.",
+      "ref": ["5.4.1.1.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q3",
+      "type": "question_ouverte",
+      "q": "Où trouver le code de restriction en tunnels ?",
+      "r": "Colonne **(15)** du tableau A, entre parenthèses ; règles aux chapitres **1.9** et **8.6**.",
+      "ref": ["1.9", "8.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q4",
+      "type": "question_ouverte",
+      "q": "Qui remet les consignes écrites à l'équipage, et dans quelle langue ?",
+      "r": "Le **transporteur**, dans une langue que **chaque membre de l'équipage** lit et comprend.",
+      "ref": ["5.4.3"],
+      "diff": 1
+    },
+    {
+      "n": "Q5",
+      "type": "question_ouverte",
+      "q": "Transport de colis : quelle signalisation sur le véhicule, et quelles caractéristiques ?",
+      "r": "Deux **panneaux orange** rétroréfléchissants, **à l'avant et à l'arrière** : 40 × 30 cm, bordure noire de 15 mm, fixés pour résister à un feu de 15 minutes.",
+      "why": "Le contrôle de la signalisation fait partie des vérifications de l'expéditeur.",
+      "ref": ["5.3.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q6",
+      "type": "question_ouverte",
+      "q": "Transport en citerne ou en vrac : quelle signalisation ?",
+      "r": "Des **plaques-étiquettes** (placards) sur les **deux côtés et l'arrière**, et des panneaux orange **numérotés** (numéro de danger et n° ONU).",
+      "why": "Une seule matière : panneau numéroté à l'avant et à l'arrière ; plusieurs : panneaux neutres devant et derrière, numérotés sur les côtés.",
+      "ref": ["5.3.1", "5.3.2"],
+      "diff": 3
+    },
+    {
+      "n": "Q7",
+      "type": "question_ouverte",
+      "q": "Quels équipements tout véhicule ADR doit-il avoir, quelle que soit la marchandise ?",
+      "r": "**1 cale** de roue · **2 signaux d'avertissement** autoporteurs · **liquide de rinçage oculaire** (sauf classes 1 et 2) · par membre d'équipage : **gilet fluorescent**, **lampe portative**, **gants**, **protection des yeux**.",
+      "ref": ["8.1.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "Quels équipements supplémentaires pour des étiquettes 2.3 ou 6.1 ? Et pour 3, 4.1, 4.3, 8 ou 9 ?",
+      "r": "2.3 ou 6.1 : **masque d'évacuation d'urgence** par membre d'équipage · 3, 4.1, 4.3, 8, 9 (solides et liquides) : **pelle**, **protection de plaque d'égout**, **réservoir collecteur**.",
+      "ref": ["8.1.5.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q9",
+      "type": "question_ouverte",
+      "q": "Quels extincteurs pour une unité de transport en pleine application ?",
+      "r": "Un extincteur **2 kg** (poudre) pour la **cabine** et le moteur, plus des extincteurs pour le **chargement** dont la capacité dépend de la masse maximale du véhicule (au moins un de **6 kg** au-dessus de 3,5 t).",
+      "why": "Le support de cours indique 6 kg pour le chargement (2 kg sous 3,5 t) et 10 kg au total au-delà de 7,5 t. L'ADR récent (8.1.4.1) fixe des capacités totales de 4, 8 et 12 kg selon le tonnage : à vérifier.",
+      "ref": ["8.1.4.1"],
+      "statut": "a_relire",
+      "verif": "Capacités du cours différentes de l'ADR récent",
+      "diff": 3
+    },
+    {
+      "n": "Q10",
+      "type": "question_ouverte",
+      "q": "Certificat de formation du conducteur (« permis ADR ») : que couvre la formation de base, et quelles spécialisations existent ?",
+      "r": "Base : **colis de toutes classes sauf 1 et 7**. Spécialisations : **citernes**, **classe 1** (explosifs), **classe 7** (radioactifs).",
+      "why": "La formation du conducteur fait partie des vérifications de l'expéditeur.",
+      "ref": ["8.2.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Enlèvement de déchets dangereux : que contrôle-t-on au chargement (grille de contrôle) ?",
+      "r": "**Colis** fermés, sans fuite ni souillure, homologation valide · **étiquettes** et n° UN · **document** de transport signé · **panneaux orange** si requis · **équipements** de sécurité · **certificat ADR** du conducteur valide.",
+      "ref": ["4.1.1.1", "5.2", "5.4.1", "8.1.5", "8.2.1"],
+      "src": "Grille de contrôle TMD",
+      "diff": 2
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "Départ en mission sous le seuil du 1.1.3.6 : qu'anticiper pour le véhicule et quelle formation pour le conducteur ?",
+      "r": "Véhicule : **assurance** MD, **1 extincteur 2 kg**, **aucun** panneau orange, **arrimage** des colis. Conducteur : formation au **chapitre 1.3** seulement.",
+      "src": "Exercice emballage en commun, départ en mission",
+      "diff": 1
+    },
+    {
+      "n": "Q13",
+      "type": "vrai_faux",
+      "q": "Le modèle de document multimodal de l'ADR (5.4.5) peut servir pour un transport routier ou maritime.",
+      "r": "**Vrai**",
+      "why": "Le cadre « certificat d'empotage » ne se remplit que pour le chargement complet d'un conteneur.",
+      "ref": ["5.4.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q14",
+      "type": "question_ouverte",
+      "q": "Qui cale et arrime le chargement ?",
+      "r": "Selon le support : le **transporteur**, et au-delà de 3 t sous la responsabilité de l'**expéditeur**.",
+      "why": "Dans l'ADR (7.5.7), l'arrimage incombe d'abord au chargeur.",
+      "ref": ["7.5.7"],
+      "statut": "a_relire",
+      "verif": "Répartition des rôles à confirmer (ADR et arrêté TMD)",
+      "diff": 2
+    },
+    {
+      "n": "Q15",
+      "type": "vrai_faux",
+      "q": "Le transport accompagné (remise en mains propres) est adapté aux marchandises dangereuses.",
+      "r": "**Faux** : les marchandises dangereuses y sont interdites.",
+      "why": "Il est réservé au matériel inestimable, sous haute surveillance.",
+      "src": "Tronc commun, organisation des transports",
+      "diff": 1
+    }
+  ]
+}

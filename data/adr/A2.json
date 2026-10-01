@@ -1,0 +1,179 @@
+{
+  "fiche": "A2",
+  "titre": "Classification, FDS et tableau A",
+  "module": "Classification",
+  "fichier": "Tronc commun ; évaluation et exercices corrigés (annexe : extrait du tableau A)",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "qcm",
+      "q": "Quel document permet de savoir si un produit est dangereux au sens du transport ?",
+      "choix": ["La fiche technique", "Le catalogue du fournisseur", "La fiche de données de sécurité (FDS)", "Le code des transports"],
+      "bonne": "C",
+      "why": "Le fabricant fournit la FDS ; c'est elle qui donne le classement transport.",
+      "src": "Exercices, classement Q1",
+      "diff": 1
+    },
+    {
+      "n": "Q2",
+      "type": "question_ouverte",
+      "q": "Quelle section de la FDS concerne le transport, et quelles informations y trouve-t-on ?",
+      "r": "**Section 14** : numéro ONU, désignation officielle de transport, classe de danger, groupe d'emballage, danger pour l'environnement, informations pour les autres modes.",
+      "why": "La FDS compte 16 sections réglementaires ; la section 1 donne le nom du produit (et le n° CAS en section 3). Les FDS doivent être archivées et accessibles.",
+      "src": "Évaluation Q6 ; exercices Q2",
+      "diff": 1
+    },
+    {
+      "n": "Q3",
+      "type": "classement",
+      "q": "Donnez le danger de chaque classe ou division : 1 · 8 · 6.2 · 4.2 · 5.2 · 2.3 · 3 · 7.",
+      "r": "1 **explosifs** · 8 **corrosifs** · 6.2 **matières infectieuses** · 4.2 **matières spontanément inflammables** · 5.2 **peroxydes organiques** · 2.3 **gaz toxiques** · 3 **liquides inflammables** · 7 **matières radioactives**",
+      "src": "Exercices, classement Q3",
+      "diff": 1
+    },
+    {
+      "n": "Q4",
+      "type": "qcm",
+      "q": "Le sodium dégage un gaz inflammable au contact de l'eau. Sa classe est :",
+      "choix": ["4.1", "4.2", "4.3", "5.1"],
+      "bonne": "C",
+      "why": "4.1 : solides inflammables · 4.2 : spontanément inflammables (pyrophoriques) · 4.3 : dégagent des gaz inflammables au contact de l'eau (sodium, lithium, calcium, trichlorosilane…).",
+      "diff": 1
+    },
+    {
+      "n": "Q5",
+      "type": "qcm",
+      "q": "Quelles classes ou divisions n'ont **pas** de groupe d'emballage ?",
+      "choix": ["1, 2, 6.2 et 7", "1, 3, 6.1 et 8", "2, 4.3, 5.1 et 9", "Toutes en ont un"],
+      "bonne": "A",
+      "why": "Explosifs, gaz, matières infectieuses et radioactives n'ont pas de GE (ainsi que certains objets et matières particuliers).",
+      "ref": ["2.1.1.3"],
+      "src": "Évaluation Q7",
+      "diff": 1
+    },
+    {
+      "n": "Q6",
+      "type": "question_ouverte",
+      "q": "Que signifient les groupes d'emballage I, II et III ? Donnez un exemple de chacun.",
+      "r": "**I** : matières très dangereuses (éther) · **II** : moyennement dangereuses (essence) · **III** : faiblement dangereuses (white-spirit)",
+      "ref": ["2.1.1.3"],
+      "diff": 1
+    },
+    {
+      "n": "Q7",
+      "type": "question_ouverte",
+      "q": "Quels critères définissent un liquide inflammable de classe 3 ? Qu'est-ce que le point d'éclair ?",
+      "r": "Liquide de **point d'éclair ≤ 60 °C**, dont la pression de vapeur à 50 °C ne dépasse pas 300 kPa (3 bar) et qui n'est pas complètement gazeux à 20 °C. Le **point d'éclair** est la température la plus basse à laquelle les vapeurs forment avec l'air un mélange inflammable.",
+      "ref": ["2.2.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "Quand une matière relève-t-elle de la classe 2 (gaz) ?",
+      "r": "Si sa pression de vapeur à **50 °C dépasse 300 kPa (3 bar)**, ou si elle est **complètement gazeuse à 20 °C** sous 101,3 kPa.",
+      "why": "Inclut gaz comprimés, liquéfiés, liquéfiés réfrigérés, dissous, aérosols, briquets…",
+      "ref": ["2.2.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q9",
+      "type": "question_ouverte",
+      "q": "Une matière n'est dangereuse que pour l'environnement. Comment la classe-t-on ?",
+      "r": "**Classe 9** : **UN 3077** si solide, **UN 3082** si liquide.",
+      "why": "Uniquement si elle ne présente aucun danger relevant d'une autre classe.",
+      "ref": ["2.2.9"],
+      "diff": 2
+    },
+    {
+      "n": "Q10",
+      "type": "classement",
+      "q": "Dans le tableau A, quelle colonne donne : les étiquettes ? la quantité limitée ? la quantité exceptée ? l'instruction d'emballage ? l'emballage en commun ? la catégorie de transport ?",
+      "r": "Étiquettes **(5)** · QL **(7a)** · QE **(7b)** · Instruction d'emballage **(8)** · Emballage en commun **(9b)** · Catégorie de transport et code tunnel **(15)**",
+      "why": "Autres colonnes utiles : (1) n° ONU, (2) nom et description, (3a) classe, (4) groupe d'emballage, (6) dispositions spéciales.",
+      "ref": ["3.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Combien de rubriques compte environ le tableau A, et qu'est-ce qu'une rubrique « n.s.a. » ?",
+      "r": "Environ **2 350 rubriques**, dont quelque 350 rubriques génériques **n.s.a.** (« non spécifié ailleurs ») utilisées quand la matière n'a pas de rubrique nominative.",
+      "why": "Exemple : UN 1993 LIQUIDE INFLAMMABLE, N.S.A.",
+      "ref": ["3.2", "3.1.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q12",
+      "type": "classement",
+      "q": "Liste : acétone, benzène, méthanol, toluène, sodium, isopropylbenzène, acide acétique en solution, oxygène comprimé. Lesquels sont inflammables ? corrosifs ? explosifs ? gazeux ?",
+      "r": "Inflammables : **acétone, benzène, méthanol, toluène, isopropylbenzène** (classe 3) **et sodium** (4.3) · Corrosif : **acide acétique en solution** · Explosif : **aucun** · Gaz : **oxygène comprimé**",
+      "src": "Exercices, travail sur documents Q1",
+      "diff": 2
+    },
+    {
+      "n": "Q13",
+      "type": "question_ouverte",
+      "q": "Quelles étiquettes portent l'oxygène comprimé (UN 1072) et le méthanol (UN 1230) ?",
+      "r": "Oxygène comprimé : **2.2 + 5.1** (gaz non inflammable, comburant) · Méthanol : **3 + 6.1** (liquide inflammable, toxique)",
+      "src": "Annexe tableau A",
+      "diff": 2
+    },
+    {
+      "n": "Q14",
+      "type": "vrai_faux",
+      "q": "Les pictogrammes CLP figurant sur un flacon de laboratoire suffisent comme étiquettes de transport.",
+      "r": "**Faux**",
+      "why": "Le CLP (aligné sur le SGH) concerne l'étiquetage des produits chimiques, pas leur transport. Les étiquettes de danger ADR sont distinctes et déterminées par le tableau A.",
+      "diff": 1
+    },
+    {
+      "n": "Q15",
+      "type": "question_ouverte",
+      "q": "La neige carbonique (UN 1845) est-elle soumise à l'ADR ?",
+      "r": "**Non**, sauf lorsqu'elle sert d'**agent de réfrigération** : voir 5.5.3.",
+      "ref": ["3.2", "5.5.3"],
+      "src": "Annexe tableau A",
+      "diff": 2
+    },
+    {
+      "n": "Q16",
+      "type": "vrai_faux",
+      "q": "UN 1798 ACIDE CHLORHYDRIQUE ET ACIDE NITRIQUE EN MÉLANGE peut être transporté par route en pleine application de l'ADR.",
+      "r": "**Faux** : transport interdit.",
+      "why": "Le tableau A signale explicitement les rubriques interdites au transport.",
+      "ref": ["3.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q17",
+      "type": "question_ouverte",
+      "q": "Quels renseignements faut-il absolument connaître pour classer un produit ?",
+      "r": "Le **numéro ONU** et le **groupe d'emballage** : ils mènent à la ligne du tableau A, qui donne étiquettes, régimes dérogatoires, emballage et catégorie de transport.",
+      "diff": 1
+    },
+    {
+      "n": "Q18",
+      "type": "qcm",
+      "q": "Quelle division correspond aux peroxydes organiques ?",
+      "choix": ["5.1", "5.2", "4.1", "6.1"],
+      "bonne": "B",
+      "why": "5.1 : matières comburantes · 5.2 : peroxydes organiques, instables et pouvant se décomposer violemment sous l'effet de la chaleur ou d'un choc.",
+      "diff": 1
+    },
+    {
+      "n": "Q19",
+      "type": "question_ouverte",
+      "q": "Que peuvent provoquer les matières corrosives (classe 8) au-delà des lésions de la peau ?",
+      "r": "Attaque des **métaux** (véhicule, emballages) avec dégagement possible d'**hydrogène** (risque d'explosion) et réactions violentes acide/base pouvant libérer des gaz toxiques.",
+      "diff": 2
+    },
+    {
+      "n": "Q20",
+      "type": "question_ouverte",
+      "q": "Qu'est-ce que la classe 9 ? Donnez des exemples.",
+      "r": "**Matières et objets dangereux divers** : amiante, matières dangereuses pour l'environnement, matières transportées à chaud, piles au lithium, PCB, engins de sauvetage, polymères expansibles, déclencheurs de gonflage…",
+      "diff": 1
+    }
+  ]
+}

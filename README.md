@@ -36,6 +36,15 @@ met toute l'app en cache : elle se relance ensuite réseau coupé. Aucun compte,
 - **Rapport** : `data/import-report.md` liste les cartes 🔴 et leur nature détectée (à confirmer), les réponses à condenser, les lignes non converties.
 - **Réglages** : `data/app-config.json` (intervalles Leitner, durée et seuil de l'examen blanc, poids des modules). Aucune valeur DGR dans le code.
 
+### Révision ADR
+
+L'accueil propose deux révisions, IATA (`#/accueil`…) et ADR (`#/adr/accueil`…), avec les mêmes écrans et une progression séparée
+(cartes, échéances Leitner, date d'examen, examens blancs).
+
+- **Cartes ADR** : `data/adr/A*.json`, rédigées à la main sous une forme compacte (type `AdrCard` dans `src/data/cards.ts`), un fichier par thème.
+  Elles reformulent les supports de formation sans les recopier ; les cartes « à vérifier » expliquent pourquoi (point douteux dans un support).
+- **Supports bruts** : `sources-adr/`, non versionné.
+
 ### Statuts
 | Fiche | Carte | Comportement |
 |---|---|---|

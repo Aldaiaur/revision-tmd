@@ -1,6 +1,7 @@
 import type { Card } from '../model/card.ts';
 import { CARD_NUMBER } from '../data/cards.ts';
 import { useStore } from '../state/store.tsx';
+import { useDeck } from '../state/deck.tsx';
 import { Markdown } from '../ui/Markdown.tsx';
 import { StatusIcon } from '../ui/StatusIcon.tsx';
 import { FitBox } from './FitBox.tsx';
@@ -9,6 +10,7 @@ const SIZES = { small: { max: 12, min: 6 }, large: { max: 18, min: 8 } };
 
 function Head({ card, face }: { card: Card; face: 'Q' | 'R' }) {
   const { t } = useStore();
+  const { l } = useDeck();
   return (
     <div className="pc-head">
       <b>#{CARD_NUMBER.get(card.id)}</b>
@@ -18,7 +20,7 @@ function Head({ card, face }: { card: Card; face: 'Q' | 'R' }) {
         <StatusIcon statut={card.statut} size={9} title={t.statut[card.statut]} />
         {t.statut[card.statut]}
       </span>
-      <span className="pc-ed">DGR 67e</span>
+      <span className="pc-ed">{l.editionCourte}</span>
     </div>
   );
 }

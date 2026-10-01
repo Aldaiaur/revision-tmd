@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { applyFilter, DEFAULT_FILTER, type Filter } from '../../model/filters.ts';
 import { weakIds } from '../../model/weak.ts';
 import { CONFIG } from '../../model/config.ts';
-import { ALL_CARDS } from '../../data/cards.ts';
+import { useDeck } from '../../state/deck.tsx';
 import type { PrintFormat } from '../../storage/db.ts';
 import { useStore } from '../../state/store.tsx';
 import { paginate } from '../../print/layout.ts';
@@ -21,6 +21,7 @@ const defaultWeak: WeakSelector = (s) => {
 
 export function PrintScreen({ weak = defaultWeak }: { weak?: WeakSelector }) {
   const store = useStore();
+  const deck = useDeck();
   const { settings, updateSettings, selected, lastNote } = store;
   const [source, setSource] = useState<Source>(selected.size ? 'cochees' : 'filtre');
   const [filter, setFilter] = useState<Filter>(DEFAULT_FILTER);
@@ -28,12 +29,12 @@ export function PrintScreen({ weak = defaultWeak }: { weak?: WeakSelector }) {
   const [scale, setScale] = useState(0.5);
 
   const weakSet = weak(store);
-  const filtered = useMemo(() => applyFilter(ALL_CARDS, filter, lastNote), [filter, lastNote]);
+  const filtered = useMemo(() => applyFilter(deck.cards, filter, lastNote), [deck.cards, filter, lastNote]);
   const ids = useMemo(() => {
     if (source === 'filtre') return filtered.map((c) => c.id);
     const set = source === 'cochees' ? selected : weakSet;
-    return ALL_CARDS.filter((c) => set.has(c.id)).map((c) => c.id);
-  }, [source, filtered, selected, weakSet]);
+    return deck.cards.filter((c) => set.has(c.id)).map((c) => c.id);
+  }, [source, filtered, selected, weakSet, deck.cards]);
 
   const mode = settings.modeImpression;
   const format: PrintFormat = mode === 'recto' ? 'pliage' : settings.formatImpression === 'pliage' ? '2x4' : settings.formatImpression;

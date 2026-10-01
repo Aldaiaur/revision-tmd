@@ -9,6 +9,8 @@ export type Settings = {
   theme: 'auto' | 'light' | 'dark';
   langue: 'fr' | 'en';
   dateExamen: string | null;
+  /** Date d'examen de la révision ADR (dateExamen : IATA). */
+  dateExamenAdr: string | null;
   formatImpression: PrintFormat;
   modeImpression: 'duplex' | 'recto';
   decalageVersoMm: { x: number; y: number };
@@ -16,6 +18,8 @@ export type Settings = {
 };
 export type ExamRun = {
   seq?: number;
+  /** Révision de l'examen (absent : IATA, examens antérieurs à l'ADR). */
+  deck?: 'iata' | 'adr';
   debut: string;
   fin: string | null;
   dureeMin: number;
@@ -39,6 +43,7 @@ export const DEFAULT_SETTINGS: Settings = {
   theme: 'auto',
   langue: 'fr',
   dateExamen: null,
+  dateExamenAdr: null,
   formatImpression: '2x4',
   modeImpression: 'duplex',
   decalageVersoMm: { x: 0, y: 0 },

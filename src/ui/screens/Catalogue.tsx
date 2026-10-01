@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { applyFilter, DEFAULT_FILTER, type Filter } from '../../model/filters.ts';
-import { ALL_CARDS, CARD_NUMBER } from '../../data/cards.ts';
+import { CARD_NUMBER } from '../../data/cards.ts';
+import { useDeck } from '../../state/deck.tsx';
 import { useStore } from '../../state/store.tsx';
 import { FilterBar } from '../FilterBar.tsx';
 import { Banners, Recto, Verso } from '../CardFaces.tsx';
@@ -14,12 +15,13 @@ const CATALOGUE_FILTER: Filter = { ...DEFAULT_FILTER, statuts: [] };
 
 export function Catalogue() {
   const { t, lastNote, selected, toggleSelected, setSelected, notesById } = useStore();
+  const deck = useDeck();
   const [filter, setFilter] = useState<Filter>(CATALOGUE_FILTER);
   const [active, setActive] = useState(0);
   const [open, setOpen] = useState<string | null>(null);
   const searchRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLOListElement>(null);
-  const cards = useMemo(() => applyFilter(ALL_CARDS, filter, lastNote), [filter, lastNote]);
+  const cards = useMemo(() => applyFilter(deck.cards, filter, lastNote), [deck.cards, filter, lastNote]);
 
   useEffect(() => setActive(0), [filter]);
   useEffect(() => {

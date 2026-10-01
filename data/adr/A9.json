@@ -1,0 +1,106 @@
+{
+  "fiche": "A9",
+  "titre": "Piles et batteries au lithium",
+  "module": "Lithium",
+  "fichier": "Module lithium",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "classement",
+      "q": "Associez : UN 3480 · UN 3481 · UN 3090 · UN 3091",
+      "r": "**3480** piles au lithium ionique (seules) · **3481** lithium ionique **contenues dans** ou **emballées avec** un équipement · **3090** piles au lithium métal (seules) · **3091** lithium métal dans ou avec un équipement",
+      "ref": ["3.2"],
+      "diff": 1
+    },
+    {
+      "n": "Q2",
+      "type": "question_ouverte",
+      "q": "Quelle classe et quelle étiquette pour les piles au lithium ?",
+      "r": "**Classe 9**, étiquette **9A** (100 × 100 mm), avec une demi-rangée de piles dans la moitié inférieure.",
+      "ref": ["5.2.2.2.2"],
+      "diff": 1
+    },
+    {
+      "n": "Q3",
+      "type": "question_ouverte",
+      "q": "De quoi dépend le choix de l'étiquette et des marques pour un envoi de piles au lithium ?",
+      "r": "Du **type** (ionique ou métal), de la **configuration** (seules, avec ou dans un équipement), de la **puissance** (Wh) ou de la teneur en lithium, et du **mode** de transport.",
+      "diff": 2
+    },
+    {
+      "n": "Q4",
+      "type": "question_ouverte",
+      "q": "Quelle est la différence entre une pile (cellule) et une batterie ?",
+      "r": "La **pile** est l'élément électrochimique de base ; la **batterie** est un assemblage de plusieurs piles.",
+      "diff": 1
+    },
+    {
+      "n": "Q5",
+      "type": "question_ouverte",
+      "q": "Quelles causes peuvent provoquer un court-circuit ou un emballement thermique d'une batterie au lithium ?",
+      "r": "**Surcharges électriques** (chargeur inadapté, décharge complète) · **dommages mécaniques** (choc, écrasement, chocs répétés) · **surcharges thermiques** (chaleur, soleil, flamme, humidité).",
+      "why": "Ces causes peuvent aussi s'accumuler.",
+      "diff": 2
+    },
+    {
+      "n": "Q6",
+      "type": "question_ouverte",
+      "q": "Que se passe-t-il quand la température d'une pile lithium-ion monte (60 °C, 130 °C, 250 °C) ?",
+      "r": "**60 °C** : température maximale admise · **≈130 °C** : le séparateur fond, court-circuit interne · **> 250 °C** : emballement thermique inévitable, jusqu'à **600 °C**, gaz toxiques, incendie propagé aux autres cellules.",
+      "diff": 2
+    },
+    {
+      "n": "Q7",
+      "type": "vrai_faux",
+      "q": "Les piles au nickel-hydrure métallique (UN 3496) sont soumises à l'ADR.",
+      "r": "**Faux** : non soumises à l'ADR.",
+      "why": "Elles restent réglementées en transport maritime (IMDG).",
+      "ref": ["3.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "UN 3480 et UN 3481 : quantités limitées, quantités exceptées, catégorie de transport ?",
+      "r": "QL **0**, QE **E0** (aucun régime dérogatoire) · catégorie de transport **2 (E)**",
+      "src": "Module lithium, extrait du tableau A",
+      "diff": 2
+    },
+    {
+      "n": "Q9",
+      "type": "classement",
+      "q": "Instructions d'emballage des piles au lithium : à quoi servent P908, P909, P910 et P911 ?",
+      "r": "**P908** piles **endommagées ou défectueuses** · **P909** piles transportées pour **élimination ou recyclage** · **P910** **prototypes** et petites séries · **P911** piles endommagées susceptibles de se démonter rapidement ou de réagir dangereusement",
+      "why": "P903 est l'instruction générale.",
+      "ref": ["4.1.4.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q10",
+      "type": "question_ouverte",
+      "q": "Batteries au lithium seules : avec quelles classes l'emballage en commun est-il interdit selon le support ?",
+      "r": "Avec les classes **1, 2.1, 3, 4.1 et 5.1**.",
+      "statut": "a_relire",
+      "verif": "Règle du support, à confirmer au 4.1.10",
+      "src": "Module lithium",
+      "diff": 3
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Quelles sections de la FDS consulter pour une batterie au lithium ?",
+      "r": "**14** (transport : n° ONU, classe), **2** et **3** (identification, composition), **5** (lutte contre l'incendie), **7** (stockage et manutention), et les informations sur les **essais** subis (épreuves ONU, 38.3).",
+      "diff": 2
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "L'ancienne étiquette ou marque pour piles au lithium est-elle encore utilisable ?",
+      "r": "Le support indique qu'elle reste valable **jusqu'au 31 décembre 2026**.",
+      "statut": "a_relire",
+      "verif": "Date de fin de la mesure transitoire à confirmer",
+      "src": "Module lithium",
+      "diff": 3
+    }
+  ]
+}

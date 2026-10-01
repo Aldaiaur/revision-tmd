@@ -1,0 +1,177 @@
+{
+  "fiche": "A7",
+  "titre": "Le transport des gaz (classe 2)",
+  "module": "Gaz",
+  "fichier": "Module gaz",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "classement",
+      "q": "Code de classification des gaz : que désigne le chiffre ? 1 · 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9",
+      "r": "1 **comprimé** · 2 **liquéfié** · 3 **liquéfié réfrigéré** · 4 **dissous** · 5 **aérosols** et récipients de faible capacité · 6 autres **objets** sous pression · 7 gaz non comprimés soumis à prescriptions particulières · 8 **produits chimiques sous pression** · 9 **adsorbé**",
+      "ref": ["2.2.2.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q2",
+      "type": "classement",
+      "q": "Code de classification des gaz : que désignent les lettres A, O, F, T, TF, TC, TO, TFC, TOC ?",
+      "r": "A **asphyxiant** · O **comburant** · F **inflammable** · T **toxique** · TF toxique inflammable · TC toxique corrosif · TO toxique comburant · TFC toxique inflammable corrosif · TOC toxique comburant corrosif",
+      "ref": ["2.2.2.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q3",
+      "type": "question_ouverte",
+      "q": "Comment les groupes de gaz se répartissent-ils entre les divisions 2.1, 2.2 et 2.3 ?",
+      "r": "**2.1** : gaz inflammables (F) · **2.2** : non inflammables et non toxiques (A, O) · **2.3** : toxiques (tous les groupes contenant T)",
+      "ref": ["2.2.2.1"],
+      "diff": 1
+    },
+    {
+      "n": "Q4",
+      "type": "qcm",
+      "q": "AZOTE COMPRIMÉ, gaz comprimé asphyxiant : code et division ?",
+      "choix": ["1A, 2.2", "2A, 2.2", "1O, 2.2", "1F, 2.1"],
+      "bonne": "A",
+      "diff": 1
+    },
+    {
+      "n": "Q5",
+      "type": "qcm",
+      "q": "DICHLOROSILANE, gaz liquéfié toxique, inflammable et corrosif : code et division ?",
+      "choix": ["2TFC, 2.3", "2TFC, 2.1", "1TFC, 2.3", "2F, 2.1"],
+      "bonne": "A",
+      "why": "Dès qu'il y a un T, c'est la division 2.3, même si le gaz est aussi inflammable.",
+      "diff": 2
+    },
+    {
+      "n": "Q6",
+      "type": "qcm",
+      "q": "ACÉTYLÈNE DISSOUS : code et division ?",
+      "choix": ["4F, 2.1", "4A, 2.2", "1F, 2.1", "3F, 2.1"],
+      "bonne": "A",
+      "why": "4 = gaz dissous ; F = inflammable → 2.1. Le tableau du support de cours est confus sur cette ligne.",
+      "diff": 2
+    },
+    {
+      "n": "Q7",
+      "type": "question_ouverte",
+      "q": "Quels gaz sont interdits comme gaz propulseurs d'aérosols ?",
+      "r": "Les gaz **toxiques** et les gaz **pyrophoriques**.",
+      "ref": ["2.2.2.1.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "Contenance maximale d'un aérosol (UN 1950) en métal et en autre matière ?",
+      "r": "Métal : **1 000 mL** · plastique ou verre : **500 mL**",
+      "ref": ["6.2.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q9",
+      "type": "question_ouverte",
+      "q": "Quels numéros ONU pour les produits chimiques sous pression, et quand sont-ils interdits ?",
+      "r": "**UN 3500 à 3505** (subdivision 8). Interdits s'ils sont à la fois **toxiques et corrosifs**, ou toxiques ou corrosifs du GE I.",
+      "why": "Un produit chimique sous pression conditionné en aérosol relève de l'UN 1950.",
+      "ref": ["2.2.2.1.7"],
+      "statut": "a_relire",
+      "verif": "Critère d'interdiction confus dans le support",
+      "diff": 3
+    },
+    {
+      "n": "Q10",
+      "type": "question_ouverte",
+      "q": "Contenance maximale d'une bouteille, d'un tube, d'un fût à pression et d'un cadre de bouteilles ?",
+      "r": "Bouteille **≤ 150 L** · tube **150 à 3 000 L** · fût à pression **≤ 1 000 L** · cadre **≤ 3 000 L** (1 000 L pour les gaz toxiques)",
+      "ref": ["1.2.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Quelle instruction d'emballage pour les gaz en bouteilles, et quelles informations y trouve-t-on ?",
+      "r": "**P200** : récipients autorisés, toxicité (CL50), **périodicité des épreuves** (5 ou 10 ans), pression d'épreuve, pression de service ou **taux de remplissage**, dispositions spéciales.",
+      "why": "Autres : P203 cryogéniques, P206 produits chimiques sous pression, P207 aérosols, P208 gaz adsorbés.",
+      "ref": ["4.1.4.1 P200"],
+      "diff": 2
+    },
+    {
+      "n": "Q12",
+      "type": "vrai_faux",
+      "q": "Une bouteille rechargeable dont la date d'épreuve périodique est dépassée peut encore être remplie.",
+      "r": "**Faux**",
+      "why": "Elle ne doit pas être remplie ; elle peut toutefois être transportée (vers l'épreuve ou l'élimination). Le propriétaire est responsable du suivi, l'utilisateur doit le vérifier.",
+      "ref": ["4.1.6.10"],
+      "diff": 2
+    },
+    {
+      "n": "Q13",
+      "type": "question_ouverte",
+      "q": "P203, récipients cryogéniques ouverts : quels gaz, quelle contenance, quel remplissage ?",
+      "r": "Gaz **3A** non inflammables seulement (azote, argon, hélium, néon, krypton, xénon…) · **≤ 450 L** · remplissage **98 % max** · bouchons à évents · marquage obligatoire",
+      "why": "Récipients fermés : gaz 3A, 3O, 3F, ≤ 1 000 L, au moins un dispositif de décompression.",
+      "ref": ["4.1.4.1 P203"],
+      "diff": 3
+    },
+    {
+      "n": "Q14",
+      "type": "vrai_faux",
+      "q": "Un dry shipper (azote liquide entièrement absorbé, sans liquide libre) est soumis à l'ADR comme l'azote liquide.",
+      "r": "**Faux**",
+      "why": "Selon le support, sa conception l'exempte des réglementations ADR et IATA.",
+      "src": "Module gaz, P203",
+      "diff": 2
+    },
+    {
+      "n": "Q15",
+      "type": "question_ouverte",
+      "q": "Quel marquage sur un récipient de gaz rechargeable, et quelle hauteur de caractères ?",
+      "r": "**UN + n° ONU** et **désignation officielle** (n.s.a. : nom technique ; mélange : les deux composants principaux). Hauteur : **5 mm** si Ø ≥ 140 mm, **2,5 mm** sinon.",
+      "ref": ["5.2.1.6", "6.2.2.7"],
+      "diff": 3
+    },
+    {
+      "n": "Q16",
+      "type": "question_ouverte",
+      "q": "Les étiquettes sur une bouteille de gaz peuvent-elles être réduites ou se chevaucher ?",
+      "r": "**Oui** : réduites (ISO 7225, jusqu'à 25 mm environ) et superposées, à condition que l'étiquette du **danger principal** reste entièrement visible.",
+      "ref": ["5.2.2.2.1.2"],
+      "diff": 3
+    },
+    {
+      "n": "Q17",
+      "type": "question_ouverte",
+      "q": "Rédigez la ligne du document de transport pour une bouteille d'hélium comprimé de 250 L.",
+      "r": "**UN 1046 HÉLIUM COMPRIMÉ, 2.2, (E)** · 1 bouteille à pression de 250 L",
+      "why": "Pas de groupe d'emballage pour les gaz.",
+      "diff": 2
+    },
+    {
+      "n": "Q18",
+      "type": "question_ouverte",
+      "q": "Comment décrire une bouteille de gaz vide non nettoyée sur le document de transport ?",
+      "r": "**RÉCIPIENT VIDE, 2.2** (avec la classe et, le cas échéant, les dangers subsidiaires du dernier contenu)",
+      "ref": ["5.4.1.1.6"],
+      "diff": 3
+    },
+    {
+      "n": "Q19",
+      "type": "question_ouverte",
+      "q": "Chlore (UN 1017) : code, étiquettes, QL et catégorie de transport ?",
+      "r": "**2TOC** · étiquettes **2.3 + 5.1 + 8** · QL **0** et **E0** · catégorie **1** (C/D)",
+      "src": "Module gaz, extrait du tableau A",
+      "diff": 3
+    },
+    {
+      "n": "Q20",
+      "type": "question_ouverte",
+      "q": "Sur une ogive de bouteille, quelles sont les trois familles d'informations de la marque d'homologation ?",
+      "r": "**Certification** (symbole ONU, norme, pays, organisme, date du contrôle initial) · **utilisation** (pressions de service et d'épreuve, masse, contenance en eau, épaisseur) · **fabrication** (filetage, fabricant, n° de série)",
+      "ref": ["6.2.2.7"],
+      "diff": 3
+    }
+  ]
+}

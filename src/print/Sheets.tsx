@@ -1,21 +1,22 @@
 import { CARD_BY_ID } from '../data/cards.ts';
 import type { PrintFormat } from '../storage/db.ts';
 import { useStore } from '../state/store.tsx';
+import { useDeck } from '../state/deck.tsx';
 import { calibrationPoints, cropMarks, PAGE, type Sheet } from './layout.ts';
 import { PrintRecto, PrintVerso } from './PrintCard.tsx';
 
 const mm = (v: number) => `${v}mm`;
 
 function SheetFrame({ label, children, total, number }: { label: string; children: React.ReactNode; total: number; number: number }) {
-  const { t } = useStore();
+  const { l } = useDeck();
   return (
     <div className="sheet-box">
     <section className="sheet" aria-label={`Planche ${number} / ${total} · ${label}`}>
       <div className="sheet-head">
-        Révision IATA DGR · planche {number}/{total} · {label}
+        {l.titre} · planche {number}/{total} · {label}
       </div>
       {children}
-      <div className="sheet-foot">{t.mention}</div>
+      <div className="sheet-foot">{l.mention}</div>
     </section>
     </div>
   );

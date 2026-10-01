@@ -5,6 +5,7 @@ import { en } from '../i18n/en.ts';
 import { fr, type Dict } from '../i18n/fr.ts';
 import { CONFIG } from '../model/config.ts';
 import { computeStates, localDay, type CardState } from '../srs/leitner.ts';
+import { deckOf } from '../data/cards.ts';
 
 export const CURRENT_SELECTION = 'Sélection courante';
 
@@ -137,7 +138,15 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     [db],
   );
 
-  const leitner = useMemo(() => computeStates(snap.reviews, CONFIG.leitner, snap.settings.dateExamen), [snap.reviews, snap.settings.dateExamen]);
+  // Chaque révision a sa propre date d'examen : les échéances ADR et IATA se calculent séparément.
+  const leitner = useMemo(() => {
+    const adr = snap.reviews.filter((r) => deckOf(r.cardId) === 'adr');
+    const iata = snap.reviews.filter((r) => deckOf(r.cardId) === 'iata');
+    return new Map([
+      ...computeStates(iata, CONFIG.leitner, snap.settings.dateExamen),
+      ...computeStates(adr, CONFIG.leitner, snap.settings.dateExamenAdr),
+    ]);
+  }, [snap.reviews, snap.settings.dateExamen, snap.settings.dateExamenAdr]);
   const today = localDay(new Date());
 
   const t = snap.settings.langue === 'en' ? en : fr;

@@ -1,7 +1,7 @@
 import type { RefObject } from 'react';
-import { CARD_TYPES, MODULES, STATUTS } from '../model/card.ts';
+import { CARD_TYPES, STATUTS } from '../model/card.ts';
 import { DEFAULT_FILTER, isDefaultFilter, type Filter } from '../model/filters.ts';
-import { ALL_FICHES, ALL_TAGS } from '../data/cards.ts';
+import { useDeck } from '../state/deck.tsx';
 import { useStore } from '../state/store.tsx';
 import { StatusIcon } from './StatusIcon.tsx';
 
@@ -35,6 +35,7 @@ export function FilterBar({ filter, onChange, count, searchRef }: {
   searchRef?: RefObject<HTMLInputElement | null>;
 }) {
   const { t } = useStore();
+  const deck = useDeck();
   const set = (patch: Partial<Filter>) => onChange({ ...filter, ...patch });
   return (
     <section className="filter-bar" aria-label={t.filtre.titre}>
@@ -61,7 +62,7 @@ export function FilterBar({ filter, onChange, count, searchRef }: {
           </button>
         )}
       </div>
-      <Chips label={t.filtre.modules} values={MODULES} selected={filter.modules} onChange={(modules) => set({ modules })} />
+      <Chips label={t.filtre.modules} values={deck.modules} selected={filter.modules} onChange={(modules) => set({ modules })} />
       <Chips
         label={t.filtre.statuts}
         values={STATUTS}
@@ -82,8 +83,8 @@ export function FilterBar({ filter, onChange, count, searchRef }: {
           {filter.types.length + filter.fiches.length + filter.tags.length > 0 && ` (${filter.types.length + filter.fiches.length + filter.tags.length})`}
         </summary>
         <Chips label={t.filtre.types} values={CARD_TYPES} selected={filter.types} onChange={(types) => set({ types })} render={(v) => t.type[v]} />
-        <Chips label={t.filtre.fiches} values={ALL_FICHES} selected={filter.fiches} onChange={(fiches) => set({ fiches })} />
-        <Chips label={t.filtre.tags} values={ALL_TAGS} selected={filter.tags} onChange={(tags) => set({ tags })} />
+        <Chips label={t.filtre.fiches} values={deck.fiches} selected={filter.fiches} onChange={(fiches) => set({ fiches })} />
+        <Chips label={t.filtre.tags} values={deck.tags} selected={filter.tags} onChange={(tags) => set({ tags })} />
       </details>
     </section>
   );

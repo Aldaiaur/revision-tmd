@@ -1,0 +1,194 @@
+{
+  "fiche": "A8",
+  "titre": "Matières infectieuses, biologiques, OGM et toxines",
+  "module": "Biologique",
+  "fichier": "Module biologique",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "question_ouverte",
+      "q": "Que sont les « matières infectieuses » au sens de l'ADR ? Quels agents pathogènes sont visés ?",
+      "r": "Des matières dont on sait ou dont on a des raisons de penser qu'elles **contiennent des agents pathogènes** : bactéries, virus, rickettsies, parasites, champignons, et autres agents comme les **prions**.",
+      "ref": ["2.2.62.1.1"],
+      "diff": 1
+    },
+    {
+      "n": "Q2",
+      "type": "classement",
+      "q": "Associez : UN 2814 · UN 2900 · UN 3291 · UN 3373",
+      "r": "**2814** matière infectieuse pour l'homme (cat. A) · **2900** matière infectieuse pour les animaux uniquement (cat. A) · **3291** déchet d'hôpital ou (bio)médical, n.s.a. · **3373** matière biologique, catégorie B",
+      "ref": ["2.2.62.1.4"],
+      "diff": 1
+    },
+    {
+      "n": "Q3",
+      "type": "question_ouverte",
+      "q": "Qu'est-ce qui distingue la catégorie A de la catégorie B ?",
+      "r": "**Catégorie A** : une exposition peut causer une **invalidité permanente** ou une **maladie mortelle** ou potentiellement mortelle chez un humain ou animal en bonne santé. **Catégorie B** : toute autre matière infectieuse.",
+      "why": "Exposition = la matière s'échappe de l'emballage et entre en contact avec un humain ou un animal. Le classement relève d'un jugement de spécialiste.",
+      "ref": ["2.2.62.1.4.1", "2.2.62.1.4.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q4",
+      "type": "vrai_faux",
+      "q": "Une culture d'un agent de catégorie A destinée à des fins diagnostiques ou cliniques peut être classée en catégorie B.",
+      "r": "**Vrai**",
+      "why": "Note du tableau des exemples de catégorie A. Les cultures (reproduction volontaire d'agents pathogènes) sont sinon en catégorie A.",
+      "ref": ["2.2.62.1.4.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q5",
+      "type": "question_ouverte",
+      "q": "Matière dont on soupçonne qu'elle relève de la catégorie A sans connaître l'agent : que porter sur le document de transport ?",
+      "r": "**UN 2814 MATIÈRE INFECTIEUSE POUR L'HOMME, (Matière infectieuse soupçonnée d'appartenir à la catégorie A), 6.2, (-)**",
+      "why": "Quand l'agent est connu, la disposition spéciale 318 impose le nom technique sur le document (ex. virus Hantaan).",
+      "ref": ["3.3.1 DS 318"],
+      "diff": 3
+    },
+    {
+      "n": "Q6",
+      "type": "question_ouverte",
+      "q": "Quelle information supplémentaire le document de transport doit-il porter pour la classe 6.2 ?",
+      "r": "Le **nom et le numéro de téléphone d'une personne responsable**.",
+      "ref": ["5.4.1.2.4"],
+      "diff": 2
+    },
+    {
+      "n": "Q7",
+      "type": "question_ouverte",
+      "q": "Instruction P620 (catégorie A) : quels sont les éléments de l'emballage ?",
+      "r": "**Récipient(s) primaire(s) étanche(s)** · **emballage secondaire étanche** · **emballage extérieur rigide** (≥ 100 mm) · **absorbant** pour les liquides · colis **homologué ONU** · aucune autre marchandise · **déclaration** de MD.",
+      "why": "Le primaire ou le secondaire résiste à une différence de pression de 95 kPa, entre −40 °C et +55 °C.",
+      "ref": ["4.1.4.1 P620"],
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "Décodez la marque 4G/CLASS 6.2/06/S/SP-9989-ERIKSSON.",
+      "r": "**4G** caisse carton · **CLASS 6.2** (à la place du groupe d'emballage) · **06** année de fabrication · **S** Suède · **SP-9989-ERIKSSON** fabricant",
+      "why": "Un « U » après le code (4GU) désigne un emballage spécial ; un « W » un emballage équivalent fabriqué selon une autre spécification.",
+      "ref": ["6.3.4"],
+      "diff": 3
+    },
+    {
+      "n": "Q9",
+      "type": "question_ouverte",
+      "q": "Peut-on ajouter un produit dangereux dans le récipient primaire d'une matière infectieuse ?",
+      "r": "**Oui**, jusqu'à **30 mL** de marchandises des **classes 3, 8 ou 9** par récipient primaire, s'il sert à maintenir la viabilité, stabiliser ou neutraliser la matière. Aucune autre prescription ne s'applique alors à ce produit.",
+      "ref": ["4.1.4.1 P620", "4.1.4.1 P650"],
+      "diff": 3
+    },
+    {
+      "n": "Q10",
+      "type": "question_ouverte",
+      "q": "Envoi réfrigéré avec glace ou avec neige carbonique : quelles précautions ?",
+      "r": "Réfrigérant **autour de l'emballage secondaire** (ou dans un suremballage), **cales** pour maintenir le secondaire après fonte ou sublimation. Glace : emballage extérieur **étanche**. Neige carbonique : l'emballage doit **laisser s'échapper le CO2**.",
+      "ref": ["4.1.4.1 P620"],
+      "diff": 2
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Que permet la disposition MP5 ?",
+      "r": "Emballer **ensemble des UN 2814 et UN 2900** (P620), mais **avec aucune autre marchandise**, sauf l'UN 3373 et les **réfrigérants** (glace, neige carbonique, azote liquide).",
+      "ref": ["4.1.10 MP5"],
+      "diff": 3
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "Instruction P650 (UN 3373) : l'emballage doit-il être homologué ? Quelles exigences ?",
+      "r": "**Pas d'homologation ONU**. Triple emballage (primaire, secondaire, extérieur) dont le **secondaire ou l'extérieur est rigide** ; le colis complet résiste à une chute de **1,2 m** ; liquides : primaire et secondaire étanches, absorbant, résistance à **95 kPa**.",
+      "ref": ["4.1.4.1 P650"],
+      "diff": 2
+    },
+    {
+      "n": "Q13",
+      "type": "question_ouverte",
+      "q": "Quel marquage pour un colis UN 3373 ?",
+      "r": "La marque en losange **UN3373** et, à côté, la mention **« MATIÈRE BIOLOGIQUE, CATÉGORIE B »** (lettres d'au moins 6 mm), sur fond contrastant.",
+      "why": "Flèches d'orientation si un récipient primaire contient plus de 50 mL (selon le support).",
+      "ref": ["4.1.4.1 P650"],
+      "diff": 2
+    },
+    {
+      "n": "Q14",
+      "type": "vrai_faux",
+      "q": "Un colis UN 3373 conforme à la P650 exige une déclaration de marchandises dangereuses.",
+      "r": "**Faux**",
+      "why": "Emballé et marqué selon la P650, il n'est soumis à aucune autre prescription de l'ADR (pas de document, pas de catégorie de transport).",
+      "ref": ["4.1.4.1 P650", "3.3.1 DS 319"],
+      "diff": 2
+    },
+    {
+      "n": "Q15",
+      "type": "vrai_faux",
+      "q": "Les matières infectieuses de catégorie A peuvent bénéficier des quantités limitées ou exceptées.",
+      "r": "**Faux** : ni QL ni QE (0 et E0) ; catégorie de transport **0**.",
+      "why": "Pas de régime dérogatoire, pas de 1.1.3.6. La catégorie B (UN 3373) n'a pas non plus de QL ni de QE.",
+      "diff": 2
+    },
+    {
+      "n": "Q16",
+      "type": "question_ouverte",
+      "q": "Comment classer des déchets médicaux de catégorie A ? de catégorie B ? décontaminés ?",
+      "r": "Catégorie A : **UN 2814 ou 2900** · catégorie B ou faible probabilité : **UN 3291** · décontaminés : **non soumis** (sauf autre danger)",
+      "ref": ["2.2.62.1.11"],
+      "diff": 2
+    },
+    {
+      "n": "Q17",
+      "type": "question_ouverte",
+      "q": "Citez des matières biologiques non soumises à l'ADR (2.2.62.1.5).",
+      "r": "Matières **sans agent pathogène** ou non pathogènes · pathogènes **neutralisés ou inactivés** · concentrations identiques au milieu naturel · **gouttes de sang séché** · recherche de **sang dans les selles** · sang et organes destinés à la **transfusion ou la transplantation**.",
+      "ref": ["2.2.62.1.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q18",
+      "type": "question_ouverte",
+      "q": "Échantillon humain à risque minimal (glycémie, cholestérol…) : comment l'expédier hors ADR ?",
+      "r": "Triple emballage : primaire **étanche**, secondaire **étanche**, extérieur robuste avec un côté d'au moins **100 × 100 mm**, absorbant pour les liquides ; mention **« Échantillon humain exempté »**.",
+      "why": "L'exemption repose sur un jugement de spécialiste (antécédents, symptômes, conditions endémiques).",
+      "ref": ["2.2.62.1.5.8"],
+      "diff": 2
+    },
+    {
+      "n": "Q19",
+      "type": "question_ouverte",
+      "q": "Comment classer des micro-organismes génétiquement modifiés (MOGM, OGM) ?",
+      "r": "**UN 3245, classe 9**, s'ils ne sont ni toxiques ni infectieux. MOGM **toxiques** → classe 6.1 ; **infectieux** → classe 6.2 (UN 2814, 2900 ou 3373).",
+      "why": "DS 219 : emballés et marqués selon P904, ils ne sont soumis à aucune autre prescription. DS 637 : non soumis si les autorités des pays concernés en autorisent l'utilisation.",
+      "ref": ["2.2.9.1.11", "3.3.1 DS 219"],
+      "diff": 2
+    },
+    {
+      "n": "Q20",
+      "type": "question_ouverte",
+      "q": "Comment classer une toxine (venin…) extraite d'un organisme vivant, sans agent infectieux ?",
+      "r": "**Classe 6.1** : **UN 3172** (liquide) ou **UN 3462** (solide), avec un **groupe d'emballage** à déterminer.",
+      "ref": ["2.2.62.1.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q21",
+      "type": "question_ouverte",
+      "q": "Transport d'animaux vivants, d'espèces protégées, de micro-organismes et toxines hautement pathogènes (MOT) : à qui s'adresser ?",
+      "r": "Animaux vivants : **DDPP** (enregistrement préalable, certificat vétérinaire) · espèces protégées : convention **CITES** · MOT : **ANSM** (autorisation d'environ 3 semaines, documents visés en douane)",
+      "src": "Module biologique, réglementations complémentaires",
+      "diff": 2
+    },
+    {
+      "n": "Q22",
+      "type": "vrai_faux",
+      "q": "On peut utiliser un animal vivant pour transporter une matière infectieuse si c'est plus pratique.",
+      "r": "**Faux**",
+      "why": "Seulement si la matière ne peut être transportée d'aucune autre manière ; un animal infecté volontairement voyage dans les conditions fixées par l'autorité compétente.",
+      "ref": ["2.2.62.1.12"],
+      "diff": 2
+    }
+  ]
+}

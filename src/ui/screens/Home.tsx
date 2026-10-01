@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
-import { MODULES, type Module } from '../../model/card.ts';
+import type { Card, Module } from '../../model/card.ts';
 import { CONFIG } from '../../model/config.ts';
-import { ALL_CARDS } from '../../data/cards.ts';
 import { dailyQueue, isDue, streak, type CardState } from '../../srs/leitner.ts';
 import { useStore } from '../../state/store.tsx';
+import { useDeck } from '../../state/deck.tsx';
 
 const SEGMENTS = ['b5', 'b4', 'b3', 'b2', 'b1', 'new'] as const;
 type Seg = (typeof SEGMENTS)[number];
@@ -11,7 +11,7 @@ const SEG_LABEL: Record<Seg, string> = { b5: 'Boîte 5 (maîtrisées)', b4: 'Bo�
 
 type Row = { module: Module | 'Toutes'; total: number; counts: Record<Seg, number> };
 
-function tally(cards: typeof ALL_CARDS, states: Map<string, CardState>, module: Row['module']): Row {
+function tally(cards: Card[], states: Map<string, CardState>, module: Row['module']): Row {
   const counts: Record<Seg, number> = { b5: 0, b4: 0, b3: 0, b2: 0, b1: 0, new: 0 };
   for (const c of cards) {
     const s = states.get(c.id);
@@ -24,22 +24,28 @@ const pct = (n: number, d: number) => (d ? Math.round((100 * n) / d) : 0);
 
 export function Home() {
   const { t, leitner, today, reviews, notes, settings, exams } = useStore();
+  const deck = useDeck();
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
   // Les cartes obsolètes ne comptent pas dans la progression.
-  const cards = useMemo(() => ALL_CARDS.filter((c) => c.statut !== 'obsolete'), []);
+  const cards = useMemo(() => deck.cards.filter((c) => c.statut !== 'obsolete'), [deck.cards]);
   const rows = useMemo(
-    () => [tally(cards, leitner, 'Toutes'), ...MODULES.map((m) => tally(cards.filter((c) => c.module === m), leitner, m))],
-    [cards, leitner],
+    () => [tally(cards, leitner, 'Toutes'), ...deck.modules.map((m) => tally(cards.filter((c) => c.module === m), leitner, m))],
+    [cards, leitner, deck.modules],
   );
+  const ids = useMemo(() => new Set(deck.cards.map((c) => c.id)), [deck.cards]);
   const dueCount = cards.filter((c) => isDue(leitner.get(c.id), today)).length;
   const queueCount = dailyQueue(cards, leitner, today, CONFIG.leitner.nouvellesParSession).length;
   const seen = cards.filter((c) => leitner.has(c.id)).length;
   const mastered = rows[0]!.counts.b5;
-  const aRelire = ALL_CARDS.filter((c) => c.statut === 'a_relire');
+  const aRelire = deck.cards.filter((c) => c.statut === 'a_relire');
   const relues = aRelire.filter((c) => notes.some((n) => n.id === c.id && n.valeur_relue)).length;
-  const serie = streak(reviews, today);
-  const jours = settings.dateExamen ? Math.round((Date.parse(settings.dateExamen) - Date.parse(today)) / 86400000) : null;
-  const lastExam = [...exams].filter((e) => e.score !== null).pop();
+  const serie = streak(
+    reviews.filter((r) => ids.has(r.cardId)),
+    today,
+  );
+  const dateExamen = deck.id === 'adr' ? settings.dateExamenAdr : settings.dateExamen;
+  const jours = dateExamen ? Math.round((Date.parse(dateExamen) - Date.parse(today)) / 86400000) : null;
+  const lastExam = [...exams].filter((e) => e.score !== null && (e.deck ?? 'iata') === deck.id).pop();
 
   return (
     <div className="screen">
@@ -51,7 +57,7 @@ export function Home() {
           <span className="tile-sub">
             {dueCount} échue{dueCount > 1 ? 's' : ''} + {queueCount - dueCount} nouvelle{queueCount - dueCount > 1 ? 's' : ''}
           </span>
-          <a className="button primary" href="#/revision?dues">
+          <a className="button primary" href={deck.href('revision?dues')}>
             Réviser maintenant
           </a>
         </div>
@@ -68,7 +74,7 @@ export function Home() {
           </span>
         </div>
         <div className="tile">
-          <span className="tile-label">Valeurs relues (67e)</span>
+          <span className="tile-label">{deck.l.relues}</span>
           <span className="tile-value">{relues}</span>
           <span className="tile-sub">sur {aRelire.length} cartes à vérifier</span>
         </div>
@@ -76,7 +82,7 @@ export function Home() {
           <span className="tile-label">Examen</span>
           <span className="tile-value">{jours === null ? '—' : jours >= 0 ? `J-${jours}` : 'passé'}</span>
           <span className="tile-sub">
-            {lastExam ? `Dernier blanc : ${Math.round(lastExam.score! * 100)} %` : settings.dateExamen ? settings.dateExamen : <a href="#/reglages">Saisir la date</a>}
+            {lastExam ? `Dernier blanc : ${Math.round(lastExam.score! * 100)} %` : dateExamen ? dateExamen : <a href={deck.href('reglages')}>Saisir la date</a>}
           </span>
         </div>
       </div>

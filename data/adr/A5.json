@@ -1,0 +1,193 @@
+{
+  "fiche": "A5",
+  "titre": "Exemptions : 1.1.3.6, quantités limitées, quantités exceptées",
+  "module": "Exemptions",
+  "fichier": "Tronc commun ; évaluation et exercices corrigés (annexes : tableau A, QL, QE)",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "question_ouverte",
+      "q": "Sous le régime du 1.1.3.6, de quoi le véhicule est-il exempté, et que reste-t-il obligatoire ?",
+      "r": "Exempté : **consignes écrites**, **équipements** de bord, **signalisation orange**, contraintes de **circulation** (tunnels, stationnement), formation conducteur (**sauf 1.3**). Restent : **1 extincteur 2 kg**, le **document de transport**, les **règles de sécurité** au chargement (ne pas fumer…).",
+      "why": "En France, en compte propre et en national, le document de transport n'est pas non plus exigé.",
+      "ref": ["1.1.3.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q2",
+      "type": "classement",
+      "q": "Catégories de transport (1.1.3.6.3) : donnez la limite et le coefficient des catégories 0 à 4.",
+      "r": "Cat. **0** : interdit sous ce régime · Cat. **1** : 20, × **50** · Cat. **2** : 333, × **3** · Cat. **3** : 1 000, × **1** · Cat. **4** : illimité, × **0**",
+      "why": "Une seule catégorie : rester sous sa limite. Plusieurs : Σ (quantité × coefficient) ≤ 1 000.",
+      "ref": ["1.1.3.6.3", "1.1.3.6.4"],
+      "diff": 2
+    },
+    {
+      "n": "Q3",
+      "type": "question_ouverte",
+      "q": "Pour le calcul du 1.1.3.6, quelle quantité retient-on pour un liquide, un solide, un gaz comprimé, un gaz liquéfié, un objet ?",
+      "r": "Liquide : **volume en L** · Solide : **masse nette en kg** · Gaz comprimé : **contenance nominale** du récipient (L d'eau) · Gaz liquéfié ou dissous : **masse nette en kg** · Objet : **masse brute en kg** (classe 1 : masse nette d'explosif)",
+      "ref": ["1.1.3.6.3"],
+      "diff": 3
+    },
+    {
+      "n": "Q4",
+      "type": "question_ouverte",
+      "q": "Où trouve-t-on la catégorie de transport d'une matière ?",
+      "r": "Colonne **(15)** du tableau A (chiffre devant le code tunnel). Exemple : UN 1796, 8 (5.1), I, (E) → **catégorie 1**.",
+      "ref": ["3.2"],
+      "diff": 1
+    },
+    {
+      "n": "Q5",
+      "type": "calcul",
+      "q": "Un véhicule charge 3 bidons de 5 L de UN 1796 (catégorie 1) et 1 fût de 250 L de UN 1805 (catégorie 3). Le 1.1.3.6 s'applique-t-il ? Peut-on ajouter 250 kg d'emballages vides (catégorie 4) ?",
+      "r": "15 × 50 = 750 ; 250 × 1 = 250 ; total **1 000 ≤ 1 000** → **oui**. Les emballages vides (cat. 4, coefficient 0) peuvent **s'ajouter**.",
+      "ref": ["1.1.3.6"],
+      "src": "Tronc commun, exercice",
+      "diff": 2
+    },
+    {
+      "n": "Q6",
+      "type": "calcul",
+      "q": "Transfert : 2×5 L d'acétone, 11×5 L de méthanol, 2×3 L de benzène (cat. 2), 5 L de formaldéhyde en solution (cat. 3), 3×5 L de tétranitrométhane (cat. 1). Des agents formés au 1.3 peuvent-ils le faire avec un véhicule de service ?",
+      "r": "Cat. 2 : (10 + 55 + 6) × 3 = 213 · cat. 3 : 5 · cat. 1 : 15 × 50 = 750 → **968 ≤ 1 000** : **oui**, véhicule assuré pour les MD.",
+      "why": "Emballage, étiquetage et document restent obligatoires.",
+      "src": "Exercice emballage en commun, transfert Cronenbourg-Esplanade",
+      "diff": 3
+    },
+    {
+      "n": "Q7",
+      "type": "calcul",
+      "q": "Second transfert : acétone, acide chlorhydrique, dichlorométhane, méthanol… et 1 L de trichlorosilane (UN 1295). Le 1.1.3.6 est-il possible ?",
+      "r": "**Non** : le trichlorosilane est en **catégorie 0**, le 1.1.3.6 est interdit. Il faut un conducteur titulaire du certificat ADR, donc un **transporteur**.",
+      "why": "Dans le corrigé, les points de catégorie 2 n'ont pas été multipliés par 3 : sans effet sur la conclusion, la catégorie 0 suffit à exclure le régime.",
+      "src": "Exercice emballage en commun, transfert Cronenbourg-Illkirch",
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "calcul",
+      "q": "Camion-laboratoire : 3 L d'éthanol (cat. 2), 15 L d'azote liquide (cat. 3), bouteille de CO2 de 20 L (cat. 3), 1 L de phénol en solution (cat. 2), 1 L de chloroforme (cat. 2). Points ADR ?",
+      "r": "(3 + 1 + 1) × 3 = 15 ; (15 + 20) × 1 = 35 → **50 / 1 000** : sous le seuil, pas de transporteur habilité obligatoire.",
+      "why": "À prévoir : assurance, 1 extincteur 2 kg, aucun panneau orange, arrimage ; conducteur formé au 1.3.",
+      "src": "Exercice emballage en commun, départ en mission",
+      "diff": 2
+    },
+    {
+      "n": "Q9",
+      "type": "qcm",
+      "q": "Véhicule de service, 2 bidons de 5 L sous les seuils du 1.1.3.6, assurance souscrite. Que faut-il ?",
+      "choix": ["Baudrier fluorescent, 2 triangles et permis ADR", "Conducteur formé au chapitre 1.3 et extincteur 2 kg", "Plaques orange, formation IATA et lampe antidéflagrante"],
+      "bonne": "B",
+      "src": "Évaluation Q13",
+      "diff": 1
+    },
+    {
+      "n": "Q10",
+      "type": "question_ouverte",
+      "q": "Quantités limitées : conditions, exemptions et obligations ?",
+      "r": "Conditions : quantité par **emballage intérieur** ≤ colonne 7a ; colis **≤ 30 kg brut** (20 kg pour plateaux sous film rétractable). Exempté : **homologation** et **déclaration** de MD. Obligations : formation, emballages conformes au 4.1.1.1, marque QL, **masse brute** communiquée au transporteur, marquage du véhicule au-delà de **8 t** de QL.",
+      "ref": ["3.4"],
+      "diff": 2
+    },
+    {
+      "n": "Q11",
+      "type": "classement",
+      "q": "Quantités exceptées : limites par emballage intérieur et par emballage extérieur des codes E0 à E5 ?",
+      "r": "**E0** interdit · **E1** 30 / 1 000 · **E2** 30 / 500 · **E3** 30 / 300 · **E4** 1 / 500 · **E5** 1 / 300 (g ou mL)",
+      "ref": ["3.5.1.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "Quantités exceptées : emballage exigé, exemptions et obligations ?",
+      "r": "Emballage **intérieur + intermédiaire + extérieur**, limites par intérieur **et** par extérieur. Exempté : homologation, déclaration de MD, placardage. Obligations : formation 1.3, emballage et marque QE, **nombre de colis** indiqué au transporteur.",
+      "ref": ["3.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q13",
+      "type": "question_ouverte",
+      "q": "Qu'est-ce que le régime de minimis ?",
+      "r": "Codes **E1, E2, E4 ou E5** ; **1 g ou 1 mL** par emballage intérieur et **100 g ou 100 mL** par colis, avec rembourrage ou absorbant : **exemption totale** (reste la formation 1.3 et les règles d'emballage).",
+      "ref": ["3.5.1.4"],
+      "diff": 3
+    },
+    {
+      "n": "Q14",
+      "type": "question_ouverte",
+      "q": "Seuil de quantité limitée pour l'acétone, l'isopropylbenzène et l'oxygène comprimé ?",
+      "r": "Acétone **1 L** · isopropylbenzène **5 L** · oxygène comprimé **0** (QL interdite)",
+      "src": "Exercices, régimes dérogatoires Q1",
+      "diff": 2
+    },
+    {
+      "n": "Q15",
+      "type": "question_ouverte",
+      "q": "Parmi oxygène comprimé, sodium, matière biologique catégorie B, acétone, chloroforme : lesquels sont exclus des quantités exceptées ?",
+      "r": "**Oxygène comprimé, sodium, matière biologique catégorie B** (code E0)",
+      "src": "Exercices, régimes dérogatoires Q2",
+      "diff": 2
+    },
+    {
+      "n": "Q16",
+      "type": "classement",
+      "q": "Régime le moins contraignant : (a) 1 bouteille de 2,5 L de chloroforme · (b) 15 tubes de 30 mL de toluène · (c) 1 bouteille de 20 L d'oxygène comprimé · (d) 4 bouteilles de 1 L d'acétone · (e) 3 bouteilles de 3 L de benzène",
+      "r": "(a) **QL** (≤ 5 L) · (b) **QE** E2 : 450 mL ≤ 500 mL · (c) **pleine application** · (d) **QL** · (e) **pleine application** (QL du benzène : 1 L)",
+      "src": "Exercices, régimes dérogatoires Q3",
+      "diff": 2
+    },
+    {
+      "n": "Q17",
+      "type": "calcul",
+      "q": "20 tubes de 30 mL de méthanol (E2). Quelles options ?",
+      "r": "20 × 30 = 600 mL > 500 mL : **2 colis en QE** (≤ 500 mL chacun) ou **1 colis en QL**.",
+      "src": "Exercices, régimes dérogatoires Q3",
+      "diff": 2
+    },
+    {
+      "n": "Q18",
+      "type": "classement",
+      "q": "Régime le moins contraignant, sans changer le conditionnement : (A) 1 L d'acétone · (B) 1 tube de 20 mL de chloroforme · (C) 2 L d'acide acétique à 60 % · (D) 3 g de sodium · (E) 2 × 0,75 L de toluène",
+      "r": "(A) **QL** · (B) **QE** (E1) · (C) **pleine application** (QL 1 L) · (D) **pleine application** (QL 0 et E0) · (E) **QL** (≤ 1 L par flacon, colis ≤ 30 kg)",
+      "src": "Évaluation Q11",
+      "diff": 2
+    },
+    {
+      "n": "Q19",
+      "type": "question_ouverte",
+      "q": "Un chercheur veut expédier 30 mL d'acétone (QL 1 L, E2) sans carton homologué ni déclaration. Que proposer ?",
+      "r": "Un colis en **quantités limitées** (marque QL).",
+      "why": "Les quantités exceptées seraient aussi possibles (30 mL = limite E2), mais elles imposent un emballage intermédiaire et des épreuves : le corrigé retient la QL, plus simple.",
+      "src": "Exercices recyclage Q1",
+      "diff": 2
+    },
+    {
+      "n": "Q20",
+      "type": "question_ouverte",
+      "q": "UN 1796 ACIDE SULFONITRIQUE : peut-on l'expédier en QL ou en QE ?",
+      "r": "Plus de 50 % d'acide nitrique (GE I) : **ni QL ni QE** (0 et E0). Au plus 50 % (GE II) : **QL de 1 L** par emballage intérieur, 30 kg par colis ; QE interdite.",
+      "why": "3.4.4 : un liquide de classe 8 du GE II en récipient de verre, porcelaine ou grès doit être placé dans un emballage intermédiaire.",
+      "ref": ["3.4.4"],
+      "diff": 3
+    },
+    {
+      "n": "Q21",
+      "type": "vrai_faux",
+      "q": "Un colis en quantités limitées doit porter le numéro UN et les étiquettes de danger.",
+      "r": "**Faux** : la marque QL suffit.",
+      "ref": ["3.4.7"],
+      "diff": 1
+    },
+    {
+      "n": "Q22",
+      "type": "calcul",
+      "q": "13 batteries de 6 kg UN 3481 (cat. 2) et 3 fûts de 250 L d'acide chlorhydrique UN 1789 (cat. 3) dans le même véhicule : 1.1.3.6 ?",
+      "r": "78 kg × 3 = 234 ; 750 × 1 = 750 → **984 ≤ 1 000** : **oui**.",
+      "src": "Module lithium, exercice",
+      "diff": 2
+    }
+  ]
+}

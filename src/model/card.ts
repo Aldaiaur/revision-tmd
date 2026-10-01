@@ -12,7 +12,20 @@ export const MODULES = [
   'Expéditions',
   'Classe 7',
 ] as const;
-export const ModuleSchema = z.enum(MODULES);
+/** Modules de la révision ADR (transport routier). */
+export const ADR_MODULES = [
+  'Réglementation',
+  'Classification',
+  'Emballages',
+  'Étiquetage',
+  'Exemptions',
+  'Transport',
+  'Gaz',
+  'Biologique',
+  'Lithium',
+  'Déchets',
+] as const;
+export const ModuleSchema = z.enum([...MODULES, ...ADR_MODULES]);
 export type Module = z.infer<typeof ModuleSchema>;
 
 export const CARD_TYPES = [

@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import raw from '../../data/app-config.json';
-import { MODULES, ModuleSchema } from './card.ts';
+import { MODULES } from './card.ts';
 
 export const AppConfigSchema = z.object({
   leitner: z.object({
@@ -16,7 +16,8 @@ export const AppConfigSchema = z.object({
     seuil: z.number().min(0).max(1),
     nbQuestions: z.number().int().positive(),
     bonusBoitesFaibles: z.number().min(1),
-    poidsModules: z.record(ModuleSchema, z.number().nonnegative()),
+    /** Poids par module (absent = 1), toutes révisions confondues. */
+    poidsModules: z.record(z.string(), z.number().nonnegative()),
   }),
 });
 export type AppConfig = z.infer<typeof AppConfigSchema>;

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ALL_CARDS, CARD_BY_ID, CARD_NUMBER } from '../../data/cards.ts';
+import { CARD_BY_ID, CARD_NUMBER, deckOf } from '../../data/cards.ts';
+import { useDeck } from '../../state/deck.tsx';
 import { CONFIG } from '../../model/config.ts';
 import { autoVerdict, CAUSES, drawExam, formatDuration, journalCsv, passed, remainingMs, score } from '../../exam/exam.ts';
 import type { ExamRun } from '../../storage/db.ts';
@@ -11,7 +12,9 @@ import { useHotkeys } from '../hooks.ts';
 const cfg = CONFIG.examen;
 
 export function Exam() {
-  const { exams } = useStore();
+  const { exams: all } = useStore();
+  const deck = useDeck();
+  const exams = all.filter((e) => (e.deck ?? 'iata') === deck.id);
   const active = [...exams].reverse().find((e) => e.fin === null);
   const toCorrect = [...exams].reverse().find((e) => e.fin !== null && e.score === null);
   if (active) return <Running run={active} />;
@@ -20,20 +23,23 @@ export function Exam() {
 }
 
 function Setup() {
-  const { exams, leitner, saveExam, journal } = useStore();
+  const { exams: all, leitner, saveExam, journal: allJournal } = useStore();
+  const deck = useDeck();
+  const exams = all.filter((e) => (e.deck ?? 'iata') === deck.id);
+  const journal = allJournal.filter((j) => deckOf(j.cardId) === deck.id);
   const [n, setN] = useState(cfg.nbQuestions);
   const done = exams.filter((e) => e.score !== null);
 
   const start = () => {
-    const ids = drawExam(ALL_CARDS, leitner, cfg, CONFIG.pointsFaibles.boites, n);
-    void saveExam({ debut: new Date().toISOString(), fin: null, dureeMin: cfg.dureeMin, ids, reponses: {}, verdicts: {}, score: null });
+    const ids = drawExam(deck.cards, leitner, cfg, CONFIG.pointsFaibles.boites, n);
+    void saveExam({ deck: deck.id, debut: new Date().toISOString(), fin: null, dureeMin: cfg.dureeMin, ids, reponses: {}, verdicts: {}, score: null });
   };
 
   const download = () => {
     const blob = new Blob([journalCsv(journal)], { type: 'text/csv;charset=utf-8' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `journal-erreurs-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `journal-erreurs-${deck.id}-${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
     URL.revokeObjectURL(a.href);
   };
@@ -109,6 +115,7 @@ function Setup() {
 
 function Running({ run }: { run: ExamRun }) {
   const { saveExam } = useStore();
+  const deck = useDeck();
   const [i, setI] = useState(0);
   const [now, setNow] = useState(Date.now());
   const [reponses, setReponses] = useState(run.reponses);
@@ -193,7 +200,7 @@ function Running({ run }: { run: ExamRun }) {
         ) : (
           <label className="exam-answer">
             <span className="sr-only">Votre réponse</span>
-            <textarea rows={5} value={reponses[card.id] ?? ''} onChange={(e) => answer(e.target.value)} placeholder="Votre réponse (DGR ouvert)…" />
+            <textarea rows={5} value={reponses[card.id] ?? ''} onChange={(e) => answer(e.target.value)} placeholder={`Votre réponse (${deck.l.regl} ouvert)…`} />
           </label>
         )}
       </article>

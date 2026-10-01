@@ -1,6 +1,7 @@
 import type { Card } from '../model/card.ts';
 import { CARD_NUMBER } from '../data/cards.ts';
 import { useStore } from '../state/store.tsx';
+import { useDeck } from '../state/deck.tsx';
 import { Markdown } from './Markdown.tsx';
 import { StatusBadge } from './StatusIcon.tsx';
 
@@ -18,6 +19,7 @@ export function CardMeta({ card }: { card: Card }) {
 
 export function Banners({ card }: { card: Card }) {
   const { t } = useStore();
+  const { l } = useDeck();
   return (
     <>
       {card.statut === 'obsolete' && (
@@ -27,7 +29,7 @@ export function Banners({ card }: { card: Card }) {
       )}
       {card.statut === 'a_relire' && card.nature_rouge === 'erreur_corrigee' && <p className="banner banner-piege">{t.carte.piegeBandeau}</p>}
       {card.tags.includes('maj-2026') && <p className="banner banner-maj">{t.carte.majBandeau}</p>}
-      {card.statut === 'a_relire' && <p className="banner banner-relire">{t.carte.aRelireBandeau}</p>}
+      {card.statut === 'a_relire' && <p className="banner banner-relire">{l.aRelireBandeau}</p>}
     </>
   );
 }
@@ -58,6 +60,7 @@ export function Recto({ card, choice, onChoose }: { card: Card; choice?: string 
 
 export function Verso({ card, full = true }: { card: Card; full?: boolean }) {
   const { t } = useStore();
+  const { l } = useDeck();
   return (
     <div className="face verso">
       {card.reponse_courte ? (
@@ -88,7 +91,7 @@ export function Verso({ card, full = true }: { card: Card; full?: boolean }) {
           <dd>{card.statut_source}</dd>
           {card.ref_dgr.length > 0 && (
             <>
-              <dt>{t.carte.refDgr}</dt>
+              <dt>{l.ref}</dt>
               <dd>{card.ref_dgr.join(' · ')}</dd>
             </>
           )}
@@ -96,8 +99,8 @@ export function Verso({ card, full = true }: { card: Card; full?: boolean }) {
           <dd>
             {card.source.fiche} · {card.source.section} · {card.source.question} (l. {card.source.ligne}) · <code>{card.id}</code>
           </dd>
-          <dt>DGR</dt>
-          <dd>{t.carte.edition(card.edition_ref, card.edition_verifiee)}</dd>
+          <dt>{l.regl}</dt>
+          <dd>{l.edition(card.edition_ref, card.edition_verifiee)}</dd>
         </dl>
       )}
     </div>

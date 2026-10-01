@@ -18,6 +18,7 @@ export const BackupSchema = z.object({
       theme: z.enum(['auto', 'light', 'dark']),
       langue: z.enum(['fr', 'en']),
       dateExamen: z.string().nullable(),
+      dateExamenAdr: z.string().nullable(),
       formatImpression: z.enum(['2x4', '2x5', '1x1', 'pliage']),
       modeImpression: z.enum(['duplex', 'recto']),
       decalageVersoMm: z.object({ x: z.number(), y: z.number() }),
@@ -27,6 +28,7 @@ export const BackupSchema = z.object({
   exams: z.array(
     z.object({
       seq: z.number().optional(),
+      deck: z.enum(['iata', 'adr']).optional(),
       debut: z.string(),
       fin: z.string().nullable(),
       dureeMin: z.number(),

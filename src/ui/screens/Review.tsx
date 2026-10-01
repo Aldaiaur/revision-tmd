@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { applyFilter, DEFAULT_FILTER, type Filter, type Note } from '../../model/filters.ts';
 import { CONFIG } from '../../model/config.ts';
 import { dailyQueue } from '../../srs/leitner.ts';
-import { ALL_CARDS, CARD_BY_ID } from '../../data/cards.ts';
+import { CARD_BY_ID } from '../../data/cards.ts';
+import { useDeck } from '../../state/deck.tsx';
 import { useStore } from '../../state/store.tsx';
 import { FilterBar } from '../FilterBar.tsx';
 import { Banners, CardMeta, Recto, Verso } from '../CardFaces.tsx';
@@ -11,10 +12,11 @@ import { shuffle, useHotkeys } from '../hooks.ts';
 
 export function Review() {
   const { t, lastNote, settings, updateSettings, leitner, today } = useStore();
+  const deck = useDeck();
   const [filter, setFilter] = useState<Filter>(DEFAULT_FILTER);
   const [dues, setDues] = useState(() => window.location.hash.includes('dues'));
   const [queue, setQueue] = useState<string[] | null>(null);
-  const matching = useMemo(() => applyFilter(ALL_CARDS, filter, lastNote), [filter, lastNote]);
+  const matching = useMemo(() => applyFilter(deck.cards, filter, lastNote), [deck.cards, filter, lastNote]);
   const planned = useMemo(
     () => (dues ? dailyQueue(matching, leitner, today, CONFIG.leitner.nouvellesParSession) : matching),
     [dues, matching, leitner, today],

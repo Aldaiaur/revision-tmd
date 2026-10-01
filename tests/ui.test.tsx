@@ -4,7 +4,7 @@ import { afterEach, describe, expect, it } from 'vitest';
 import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { StoreProvider, useStore } from '../src/state/store.tsx';
 import { App } from '../src/App.tsx';
-import { ALL_CARDS } from '../src/data/cards.ts';
+import { ADR_CARDS, ALL_CARDS } from '../src/data/cards.ts';
 import { applyFilter, DEFAULT_FILTER } from '../src/model/filters.ts';
 
 afterEach(() => {
@@ -112,11 +112,19 @@ describe('catalogue', () => {
 });
 
 describe('accueil', () => {
-  it('propose IATA et ADR, ADR mène à une page vide', async () => {
+  it('propose IATA et ADR, chacune vers son tableau de bord', async () => {
     mount();
     expect(await screen.findByRole('heading', { name: 'Choisir la révision' })).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Réviser IATA' }).getAttribute('href')).toBe('#/accueil');
-    act(() => void (window.location.hash = '#/adr'));
-    await waitFor(() => expect(screen.getByText(/aucune carte pour le moment/)).toBeTruthy());
+    expect(screen.getByRole('link', { name: 'Réviser ADR' }).getAttribute('href')).toBe('#/adr/accueil');
+  });
+
+  it('la révision ADR ne montre que des cartes ADR, avec ses propres onglets', async () => {
+    window.location.hash = '#/adr/revision';
+    mount();
+    expect(await screen.findByText('Révision ADR')).toBeTruthy();
+    expect(screen.getByRole('link', { name: 'Catalogue' }).getAttribute('href')).toBe('#/adr/catalogue');
+    fireEvent.click(await screen.findByRole('button', { name: /Démarrer/ }));
+    expect(screen.getByText(ADR_CARDS[0]!.question)).toBeTruthy();
   });
 });

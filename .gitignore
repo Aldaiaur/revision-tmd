@@ -4,3 +4,6 @@ dev-dist/
 *.log
 coverage/
 *.tsbuildinfo
+
+# Matière ADR brute (cours, notes, exercices) : non versionnée, comme les fiches IATA
+sources-adr/
