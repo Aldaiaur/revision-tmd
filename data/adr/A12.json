@@ -1,0 +1,136 @@
+{
+  "fiche": "A12",
+  "titre": "Véhicules, agréments et règles à bord",
+  "module": "Véhicules",
+  "fichier": "Rédigé d'après l'ADR 2025 (aucun support de formation fourni)",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "classement",
+      "q": "Que désignent les types de véhicules EX/II, EX/III, FL, AT et MEMU ?",
+      "r": "**EX/II** et **EX/III** : transport d'**explosifs** (classe 1), EX/III pour les quantités les plus importantes · **FL** : citernes de plus de 1 m³ de **liquides de point d'éclair ≤ 60 °C** ou de **gaz inflammables** · **AT** : les **autres** véhicules-citernes de plus de 1 m³ · **MEMU** : unité mobile de **fabrication d'explosifs**",
+      "ref": ["9.1.1.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q2",
+      "type": "question_ouverte",
+      "q": "Quels véhicules doivent avoir un certificat d'agrément ADR, et quelle est sa durée de validité ?",
+      "r": "Les véhicules **EX/II, EX/III, FL, AT et MEMU**. Délivré après une visite technique, il est valable **1 an** au plus et se renouvelle par une **visite annuelle**.",
+      "ref": ["9.1.2", "9.1.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q3",
+      "type": "vrai_faux",
+      "q": "Un camion bâché qui transporte des colis de classe 3 doit avoir un certificat d'agrément ADR.",
+      "r": "**Faux**",
+      "why": "Le certificat d'agrément concerne les véhicules-citernes (FL, AT), les véhicules pour explosifs (EX/II, EX/III) et les MEMU. Un véhicule de colis doit seulement être signalé et équipé.",
+      "ref": ["9.1.2.1"],
+      "diff": 1
+    },
+    {
+      "n": "Q4",
+      "type": "question_ouverte",
+      "q": "Quels documents doivent se trouver à bord d'une unité de transport en pleine application ?",
+      "r": "Le **document de transport** · les **consignes écrites** · une **pièce d'identité avec photo** par membre d'équipage · le **certificat de formation** du conducteur · le **certificat d'agrément** du véhicule s'il est exigé",
+      "ref": ["8.1.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q5",
+      "type": "question_ouverte",
+      "q": "Citez des exigences de construction propres aux véhicules FL.",
+      "r": "Équipement électrique protégé (câblage, **coupe-batterie**), absence de sources d'inflammation près du chargement, chauffages à combustion encadrés, freinage antiblocage et ralentisseur au-delà de certaines masses.",
+      "ref": ["9.2", "9.3"],
+      "statut": "a_relire",
+      "verif": "Liste et seuils à confirmer dans la partie 9",
+      "diff": 3
+    },
+    {
+      "n": "Q6",
+      "type": "question_ouverte",
+      "q": "À quelle vitesse sont limités les véhicules à moteur de plus de 12 t transportant des marchandises dangereuses ?",
+      "r": "Limiteur de vitesse réglé à **90 km/h** au plus.",
+      "ref": ["9.2.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q7",
+      "type": "vrai_faux",
+      "q": "Le conducteur peut prendre un passager (collègue d'un autre service) dans un véhicule transportant des marchandises dangereuses en pleine application.",
+      "r": "**Faux**",
+      "why": "Seuls les **membres de l'équipage** peuvent être transportés.",
+      "ref": ["8.3.1"],
+      "diff": 1
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "Pendant la manutention, à proximité du véhicule et dans le véhicule : que sont interdits ?",
+      "r": "**Fumer** (cigarette électronique comprise) · les appareils d'éclairage à **flamme nue** · **ouvrir un colis** · laisser le **moteur tourner** pendant le chargement ou le déchargement (sauf s'il actionne les pompes)",
+      "ref": ["8.3.3", "8.3.4", "8.3.5", "8.3.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q9",
+      "type": "vrai_faux",
+      "q": "Le frein de stationnement peut ne pas être serré si le véhicule est à l'arrêt sur un terrain plat.",
+      "r": "**Faux**",
+      "why": "Tout véhicule en stationnement doit avoir le **frein de stationnement serré** ; les remorques sans freins sont calées.",
+      "ref": ["8.3.7"],
+      "diff": 1
+    },
+    {
+      "n": "Q10",
+      "type": "classement",
+      "q": "Catégories de tunnels A à E : laquelle est la moins restrictive, laquelle la plus restrictive ?",
+      "r": "**A** : aucune restriction · **E** : la plus restrictive (presque toutes les marchandises dangereuses y sont interdites)",
+      "why": "Un code tunnel (D) interdit les tunnels de catégorie D et E ; (E) n'interdit que les tunnels E.",
+      "ref": ["1.9.5", "8.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Que signifie le code tunnel (D/E) ?",
+      "r": "Transport **en citerne ou en vrac** : interdit dans les tunnels de catégorie **D et E** · **autres** transports (colis) : interdit dans les tunnels de catégorie **E** seulement",
+      "ref": ["8.6.4"],
+      "diff": 3
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "Qu'impose le chapitre 8.4 sur la surveillance des véhicules ?",
+      "r": "Au-delà de certaines quantités, le véhicule en stationnement doit être **surveillé** ou garé dans un **parc sûr** (dépôt, zone surveillée, parking isolé à défaut).",
+      "ref": ["8.4", "8.5 S1"],
+      "diff": 3
+    },
+    {
+      "n": "Q13",
+      "type": "question_ouverte",
+      "q": "Quelle différence entre un véhicule EX/II et un véhicule EX/III ?",
+      "r": "Tous deux transportent des **explosifs** ; l'**EX/III** est construit pour des quantités plus importantes et des divisions plus dangereuses, l'**EX/II** pour des quantités plus limitées.",
+      "why": "Les masses nettes admises par unité de transport figurent au 7.5.5.2.",
+      "ref": ["9.3", "7.5.5.2"],
+      "diff": 3
+    },
+    {
+      "n": "Q14",
+      "type": "question_ouverte",
+      "q": "Que contient le certificat d'agrément d'un véhicule ?",
+      "r": "L'identification du véhicule (numéro, constructeur, propriétaire), son **type** (EX/II, FL, AT…), les **marchandises autorisées** pour les citernes (code-citerne) et la **date d'expiration**.",
+      "ref": ["9.1.3.5"],
+      "diff": 3
+    },
+    {
+      "n": "Q15",
+      "type": "vrai_faux",
+      "q": "Un véhicule FL peut transporter du fioul en citerne si son certificat d'agrément a expiré depuis une semaine, le temps de passer la visite.",
+      "r": "**Faux**",
+      "why": "Sans certificat d'agrément valide, le véhicule ne peut pas transporter de marchandises dangereuses en citerne.",
+      "ref": ["9.1.3"],
+      "diff": 1
+    }
+  ]
+}

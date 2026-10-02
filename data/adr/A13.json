@@ -1,0 +1,139 @@
+{
+  "fiche": "A13",
+  "titre": "Classe 1 : matières et objets explosibles",
+  "module": "Classe 1",
+  "fichier": "Rédigé d'après l'ADR 2025 (aucun support de formation fourni)",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "classement",
+      "q": "Que caractérise chaque division de la classe 1 : 1.1, 1.2, 1.3, 1.4, 1.5, 1.6 ?",
+      "r": "**1.1** risque d'**explosion en masse** · **1.2** risque de **projection** sans explosion en masse · **1.3** risque d'**incendie** avec léger effet de souffle ou de projection, sans explosion en masse · **1.4** **pas de risque notable** (effets limités au colis) · **1.5** matières **très peu sensibles** avec risque d'explosion en masse · **1.6** objets **extrêmement peu sensibles**, sans explosion en masse",
+      "ref": ["2.2.1.1.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q2",
+      "type": "question_ouverte",
+      "q": "Qu'est-ce que le code de classification d'un explosif ? Donnez un exemple.",
+      "r": "La **division** suivie de la lettre du **groupe de compatibilité** : par exemple **1.4S** (cartouches pour armes) ou **1.1D** (explosif secondaire détonant).",
+      "ref": ["2.2.1.1.4"],
+      "diff": 1
+    },
+    {
+      "n": "Q3",
+      "type": "classement",
+      "q": "Groupes de compatibilité : que désignent A, B, C, D, G et S ?",
+      "r": "**A** matière explosible **primaire** · **B** objet contenant un explosif primaire (détonateurs) · **C** matière **propulsive** ou déflagrante · **D** explosif **secondaire détonant** (TNT…) · **G** **pyrotechnie** (artifices, fumigènes) · **S** colis dont les effets restent **confinés au colis**",
+      "why": "Autres lettres : E, F (objets avec charge propulsive), H (phosphore blanc), J (liquide inflammable), K (agent chimique toxique), L (risque particulier), N (objets extrêmement peu sensibles).",
+      "ref": ["2.2.1.1.6"],
+      "diff": 3
+    },
+    {
+      "n": "Q4",
+      "type": "question_ouverte",
+      "q": "Pourquoi le 1.4S est-il le code le moins contraignant ?",
+      "r": "Les effets d'un éventuel accident restent **confinés au colis** : la plupart des objets 1.4S sont en **catégorie de transport 4** et compatibles au chargement avec presque tous les autres groupes.",
+      "why": "Exemple : UN 0012 CARTOUCHES POUR ARMES À PROJECTILE INERTE, 1.4S.",
+      "statut": "a_relire",
+      "verif": "Catégorie de transport à vérifier rubrique par rubrique (col. 15)",
+      "diff": 2
+    },
+    {
+      "n": "Q5",
+      "type": "question_ouverte",
+      "q": "À quoi ressemblent les étiquettes de la classe 1 ?",
+      "r": "Divisions **1.1, 1.2, 1.3** : **bombe qui explose** noire sur fond orange, avec la division et la lettre · divisions **1.4, 1.5, 1.6** : le **chiffre** de la division en grand sur fond orange, avec la lettre du groupe",
+      "ref": ["5.2.2.2.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q6",
+      "type": "vrai_faux",
+      "q": "Un laboratoire peut lui-même classer une matière explosive nouvelle qu'il a synthétisée.",
+      "r": "**Faux**",
+      "why": "Le classement d'une matière ou d'un objet de la classe 1 doit être **approuvé par l'autorité compétente** avant tout transport.",
+      "ref": ["2.2.1.1.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q7",
+      "type": "question_ouverte",
+      "q": "Que deviennent les matières explosibles « désensibilisées » (humidifiées) ?",
+      "r": "Elles quittent la classe 1 : **classe 3** si elles sont liquides, **classe 4.1** si elles sont solides (ex. **UN 3364** trinitrophénol humidifié). **Desséchées**, elles redeviennent des **explosifs** (ex. acide picrique sec, UN 0154, 1.1D).",
+      "ref": ["2.2.3", "2.2.41"],
+      "diff": 2
+    },
+    {
+      "n": "Q8",
+      "type": "question_ouverte",
+      "q": "Quelle formation pour un conducteur qui transporte des explosifs en pleine application ?",
+      "r": "Le certificat de formation de **base**, complété de la **spécialisation classe 1**.",
+      "ref": ["8.2.1.3"],
+      "diff": 1
+    },
+    {
+      "n": "Q9",
+      "type": "question_ouverte",
+      "q": "Quelle signalisation pour un véhicule transportant des colis de la classe 1 ?",
+      "r": "Les **panneaux orange** à l'avant et à l'arrière, **et** des **plaques-étiquettes** de la classe 1 sur les **deux côtés et à l'arrière**.",
+      "why": "Pour des colis, les plaques-étiquettes ne sont exigées que pour les classes 1 et 7.",
+      "ref": ["5.3.1.5", "5.3.2"],
+      "diff": 2
+    },
+    {
+      "n": "Q10",
+      "type": "question_ouverte",
+      "q": "Peut-on charger dans un même véhicule des détonateurs (groupe B) et des explosifs secondaires (groupe D) ?",
+      "r": "**En principe non** : le chargement en commun des groupes de compatibilité est réglé par le tableau du **7.5.2.2** ; B et D ne sont admis ensemble que dans des compartiments ou conteneurs séparés agréés.",
+      "why": "Le groupe S peut être chargé avec tous les groupes sauf A et L.",
+      "ref": ["7.5.2.2"],
+      "statut": "a_relire",
+      "verif": "Tableau 7.5.2.2 et notes à confirmer",
+      "diff": 3
+    },
+    {
+      "n": "Q11",
+      "type": "question_ouverte",
+      "q": "Quelles marchandises de la classe 1 sont des marchandises « à haut risque » au sens de la sûreté ?",
+      "r": "Toutes celles des divisions **1.1, 1.2, 1.5**, la division **1.3 du groupe C**, et certaines rubriques de la division 1.4 : elles exigent un **plan de sûreté** dès la première unité.",
+      "ref": ["1.10.3.1.2"],
+      "diff": 3
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "Les artifices de divertissement : quels numéros ONU et quelles divisions ?",
+      "r": "**UN 0333 à 0337**, de **1.1G** à **1.4S** selon leur puissance ; les artifices grand public sont le plus souvent **UN 0336, 1.4G**.",
+      "why": "Leur classement repose sur des épreuves ou sur le tableau de classification par défaut du 2.2.1.1.7.",
+      "ref": ["2.2.1.1.7"],
+      "diff": 3
+    },
+    {
+      "n": "Q13",
+      "type": "vrai_faux",
+      "q": "Les explosifs peuvent en général être expédiés en quantités exceptées.",
+      "r": "**Faux**",
+      "why": "La classe 1 est presque toujours en **E0** ; les quantités limitées ne concernent que de rares rubriques.",
+      "ref": ["3.4", "3.5"],
+      "diff": 2
+    },
+    {
+      "n": "Q14",
+      "type": "question_ouverte",
+      "q": "Pourquoi un flacon ancien de laboratoire peut-il relever de la classe 1 sans en avoir l'air ?",
+      "r": "Par **vieillissement** : acide picrique ou DNPH qui sèchent, **peroxydes** qui se forment dans les éthers, azotures… Le produit devient sensible au choc ou au frottement : ne pas le déplacer, isoler et faire appel à un spécialiste.",
+      "diff": 1
+    },
+    {
+      "n": "Q15",
+      "type": "question_ouverte",
+      "q": "Classe 1 : y a-t-il des groupes d'emballage et quelles instructions d'emballage s'appliquent ?",
+      "r": "**Pas de groupe d'emballage** : les emballages doivent satisfaire au niveau du **GE II**. Instructions **P101 à P144** (et dispositions du 4.1.5 propres à la classe 1).",
+      "ref": ["4.1.5", "4.1.4.1"],
+      "statut": "a_relire",
+      "verif": "Niveau d'épreuve et plage des instructions à confirmer",
+      "diff": 3
+    }
+  ]
+}

@@ -24,6 +24,9 @@ export const ADR_MODULES = [
   'Biologique',
   'Lithium',
   'Déchets',
+  'Citernes',
+  'Véhicules',
+  'Classe 1',
 ] as const;
 export const ModuleSchema = z.enum([...MODULES, ...ADR_MODULES]);
 export type Module = z.infer<typeof ModuleSchema>;

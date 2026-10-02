@@ -43,10 +43,12 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
 
   useEffect(() => {
     let alive = true;
+    let opened: DB | null = null;
     openStore(dbName)
       .then(async (d) => {
+        opened = d;
         const s = await loadAll(d);
-        if (!alive) return;
+        if (!alive) return d.close();
         setDb(d);
         setSnap(s);
         setReady(true);
@@ -54,6 +56,7 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
       .catch(() => setReady(true)); // IndexedDB indisponible : l'app reste utilisable sans persistance
     return () => {
       alive = false;
+      opened?.close();
     };
   }, [dbName]);
 

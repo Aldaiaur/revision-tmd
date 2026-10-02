@@ -2,7 +2,7 @@ import type { Dict } from './fr.ts';
 
 export const en: Dict = {
   appTitle: 'IATA DGR revision',
-  nav: { choix: 'Home', accueil: 'Dashboard', revision: 'Review', catalogue: 'Catalogue', impression: 'Print', examen: 'Mock exam', reglages: 'Settings' },
+  nav: { choix: 'Home', profils: 'Profiles', accueil: 'Dashboard', revision: 'Review', catalogue: 'Catalogue', impression: 'Print', examen: 'Mock exam', reglages: 'Settings' },
   statut: { stable: 'Stable', a_relire: 'To verify', obsolete: 'Obsolete' },
   statutLong: {
     stable: 'Stable rule or method',
@@ -122,6 +122,20 @@ export const en: Dict = {
     iata: { titre: 'IATA DGR', sousTitre: 'Air transport', desc: 'Cards, spaced repetition, printing and mock exam.', ouvrir: 'Review IATA' },
     adr: { titre: 'ADR', sousTitre: 'Road transport', desc: 'Cards, spaced repetition, printing and mock exam.', ouvrir: 'Review ADR' },
     cartes: (n: number) => `${n} card${n > 1 ? 's' : ''}`,
+  },
+  profils: {
+    titre: 'Profiles',
+    quiRevise: 'Who is studying?',
+    intro: 'Each profile keeps its own progress, stored in this browser only.',
+    nom: 'Profile name',
+    ajouter: 'New profile',
+    nomPlaceholder: 'First name or initials',
+    creer: 'Create',
+    renommer: 'Rename',
+    supprimer: 'Delete',
+    changer: 'Switch profile',
+    confirmerSuppression: (nom: string) => `Delete profile "${nom}" and all its progress? This cannot be undone.`,
+    note: 'No account, nothing sent: profiles let several people share one computer. To move between devices, use export / import in Settings.',
   },
   a11y: { allerContenu: 'Skip to content', navPrincipale: 'Main navigation' },
   commun: { fermer: 'Close', annuler: 'Cancel', oui: 'Yes', non: 'No', enregistrer: 'Save' },

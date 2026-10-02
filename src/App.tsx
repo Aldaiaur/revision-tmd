@@ -10,6 +10,8 @@ import { PrintScreen } from './ui/screens/Print.tsx';
 import { Home } from './ui/screens/Home.tsx';
 import { Exam } from './ui/screens/Exam.tsx';
 import { Choice } from './ui/screens/Choice.tsx';
+import { ProfilesScreen } from './ui/screens/Profiles.tsx';
+import { useProfiles } from './state/profiles.tsx';
 
 type Dict = ReturnType<typeof useStore>['t'];
 type RouteDef = { key: string; label: (t: Dict) => string; render: () => ReactNode };
@@ -33,6 +35,7 @@ function parse(route: string): { deck: DeckId; page: RouteDef | null } {
 
 export function App() {
   const { t, ready } = useStore();
+  const { profils, actif, aChoisir } = useProfiles();
   const [route] = useRoute();
   const { deck, page } = parse(route);
   const prefix = DECKS[deck].prefix;
@@ -51,9 +54,17 @@ export function App() {
       </a>
       <header className="app-header no-print">
         <span className="brand">{page ? l.titre : t.choix.marque}</span>
+        {profils.length > 1 && (
+          <a className="profile-chip" href="#/profils" title={t.profils.changer}>
+            {actif.nom}
+          </a>
+        )}
         <nav aria-label={t.a11y.navPrincipale}>
-          <a href="#/choix" aria-current={page ? undefined : 'page'}>
+          <a href="#/choix" aria-current={page || route === 'profils' ? undefined : 'page'}>
             {t.nav.choix}
+          </a>
+          <a href="#/profils" aria-current={route === 'profils' ? 'page' : undefined}>
+            {t.nav.profils}
           </a>
           {page &&
             DECK_ROUTES.map((r) => (
@@ -64,7 +75,15 @@ export function App() {
         </nav>
       </header>
       <main id="main" tabIndex={-1}>
-        {ready ? (page ? page.render() : <Choice />) : null}
+        {!ready ? null : aChoisir ? (
+          <ProfilesScreen picker />
+        ) : page ? (
+          page.render()
+        ) : route === 'profils' ? (
+          <ProfilesScreen />
+        ) : (
+          <Choice />
+        )}
       </main>
       <footer className="app-footer no-print">
         <p>{l.mention}</p>

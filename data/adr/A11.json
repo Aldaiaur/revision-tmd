@@ -1,0 +1,207 @@
+{
+  "fiche": "A11",
+  "titre": "Citernes, flexibles et vrac",
+  "module": "Citernes",
+  "fichier": "Rédigé d'après l'ADR 2025 (aucun support de formation fourni)",
+  "cards": [
+    {
+      "n": "Q1",
+      "type": "classement",
+      "q": "Distinguez citerne fixe, citerne démontable, conteneur-citerne et citerne mobile.",
+      "r": "**Citerne fixe** : fixée au véhicule (véhicule-citerne) · **démontable** : non fixée à demeure, ne se manutentionne que vide · **conteneur-citerne** : citerne au format conteneur (> 450 L pour les liquides) · **citerne mobile** : citerne multimodale conçue selon les règles de l'ONU (> 450 L)",
+      "ref": ["1.2.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q2",
+      "type": "question_ouverte",
+      "q": "Quels chapitres régissent les citernes mobiles ONU et les citernes ADR (citernes fixes, démontables, conteneurs-citernes) ?",
+      "r": "Citernes **mobiles** : chapitres **4.2 et 6.7** (instructions **T1 à T23**, colonne 10) · citernes **ADR** : chapitres **4.3 et 6.8** (**code-citerne**, colonne 12)",
+      "why": "La citerne mobile est multimodale (route, mer, rail) ; la citerne ADR est propre au transport terrestre européen.",
+      "ref": ["4.2", "4.3", "6.7", "6.8"],
+      "diff": 2
+    },
+    {
+      "n": "Q3",
+      "type": "classement",
+      "q": "Tableau A, transport en citerne : que donnent les colonnes 10, 12, 13, 14 et 20 ?",
+      "r": "**(10)** instruction de transport en citerne mobile (T…) et en vrac (BK…) · **(12)** code-citerne ADR · **(13)** dispositions spéciales citernes ADR (TU, TC, TE, TA…) · **(14)** type de véhicule pour le transport en citerne (FL, AT, EX/III…) · **(20)** numéro d'identification du danger",
+      "why": "Colonnes 16 à 19 : dispositions spéciales de transport (colis, vrac, chargement, exploitation).",
+      "ref": ["3.2.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q4",
+      "type": "classement",
+      "q": "Code-citerne **L4BN** : que signifie chaque partie ?",
+      "r": "**L** citerne pour matières **liquides** · **4** pression de calcul de **4 bar** · **B** ouvertures de remplissage ou de vidange par le bas avec **3 fermetures** · **N** citerne **sans dispositif d'aération** et non fermée hermétiquement",
+      "ref": ["4.3.4.1.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q5",
+      "type": "classement",
+      "q": "Première lettre du code-citerne : que désignent L, S, C, P et R ?",
+      "r": "**L** liquides · **S** solides · **C** gaz comprimés · **P** gaz liquéfiés ou dissous · **R** gaz liquéfiés réfrigérés",
+      "ref": ["4.3.3.1.1", "4.3.4.1.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q6",
+      "type": "classement",
+      "q": "Troisième partie du code-citerne : que signifient A, B, C et D ?",
+      "r": "**A** ouvertures par le bas, **2** fermetures · **B** ouvertures par le bas, **3** fermetures · **C** ouvertures par le haut, seules des ouvertures de nettoyage sous le niveau du liquide · **D** ouvertures par le haut, **aucune** ouverture sous le niveau du liquide",
+      "ref": ["4.3.4.1.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q7",
+      "type": "classement",
+      "q": "Quatrième partie du code-citerne : que signifient V, F, N et H ?",
+      "r": "**V** dispositif d'aération sans protection contre la propagation de la flamme · **F** dispositif d'aération avec protection contre la flamme · **N** sans dispositif d'aération, non fermée hermétiquement · **H** citerne **fermée hermétiquement**",
+      "ref": ["4.3.4.1.1"],
+      "diff": 3
+    },
+    {
+      "n": "Q8",
+      "type": "vrai_faux",
+      "q": "Une matière dont le code-citerne est LGBF ne peut voyager que dans une citerne codée exactement LGBF.",
+      "r": "**Faux**",
+      "why": "Une citerne de code **plus exigeant** dans la hiérarchie (pression de calcul plus élevée, moins d'ouvertures par le bas…) est aussi admise, si les dispositions spéciales le permettent.",
+      "ref": ["4.3.4.1.2"],
+      "diff": 3
+    },
+    {
+      "n": "Q9",
+      "type": "question_ouverte",
+      "q": "Panneau orange numéroté : que lit-on en haut et en bas ?",
+      "r": "En haut : le **numéro d'identification du danger** (code Kemler, colonne 20) · en bas : le **numéro ONU**",
+      "why": "Exemple : 33 / 1203 pour l'essence.",
+      "ref": ["5.3.2.1"],
+      "diff": 1
+    },
+    {
+      "n": "Q10",
+      "type": "classement",
+      "q": "Numéro d'identification du danger : que signifient les chiffres 2, 3, 4, 5, 6, 7, 8, 9 ?",
+      "r": "**2** émanation de gaz · **3** inflammabilité d'un liquide ou d'un gaz · **4** inflammabilité d'un solide · **5** comburant · **6** toxicité · **7** radioactivité · **8** corrosivité · **9** réaction violente spontanée",
+      "why": "Un chiffre doublé intensifie le danger ; un **0** complète un danger unique ; le **X** devant signifie « réagit dangereusement avec l'eau ».",
+      "ref": ["5.3.2.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q11",
+      "type": "classement",
+      "q": "Lisez ces panneaux : 33 / 1203 · 30 / 1202 · 80 / 1830 · 268 / 1005 · X423",
+      "r": "**33** liquide très inflammable (essence) · **30** liquide inflammable (gazole) · **80** matière corrosive (acide sulfurique) · **268** gaz toxique et corrosif (ammoniac anhydre) · **X423** solide qui réagit dangereusement avec l'eau en dégageant des gaz inflammables",
+      "ref": ["5.3.2.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q12",
+      "type": "question_ouverte",
+      "q": "Où place-t-on les plaques-étiquettes (placards) sur un véhicule-citerne, un conteneur-citerne et une citerne mobile ? Quelle taille ?",
+      "r": "Véhicule-citerne : **deux côtés et arrière** · conteneur-citerne et citerne mobile : **les quatre côtés** · format **250 × 250 mm**",
+      "ref": ["5.3.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q13",
+      "type": "question_ouverte",
+      "q": "Citernes ADR (6.8) : à quel rythme sont-elles contrôlées ?",
+      "r": "Contrôle **intermédiaire** tous les **3 ans** et contrôle **périodique** (avec épreuve de pression) tous les **6 ans**",
+      "why": "Pour les citernes mobiles (6.7) : 2,5 ans et 5 ans. La date de la dernière épreuve figure sur la plaque de la citerne.",
+      "ref": ["6.8.2.4", "6.7.2.19"],
+      "diff": 2
+    },
+    {
+      "n": "Q14",
+      "type": "question_ouverte",
+      "q": "À partir de quelle capacité le conducteur doit-il avoir la spécialisation « citernes » ?",
+      "r": "Citernes fixes ou démontables de plus de **1 m³**, conteneurs-citernes ou citernes mobiles de plus de **3 m³** par élément, véhicules-batteries et CGEM au-delà des mêmes seuils",
+      "ref": ["8.2.1.3"],
+      "statut": "a_relire",
+      "verif": "Seuils à confirmer au 8.2.1.3",
+      "diff": 3
+    },
+    {
+      "n": "Q15",
+      "type": "question_ouverte",
+      "q": "Comment décrire une citerne vide non nettoyée sur le document de transport ?",
+      "r": "**« CITERNE VIDE, DERNIÈRE MARCHANDISE CHARGÉE : »** suivi de la désignation de cette marchandise. La citerne garde sa **signalisation**.",
+      "ref": ["5.4.1.1.6"],
+      "diff": 2
+    },
+    {
+      "n": "Q16",
+      "type": "question_ouverte",
+      "q": "Quelles sont les principales obligations du remplisseur d'une citerne (1.4.3.3) ?",
+      "r": "Vérifier que la citerne et ses équipements sont **en bon état** et que la **date d'épreuve** n'est pas dépassée · ne remplir qu'avec les marchandises **autorisées** pour cette citerne · respecter le **taux de remplissage** · fermer et contrôler l'étanchéité · apposer la **signalisation**.",
+      "ref": ["1.4.3.3"],
+      "diff": 2
+    },
+    {
+      "n": "Q17",
+      "type": "question_ouverte",
+      "q": "Quelles sont les principales obligations du déchargeur (1.4.3.7) ?",
+      "r": "S'assurer que ce sont les **bonnes marchandises** (comparer document et étiquetage) · vérifier l'état de la citerne avant et après · **refermer** vannes et ouvertures · faire **nettoyer ou décontaminer** si nécessaire · retirer la signalisation une fois la citerne nettoyée.",
+      "ref": ["1.4.3.7"],
+      "diff": 2
+    },
+    {
+      "n": "Q18",
+      "type": "question_ouverte",
+      "q": "Flexibles de dépotage : quelles précautions avant, pendant et après le dépotage ?",
+      "r": "Flexible **adapté au produit**, en bon état et **contrôlé périodiquement** · raccords étanches · pour un liquide inflammable : **continuité électrique** et **mise à la terre** du véhicule avant toute opération · surveillance permanente · après usage : flexible **vidangé**, bouchonné et rangé, sans résidu dangereux à l'extérieur.",
+      "why": "Les exigences détaillées (normes de flexibles, épreuves) relèvent des normes EN citées par l'ADR et des règles nationales sur le chargement et le déchargement.",
+      "statut": "a_relire",
+      "verif": "Rédigé hors support : références précises à confirmer",
+      "diff": 2
+    },
+    {
+      "n": "Q19",
+      "type": "vrai_faux",
+      "q": "Une citerne peut être remplie à 100 % de sa capacité.",
+      "r": "**Faux**",
+      "why": "Il faut laisser un **creux** : le taux de remplissage maximal dépend de la dilatation du liquide et de la température (formules du 4.3.2.2).",
+      "ref": ["4.3.2.2"],
+      "diff": 1
+    },
+    {
+      "n": "Q20",
+      "type": "classement",
+      "q": "Transport en vrac : que signifient les codes BK1, BK2 et BK3 ?",
+      "r": "**BK1** conteneur pour vrac **bâché** · **BK2** conteneur pour vrac **fermé** · **BK3** conteneur pour vrac **souple**",
+      "why": "Ils sont autorisés par la colonne (10) du tableau A ; les codes VC et AP de la colonne (17) encadrent le vrac en véhicule.",
+      "ref": ["7.3", "3.2.1"],
+      "diff": 2
+    },
+    {
+      "n": "Q21",
+      "type": "question_ouverte",
+      "q": "Un « big bag » : est-ce un GRV souple ou un conteneur pour vrac souple (BK3) ?",
+      "r": "Selon sa taille et son homologation : **GRV souple** (code **13**, jusqu'à **3 m³**, ex. 13H3) ou **conteneur pour vrac souple BK3** (jusqu'à **15 m³**). Chacun a son marquage et ses règles d'utilisation.",
+      "ref": ["6.5", "6.11"],
+      "statut": "a_relire",
+      "verif": "Capacités à confirmer (1.2.1, 6.11)",
+      "diff": 3
+    },
+    {
+      "n": "Q22",
+      "type": "question_ouverte",
+      "q": "À quel rythme les GRV métalliques et en plastique rigide sont-ils contrôlés ?",
+      "r": "Inspection tous les **2,5 ans** (état extérieur, étanchéité) et inspection complète tous les **5 ans**",
+      "why": "Les GRV en plastique rigide ont en outre une durée d'utilisation limitée à 5 ans.",
+      "ref": ["6.5.4.4", "4.1.1.15"],
+      "diff": 3
+    },
+    {
+      "n": "Q23",
+      "type": "question_ouverte",
+      "q": "Véhicule-citerne à compartiments contenant des produits différents : comment le signaliser ?",
+      "r": "Panneaux orange **neutres** à l'avant et à l'arrière, et panneaux **numérotés** sur les côtés de **chaque compartiment**, plus les plaques-étiquettes correspondantes.",
+      "ref": ["5.3.2.1.3"],
+      "diff": 3
+    }
+  ]
+}

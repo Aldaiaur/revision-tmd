@@ -1,6 +1,6 @@
 export const fr = {
   appTitle: 'Révision IATA DGR',
-  nav: { choix: 'Accueil', accueil: 'Tableau de bord', revision: 'Réviser', catalogue: 'Catalogue', impression: 'Imprimer', examen: 'Examen blanc', reglages: 'Réglages' },
+  nav: { choix: 'Accueil', profils: 'Profils', accueil: 'Tableau de bord', revision: 'Réviser', catalogue: 'Catalogue', impression: 'Imprimer', examen: 'Examen blanc', reglages: 'Réglages' },
   statut: { stable: 'Stable', a_relire: 'À vérifier', obsolete: 'Obsolète' },
   statutLong: {
     stable: 'Règle ou méthode stable',
@@ -122,6 +122,20 @@ export const fr = {
     iata: { titre: 'IATA DGR', sousTitre: 'Transport aérien', desc: 'Cartes, révision espacée, impression et examen blanc.', ouvrir: 'Réviser IATA' },
     adr: { titre: 'ADR', sousTitre: 'Transport routier', desc: 'Cartes, révision espacée, impression et examen blanc.', ouvrir: 'Réviser ADR' },
     cartes: (n: number) => `${n} carte${n > 1 ? 's' : ''}`,
+  },
+  profils: {
+    titre: 'Profils',
+    quiRevise: 'Qui révise ?',
+    intro: 'Chaque profil a sa propre progression, conservée dans ce navigateur uniquement.',
+    nom: 'Nom du profil',
+    ajouter: 'Nouveau profil',
+    nomPlaceholder: 'Prénom ou initiales',
+    creer: 'Créer',
+    renommer: 'Renommer',
+    supprimer: 'Supprimer',
+    changer: 'Changer de profil',
+    confirmerSuppression: (nom: string) => `Supprimer le profil « ${nom} » et toute sa progression ? C'est définitif.`,
+    note: "Aucun compte ni envoi : les profils servent à partager un même ordinateur. Pour passer d'un appareil à l'autre, utilisez l'export / import dans Réglages.",
   },
   a11y: { allerContenu: 'Aller au contenu', navPrincipale: 'Navigation principale' },
   commun: { fermer: 'Fermer', annuler: 'Annuler', oui: 'Oui', non: 'Non', enregistrer: 'Enregistrer' },
