@@ -23,7 +23,7 @@ function tally(cards: Card[], states: Map<string, CardState>, module: Row['modul
 const pct = (n: number, d: number) => (d ? Math.round((100 * n) / d) : 0);
 
 export function Home() {
-  const { t, leitner, today, reviews, notes, settings, exams } = useStore();
+  const { t, leitner, today, reviews, notes, settings, exams, corrigees } = useStore();
   const deck = useDeck();
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
   // Les cartes obsolètes ne comptent pas dans la progression.
@@ -45,6 +45,7 @@ export function Home() {
   );
   const dateExamen = deck.id === 'adr' ? settings.dateExamenAdr : settings.dateExamen;
   const jours = dateExamen ? Math.round((Date.parse(dateExamen) - Date.parse(today)) / 86400000) : null;
+  const nbCorrigees = deck.cards.filter((c) => corrigees.has(c.id)).length;
   const lastExam = [...exams].filter((e) => e.score !== null && (e.deck ?? 'iata') === deck.id).pop();
 
   return (
@@ -86,6 +87,12 @@ export function Home() {
           </span>
         </div>
       </div>
+
+      {nbCorrigees > 0 && (
+        <p className="banner banner-maj">
+          {t.revision.corrigeesBandeau(nbCorrigees)} <a href={deck.href('revision?corrigees')}>{t.revision.revoir}</a>
+        </p>
+      )}
 
       <h2 id="prog-title">Progression par module</h2>
       <p className="muted small">Part des cartes (hors obsolètes) par boîte Leitner. Survolez un segment pour le détail.</p>

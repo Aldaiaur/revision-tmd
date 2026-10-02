@@ -1,0 +1,5 @@
+{
+  "$comment": "Annonce affichée une fois par profil après une mise à jour. Changer « version » pour réafficher.",
+  "version": "2026-10-02",
+  "texte": "Révision ADR : 295 cartes, dont les nouveaux thèmes Citernes, Véhicules et Classe 1, et une trentaine de cartes corrigées. Profils : plusieurs personnes peuvent réviser sur le même navigateur (onglet Profils)."
+}

@@ -23,7 +23,8 @@ export function PrintScreen({ weak = defaultWeak }: { weak?: WeakSelector }) {
   const store = useStore();
   const deck = useDeck();
   const { settings, updateSettings, selected, lastNote } = store;
-  const [source, setSource] = useState<Source>(selected.size ? 'cochees' : 'filtre');
+  const nbCoches = deck.cards.filter((c) => selected.has(c.id)).length;
+  const [source, setSource] = useState<Source>(nbCoches ? 'cochees' : 'filtre');
   const [filter, setFilter] = useState<Filter>(DEFAULT_FILTER);
   const [calibration, setCalibration] = useState(false);
   const [scale, setScale] = useState(0.5);
@@ -52,7 +53,7 @@ export function PrintScreen({ weak = defaultWeak }: { weak?: WeakSelector }) {
             <input type="radio" name="src" checked={source === 'filtre'} onChange={() => setSource('filtre')} /> Par filtre ({filtered.length})
           </label>
           <label className="check">
-            <input type="radio" name="src" checked={source === 'cochees'} onChange={() => setSource('cochees')} /> Cartes cochées ({selected.size})
+            <input type="radio" name="src" checked={source === 'cochees'} onChange={() => setSource('cochees')} /> Cartes cochées ({nbCoches})
           </label>
           <label className="check">
             <input type="radio" name="src" checked={source === 'faibles'} onChange={() => setSource('faibles')} /> Points faibles ({weakSet.size})

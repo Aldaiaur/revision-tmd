@@ -1,12 +1,21 @@
 {
   "$comment": "Réglages de l'app. Aucune valeur réglementaire DGR ici : seulement la mécanique de révision et d'examen blanc.",
   "leitner": {
-    "intervallesJours": [1, 2, 4, 8, 16],
+    "intervallesJours": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
     "nouvellesParSession": 20
   },
   "pointsFaibles": {
     "dernieresRevisions": 3,
-    "boites": [1, 2]
+    "boites": [
+      1,
+      2
+    ]
   },
   "examen": {
     "dureeMin": 180,
@@ -25,5 +34,12 @@
       "Expéditions": 1,
       "Classe 7": 1
     }
+  },
+  "examenAdr": {
+    "dureeMin": 30,
+    "seuil": 0.8,
+    "nbQuestions": 20,
+    "bonusBoitesFaibles": 2,
+    "poidsModules": {}
   }
 }

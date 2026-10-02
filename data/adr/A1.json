@@ -14,7 +14,7 @@
         "Limiter le nombre de transporteurs qualifiés"
       ],
       "bonne": "A",
-      "why": "C'est la réponse du corrigé. Le guide formateur la juge discutable : le but est surtout de **prévenir les accidents** et d'en limiter les conséquences ; l'identification par les secours en est un moyen.",
+      "why": "C'est la réponse du corrigé. Les formateurs la jugent discutable : le but est surtout de **prévenir les accidents** et d'en limiter les conséquences ; l'identification par les secours en est un moyen.",
       "src": "Évaluation Q1",
       "diff": 1
     },
@@ -211,7 +211,7 @@
     },
     {
       "n": "Q21",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Qui doit être formé au titre du chapitre 1.3 ?",
       "r": "**Toute personne dont les fonctions concernent le transport** de marchandises dangereuses : emballer, étiqueter, signer la déclaration, charger, réceptionner. Avec recyclage périodique et **trace écrite** de la formation.",
@@ -223,7 +223,7 @@
     },
     {
       "n": "Q22",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Le conseiller à la sécurité signe les déclarations de marchandises dangereuses à la place des agents.",
       "r": "**Faux**",
@@ -235,7 +235,7 @@
     },
     {
       "n": "Q23",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Quand une entreprise peut-elle se passer de conseiller à la sécurité, et quels rapports le conseiller rédige-t-il ?",
       "r": "Exemptions du **1.8.3.2**, notamment quand les quantités restent **sous les seuils du 1.1.3.6**. Le conseiller rédige un **rapport annuel** et, le cas échéant, un **rapport d'accident**.",
@@ -248,7 +248,7 @@
     },
     {
       "n": "Q24",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Combien de temps conserver le document de transport ? Et le registre des déchets ?",
       "r": "Document de transport : **au moins 3 mois** · registre déchets : **au moins 3 ans**",
@@ -260,7 +260,7 @@
     },
     {
       "n": "Q25",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Amener un bidon par une voie interne d'un site fermé au public relève de l'ADR.",
       "r": "**Faux** : l'ADR vise la **voie publique**.",
@@ -272,7 +272,7 @@
     },
     {
       "n": "Q26",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Un agent veut transporter des produits dans sa voiture personnelle pour une manip. Est-ce un transport ADR ?",
       "r": "**Oui.** Des exemptions sont possibles (**1.1.3.1 c**, **1.1.3.6**), à valider avec le conseiller et la procédure de l'unité.",
@@ -284,7 +284,7 @@
     },
     {
       "n": "Q27",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Vol ValuJet 592 (1996, 110 morts) : quelle leçon pour un expéditeur ?",
       "r": "« **Vide** », « **périmé** » ou « échantillon » ne sont pas des classements : l'expéditeur répond de ce qu'il déclare.",
@@ -296,7 +296,7 @@
     },
     {
       "n": "Q28",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Les obligations générales de sûreté (1.10.1 et 1.10.2) ne concernent que les marchandises à haut risque.",
       "r": "**Faux**",
@@ -310,7 +310,7 @@
     },
     {
       "n": "Q29",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Pour le transport aérien, quel texte fait foi : les Instructions techniques de l'OACI ou l'IATA DGR ?",
       "r": "Les **Instructions techniques de l'OACI**. L'IATA DGR en est la version opérationnelle, avec en plus les variations d'États et d'exploitants.",
@@ -318,7 +318,7 @@
     },
     {
       "n": "Q30",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Un prestataire refuse un carton non conforme lors d'une collecte. En a-t-il le droit ?",
       "r": "**Oui**, et c'est son devoir (1.4.2.2). Il ne peut pas non plus « régulariser » le colis à votre place.",

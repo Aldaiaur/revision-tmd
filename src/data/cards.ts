@@ -36,7 +36,7 @@ export type AdrCard = {
   /** Question d'origine dans les supports (ex. « Évaluation Q11 »). */
   src?: string;
 };
-export type AdrFile = { fiche: string; titre: string; module: Module; fichier: string; cards: AdrCard[] };
+export type AdrFile = { fiche: string; titre: string; module: Module; fichier: string; edition?: string; cards: AdrCard[] };
 
 function hash(s: string): string {
   let h = 5381;
@@ -62,7 +62,7 @@ export function expandAdr(f: AdrFile): Card[] {
       statut,
       statut_source: c.verif ?? (statut === 'stable' ? 'Supports de formation' : 'À vérifier'),
       ref_dgr: c.ref ?? [],
-      edition_ref: '2025',
+      edition_ref: f.edition ?? '2025',
       edition_verifiee: null,
       tags: c.tags ?? [],
       difficulte: c.diff ?? 2,

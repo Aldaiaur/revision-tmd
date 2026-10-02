@@ -95,7 +95,7 @@
       "type": "question_ouverte",
       "q": "Quels extincteurs pour une unité de transport en pleine application ?",
       "r": "Un extincteur **2 kg** pour la cabine, compris dans une capacité **totale** de **4 kg** (≤ 3,5 t), **8 kg** (3,5 à 7,5 t) ou **12 kg** (> 7,5 t), dont au moins un de **6 kg** au-delà de 3,5 t. Sous 1.1.3.6 : un seul extincteur de 2 kg.",
-      "why": "Les supports de cours indiquent encore 10 kg au-delà de 7,5 t ; le guide formateur retient 12 kg.",
+      "why": "Les supports de cours indiquent encore 10 kg au-delà de 7,5 t ; les formateurs retiennent 12 kg.",
       "ref": [
         "8.1.4.1"
       ],
@@ -181,7 +181,7 @@
     },
     {
       "n": "Q17",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Le laboratoire peut refuser de charger des déchets dans un camion non conforme.",
       "r": "**Vrai** : c'est même un devoir.",
@@ -190,7 +190,7 @@
     },
     {
       "n": "Q18",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Tunnel du Mont-Blanc (1999, 39 morts) : quel lien avec l'ADR ?",
       "r": "Un camion de farine et de margarine, sans aucune marchandise dangereuse, a pris feu dans le tunnel. Cet accident a conduit l'ADR à créer les **codes tunnel** (introduits en 2007).",
@@ -201,7 +201,7 @@
     },
     {
       "n": "Q19",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Le document de transport peut-il être électronique ?",
       "r": "**Oui**, si les conditions du **5.4.0.2** sont réunies ; il doit être disponible à bord.",

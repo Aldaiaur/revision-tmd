@@ -1,7 +1,8 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
 import type { Note } from '../model/filters.ts';
 
-export type Review = { seq?: number; cardId: string; date: string; note: Note; mode: 'revision' | 'examen' };
+/** hash : empreinte du contenu de la carte au moment de la notation (détecte les cartes corrigées depuis). */
+export type Review = { seq?: number; cardId: string; date: string; note: Note; mode: 'revision' | 'examen'; hash?: string };
 export type NoteDGR = { id: string; valeur_relue: string; edition: string; date: string };
 export type Selection = { nom: string; ids: string[] };
 export type PrintFormat = '2x4' | '2x5' | '1x1' | 'pliage';
@@ -15,6 +16,10 @@ export type Settings = {
   modeImpression: 'duplex' | 'recto';
   decalageVersoMm: { x: number; y: number };
   melanger: boolean;
+  /** Dernier export (ou report du rappel d'export), AAAA-MM-JJ. */
+  rappelExport: string | null;
+  /** Dernière annonce de nouveautés lue (data/nouveautes.json). */
+  nouveauteVue: string | null;
 };
 export type ExamRun = {
   seq?: number;
@@ -48,6 +53,8 @@ export const DEFAULT_SETTINGS: Settings = {
   modeImpression: 'duplex',
   decalageVersoMm: { x: 0, y: 0 },
   melanger: false,
+  rappelExport: null,
+  nouveauteVue: null,
 };
 
 interface Schema extends DBSchema {

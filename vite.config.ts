@@ -9,7 +9,8 @@ export default defineConfig({
     react(),
     // Hors ligne : tout le build (cartes comprises) est mis en cache par le service worker à la première visite.
     VitePWA({
-      registerType: 'autoUpdate',
+      // Nouvelle version proposée par un bandeau (src/pwa.ts), jamais imposée en pleine révision.
+      registerType: 'prompt',
       injectRegister: false,
       includeAssets: ['icon.svg'],
       manifest: {

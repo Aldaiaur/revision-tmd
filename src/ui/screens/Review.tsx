@@ -11,16 +11,21 @@ import { NoteForm } from '../NoteForm.tsx';
 import { shuffle, useHotkeys } from '../hooks.ts';
 
 export function Review() {
-  const { t, lastNote, settings, updateSettings, leitner, today } = useStore();
+  const { t, lastNote, settings, updateSettings, leitner, today, corrigees } = useStore();
   const deck = useDeck();
   const [filter, setFilter] = useState<Filter>(DEFAULT_FILTER);
   const [dues, setDues] = useState(() => window.location.hash.includes('dues'));
   const [queue, setQueue] = useState<string[] | null>(null);
   const matching = useMemo(() => applyFilter(deck.cards, filter, lastNote), [deck.cards, filter, lastNote]);
-  const planned = useMemo(
-    () => (dues ? dailyQueue(matching, leitner, today, CONFIG.leitner.nouvellesParSession) : matching),
-    [dues, matching, leitner, today],
-  );
+  const [seulCorrigees, setSeulCorrigees] = useState(() => window.location.hash.includes('corrigees'));
+  const planned = useMemo(() => {
+    if (seulCorrigees) return matching.filter((c) => corrigees.has(c.id));
+    if (!dues) return matching;
+    // Les cartes corrigées depuis la dernière notation passent en tête, pour réapprendre la bonne réponse.
+    const queue = dailyQueue(matching, leitner, today, CONFIG.leitner.nouvellesParSession);
+    const inQueue = new Set(queue.map((c) => c.id));
+    return [...matching.filter((c) => corrigees.has(c.id) && !inQueue.has(c.id)), ...queue];
+  }, [dues, seulCorrigees, matching, leitner, today, corrigees]);
 
   const start = () => setQueue((settings.melanger ? shuffle(planned) : planned).map((c) => c.id));
 
@@ -35,6 +40,11 @@ export function Review() {
           <input type="checkbox" checked={dues} onChange={(e) => setDues(e.target.checked)} /> {t.revision.dues}
           <span className="muted small">(+ {CONFIG.leitner.nouvellesParSession} nouvelles max.)</span>
         </label>
+        {corrigees.size > 0 && (
+          <label className="check">
+            <input type="checkbox" checked={seulCorrigees} onChange={(e) => setSeulCorrigees(e.target.checked)} /> {t.revision.corrigees}
+          </label>
+        )}
         <label className="check">
           <input type="checkbox" checked={settings.melanger} onChange={(e) => void updateSettings({ melanger: e.target.checked })} /> {t.revision.melanger}
         </label>

@@ -222,7 +222,7 @@
     },
     {
       "n": "Q23",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "calcul",
       "q": "Chargement à exactement 1 000 points (750 en catégorie 1 + 250 en catégorie 3). On ajoute un flacon de 1 L de méthanol (catégorie 2). Le 1.1.3.6 tient-il ?",
       "r": "**Non** : 1 000 + 1 × 3 = **1 003** > 1 000. Il faut alors panneaux orange, équipement complet et conducteur titulaire du certificat ADR.",
@@ -230,7 +230,7 @@
     },
     {
       "n": "Q24",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Un même colis peut contenir des marchandises en quantités limitées et en quantités exceptées.",
       "r": "**Faux**",
@@ -239,7 +239,7 @@
     },
     {
       "n": "Q25",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Quand le régime de minimis est-il utile, et quand est-il impossible ?",
       "r": "Utile pour des **échantillons de quelques milligrammes** (codes E1, E2, E4, E5). Impossible pour la **classe 7** et pour les codes E0 et E3.",
@@ -250,7 +250,7 @@
     },
     {
       "n": "Q26",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Quantités limitées et quantités exceptées : quelle information donner au transporteur ?",
       "r": "QL : la **masse brute totale** (3.4.12) · QE : si un document accompagne l'envoi, la mention QE et le **nombre de colis** (3.5.6)",
@@ -262,7 +262,7 @@
     },
     {
       "n": "Q27",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Sous le régime du 1.1.3.6, on peut utiliser des emballages non homologués.",
       "r": "**Faux**",
@@ -271,7 +271,7 @@
     },
     {
       "n": "Q28",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Peut-on utiliser les quantités limitées pour des déchets ?",
       "r": "**Oui**, si chaque emballage intérieur respecte la colonne 7a et les conditions du 3.4. Le bordereau de suivi des déchets reste obligatoire.",

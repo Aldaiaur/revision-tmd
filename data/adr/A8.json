@@ -236,7 +236,7 @@
     },
     {
       "n": "Q23",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "DASRI (UN 3291) : quelle instruction d'emballage, et quelle dérogation nationale existe ?",
       "r": "Instruction **P621**. Dérogation de l'arrêté TMD : transport par le **producteur**, dans son véhicule, de **15 kg au plus**.",
@@ -250,7 +250,7 @@
     },
     {
       "n": "Q24",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "De la carboglace (UN 1845) autour de déchets ou d'échantillons biologiques : quelles règles par route ?",
       "r": "Non soumise à l'ADR comme réfrigérant, **sauf le 5.5.3** : marquage et ventilation du véhicule.",

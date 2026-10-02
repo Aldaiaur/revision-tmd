@@ -357,6 +357,12 @@ a.button.primary { background: var(--accent); color: var(--accent-text); font-we
 .choice-card h2 { margin: 0; font-size: 1.5rem; display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
 .choice-card p { margin: 0; color: var(--muted); }
 
+/* ───────── Bandeaux globaux ───────── */
+.global-banners { max-width: 64rem; margin: 0 auto; padding: 0 1.5rem; }
+.global-banners:empty { display: none; }
+.global-banners .banner button { margin-left: .25rem; }
+.chip-maj { background: var(--piege-bg); }
+
 /* ───────── Profils ───────── */
 .profile-chip { padding: .2rem .65rem; border-radius: 999px; border: 1px solid var(--border); text-decoration: none; color: var(--text); font-size: .9rem; }
 .profile-list { list-style: none; padding: 0; display: grid; gap: .5rem; margin: 1rem 0; }

@@ -112,7 +112,7 @@
     },
     {
       "n": "Q13",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Vol UPS 6 (Dubaï, 2010) : quelle leçon pour les batteries au lithium ?",
       "r": "Un incendie en soute ne se maîtrise pas comme sur la route : d'où les **limites strictes** et les interdictions de l'aérien pour le lithium.",
@@ -124,7 +124,7 @@
     },
     {
       "n": "Q14",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Des piles au lithium usagées ne sont plus des marchandises dangereuses.",
       "r": "**Faux** : elles restent en classe 9.",

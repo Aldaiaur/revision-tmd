@@ -10,7 +10,7 @@ export const BackupSchema = z.object({
   schema_version: z.literal(1),
   app: z.literal('iata-dgr'),
   exported_at: z.string(),
-  reviews: z.array(z.object({ seq: z.number().optional(), cardId: z.string(), date: z.string(), note: Note, mode: z.enum(['revision', 'examen']) })),
+  reviews: z.array(z.object({ seq: z.number().optional(), cardId: z.string(), date: z.string(), note: Note, mode: z.enum(['revision', 'examen']), hash: z.string().optional() })),
   notes: z.array(z.object({ id: z.string(), valeur_relue: z.string(), edition: z.string(), date: z.string() })),
   selections: z.array(z.object({ nom: z.string(), ids: z.array(z.string()) })),
   settings: z
@@ -23,6 +23,8 @@ export const BackupSchema = z.object({
       modeImpression: z.enum(['duplex', 'recto']),
       decalageVersoMm: z.object({ x: z.number(), y: z.number() }),
       melanger: z.boolean(),
+      rappelExport: z.string().nullable(),
+      nouveauteVue: z.string().nullable(),
     })
     .partial(),
   exams: z.array(

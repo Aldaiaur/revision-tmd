@@ -192,7 +192,7 @@
         "4.1.10 MP17"
       ],
       "statut": "a_relire",
-      "verif": "Conflit MP8 / MP17 relevé par le guide formateur",
+      "verif": "Conflit MP8 / MP17 relevé par les formateurs",
       "src": "Fiche pratique PCL",
       "diff": 3
     },
@@ -201,7 +201,7 @@
       "type": "question_ouverte",
       "q": "La fiche PCL place PFA (paraformaldéhyde à 4 %, classé UN 2209), nitrate d'argent et acide chlorhydrique dans un même carton de classe 8. Qu'en penser ?",
       "r": "Le PFA à 4 % **n'est pas UN 2209**, rubrique réservée aux solutions à **≥ 25 %** de formaldéhyde : le classer d'après sa FDS. Et **formaldéhyde + HCl** peuvent former du **bis(chlorométhyl)éther**, cancérogène puissant : les MP ne dispensent pas de vérifier la compatibilité (4.1.1.6).",
-      "src": "Fiche pratique PCL ; guide formateur",
+      "src": "Fiche pratique PCL ; retour d'expérience formateur",
       "diff": 3,
       "why": "Le nitrate d'argent solide est UN 1493 (5.1) ; une solution se classe selon sa concentration.",
       "ref": [
@@ -260,7 +260,7 @@
     },
     {
       "n": "Q24",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "On met des flacons non homologués dans un carton homologué : le colis est-il conforme ?",
       "r": "Seulement si la configuration correspond à celle de l'**homologation** (mêmes emballages intérieurs, mêmes calages), ou si l'emballage est homologué de type « **V** ». Ce n'est pas un suremballage, qui réunit des colis déjà conformes.",
@@ -271,7 +271,7 @@
     },
     {
       "n": "Q25",
-      "src": "Exercices emballage ; guide formateur",
+      "src": "Exercices emballage ; retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Bidon 3H1/X1.9/140/22 dont le bouchon porte « 07 ». Peut-on l'utiliser ?",
       "r": "**Non**, mais pas à cause du bidon : fabriqué en 2022, il est valable jusqu'en 2027. C'est le **bouchon** (2007) qui n'est vraisemblablement pas d'origine et a vieilli : l'emballage n'est plus dans sa configuration d'homologation.",
@@ -279,7 +279,7 @@
     },
     {
       "n": "Q26",
-      "src": "Exercices emballage ; guide formateur",
+      "src": "Exercices emballage ; retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Caisse marquée 4H2/Y50/S/2020 et 4H2/X25/S/2020. Peut-on y mettre 20 L de furanne en vrac (GE I, 35 kg) ?",
       "r": "**Non** : un liquide en vrac est interdit dans une caisse (marque S), et 35 kg dépassent les **25 kg** admis en GE I (X25).",
@@ -288,7 +288,7 @@
     },
     {
       "n": "Q27",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Réutiliser un bidon de produit pour y mettre un déchet : que vérifier ?",
       "r": "**GE** compatible (X/Y/Z), densité du déchet ≤ densité marquée, **compatibilité chimique**, bidon plastique de **moins de 5 ans**, **bouchon d'origine** en bon état.",
@@ -296,7 +296,7 @@
     },
     {
       "n": "Q28",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "classement",
       "q": "Emballage en commun : que permettent MP15, MP19, MP8 et MP17 ?",
       "r": "**MP15** : ≤ 3 L par intérieur · **MP19** : ≤ 5 L par intérieur · **MP8** : ≤ 3 L, avec la même classe ou des non soumis · **MP17** : ≤ 0,5 L par intérieur et 1 L par colis avec d'autres classes",
@@ -305,12 +305,12 @@
         "4.1.10.4"
       ],
       "statut": "a_relire",
-      "verif": "Résumé du guide formateur, à confirmer au 4.1.10.4",
+      "verif": "Résumé formateur, à confirmer au 4.1.10.4",
       "diff": 3
     },
     {
       "n": "Q29",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Collecte de PCL : pourquoi trier les cartons par classe plutôt que de tout mettre ensemble (hors MP2) ?",
       "r": "Dès qu'on mélange des classes, la **MP17** limite à **0,5 L** par intérieur et 1 L par colis : un flacon de 1 L de 1-pentène ne passe plus. Trier par classe est plus simple et plus sûr chimiquement.",
@@ -318,7 +318,7 @@
     },
     {
       "n": "Q30",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Quelle homologation pour l'emballage extérieur d'un carton de PCL qui contient un seul produit du GE I ?",
       "r": "Une marque **X** : l'emballage doit convenir au **GE le plus sévère** du carton.",

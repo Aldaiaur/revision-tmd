@@ -1,17 +1,20 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { DEFAULT_SETTINGS, loadAll, openStore, type DB, type ExamRun, type JournalEntry, type NoteDGR, type Review, type Settings, type Snapshot } from '../storage/db.ts';
 import type { Note } from '../model/filters.ts';
-import { en } from '../i18n/en.ts';
 import { fr, type Dict } from '../i18n/fr.ts';
 import { CONFIG } from '../model/config.ts';
 import { computeStates, localDay, type CardState } from '../srs/leitner.ts';
-import { deckOf } from '../data/cards.ts';
+import { CARD_BY_ID, deckOf } from '../data/cards.ts';
 
 export const CURRENT_SELECTION = 'Sélection courante';
 
 type Store = Snapshot & {
   ready: boolean;
   db: DB | null;
+  /** Faux si le navigateur refuse le stockage local : rien ne sera enregistré. */
+  persistent: boolean;
+  /** Cartes dont le contenu a changé depuis leur dernière notation. */
+  corrigees: Set<string>;
   t: Dict;
   lastNote: Map<string, Note>;
   notesById: Map<string, NoteDGR>;
@@ -47,6 +50,8 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     openStore(dbName)
       .then(async (d) => {
         opened = d;
+        // Demande au navigateur de ne pas purger la base en cas de manque de place (sans effet si refusé).
+        void navigator.storage?.persist?.().catch(() => {});
         const s = await loadAll(d);
         if (!alive) return d.close();
         setDb(d);
@@ -65,20 +70,29 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
     const root = document.documentElement;
     if (snap.settings.theme === 'auto') root.removeAttribute('data-theme');
     else root.setAttribute('data-theme', snap.settings.theme);
-    root.lang = snap.settings.langue;
-  }, [snap.settings.theme, snap.settings.langue]);
+  }, [snap.settings.theme]);
 
   const lastNote = useMemo(() => {
     const m = new Map<string, Note>();
     for (const r of snap.reviews) if (r.mode === 'revision') m.set(r.cardId, r.note);
     return m;
   }, [snap.reviews]);
+  const corrigees = useMemo(() => {
+    const last = new Map<string, string | undefined>();
+    for (const r of snap.reviews) last.set(r.cardId, r.hash);
+    const set = new Set<string>();
+    for (const [id, h] of last) {
+      const card = CARD_BY_ID.get(id);
+      if (h && card && card.hash_source !== h) set.add(id);
+    }
+    return set;
+  }, [snap.reviews]);
   const notesById = useMemo(() => new Map(snap.notes.map((n) => [n.id, n])), [snap.notes]);
   const selected = useMemo(() => new Set(snap.selections.find((s) => s.nom === CURRENT_SELECTION)?.ids ?? []), [snap.selections]);
 
   const rate = useCallback(
     async (cardId: string, note: Note, mode: Review['mode'] = 'revision') => {
-      const r: Review = { cardId, note, mode, date: new Date().toISOString() };
+      const r: Review = { cardId, note, mode, date: new Date().toISOString(), hash: CARD_BY_ID.get(cardId)?.hash_source };
       if (db) r.seq = await db.add('reviews', r);
       setSnap((s) => ({ ...s, reviews: [...s.reviews, r] }));
     },
@@ -152,12 +166,14 @@ export function StoreProvider({ children, dbName }: { children: ReactNode; dbNam
   }, [snap.reviews, snap.settings.dateExamen, snap.settings.dateExamenAdr]);
   const today = localDay(new Date());
 
-  const t = snap.settings.langue === 'en' ? en : fr;
+  const t = fr;
 
   const value: Store = {
     ...snap,
     ready,
     db,
+    persistent: db !== null,
+    corrigees,
     t,
     lastNote,
     notesById,

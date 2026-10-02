@@ -9,7 +9,10 @@ import { Banners, Verso } from '../CardFaces.tsx';
 import { Markdown } from '../Markdown.tsx';
 import { useHotkeys } from '../hooks.ts';
 
-const cfg = CONFIG.examen;
+/** Réglages de l'examen blanc de la révision courante (data/app-config.json). */
+function useCfg() {
+  return useDeck().id === 'adr' ? CONFIG.examenAdr : CONFIG.examen;
+}
 
 export function Exam() {
   const { exams: all } = useStore();
@@ -27,6 +30,7 @@ function Setup() {
   const deck = useDeck();
   const exams = all.filter((e) => (e.deck ?? 'iata') === deck.id);
   const journal = allJournal.filter((j) => deckOf(j.cardId) === deck.id);
+  const cfg = useCfg();
   const [n, setN] = useState(cfg.nbQuestions);
   const done = exams.filter((e) => e.score !== null);
 
@@ -219,6 +223,7 @@ function Running({ run }: { run: ExamRun }) {
 
 function Correction({ run }: { run: ExamRun }) {
   const { saveExam, addJournal, journal } = useStore();
+  const cfg = useCfg();
   const initial = useMemo(() => {
     const v: Record<string, boolean> = { ...run.verdicts };
     for (const id of run.ids) {

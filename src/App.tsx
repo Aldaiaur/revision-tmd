@@ -12,6 +12,7 @@ import { Exam } from './ui/screens/Exam.tsx';
 import { Choice } from './ui/screens/Choice.tsx';
 import { ProfilesScreen } from './ui/screens/Profiles.tsx';
 import { useProfiles } from './state/profiles.tsx';
+import { Banners } from './ui/Banners.tsx';
 
 type Dict = ReturnType<typeof useStore>['t'];
 type RouteDef = { key: string; label: (t: Dict) => string; render: () => ReactNode };
@@ -74,6 +75,7 @@ export function App() {
             ))}
         </nav>
       </header>
+      <Banners />
       <main id="main" tabIndex={-1}>
         {!ready ? null : aChoisir ? (
           <ProfilesScreen picker />

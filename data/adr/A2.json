@@ -217,7 +217,7 @@
     },
     {
       "n": "Q21",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Un produit CMR (cancérogène, mutagène, reprotoxique) est forcément classé 6.1.",
       "r": "**Faux**",
@@ -226,7 +226,7 @@
     },
     {
       "n": "Q22",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "qcm",
       "q": "Dans quelle classe range-t-on un gaz toxique ?",
       "choix": [
@@ -241,7 +241,7 @@
     },
     {
       "n": "Q23",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "La FDS du produit pur suffit-elle à classer une dilution ou un déchet ?",
       "r": "**Non** : elle classe le produit tel que vendu. Une dilution, un mélange ou un produit vieilli se reclassent sur leurs **propriétés réelles** (section 9 : point d'éclair, pH…).",
@@ -249,7 +249,7 @@
     },
     {
       "n": "Q24",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Une FDS ancienne n'a pas de section 14, ou indique « non réglementé ». Que faire ?",
       "r": "Ne **pas** conclure que le produit est non dangereux : demander une FDS à jour ou l'avis du conseiller.",
@@ -257,7 +257,7 @@
     },
     {
       "n": "Q25",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Classe 3 : qu'est-ce qui place un liquide en GE I ?",
       "r": "Un **point d'ébullition initial ≤ 35 °C** (éther diéthylique, isopentane). Sinon, le GE II ou III dépend du point d'éclair.",
@@ -268,7 +268,7 @@
     },
     {
       "n": "Q26",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Pourquoi le tableau A comporte-t-il deux lignes pour l'UN 2790 (acide acétique en solution) ?",
       "r": "Parce que la **concentration** change le classement : **50 à 80 %** → GE II, QL 1 L · **10 à 50 %** → GE III, QL 5 L. Choisir la bonne ligne est déjà un acte de classement.",
@@ -276,7 +276,7 @@
     },
     {
       "n": "Q27",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Un vieux flacon d'acide picrique ou de DNPH est desséché, le col cristallisé. Peut-on le transporter ?",
       "r": "**Non, ne pas le déplacer** : en séchant, ces matières désensibilisées peuvent devenir **explosives** (classe 1). Isoler et faire appel à un spécialiste.",
@@ -285,7 +285,7 @@
     },
     {
       "n": "Q28",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Le nitrate de potassium est une matière instable.",
       "r": "**Faux**",
@@ -294,7 +294,7 @@
     },
     {
       "n": "Q29",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Pour un mélange, dans quel ordre cherche-t-on la rubrique ONU ? Que faut-il ajouter à une rubrique n.s.a. ?",
       "r": "D'abord une rubrique **nommée** (nom chimique), puis générique, puis n.s.a. spécifique, puis n.s.a. générale. Une rubrique n.s.a. (DS 274) est complétée des **noms techniques** des deux composants qui contribuent le plus au danger.",

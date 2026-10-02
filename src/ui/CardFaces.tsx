@@ -6,13 +6,18 @@ import { Markdown } from './Markdown.tsx';
 import { StatusBadge } from './StatusIcon.tsx';
 
 export function CardMeta({ card }: { card: Card }) {
-  const { t } = useStore();
+  const { t, corrigees } = useStore();
   return (
     <div className="card-meta">
       <span className="card-num">#{CARD_NUMBER.get(card.id)}</span>
       <span className="chip">{card.module}</span>
       <span className="chip chip-muted">{t.type[card.type]}</span>
       <StatusBadge statut={card.statut} />
+      {corrigees.has(card.id) && (
+        <span className="chip chip-maj" title={t.carte.corrigeeTitre}>
+          {t.carte.corrigee}
+        </span>
+      )}
     </div>
   );
 }

@@ -177,7 +177,7 @@
     },
     {
       "n": "Q19",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Déchet de composition mal connue : que permet le 2.1.3.5.5 ?",
       "r": "Classer d'après la connaissance de l'expéditeur, au **niveau de danger le plus élevé** en cas de doute (**GE I**) ; GE II si l'on démontre que le GE I ne s'applique pas ; UN 3077 ou 3082 GE III si le seul danger est environnemental. **Interdit** pour la classe 4.3, les matières du 2.1.3.5.3 et les matières non admises.",
@@ -189,7 +189,7 @@
     },
     {
       "n": "Q20",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Déchet toluène + éthanol de composition connue : quelle désignation ? Et quel code tunnel si l'on était en GE I ?",
       "r": "**UN 1993 DÉCHET LIQUIDE INFLAMMABLE, N.S.A. (toluène, éthanol), 3, II, (D/E)**. En GE I : catégorie 1, code tunnel **(C/E)**.",
@@ -198,7 +198,7 @@
     },
     {
       "n": "Q21",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Comment classer des emballages vides non nettoyés envoyés à l'élimination ?",
       "r": "**UN 3509** (classe 9, emballages mis au rebut, vides, non nettoyés), sauf exclusions (classes 1, 5.2, 6.2, 7, amiante…). Sinon, l'emballage garde le **classement du produit** qu'il contenait.",
@@ -212,7 +212,7 @@
     },
     {
       "n": "Q22",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Des chiffons imbibés de solvant : quelle rubrique ?",
       "r": "**UN 3175** SOLIDES CONTENANT DU LIQUIDE INFLAMMABLE, N.S.A.",
@@ -220,7 +220,7 @@
     },
     {
       "n": "Q23",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Depuis quand Trackdéchets est-il obligatoire, et qui signe quoi ?",
       "r": "Depuis le **1er janvier 2022** pour les déchets dangereux (décret 2021-321). Le **producteur** crée ou valide le bordereau et signe l'enlèvement, le **transporteur** signe la prise en charge, l'**installation** signe la réception puis le traitement.",
@@ -228,7 +228,7 @@
     },
     {
       "n": "Q24",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Votre prestataire fournit fûts, étiquettes et bordereau pré-rempli, et se trompe de numéro ONU. Qui est responsable ?",
       "r": "**Vous** : le producteur reste responsable de ses déchets jusqu'à leur élimination finale, même confiés à un tiers (L541-2), et c'est vous qui signez.",
@@ -240,7 +240,7 @@
     },
     {
       "n": "Q25",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "vrai_faux",
       "q": "Le code déchet à 6 chiffres et le numéro ONU sont liés.",
       "r": "**Faux** : ce sont deux classements indépendants.",
@@ -249,7 +249,7 @@
     },
     {
       "n": "Q26",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Rédigez la désignation complète du déchet éthanol + aniline, dangereux pour l'environnement.",
       "r": "**UN 1992 DÉCHET LIQUIDE INFLAMMABLE, TOXIQUE, N.S.A. (éthanol, aniline), 3 (6.1), II, (D/E), DANGEREUX POUR L'ENVIRONNEMENT**",
@@ -257,7 +257,7 @@
     },
     {
       "n": "Q27",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Un flacon de laboratoire est d'origine inconnue. Que faire ?",
       "r": "Ne **pas ouvrir**, ne **pas mélanger**, isoler, étiqueter « inconnu », demander une identification ou une prise en charge spécifique.",
@@ -266,7 +266,7 @@
     },
     {
       "n": "Q28",
-      "src": "Guide formateur",
+      "src": "Retour d'expérience formateur",
       "type": "question_ouverte",
       "q": "Solvants halogénés et non halogénés : peut-on les mélanger dans un même bidon de déchets ?",
       "r": "Le transport le permet si le mélange est classé, mais la **filière de traitement** l'interdit souvent (traitement et coût différents) : **séparer**.",

@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react';
 import { useStore } from '../../state/store.tsx';
 import { useDeck } from '../../state/deck.tsx';
-import { makeBackup, parseBackup, restoreBackup } from '../../storage/backup.ts';
+import { parseBackup, restoreBackup } from '../../storage/backup.ts';
+import { exportProgress } from '../exportProgress.ts';
 
 export function SettingsScreen() {
   const store = useStore();
@@ -10,15 +11,7 @@ export function SettingsScreen() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
 
-  const exportJson = () => {
-    const { reviews, notes, selections, settings: s, exams, journal } = store;
-    const blob = new Blob([JSON.stringify(makeBackup({ reviews, notes, selections, settings: s, exams, journal }), null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `revision-tmd-progression-${new Date().toISOString().slice(0, 10)}.json`;
-    a.click();
-    URL.revokeObjectURL(a.href);
-  };
+  const exportJson = () => exportProgress(store);
 
   const importJson = async (file: File) => {
     try {
@@ -49,11 +42,6 @@ export function SettingsScreen() {
               {t.reglages.themes[v]}
             </option>
           ))}
-        </select>
-        <label htmlFor="set-lang">{t.reglages.langue}</label>
-        <select id="set-lang" value={settings.langue} onChange={(e) => void updateSettings({ langue: e.target.value as 'fr' | 'en' })}>
-          <option value="fr">Français</option>
-          <option value="en">English</option>
         </select>
         <label htmlFor="set-exam">{t.reglages.dateExamen} IATA</label>
         <input id="set-exam" type="date" value={settings.dateExamen ?? ''} onChange={(e) => void updateSettings({ dateExamen: e.target.value || null })} />

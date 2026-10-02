@@ -22,6 +22,8 @@ export function Catalogue() {
   const searchRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLOListElement>(null);
   const cards = useMemo(() => applyFilter(deck.cards, filter, lastNote), [deck.cards, filter, lastNote]);
+  const deckIds = useMemo(() => new Set(deck.cards.map((c) => c.id)), [deck.cards]);
+  const nbCoches = [...selected].filter((id) => deckIds.has(id)).length;
 
   useEffect(() => setActive(0), [filter]);
   useEffect(() => {
@@ -48,11 +50,11 @@ export function Catalogue() {
       <h1>{t.catalogue.titre}</h1>
       <FilterBar filter={filter} onChange={setFilter} count={cards.length} searchRef={searchRef} />
       <div className="actions">
-        <span className="muted">{t.catalogue.coches(selected.size)}</span>
+        <span className="muted">{t.catalogue.coches(nbCoches)}</span>
         <button type="button" onClick={() => void setSelected([...selected, ...cards.map((c) => c.id)])}>
           {t.catalogue.toutCocher}
         </button>
-        <button type="button" disabled={!selected.size} onClick={() => void setSelected([])}>
+        <button type="button" disabled={!nbCoches} onClick={() => void setSelected([...selected].filter((id) => !deckIds.has(id)))}>
           {t.catalogue.toutDecocher}
         </button>
         <span className="muted small">{t.catalogue.raccourcis}</span>

@@ -30,3 +30,15 @@ describe('cartes ADR', () => {
     for (const c of ADR_CARDS.filter((x) => x.statut === 'a_relire')) expect(c.statut_source, c.id).not.toBe('À vérifier');
   });
 });
+
+describe('séparation IATA / ADR', () => {
+  it('l\'examen blanc ADR a ses propres réglages', async () => {
+    const { CONFIG } = await import('../src/model/config.ts');
+    expect(CONFIG.examenAdr.nbQuestions).toBeLessThan(CONFIG.examen.nbQuestions);
+    expect(CONFIG.examenAdr.dureeMin).toBeLessThan(CONFIG.examen.dureeMin);
+  });
+
+  it('aucune carte ne cite les guides formateur (documents internes)', () => {
+    for (const c of ADR_CARDS) expect(JSON.stringify(c), c.id).not.toMatch(/guide formateur/i);
+  });
+});
