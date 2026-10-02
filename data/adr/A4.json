@@ -10,7 +10,10 @@
       "q": "Quelles marques et étiquettes un colis en pleine application doit-il porter au minimum ?",
       "r": "Les lettres **« UN » suivies du numéro ONU** et la ou les **étiquettes de danger** (classe principale et dangers subsidiaires), plus les marques complémentaires éventuelles (flèches, environnement…).",
       "why": "La désignation officielle s'ajoute pour certains colis (gaz, UN 3373…).",
-      "ref": ["5.2.1", "5.2.2"],
+      "ref": [
+        "5.2.1",
+        "5.2.2"
+      ],
       "diff": 1
     },
     {
@@ -18,7 +21,9 @@
       "type": "question_ouverte",
       "q": "Quelle hauteur minimale pour le numéro UN sur un colis ?",
       "r": "**12 mm** si le colis dépasse 30 L ou 30 kg · **6 mm** s'il dépasse 5 L ou 5 kg · taille **appropriée** en deçà",
-      "ref": ["5.2.1.1"],
+      "ref": [
+        "5.2.1.1"
+      ],
       "diff": 2
     },
     {
@@ -26,7 +31,9 @@
       "type": "question_ouverte",
       "q": "Où et comment placer les étiquettes de danger sur un colis ?",
       "r": "Sur la **même face**, les unes **à côté** des autres, ni couvertes ni masquées, lisibles et résistantes aux intempéries. Format **100 × 100 mm**.",
-      "ref": ["5.2.2.1"],
+      "ref": [
+        "5.2.2.1"
+      ],
       "diff": 1
     },
     {
@@ -35,7 +42,9 @@
       "q": "Quand les flèches d'orientation sont-elles obligatoires, et où les placer ?",
       "r": "Sur les **emballages combinés** dont les emballages intérieurs contiennent des **liquides**, les emballages simples **munis d'évents** et les **récipients cryogéniques**. Sur **deux faces verticales opposées**, pointant vers le haut.",
       "why": "Dispense notamment pour des emballages intérieurs de 120 mL au plus avec assez d'absorbant.",
-      "ref": ["5.2.1.10"],
+      "ref": [
+        "5.2.1.10"
+      ],
       "diff": 2
     },
     {
@@ -44,14 +53,21 @@
       "q": "Quand la marque « matière dangereuse pour l'environnement » n'est-elle pas exigée ?",
       "r": "Quand chaque emballage simple ou intérieur contient **≤ 5 L** (liquides) ou **≤ 5 kg** (solides).",
       "why": "Sinon, elle se place à côté des étiquettes de danger. La FDS indique si la matière est dangereuse pour l'environnement.",
-      "ref": ["5.2.1.8"],
+      "ref": [
+        "5.2.1.8"
+      ],
       "diff": 2
     },
     {
       "n": "Q6",
       "type": "qcm",
       "q": "Parmi ces étiquettes, lesquelles concernent la classe 2 ?",
-      "choix": ["Gaz toxique et gaz inflammable", "Liquide inflammable et gaz toxique", "Matière infectieuse et gaz inflammable", "Solide inflammable et liquide inflammable"],
+      "choix": [
+        "Gaz toxique et gaz inflammable",
+        "Liquide inflammable et gaz toxique",
+        "Matière infectieuse et gaz inflammable",
+        "Solide inflammable et liquide inflammable"
+      ],
       "bonne": "A",
       "why": "Classe 2 : 2.1 gaz inflammable, 2.2 gaz non inflammable non toxique, 2.3 gaz toxique.",
       "src": "Évaluation Q5",
@@ -89,7 +105,10 @@
       "q": "Quelles dimensions minimales pour la marque QL et la marque QE ?",
       "r": "**100 × 100 mm** chacune (la marque QL peut être réduite à 50 × 50 mm sur un petit colis).",
       "why": "La marque QE porte le premier numéro d'étiquette de la colonne 5 et le nom de l'expéditeur ou du destinataire s'il n'apparaît pas ailleurs.",
-      "ref": ["3.4.7", "3.5.4.2"],
+      "ref": [
+        "3.4.7",
+        "3.5.4.2"
+      ],
       "diff": 2
     },
     {
@@ -97,7 +116,9 @@
       "type": "question_ouverte",
       "q": "Un colis de 5 kg de mercure a été bloqué par le transporteur. Il portait UN 2809, les étiquettes 3 et 8, sans marque d'homologation ni flèches. Qu'est-ce qui ne va pas ?",
       "r": "Le mercure (UN 2809) est de classe **8 avec danger subsidiaire 6.1** : étiquettes **8 + 6.1** (pas 3). Il faut aussi un **emballage homologué** et des **flèches d'orientation** (liquide).",
-      "ref": ["3.2"],
+      "ref": [
+        "3.2"
+      ],
       "src": "Exercices recyclage Q4",
       "diff": 3
     },
@@ -125,6 +146,69 @@
       "r": "**8 + 5.1**",
       "why": "Colonne (5) du tableau A : le danger subsidiaire comburant s'ajoute.",
       "src": "Tronc commun, extrait du tableau A",
+      "diff": 2
+    },
+    {
+      "n": "Q15",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Sur le document de transport, la mention « DANGEREUX POUR L'ENVIRONNEMENT » n'est due qu'au-delà de 5 L par emballage.",
+      "r": "**Faux** : elle est due quel que soit le volume.",
+      "why": "L'exemption ≤ 5 L / 5 kg ne concerne que la **marque** sur le colis (5.2.1.8).",
+      "ref": [
+        "5.4.1.1.18"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q16",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Un colis de méthanol en pleine application doit porter la désignation officielle.",
+      "r": "**Faux**",
+      "why": "Sur le colis : UN + numéro et étiquettes. La désignation officielle n'y est exigée que pour la classe 2 (et quelques cas particuliers) ; elle figure sur le document.",
+      "diff": 2
+    },
+    {
+      "n": "Q17",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Colis de méthanol (étiquettes 3 + 6.1) en quantités exceptées : quel chiffre porter sur la marque QE ?",
+      "r": "« **3** » : le **premier** numéro d'étiquette de la colonne 5, pas « 6.1 ».",
+      "ref": [
+        "3.5.4.2"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q18",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Un colis en quantités limitées contenant une matière dangereuse pour l'environnement doit-il porter la marque environnement ?",
+      "r": "**Non**, les colis QL en sont dispensés.",
+      "ref": [
+        "3.4.1"
+      ],
+      "statut": "a_relire",
+      "verif": "Dispense à confirmer au 3.4.1",
+      "diff": 3
+    },
+    {
+      "n": "Q19",
+      "src": "Exercice PCL ; guide formateur",
+      "type": "question_ouverte",
+      "q": "Quelles étiquettes pour la cyclohex-2-énone (UN 2929) et le sulfate de diméthyle (UN 1595) ?",
+      "r": "UN 2929 : **6.1 + 3** · UN 1595 : **6.1 + 8**",
+      "why": "L'inventaire de l'exercice PCL n'indique que « 6.1 » : il oublie le danger subsidiaire de la colonne 5.",
+      "diff": 2
+    },
+    {
+      "n": "Q20",
+      "src": "Exercices, annexes Q2 ; guide formateur",
+      "type": "question_ouverte",
+      "q": "Annexe du tableau A : quels produits vont sous l'étiquette 6.1 ?",
+      "r": "**UN 1888 chloroforme** (6.1) et **UN 1230 méthanol** (6.1 en danger subsidiaire)",
+      "why": "Le corrigé du support place par erreur le chloroforme sous l'étiquette 4.3 et laisse la 6.1 vide.",
       "diff": 2
     }
   ]

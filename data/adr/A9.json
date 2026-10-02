@@ -9,7 +9,9 @@
       "type": "classement",
       "q": "Associez : UN 3480 · UN 3481 · UN 3090 · UN 3091",
       "r": "**3480** piles au lithium ionique (seules) · **3481** lithium ionique **contenues dans** ou **emballées avec** un équipement · **3090** piles au lithium métal (seules) · **3091** lithium métal dans ou avec un équipement",
-      "ref": ["3.2"],
+      "ref": [
+        "3.2"
+      ],
       "diff": 1
     },
     {
@@ -17,7 +19,9 @@
       "type": "question_ouverte",
       "q": "Quelle classe et quelle étiquette pour les piles au lithium ?",
       "r": "**Classe 9**, étiquette **9A** (100 × 100 mm), avec une demi-rangée de piles dans la moitié inférieure.",
-      "ref": ["5.2.2.2.2"],
+      "ref": [
+        "5.2.2.2.2"
+      ],
       "diff": 1
     },
     {
@@ -55,7 +59,9 @@
       "q": "Les piles au nickel-hydrure métallique (UN 3496) sont soumises à l'ADR.",
       "r": "**Faux** : non soumises à l'ADR.",
       "why": "Elles restent réglementées en transport maritime (IMDG).",
-      "ref": ["3.2"],
+      "ref": [
+        "3.2"
+      ],
       "diff": 2
     },
     {
@@ -72,7 +78,9 @@
       "q": "Instructions d'emballage des piles au lithium : à quoi servent P908, P909, P910 et P911 ?",
       "r": "**P908** piles **endommagées ou défectueuses** · **P909** piles transportées pour **élimination ou recyclage** · **P910** **prototypes** et petites séries · **P911** piles endommagées susceptibles de se démonter rapidement ou de réagir dangereusement",
       "why": "P903 est l'instruction générale.",
-      "ref": ["4.1.4.1"],
+      "ref": [
+        "4.1.4.1"
+      ],
       "diff": 3
     },
     {
@@ -101,6 +109,27 @@
       "verif": "Date de fin de la mesure transitoire à confirmer",
       "src": "Module lithium",
       "diff": 3
+    },
+    {
+      "n": "Q13",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Vol UPS 6 (Dubaï, 2010) : quelle leçon pour les batteries au lithium ?",
+      "r": "Un incendie en soute ne se maîtrise pas comme sur la route : d'où les **limites strictes** et les interdictions de l'aérien pour le lithium.",
+      "why": "Incendie en vol d'un cargo transportant un grand nombre de batteries ; les deux pilotes sont morts.",
+      "tags": [
+        "anecdote"
+      ],
+      "diff": 1
+    },
+    {
+      "n": "Q14",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Des piles au lithium usagées ne sont plus des marchandises dangereuses.",
+      "r": "**Faux** : elles restent en classe 9.",
+      "why": "Ne jamais les jeter avec les déchets ordinaires : elles provoquent des départs de feu dans les bennes et centres de tri. Instruction P909 pour l'élimination ou le recyclage.",
+      "diff": 1
     }
   ]
 }

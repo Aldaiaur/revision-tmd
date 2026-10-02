@@ -10,7 +10,9 @@
       "q": "Dans quel ordre décrire une marchandise sur le document de transport ?",
       "r": "**N° ONU** (précédé de « UN ») · **désignation officielle** · **classe** (dangers subsidiaires entre parenthèses) · **groupe d'emballage** · **code tunnel**, dans cet ordre et sans rien intercaler.",
       "why": "Exemple : UN 1796 ACIDE SULFONITRIQUE, 8 (5.1), I, (E).",
-      "ref": ["5.4.1.1.1"],
+      "ref": [
+        "5.4.1.1.1"
+      ],
       "diff": 1
     },
     {
@@ -18,7 +20,9 @@
       "type": "question_ouverte",
       "q": "Outre la description de chaque marchandise, que doit indiquer le document de transport ?",
       "r": "**Nombre et type** des colis · **quantité totale** de chaque marchandise · **noms et adresses** de l'expéditeur et du destinataire · pour la déclaration : société, nom du déclarant formé, lieu, date, signature.",
-      "ref": ["5.4.1.1.1"],
+      "ref": [
+        "5.4.1.1.1"
+      ],
       "diff": 2
     },
     {
@@ -26,15 +30,21 @@
       "type": "question_ouverte",
       "q": "Où trouver le code de restriction en tunnels ?",
       "r": "Colonne **(15)** du tableau A, entre parenthèses ; règles aux chapitres **1.9** et **8.6**.",
-      "ref": ["1.9", "8.6"],
-      "diff": 2
+      "ref": [
+        "1.9",
+        "8.6"
+      ],
+      "diff": 2,
+      "why": "Le code tunnel peut être omis du document si l'on sait que le trajet ne passe par aucun tunnel à restriction."
     },
     {
       "n": "Q4",
       "type": "question_ouverte",
       "q": "Qui remet les consignes écrites à l'équipage, et dans quelle langue ?",
       "r": "Le **transporteur**, dans une langue que **chaque membre de l'équipage** lit et comprend.",
-      "ref": ["5.4.3"],
+      "ref": [
+        "5.4.3"
+      ],
       "diff": 1
     },
     {
@@ -43,7 +53,9 @@
       "q": "Transport de colis : quelle signalisation sur le véhicule, et quelles caractéristiques ?",
       "r": "Deux **panneaux orange** rétroréfléchissants, **à l'avant et à l'arrière** : 40 × 30 cm, bordure noire de 15 mm, fixés pour résister à un feu de 15 minutes.",
       "why": "Le contrôle de la signalisation fait partie des vérifications de l'expéditeur.",
-      "ref": ["5.3.2"],
+      "ref": [
+        "5.3.2"
+      ],
       "diff": 2
     },
     {
@@ -52,7 +64,10 @@
       "q": "Transport en citerne ou en vrac : quelle signalisation ?",
       "r": "Des **plaques-étiquettes** (placards) sur les **deux côtés et l'arrière**, et des panneaux orange **numérotés** (numéro de danger et n° ONU).",
       "why": "Une seule matière : panneau numéroté à l'avant et à l'arrière ; plusieurs : panneaux neutres devant et derrière, numérotés sur les côtés.",
-      "ref": ["5.3.1", "5.3.2"],
+      "ref": [
+        "5.3.1",
+        "5.3.2"
+      ],
       "diff": 3
     },
     {
@@ -60,7 +75,9 @@
       "type": "question_ouverte",
       "q": "Quels équipements tout véhicule ADR doit-il avoir, quelle que soit la marchandise ?",
       "r": "**1 cale** de roue · **2 signaux d'avertissement** autoporteurs · **liquide de rinçage oculaire** (sauf classes 1 et 2) · par membre d'équipage : **gilet fluorescent**, **lampe portative**, **gants**, **protection des yeux**.",
-      "ref": ["8.1.5"],
+      "ref": [
+        "8.1.5"
+      ],
       "diff": 2
     },
     {
@@ -68,27 +85,34 @@
       "type": "question_ouverte",
       "q": "Quels équipements supplémentaires pour des étiquettes 2.3 ou 6.1 ? Et pour 3, 4.1, 4.3, 8 ou 9 ?",
       "r": "2.3 ou 6.1 : **masque d'évacuation d'urgence** par membre d'équipage · 3, 4.1, 4.3, 8, 9 (solides et liquides) : **pelle**, **protection de plaque d'égout**, **réservoir collecteur**.",
-      "ref": ["8.1.5.3"],
+      "ref": [
+        "8.1.5.3"
+      ],
       "diff": 2
     },
     {
       "n": "Q9",
       "type": "question_ouverte",
       "q": "Quels extincteurs pour une unité de transport en pleine application ?",
-      "r": "Un extincteur **2 kg** (poudre) pour la **cabine** et le moteur, plus des extincteurs pour le **chargement** dont la capacité dépend de la masse maximale du véhicule (au moins un de **6 kg** au-dessus de 3,5 t).",
-      "why": "Le support de cours indique 6 kg pour le chargement (2 kg sous 3,5 t) et 10 kg au total au-delà de 7,5 t. L'ADR récent (8.1.4.1) fixe des capacités totales de 4, 8 et 12 kg selon le tonnage : à vérifier.",
-      "ref": ["8.1.4.1"],
+      "r": "Un extincteur **2 kg** pour la cabine, compris dans une capacité **totale** de **4 kg** (≤ 3,5 t), **8 kg** (3,5 à 7,5 t) ou **12 kg** (> 7,5 t), dont au moins un de **6 kg** au-delà de 3,5 t. Sous 1.1.3.6 : un seul extincteur de 2 kg.",
+      "why": "Les supports de cours indiquent encore 10 kg au-delà de 7,5 t ; le guide formateur retient 12 kg.",
+      "ref": [
+        "8.1.4.1"
+      ],
       "statut": "a_relire",
-      "verif": "Capacités du cours différentes de l'ADR récent",
+      "verif": "Tableau 8.1.4.1 à confirmer",
       "diff": 3
     },
     {
       "n": "Q10",
       "type": "question_ouverte",
       "q": "Certificat de formation du conducteur (« permis ADR ») : que couvre la formation de base, et quelles spécialisations existent ?",
-      "r": "Base : **colis de toutes classes sauf 1 et 7**. Spécialisations : **citernes**, **classe 1** (explosifs), **classe 7** (radioactifs).",
-      "why": "La formation du conducteur fait partie des vérifications de l'expéditeur.",
-      "ref": ["8.2.1"],
+      "r": "Base : **colis de toutes classes sauf 1 et 7**. Spécialisations : **citernes**, **classe 1**, **classe 7**. Certificat valable **5 ans**.",
+      "why": "Les supports citent le 8.1 : c'est le 8.2. Non exigé sous le 1.1.3.6 (formation 1.3 seulement).",
+      "ref": [
+        "8.2.1",
+        "8.2.2.8.2"
+      ],
       "diff": 2
     },
     {
@@ -96,7 +120,13 @@
       "type": "question_ouverte",
       "q": "Enlèvement de déchets dangereux : que contrôle-t-on au chargement (grille de contrôle) ?",
       "r": "**Colis** fermés, sans fuite ni souillure, homologation valide · **étiquettes** et n° UN · **document** de transport signé · **panneaux orange** si requis · **équipements** de sécurité · **certificat ADR** du conducteur valide.",
-      "ref": ["4.1.1.1", "5.2", "5.4.1", "8.1.5", "8.2.1"],
+      "ref": [
+        "4.1.1.1",
+        "5.2",
+        "5.4.1",
+        "8.1.5",
+        "8.2.1"
+      ],
       "src": "Grille de contrôle TMD",
       "diff": 2
     },
@@ -114,18 +144,22 @@
       "q": "Le modèle de document multimodal de l'ADR (5.4.5) peut servir pour un transport routier ou maritime.",
       "r": "**Vrai**",
       "why": "Le cadre « certificat d'empotage » ne se remplit que pour le chargement complet d'un conteneur.",
-      "ref": ["5.4.5"],
+      "ref": [
+        "5.4.5"
+      ],
       "diff": 2
     },
     {
       "n": "Q14",
       "type": "question_ouverte",
       "q": "Qui cale et arrime le chargement ?",
-      "r": "Selon le support : le **transporteur**, et au-delà de 3 t sous la responsabilité de l'**expéditeur**.",
-      "why": "Dans l'ADR (7.5.7), l'arrimage incombe d'abord au chargeur.",
-      "ref": ["7.5.7"],
+      "r": "Règle du **contrat type général** (code des transports), pas de l'ADR : **moins de 3 t** : chargement, calage et arrimage par le **transporteur** · **3 t et plus** : chargement et calage par le **donneur d'ordre**, arrimage par le transporteur.",
+      "why": "Les supports se contredisent sur ce point.",
+      "ref": [
+        "Contrat type général (art. D3222-1)"
+      ],
       "statut": "a_relire",
-      "verif": "Répartition des rôles à confirmer (ADR et arrêté TMD)",
+      "verif": "Rédaction du contrat type à confirmer",
       "diff": 2
     },
     {
@@ -136,6 +170,45 @@
       "why": "Il est réservé au matériel inestimable, sous haute surveillance.",
       "src": "Tronc commun, organisation des transports",
       "diff": 1
+    },
+    {
+      "n": "Q16",
+      "src": "Fiche pratique contrôle transporteur",
+      "type": "question_ouverte",
+      "q": "Contrôle du transporteur lors d'une collecte de déchets : qui contrôle, quoi, et que conserver ?",
+      "r": "Un **agent référent** présent à la collecte. Documents de bord (**formation du conducteur** valide, **BSD**, **consignes écrites**), **panneaux orange** en place au départ, **extincteurs** dans leur date de validité. Conserver la **liste de contrôle signée** par le labo et le chauffeur, avec le BSD.",
+      "diff": 2
+    },
+    {
+      "n": "Q17",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Le laboratoire peut refuser de charger des déchets dans un camion non conforme.",
+      "r": "**Vrai** : c'est même un devoir.",
+      "why": "Le contrôle du véhicule et du conducteur fait partie des vérifications de l'expéditeur.",
+      "diff": 1
+    },
+    {
+      "n": "Q18",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Tunnel du Mont-Blanc (1999, 39 morts) : quel lien avec l'ADR ?",
+      "r": "Un camion de farine et de margarine, sans aucune marchandise dangereuse, a pris feu dans le tunnel. Cet accident a conduit l'ADR à créer les **codes tunnel** (introduits en 2007).",
+      "tags": [
+        "anecdote"
+      ],
+      "diff": 1
+    },
+    {
+      "n": "Q19",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Le document de transport peut-il être électronique ?",
+      "r": "**Oui**, si les conditions du **5.4.0.2** sont réunies ; il doit être disponible à bord.",
+      "ref": [
+        "5.4.0.2"
+      ],
+      "diff": 2
     }
   ]
 }

@@ -8,9 +8,13 @@
       "n": "Q1",
       "type": "qcm",
       "q": "Quel est le but principal de la réglementation du transport de marchandises dangereuses ?",
-      "choix": ["Aider les services d'intervention à identifier les dangers", "Réduire le nombre de transports de marchandises dangereuses", "Limiter le nombre de transporteurs qualifiés"],
+      "choix": [
+        "Aider les services d'intervention à identifier les dangers",
+        "Réduire le nombre de transports de marchandises dangereuses",
+        "Limiter le nombre de transporteurs qualifiés"
+      ],
       "bonne": "A",
-      "why": "La réglementation prévient les accidents et, s'il en survient, permet d'identifier immédiatement le danger (étiquettes, numéro ONU, document, plaques).",
+      "why": "C'est la réponse du corrigé. Le guide formateur la juge discutable : le but est surtout de **prévenir les accidents** et d'en limiter les conséquences ; l'identification par les secours en est un moyen.",
       "src": "Évaluation Q1",
       "diff": 1
     },
@@ -18,10 +22,16 @@
       "n": "Q2",
       "type": "qcm",
       "q": "Quel organisme international est à l'origine de l'ADR ?",
-      "choix": ["ASN", "OMC", "ONU"],
+      "choix": [
+        "ASN",
+        "OMC",
+        "ONU"
+      ],
       "bonne": "C",
-      "why": "L'ADR est un accord conclu sous l'égide de l'ONU (Commission économique pour l'Europe). Il est révisé tous les 2 ans.",
-      "ref": ["1.1"],
+      "why": "L'ADR est administré par la **CEE-ONU** (Commission économique pour l'Europe). En France, l'autorité compétente est le ministère chargé des transports.",
+      "ref": [
+        "1.1"
+      ],
       "src": "Évaluation Q2",
       "diff": 1
     },
@@ -38,9 +48,13 @@
       "n": "Q4",
       "type": "qcm",
       "q": "Un colis est confié à un expressiste (DHL, UPS, FedEx). Quelle réglementation s'applique ?",
-      "choix": ["IMDG", "ADN", "IATA"],
+      "choix": [
+        "IMDG",
+        "ADN",
+        "IATA"
+      ],
       "bonne": "C",
-      "why": "Les réseaux express acheminent les colis par avion : on prépare le colis selon l'IATA, même si le trajet commence par la route.",
+      "why": "Le réseau d'un expressiste passe par des hubs aériens : il impose l'IATA (et ses propres restrictions) à tout colis de MD. Strictement, un trajet purement routier relève de l'ADR.",
       "src": "Évaluation Q14",
       "diff": 1
     },
@@ -48,8 +62,9 @@
       "n": "Q5",
       "type": "question_ouverte",
       "q": "Que signifient OACI, OMI, OTIF et AIEA, et quelle réglementation chacune encadre-t-elle ?",
-      "r": "**OACI** : aviation civile → IATA (Instructions techniques) · **OMI** : maritime → code IMDG · **OTIF** : ferroviaire → RID · **AIEA** : énergie atomique → règlement SSR-6 (matières radioactives)",
-      "diff": 2
+      "r": "**OACI** : aviation civile → Instructions techniques (l'IATA DGR en est la version opérationnelle) · **OMI** : maritime → code IMDG · **OTIF** : ferroviaire → RID · **AIEA** : énergie atomique → règlement SSR-6",
+      "diff": 2,
+      "why": "En France, l'autorité compétente pour le radioactif est l'**ASNR** (fusion ASN-IRSN au 1er janvier 2025)."
     },
     {
       "n": "Q6",
@@ -57,7 +72,9 @@
       "q": "Citez les obligations de l'expéditeur (1.4.2.1).",
       "r": "Identifier et **classer** les marchandises · fournir les **documents** de transport · utiliser des **emballages conformes** et en bon état · **étiqueter et marquer** les colis · contrôler la signalisation du véhicule · **former** son personnel · désigner un **conseiller à la sécurité**",
       "why": "L'expéditeur est responsable des informations qu'il fournit.",
-      "ref": ["1.4.2.1"],
+      "ref": [
+        "1.4.2.1"
+      ],
       "diff": 2
     },
     {
@@ -65,7 +82,9 @@
       "type": "question_ouverte",
       "q": "Citez les obligations du transporteur (1.4.2.2).",
       "r": "Vérifier que les marchandises sont **autorisées au transport** · vérifier la présence des **documents** · contrôler visuellement l'état des colis et du véhicule · poser la **signalisation** · fournir les **équipements** · caler et arrimer · former son personnel · désigner un conseiller à la sécurité",
-      "ref": ["1.4.2.2"],
+      "ref": [
+        "1.4.2.2"
+      ],
       "diff": 2
     },
     {
@@ -74,7 +93,9 @@
       "q": "Le destinataire peut différer l'acceptation d'une marchandise dangereuse sans justification.",
       "r": "**Faux**",
       "why": "Il ne doit pas différer l'acceptation sans motif impératif, et doit vérifier après déchargement que les prescriptions le concernant sont respectées.",
-      "ref": ["1.4.2.3.1"],
+      "ref": [
+        "1.4.2.3.1"
+      ],
       "diff": 2
     },
     {
@@ -90,7 +111,7 @@
       "type": "question_ouverte",
       "q": "Chargement d'un colis de phénol (UN 2821) dans un camion. Qui vérifie que le chauffeur peut transporter des marchandises dangereuses ? Qui vérifie que le carton convient ? Qui colle les étiquettes ?",
       "r": "Chauffeur : **l'expéditeur et le transporteur** · Carton adapté : **l'expéditeur** · Étiquettes : **l'expéditeur**",
-      "why": "Le contrôle du véhicule et de la formation du conducteur fait partie des vérifications de l'expéditeur, en plus de celles du transporteur.",
+      "why": "L'obligation explicite de vérifier l'équipage pèse sur le **transporteur** (1.4.2.2) ; le contrôle par l'expéditeur au chargement est une bonne pratique. Au sens strict, c'est l'**emballeur** (1.4.3.2) qui étiquette, sous la responsabilité de l'expéditeur.",
       "src": "Exercices Q2",
       "diff": 2
     },
@@ -117,23 +138,32 @@
       "type": "question_ouverte",
       "q": "Quel est le rôle du conseiller à la sécurité (1.8.3) et citez quelques-unes de ses tâches.",
       "r": "Aider à **prévenir les risques** liés au transport, à l'emballage, au chargement et au déchargement. Tâches : aide au classement, procédures d'expédition et de réception, documents, **formation** des agents, conseil emballage et étiquetage, **rapport annuel**, visites.",
-      "ref": ["1.8.3", "1.8.3.3"],
+      "ref": [
+        "1.8.3",
+        "1.8.3.3"
+      ],
       "diff": 2
     },
     {
       "n": "Q14",
       "type": "question_ouverte",
       "q": "Quelles sanctions prévoit l'arrêté TMD pour un délit et pour une contravention de 5e classe ?",
-      "r": "**Délit** : 1 mois à 1 an d'emprisonnement et 1 000 à 30 000 € d'amende · **Contravention** de 5e classe : 1 500 € (3 000 € en cas de récidive)",
-      "why": "Peuvent être sanctionnés : transporteur, conducteur, expéditeur, donneur d'ordre.",
-      "ref": ["Arrêté TMD"],
+      "r": "**Délit** : **jusqu'à** 1 an d'emprisonnement et 30 000 € d'amende (× 5 pour une personne morale) · **Contravention** de 5e classe : 1 500 € (3 000 € en récidive)",
+      "why": "Il n'y a pas de minimum en droit pénal : la formule « 1 mois à 1 an, 1 000 à 30 000 € » des supports est fausse. Peuvent être sanctionnés : transporteur, conducteur, expéditeur, donneur d'ordre.",
+      "ref": [
+        "Code des transports L1252-5"
+      ],
       "diff": 3
     },
     {
       "n": "Q15",
       "type": "qcm",
       "q": "Ne pas désigner de conseiller à la sécurité est :",
-      "choix": ["Une contravention de 5e classe", "Un délit", "Une simple recommandation"],
+      "choix": [
+        "Une contravention de 5e classe",
+        "Un délit",
+        "Une simple recommandation"
+      ],
       "bonne": "B",
       "why": "Comme le transport de marchandises interdites ou non déclarées, ou un véhicule non signalisé. Un emballage non conforme ou un étiquetage manquant relèvent en revanche de la contravention.",
       "diff": 2
@@ -142,8 +172,9 @@
       "n": "Q16",
       "type": "question_ouverte",
       "q": "Quel texte français complète l'ADR, et à quel rythme l'ADR est-il révisé ?",
-      "r": "L'**arrêté TMD du 29 mai 2009** modifié · l'ADR change **tous les 2 ans** (édition 2025 en vigueur)",
-      "diff": 2
+      "r": "L'**arrêté TMD du 29 mai 2009** modifié · l'ADR change **tous les 2 ans** (années impaires : édition 2025, prochaine au 1er janvier 2027)",
+      "diff": 2,
+      "why": "L'IATA DGR, lui, change chaque année au 1er janvier."
     },
     {
       "n": "Q17",
@@ -158,7 +189,9 @@
       "q": "Que recouvre la « sûreté » au sens du chapitre 1.10, et quelles obligations s'appliquent à tous ?",
       "r": "Les mesures pour **minimiser le vol ou l'usage malveillant** des marchandises dangereuses. Remettre les marchandises uniquement à des **transporteurs identifiés**, les **sécuriser** pendant tout le parcours (y compris en dépôt temporaire), **sensibiliser** les agents dès leur prise de poste.",
       "why": "Les marchandises à haut risque (tableau 1.10.3.1.2) exigent en plus un plan de sûreté.",
-      "ref": ["1.10"],
+      "ref": [
+        "1.10"
+      ],
       "diff": 2
     },
     {
@@ -175,6 +208,124 @@
       "q": "Transport en France uniquement, vers un pays de l'UE, hors UE : quelles réglementations s'appliquent ?",
       "r": "France : **ADR + arrêté TMD** · UE : ADR, et IATA ou IMDG selon le mode · Hors UE : idem, **plus** les règles douanières et réglementations particulières",
       "diff": 2
+    },
+    {
+      "n": "Q21",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Qui doit être formé au titre du chapitre 1.3 ?",
+      "r": "**Toute personne dont les fonctions concernent le transport** de marchandises dangereuses : emballer, étiqueter, signer la déclaration, charger, réceptionner. Avec recyclage périodique et **trace écrite** de la formation.",
+      "ref": [
+        "1.3.1",
+        "1.3.3"
+      ],
+      "diff": 1
+    },
+    {
+      "n": "Q22",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Le conseiller à la sécurité signe les déclarations de marchandises dangereuses à la place des agents.",
+      "r": "**Faux**",
+      "why": "Il aide à classer, vérifie les procédures, rédige le rapport annuel. La signature de la déclaration reste celle de l'expéditeur.",
+      "ref": [
+        "1.8.3"
+      ],
+      "diff": 1
+    },
+    {
+      "n": "Q23",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Quand une entreprise peut-elle se passer de conseiller à la sécurité, et quels rapports le conseiller rédige-t-il ?",
+      "r": "Exemptions du **1.8.3.2**, notamment quand les quantités restent **sous les seuils du 1.1.3.6**. Le conseiller rédige un **rapport annuel** et, le cas échéant, un **rapport d'accident**.",
+      "ref": [
+        "1.8.3.2",
+        "1.8.3.3",
+        "1.8.3.6"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q24",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Combien de temps conserver le document de transport ? Et le registre des déchets ?",
+      "r": "Document de transport : **au moins 3 mois** · registre déchets : **au moins 3 ans**",
+      "ref": [
+        "5.4.4.1",
+        "C. env. R541-43"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q25",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Amener un bidon par une voie interne d'un site fermé au public relève de l'ADR.",
+      "r": "**Faux** : l'ADR vise la **voie publique**.",
+      "why": "Une route qui traverse un campus ouvert au public, en revanche, est une voie publique. À trancher site par site avec le conseiller.",
+      "ref": [
+        "1.1.3"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q26",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Un agent veut transporter des produits dans sa voiture personnelle pour une manip. Est-ce un transport ADR ?",
+      "r": "**Oui.** Des exemptions sont possibles (**1.1.3.1 c**, **1.1.3.6**), à valider avec le conseiller et la procédure de l'unité.",
+      "ref": [
+        "1.1.3.1",
+        "1.1.3.6"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q27",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Vol ValuJet 592 (1996, 110 morts) : quelle leçon pour un expéditeur ?",
+      "r": "« **Vide** », « **périmé** » ou « échantillon » ne sont pas des classements : l'expéditeur répond de ce qu'il déclare.",
+      "why": "Des générateurs d'oxygène chimiques périmés, déclarés vides et sans capuchons de sécurité, ont pris feu en soute.",
+      "tags": [
+        "anecdote"
+      ],
+      "diff": 1
+    },
+    {
+      "n": "Q28",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Les obligations générales de sûreté (1.10.1 et 1.10.2) ne concernent que les marchandises à haut risque.",
+      "r": "**Faux**",
+      "why": "Elles valent pour **toutes** les marchandises dangereuses (transporteurs identifiés, dépôts sécurisés, sensibilisation). Seul le **plan de sûreté** (1.10.3) est réservé aux marchandises à haut risque.",
+      "ref": [
+        "1.10.1",
+        "1.10.2",
+        "1.10.3"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q29",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Pour le transport aérien, quel texte fait foi : les Instructions techniques de l'OACI ou l'IATA DGR ?",
+      "r": "Les **Instructions techniques de l'OACI**. L'IATA DGR en est la version opérationnelle, avec en plus les variations d'États et d'exploitants.",
+      "diff": 2
+    },
+    {
+      "n": "Q30",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Un prestataire refuse un carton non conforme lors d'une collecte. En a-t-il le droit ?",
+      "r": "**Oui**, et c'est son devoir (1.4.2.2). Il ne peut pas non plus « régulariser » le colis à votre place.",
+      "ref": [
+        "1.4.2.2"
+      ],
+      "diff": 1
     }
   ]
 }

@@ -18,16 +18,21 @@
       "type": "question_ouverte",
       "q": "Quel outil permet de classer un mélange de plusieurs produits dangereux ?",
       "r": "Le **tableau d'ordre de prépondérance des dangers** (2.1.3.10) : il donne la **classe prépondérante** et le **groupe d'emballage** à partir de ceux des constituants. On choisit ensuite la rubrique collective (n.s.a.).",
-      "ref": ["2.1.3.10"],
+      "ref": [
+        "2.1.3.10"
+      ],
       "diff": 2
     },
     {
       "n": "Q3",
       "type": "classement",
       "q": "Mélange liquide : dichromate de potassium (6.1, GE II, toxique par inhalation) + acide sulfurique (8, GE I). Classe, GE, n° ONU, désignation ?",
-      "r": "**8 (6.1)**, GE **I**, **UN 2922 LIQUIDE CORROSIF, TOXIQUE, N.S.A.**",
+      "r": "Selon le corrigé : **8 (6.1)**, GE **I**, **UN 2922 LIQUIDE CORROSIF, TOXIQUE, N.S.A.**",
       "src": "Exercices déchets, mélange 1",
-      "diff": 3
+      "diff": 3,
+      "why": "Mais c'est le **mélange sulfochromique** : vérifier d'abord la rubrique spécifique **UN 2240 ACIDE SULFOCHROMIQUE**, qui primerait sur une n.s.a. (2.1.1.2). Le dichromate est aussi comburant.",
+      "statut": "a_relire",
+      "verif": "Rubrique spécifique UN 2240 à vérifier"
     },
     {
       "n": "Q4",
@@ -35,23 +40,29 @@
       "q": "Mélange : isooctane, pentane, hexane (3, GE II) + hexaméthylènediamine (8, III) + 2-hydroxyéthylacrylate (8, II). Classe, GE, n° ONU ?",
       "r": "**3 (8)**, GE **II**, **UN 2924 LIQUIDE INFLAMMABLE, CORROSIF, N.S.A.**",
       "src": "Exercices déchets, mélange 2",
-      "diff": 3
+      "diff": 3,
+      "why": "Si le danger toxique de l'UN 2922 persiste dans le mélange, il faut **UN 3286 LIQUIDE INFLAMMABLE, TOXIQUE, CORROSIF, N.S.A.** Attention aussi à l'isopentane (GE I).",
+      "statut": "a_relire",
+      "verif": "Danger toxique résiduel à évaluer"
     },
     {
       "n": "Q5",
       "type": "classement",
       "q": "Mélange : styrène (UN 2055, 3, GE III) + alcool polyvinylique (non soumis). Classement ?",
-      "r": "**UN 2055 STYRÈNE MONOMÈRE STABILISÉ, 3, III**",
-      "why": "Le constituant non soumis n'ajoute aucun danger : on garde la rubrique du styrène.",
+      "r": "**UN 2055 STYRÈNE MONOMÈRE STABILISÉ EN MÉLANGE, 3, III**",
+      "why": "Une seule matière dangereuse nommée avec des matières non soumises : on garde sa rubrique en ajoutant « EN MÉLANGE » (3.1.3.2). Un styrène dont l'inhibiteur est épuisé peut polymériser.",
       "src": "Exercices déchets, mélange 3",
-      "diff": 2
+      "diff": 2,
+      "ref": [
+        "3.1.3.2"
+      ]
     },
     {
       "n": "Q6",
       "type": "classement",
       "q": "Mélange de liquides organiques : phénol en solution (6.1, GE II) + chloroforme (6.1, GE III). Classement ?",
-      "r": "**UN 2810 LIQUIDE TOXIQUE ORGANIQUE, N.S.A., 6.1, II**",
-      "why": "Même classe : on retient le groupe d'emballage le plus sévère.",
+      "r": "**UN 2810 LIQUIDE ORGANIQUE TOXIQUE, N.S.A.** (phénol, chloroforme), 6.1, II",
+      "why": "Même classe : on retient le GE le plus sévère. Le corrigé inverse l'ordre des mots de la désignation. C'est le déchet classique d'extraction d'ADN au phénol-chloroforme.",
       "src": "Exercices déchets, mélange 4",
       "diff": 2
     },
@@ -67,17 +78,19 @@
       "n": "Q8",
       "type": "question_ouverte",
       "q": "Comment décrire un déchet sur le document de transport ou le BSD ? Exemple : méthanol.",
-      "r": "Mention **« DÉCHET »** avant la désignation officielle : **UN 1230, DÉCHET, MÉTHANOL, 3 (6.1), II, (D/E)**, puis quantité et nombre de contenants.",
-      "ref": ["5.4.1.1.3"],
+      "r": "**UN**, mention **« DÉCHET »**, désignation officielle, **noms techniques** si n.s.a., classe (subsidiaire), GE, code tunnel, puis **« DANGEREUX POUR L'ENVIRONNEMENT »** le cas échéant. Ex. : **UN 1230 DÉCHET MÉTHANOL, 3 (6.1), II, (D/E)**",
+      "ref": [
+        "5.4.1.1.3"
+      ],
       "src": "Fiche pratique PCL",
       "diff": 2
     },
     {
       "n": "Q9",
       "type": "question_ouverte",
-      "q": "Quel cadre du BSD reçoit les mentions ADR, et dans quel ordre ?",
+      "q": "Quelle case du bordereau de déchets (BSD papier, aujourd'hui Trackdéchets) reçoit les mentions ADR, et dans quel ordre ?",
       "r": "Le **cadre 4** : **n° ONU**, **désignation officielle**, **classe**, **groupe d'emballage**, **code tunnel**.",
-      "why": "Pour une collecte de PCL, le cadre 4 renvoie à une annexe : une ligne par produit soumis, plus la liste des produits non soumis.",
+      "why": "Cette case **est** le document de transport ADR : si elle est fausse, le document l'est. Pour une collecte de PCL, une annexe liste une ligne par produit soumis.",
       "src": "Aide au remplissage BSD ; guide déchets",
       "diff": 2
     },
@@ -103,7 +116,8 @@
       "q": "Que contient le BSD final, et à quoi sert-il ?",
       "r": "La preuve de **traitement** du déchet : **quantité réelle**, **code de traitement** (une lettre et deux chiffres). Il permet de compléter le **registre déchets**.",
       "src": "Aide au remplissage BSD",
-      "diff": 2
+      "diff": 2,
+      "why": "Avec Trackdéchets, l'installation signe la réception puis le traitement : le bordereau final vaut preuve d'élimination."
     },
     {
       "n": "Q13",
@@ -127,7 +141,9 @@
       "q": "Un départ de collecte comprend du trichlorosilane (MP2) et de l'éthyle diazoacétate (UN 3227, MP2). Combien de cartons au minimum pour ces deux produits ?",
       "r": "**Deux cartons séparés**, un par produit, sans aucun autre produit.",
       "why": "Les produits non soumis peuvent aller dans tous les cartons, sauf ceux soumis à MP2.",
-      "ref": ["4.1.10 MP2"],
+      "ref": [
+        "4.1.10 MP2"
+      ],
       "src": "Exercices déchets, PCL et emballage en commun",
       "diff": 2
     },
@@ -157,6 +173,103 @@
       "q": "La personne qui signe le BSD comme producteur s'engage sur quoi ?",
       "r": "Sur le **classement**, l'**emballage** et l'**étiquetage** du déchet, qui doivent être conformes à la réglementation transport.",
       "src": "Aide au remplissage BSD",
+      "diff": 1
+    },
+    {
+      "n": "Q19",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Déchet de composition mal connue : que permet le 2.1.3.5.5 ?",
+      "r": "Classer d'après la connaissance de l'expéditeur, au **niveau de danger le plus élevé** en cas de doute (**GE I**) ; GE II si l'on démontre que le GE I ne s'applique pas ; UN 3077 ou 3082 GE III si le seul danger est environnemental. **Interdit** pour la classe 4.3, les matières du 2.1.3.5.3 et les matières non admises.",
+      "why": "C'est une soupape pour un fond de bidon inconnu, pas une facilité pour ne pas chercher.",
+      "ref": [
+        "2.1.3.5.5"
+      ],
+      "diff": 3
+    },
+    {
+      "n": "Q20",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Déchet toluène + éthanol de composition connue : quelle désignation ? Et quel code tunnel si l'on était en GE I ?",
+      "r": "**UN 1993 DÉCHET LIQUIDE INFLAMMABLE, N.S.A. (toluène, éthanol), 3, II, (D/E)**. En GE I : catégorie 1, code tunnel **(C/E)**.",
+      "why": "Le support classe ce mélange connu en GE I avec (D/E) : double erreur. Le GE I est réservé au cas d'une composition inconnue.",
+      "diff": 3
+    },
+    {
+      "n": "Q21",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Comment classer des emballages vides non nettoyés envoyés à l'élimination ?",
+      "r": "**UN 3509** (classe 9, emballages mis au rebut, vides, non nettoyés), sauf exclusions (classes 1, 5.2, 6.2, 7, amiante…). Sinon, l'emballage garde le **classement du produit** qu'il contenait.",
+      "ref": [
+        "3.3.1 DS 663",
+        "4.1.1.11"
+      ],
+      "statut": "a_relire",
+      "verif": "Exclusions de la DS 663 à confirmer",
+      "diff": 3
+    },
+    {
+      "n": "Q22",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Des chiffons imbibés de solvant : quelle rubrique ?",
+      "r": "**UN 3175** SOLIDES CONTENANT DU LIQUIDE INFLAMMABLE, N.S.A.",
+      "diff": 2
+    },
+    {
+      "n": "Q23",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Depuis quand Trackdéchets est-il obligatoire, et qui signe quoi ?",
+      "r": "Depuis le **1er janvier 2022** pour les déchets dangereux (décret 2021-321). Le **producteur** crée ou valide le bordereau et signe l'enlèvement, le **transporteur** signe la prise en charge, l'**installation** signe la réception puis le traitement.",
+      "diff": 2
+    },
+    {
+      "n": "Q24",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Votre prestataire fournit fûts, étiquettes et bordereau pré-rempli, et se trompe de numéro ONU. Qui est responsable ?",
+      "r": "**Vous** : le producteur reste responsable de ses déchets jusqu'à leur élimination finale, même confiés à un tiers (L541-2), et c'est vous qui signez.",
+      "why": "Affaire du Probo Koala (Abidjan, 2006) : des déchets confiés à un sous-traitant non qualifié ont fait 17 morts.",
+      "ref": [
+        "C. env. L541-2"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q25",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Le code déchet à 6 chiffres et le numéro ONU sont liés.",
+      "r": "**Faux** : ce sont deux classements indépendants.",
+      "why": "Le code déchet relève du code de l'environnement (l'astérisque signale un déchet dangereux) ; le numéro ONU, de l'ADR. Un déchet dangereux peut être non soumis à l'ADR, et l'inverse.",
+      "diff": 1
+    },
+    {
+      "n": "Q26",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Rédigez la désignation complète du déchet éthanol + aniline, dangereux pour l'environnement.",
+      "r": "**UN 1992 DÉCHET LIQUIDE INFLAMMABLE, TOXIQUE, N.S.A. (éthanol, aniline), 3 (6.1), II, (D/E), DANGEREUX POUR L'ENVIRONNEMENT**",
+      "diff": 3
+    },
+    {
+      "n": "Q27",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Un flacon de laboratoire est d'origine inconnue. Que faire ?",
+      "r": "Ne **pas ouvrir**, ne **pas mélanger**, isoler, étiqueter « inconnu », demander une identification ou une prise en charge spécifique.",
+      "why": "Le 2.1.3.5.5 ne couvre pas un risque possible de classe 4.3 ou d'explosif.",
+      "diff": 1
+    },
+    {
+      "n": "Q28",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Solvants halogénés et non halogénés : peut-on les mélanger dans un même bidon de déchets ?",
+      "r": "Le transport le permet si le mélange est classé, mais la **filière de traitement** l'interdit souvent (traitement et coût différents) : **séparer**.",
       "diff": 1
     }
   ]

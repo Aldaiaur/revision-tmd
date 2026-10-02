@@ -9,7 +9,9 @@
       "type": "classement",
       "q": "Dans le code d'un emballage, que désigne le chiffre initial ? 1 · 3 · 4 · 5 · 6 · 0",
       "r": "1 **fût** · 3 **bidon (jerricane)** · 4 **caisse** · 5 **sac** · 6 **emballage composite** · 0 **emballage métallique léger**",
-      "ref": ["6.1.2.7"],
+      "ref": [
+        "6.1.2.7"
+      ],
       "diff": 1
     },
     {
@@ -17,7 +19,9 @@
       "type": "classement",
       "q": "Dans le code d'un emballage, que désigne la lettre ? A · B · C · D · F · G · H · L · M · N · P",
       "r": "A **acier** · B **aluminium** · C **bois naturel** · D **contreplaqué** · F **bois reconstitué** · G **carton** · H **plastique** · L **textile** · M **papier multiplis** · N **autre métal** · P **verre**",
-      "ref": ["6.1.2.7"],
+      "ref": [
+        "6.1.2.7"
+      ],
       "diff": 2
     },
     {
@@ -25,17 +29,26 @@
       "type": "question_ouverte",
       "q": "Que désignent 4G, 1A1, 1A2 et 3H1 ?",
       "r": "**4G** caisse en carton · **1A1** fût en acier à dessus **non amovible** · **1A2** fût en acier à dessus **amovible** · **3H1** bidon (jerricane) en plastique à dessus non amovible",
-      "ref": ["6.1.2.7"],
+      "ref": [
+        "6.1.2.7"
+      ],
       "diff": 2
     },
     {
       "n": "Q4",
       "type": "qcm",
       "q": "Un emballage est homologué « Y ». Pour quels groupes d'emballage peut-il servir ?",
-      "choix": ["GE I seulement", "GE II et III", "GE III seulement", "GE I, II et III"],
+      "choix": [
+        "GE I seulement",
+        "GE II et III",
+        "GE III seulement",
+        "GE I, II et III"
+      ],
       "bonne": "B",
       "why": "X → GE I, II et III · Y → GE II et III · Z → GE III seulement. Un emballage peut toujours servir pour un groupe moins dangereux.",
-      "ref": ["6.1.3.1"],
+      "ref": [
+        "6.1.3.1"
+      ],
       "src": "Évaluation Q8 ; exercices emballage Q1-Q2",
       "diff": 1
     },
@@ -44,7 +57,9 @@
       "type": "question_ouverte",
       "q": "Décodez la marque 4G/X30/S/01/F/ERT123/NAM.",
       "r": "**4G** caisse carton · **X** GE I (donc aussi II et III) · **30** masse brute max 30 kg · **S** solides ou emballages intérieurs · **01** fabriqué en 2001 · **F** agréé en France · **ERT123** laboratoire et n° de PV · **NAM** fabricant",
-      "ref": ["6.1.3.1"],
+      "ref": [
+        "6.1.3.1"
+      ],
       "diff": 2
     },
     {
@@ -53,7 +68,9 @@
       "q": "Décodez la marque 1A1/X1.4/250/11/F/ERT123/NAM.",
       "r": "Fût acier à dessus non amovible · GE I · liquide de **densité 1,4** au plus · épreuve de pression hydraulique **250 kPa** (2,5 bar) · fabriqué en 2011 · France · laboratoire · fabricant",
       "why": "Pour un emballage destiné aux liquides, la densité et la pression d'épreuve remplacent la masse brute et le « S ».",
-      "ref": ["6.1.3.1"],
+      "ref": [
+        "6.1.3.1"
+      ],
       "diff": 2
     },
     {
@@ -62,7 +79,9 @@
       "q": "Quelles hauteurs d'épreuve de chute correspondent aux GE I, II et III ?",
       "r": "GE I : **1,8 m** · GE II : **1,2 m** · GE III : **0,8 m**",
       "why": "Autres épreuves : gerbage, étanchéité, pression hydraulique. L'emballage ne doit présenter aucune fuite.",
-      "ref": ["6.1.5.3"],
+      "ref": [
+        "6.1.5.3"
+      ],
       "diff": 2
     },
     {
@@ -70,8 +89,10 @@
       "type": "calcul",
       "q": "Un bidon en plastique a été fabriqué en mai 2020. Jusqu'à quand peut-on l'utiliser pour des marchandises dangereuses ?",
       "r": "**Jusqu'en mai 2025**",
-      "why": "Durée d'utilisation des fûts et bidons en plastique : 5 ans à compter de la fabrication (sauf durée plus courte prescrite). D'où le mois de fabrication marqué sur les plastiques, souvent sous forme d'horloge.",
-      "ref": ["4.1.1.15"],
+      "why": "Durée d'utilisation des fûts, bidons, GRV et composites en plastique : 5 ans à compter de la fabrication, d'où le mois marqué sur une horloge. Ne concerne pas les **caisses** en plastique (4H).",
+      "ref": [
+        "4.1.1.15"
+      ],
       "src": "Évaluation Q10",
       "diff": 1
     },
@@ -79,7 +100,11 @@
       "n": "Q9",
       "type": "qcm",
       "q": "Pour quel régime l'emballage homologué est-il obligatoire en transport routier ?",
-      "choix": ["Quantités limitées", "Quantités exceptées", "Pleine application de l'ADR"],
+      "choix": [
+        "Quantités limitées",
+        "Quantités exceptées",
+        "Pleine application de l'ADR"
+      ],
       "bonne": "C",
       "why": "En QL et en QE, l'homologation n'est pas exigée (mais l'emballage doit être de bonne qualité : 4.1.1.1, et pour les QE avoir subi les épreuves du 3.5.3).",
       "src": "Évaluation Q9",
@@ -90,7 +115,7 @@
       "type": "vrai_faux",
       "q": "Pour évacuer des déchets de liquides inflammables, un emballage non homologué suffit.",
       "r": "**Faux** : emballage homologué obligatoire.",
-      "why": "Les déchets dangereux voyagent en pleine application ; la marque d'homologation doit figurer sur l'emballage et convenir au GE du déchet.",
+      "why": "Les déchets voyagent en général en pleine application : marque d'homologation adaptée au GE. Seule la QL dispense d'homologation ; le **1.1.3.6 n'en dispense pas**.",
       "src": "Exercices emballage Q3",
       "diff": 1
     },
@@ -99,7 +124,9 @@
       "type": "question_ouverte",
       "q": "Où trouver l'instruction d'emballage d'une matière, et que désignent les préfixes P, IBC et LP ?",
       "r": "Colonne **(8)** du tableau A, détaillée au **4.1.4**. **P** : emballages · **IBC** : GRV (grands récipients pour vrac) · **LP** : grands emballages",
-      "ref": ["4.1.4"],
+      "ref": [
+        "4.1.4"
+      ],
       "diff": 2
     },
     {
@@ -108,7 +135,9 @@
       "q": "Instruction P001, emballages combinés : contenance maximale d'un emballage intérieur en verre, en plastique, en métal ?",
       "r": "Verre **10 L** · plastique **30 L** · métal **40 L**",
       "why": "La masse nette de l'emballage extérieur est aussi plafonnée (jusqu'à 400 kg selon le type et le GE).",
-      "ref": ["4.1.4.1 P001"],
+      "ref": [
+        "4.1.4.1 P001"
+      ],
       "diff": 3
     },
     {
@@ -124,7 +153,9 @@
       "type": "question_ouverte",
       "q": "Où trouver les règles d'emballage en commun de plusieurs marchandises dangereuses ?",
       "r": "Colonne **(9b)** du tableau A : code **MPxx**, expliqué au chapitre **4.1.10**.",
-      "ref": ["4.1.10"],
+      "ref": [
+        "4.1.10"
+      ],
       "src": "Fiche pratique PCL",
       "diff": 1
     },
@@ -134,7 +165,9 @@
       "q": "Le trichlorosilane (UN 1295) porte le code MP2. Avec quoi peut-on l'emballer ?",
       "r": "**Avec rien** : il doit être emballé **seul** dans son carton, sans aucune autre marchandise, même non soumise.",
       "why": "MP2 interdit tout emballage en commun. Idem pour l'éthyle diazoacétate (UN 3227).",
-      "ref": ["4.1.10 MP2"],
+      "ref": [
+        "4.1.10 MP2"
+      ],
       "src": "Exercice emballage en commun ; fiche PCL",
       "diff": 2
     },
@@ -143,7 +176,9 @@
       "type": "question_ouverte",
       "q": "Méthanol (UN 1230, MP19) : peut-on l'emballer avec d'autres marchandises dangereuses ?",
       "r": "**Oui**, si chaque emballage intérieur contient **5 L au plus**.",
-      "ref": ["4.1.10 MP19"],
+      "ref": [
+        "4.1.10 MP19"
+      ],
       "src": "Fiche pratique PCL",
       "diff": 2
     },
@@ -151,27 +186,38 @@
       "n": "Q17",
       "type": "question_ouverte",
       "q": "Sulfate de diméthyle (UN 1595, codes MP8 et MP17) en flacon de 1 L : comment l'emballer ?",
-      "r": "MP17 ne vaut que jusqu'à **0,5 L** par emballage intérieur : on applique donc **MP8**, sans autre marchandise dangereuse dans le carton. Des produits **non soumis** peuvent l'accompagner.",
-      "ref": ["4.1.10 MP8", "4.1.10 MP17"],
+      "r": "Conflit : **MP8** admet jusqu'à **3 L** avec des produits non soumis, mais **MP17** limite à **0,5 L** par emballage intérieur. Dans le doute, l'**emballer seul**. Le carton contient alors un GE I : marque **X**.",
+      "ref": [
+        "4.1.10 MP8",
+        "4.1.10 MP17"
+      ],
       "statut": "a_relire",
-      "verif": "Limites de MP17 à confirmer dans l'ADR",
+      "verif": "Conflit MP8 / MP17 relevé par le guide formateur",
       "src": "Fiche pratique PCL",
       "diff": 3
     },
     {
       "n": "Q18",
       "type": "question_ouverte",
-      "q": "PFA (UN 2209), nitrate d'argent et acide chlorhydrique (UN 1789), tous de classe 8 : peut-on les mettre dans le même carton ?",
-      "r": "**Oui**, tant que les quantités maximales par emballage intérieur fixées par leurs codes MP (MP15, MP19) sont respectées.",
-      "src": "Fiche pratique PCL",
-      "diff": 2
+      "q": "La fiche PCL place PFA (paraformaldéhyde à 4 %, classé UN 2209), nitrate d'argent et acide chlorhydrique dans un même carton de classe 8. Qu'en penser ?",
+      "r": "Le PFA à 4 % **n'est pas UN 2209**, rubrique réservée aux solutions à **≥ 25 %** de formaldéhyde : le classer d'après sa FDS. Et **formaldéhyde + HCl** peuvent former du **bis(chlorométhyl)éther**, cancérogène puissant : les MP ne dispensent pas de vérifier la compatibilité (4.1.1.6).",
+      "src": "Fiche pratique PCL ; guide formateur",
+      "diff": 3,
+      "why": "Le nitrate d'argent solide est UN 1493 (5.1) ; une solution se classe selon sa concentration.",
+      "ref": [
+        "4.1.1.6",
+        "4.1.10"
+      ],
+      "verif": "Corrige la fiche pratique PCL"
     },
     {
       "n": "Q19",
       "type": "question_ouverte",
       "q": "Qu'est-ce qu'un suremballage et quelles sont ses règles ?",
       "r": "La réunion de plusieurs colis pour faciliter la manutention. Chaque colis doit être conforme · **pas d'homologation** du suremballage · reproduire étiquettes et marques **non visibles** · marque **« SUREMBALLAGE »** (lettres de 12 mm au moins).",
-      "ref": ["5.1.2"],
+      "ref": [
+        "5.1.2"
+      ],
       "diff": 1
     },
     {
@@ -206,8 +252,76 @@
       "q": "On peut remplir un bidon de déchets liquides jusqu'au bord.",
       "r": "**Faux**",
       "why": "Il faut respecter le taux de remplissage, pour éviter gonflement, éclatement ou fuite.",
-      "ref": ["4.1.1.4"],
+      "ref": [
+        "4.1.1.4"
+      ],
       "src": "Guide déchets",
+      "diff": 1
+    },
+    {
+      "n": "Q24",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "On met des flacons non homologués dans un carton homologué : le colis est-il conforme ?",
+      "r": "Seulement si la configuration correspond à celle de l'**homologation** (mêmes emballages intérieurs, mêmes calages), ou si l'emballage est homologué de type « **V** ». Ce n'est pas un suremballage, qui réunit des colis déjà conformes.",
+      "ref": [
+        "6.1.5.1.7"
+      ],
+      "diff": 3
+    },
+    {
+      "n": "Q25",
+      "src": "Exercices emballage ; guide formateur",
+      "type": "question_ouverte",
+      "q": "Bidon 3H1/X1.9/140/22 dont le bouchon porte « 07 ». Peut-on l'utiliser ?",
+      "r": "**Non**, mais pas à cause du bidon : fabriqué en 2022, il est valable jusqu'en 2027. C'est le **bouchon** (2007) qui n'est vraisemblablement pas d'origine et a vieilli : l'emballage n'est plus dans sa configuration d'homologation.",
+      "diff": 3
+    },
+    {
+      "n": "Q26",
+      "src": "Exercices emballage ; guide formateur",
+      "type": "question_ouverte",
+      "q": "Caisse marquée 4H2/Y50/S/2020 et 4H2/X25/S/2020. Peut-on y mettre 20 L de furanne en vrac (GE I, 35 kg) ?",
+      "r": "**Non** : un liquide en vrac est interdit dans une caisse (marque S), et 35 kg dépassent les **25 kg** admis en GE I (X25).",
+      "why": "Double marquage = double homologation : jusqu'à 50 kg pour les GE II et III, 25 kg pour le GE I. Une caisse en plastique n'a pas de limite de 5 ans.",
+      "diff": 3
+    },
+    {
+      "n": "Q27",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Réutiliser un bidon de produit pour y mettre un déchet : que vérifier ?",
+      "r": "**GE** compatible (X/Y/Z), densité du déchet ≤ densité marquée, **compatibilité chimique**, bidon plastique de **moins de 5 ans**, **bouchon d'origine** en bon état.",
+      "diff": 2
+    },
+    {
+      "n": "Q28",
+      "src": "Guide formateur",
+      "type": "classement",
+      "q": "Emballage en commun : que permettent MP15, MP19, MP8 et MP17 ?",
+      "r": "**MP15** : ≤ 3 L par intérieur · **MP19** : ≤ 5 L par intérieur · **MP8** : ≤ 3 L, avec la même classe ou des non soumis · **MP17** : ≤ 0,5 L par intérieur et 1 L par colis avec d'autres classes",
+      "why": "Toutes supposent que les marchandises ne réagissent pas dangereusement entre elles (4.1.1.6).",
+      "ref": [
+        "4.1.10.4"
+      ],
+      "statut": "a_relire",
+      "verif": "Résumé du guide formateur, à confirmer au 4.1.10.4",
+      "diff": 3
+    },
+    {
+      "n": "Q29",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Collecte de PCL : pourquoi trier les cartons par classe plutôt que de tout mettre ensemble (hors MP2) ?",
+      "r": "Dès qu'on mélange des classes, la **MP17** limite à **0,5 L** par intérieur et 1 L par colis : un flacon de 1 L de 1-pentène ne passe plus. Trier par classe est plus simple et plus sûr chimiquement.",
+      "diff": 3
+    },
+    {
+      "n": "Q30",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Quelle homologation pour l'emballage extérieur d'un carton de PCL qui contient un seul produit du GE I ?",
+      "r": "Une marque **X** : l'emballage doit convenir au **GE le plus sévère** du carton.",
       "diff": 1
     }
   ]

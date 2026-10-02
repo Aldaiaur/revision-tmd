@@ -8,9 +8,11 @@
       "n": "Q1",
       "type": "question_ouverte",
       "q": "Sous le régime du 1.1.3.6, de quoi le véhicule est-il exempté, et que reste-t-il obligatoire ?",
-      "r": "Exempté : **consignes écrites**, **équipements** de bord, **signalisation orange**, contraintes de **circulation** (tunnels, stationnement), formation conducteur (**sauf 1.3**). Restent : **1 extincteur 2 kg**, le **document de transport**, les **règles de sécurité** au chargement (ne pas fumer…).",
-      "why": "En France, en compte propre et en national, le document de transport n'est pas non plus exigé.",
-      "ref": ["1.1.3.6"],
+      "r": "Exempté : **consignes écrites**, **équipements** de bord, **signalisation orange**, contraintes de **circulation** (tunnels, stationnement), **certificat ADR** du conducteur. Restent : **document de transport**, **formation 1.3**, **1 extincteur 2 kg**, **règles de chargement** et de sécurité.",
+      "why": "Le 1.1.3.6 allège le **véhicule**, pas le colis. Les supports ajoutent qu'en compte propre national le document n'est pas exigé : disposition à vérifier dans l'arrêté TMD.",
+      "ref": [
+        "1.1.3.6.2"
+      ],
       "diff": 2
     },
     {
@@ -19,7 +21,10 @@
       "q": "Catégories de transport (1.1.3.6.3) : donnez la limite et le coefficient des catégories 0 à 4.",
       "r": "Cat. **0** : interdit sous ce régime · Cat. **1** : 20, × **50** · Cat. **2** : 333, × **3** · Cat. **3** : 1 000, × **1** · Cat. **4** : illimité, × **0**",
       "why": "Une seule catégorie : rester sous sa limite. Plusieurs : Σ (quantité × coefficient) ≤ 1 000.",
-      "ref": ["1.1.3.6.3", "1.1.3.6.4"],
+      "ref": [
+        "1.1.3.6.3",
+        "1.1.3.6.4"
+      ],
       "diff": 2
     },
     {
@@ -27,7 +32,9 @@
       "type": "question_ouverte",
       "q": "Pour le calcul du 1.1.3.6, quelle quantité retient-on pour un liquide, un solide, un gaz comprimé, un gaz liquéfié, un objet ?",
       "r": "Liquide : **volume en L** · Solide : **masse nette en kg** · Gaz comprimé : **contenance nominale** du récipient (L d'eau) · Gaz liquéfié ou dissous : **masse nette en kg** · Objet : **masse brute en kg** (classe 1 : masse nette d'explosif)",
-      "ref": ["1.1.3.6.3"],
+      "ref": [
+        "1.1.3.6.3"
+      ],
       "diff": 3
     },
     {
@@ -35,7 +42,9 @@
       "type": "question_ouverte",
       "q": "Où trouve-t-on la catégorie de transport d'une matière ?",
       "r": "Colonne **(15)** du tableau A (chiffre devant le code tunnel). Exemple : UN 1796, 8 (5.1), I, (E) → **catégorie 1**.",
-      "ref": ["3.2"],
+      "ref": [
+        "3.2"
+      ],
       "diff": 1
     },
     {
@@ -43,7 +52,9 @@
       "type": "calcul",
       "q": "Un véhicule charge 3 bidons de 5 L de UN 1796 (catégorie 1) et 1 fût de 250 L de UN 1805 (catégorie 3). Le 1.1.3.6 s'applique-t-il ? Peut-on ajouter 250 kg d'emballages vides (catégorie 4) ?",
       "r": "15 × 50 = 750 ; 250 × 1 = 250 ; total **1 000 ≤ 1 000** → **oui**. Les emballages vides (cat. 4, coefficient 0) peuvent **s'ajouter**.",
-      "ref": ["1.1.3.6"],
+      "ref": [
+        "1.1.3.6"
+      ],
       "src": "Tronc commun, exercice",
       "diff": 2
     },
@@ -78,7 +89,11 @@
       "n": "Q9",
       "type": "qcm",
       "q": "Véhicule de service, 2 bidons de 5 L sous les seuils du 1.1.3.6, assurance souscrite. Que faut-il ?",
-      "choix": ["Baudrier fluorescent, 2 triangles et permis ADR", "Conducteur formé au chapitre 1.3 et extincteur 2 kg", "Plaques orange, formation IATA et lampe antidéflagrante"],
+      "choix": [
+        "Baudrier fluorescent, 2 triangles et permis ADR",
+        "Conducteur formé au chapitre 1.3 et extincteur 2 kg",
+        "Plaques orange, formation IATA et lampe antidéflagrante"
+      ],
       "bonne": "B",
       "src": "Évaluation Q13",
       "diff": 1
@@ -87,8 +102,12 @@
       "n": "Q10",
       "type": "question_ouverte",
       "q": "Quantités limitées : conditions, exemptions et obligations ?",
-      "r": "Conditions : quantité par **emballage intérieur** ≤ colonne 7a ; colis **≤ 30 kg brut** (20 kg pour plateaux sous film rétractable). Exempté : **homologation** et **déclaration** de MD. Obligations : formation, emballages conformes au 4.1.1.1, marque QL, **masse brute** communiquée au transporteur, marquage du véhicule au-delà de **8 t** de QL.",
-      "ref": ["3.4"],
+      "r": "Conditions : quantité par **emballage intérieur** ≤ colonne 7a ; colis **≤ 30 kg brut** (20 kg pour plateaux sous film rétractable). Exempté : **homologation** et **déclaration** de MD. Obligations : formation 1.3, emballages conformes au 4.1.1.1, marque QL, **masse brute totale** communiquée au transporteur (3.4.12), marquage de l'unité de **plus de 12 t** qui transporte **plus de 8 t** de QL (3.4.13).",
+      "ref": [
+        "3.4",
+        "3.4.12",
+        "3.4.13"
+      ],
       "diff": 2
     },
     {
@@ -96,7 +115,9 @@
       "type": "classement",
       "q": "Quantités exceptées : limites par emballage intérieur et par emballage extérieur des codes E0 à E5 ?",
       "r": "**E0** interdit · **E1** 30 / 1 000 · **E2** 30 / 500 · **E3** 30 / 300 · **E4** 1 / 500 · **E5** 1 / 300 (g ou mL)",
-      "ref": ["3.5.1.2"],
+      "ref": [
+        "3.5.1.2"
+      ],
       "diff": 2
     },
     {
@@ -104,7 +125,9 @@
       "type": "question_ouverte",
       "q": "Quantités exceptées : emballage exigé, exemptions et obligations ?",
       "r": "Emballage **intérieur + intermédiaire + extérieur**, limites par intérieur **et** par extérieur. Exempté : homologation, déclaration de MD, placardage. Obligations : formation 1.3, emballage et marque QE, **nombre de colis** indiqué au transporteur.",
-      "ref": ["3.5"],
+      "ref": [
+        "3.5"
+      ],
       "diff": 2
     },
     {
@@ -112,7 +135,9 @@
       "type": "question_ouverte",
       "q": "Qu'est-ce que le régime de minimis ?",
       "r": "Codes **E1, E2, E4 ou E5** ; **1 g ou 1 mL** par emballage intérieur et **100 g ou 100 mL** par colis, avec rembourrage ou absorbant : **exemption totale** (reste la formation 1.3 et les règles d'emballage).",
-      "ref": ["3.5.1.4"],
+      "ref": [
+        "3.5.1.4"
+      ],
       "diff": 3
     },
     {
@@ -129,7 +154,8 @@
       "q": "Parmi oxygène comprimé, sodium, matière biologique catégorie B, acétone, chloroforme : lesquels sont exclus des quantités exceptées ?",
       "r": "**Oxygène comprimé, sodium, matière biologique catégorie B** (code E0)",
       "src": "Exercices, régimes dérogatoires Q2",
-      "diff": 2
+      "diff": 2,
+      "why": "Le corrigé cite la matière biologique catégorie B alors que l'annexe contient UN 2814 (catégorie A) : les deux sont en E0."
     },
     {
       "n": "Q16",
@@ -137,7 +163,8 @@
       "q": "Régime le moins contraignant : (a) 1 bouteille de 2,5 L de chloroforme · (b) 15 tubes de 30 mL de toluène · (c) 1 bouteille de 20 L d'oxygène comprimé · (d) 4 bouteilles de 1 L d'acétone · (e) 3 bouteilles de 3 L de benzène",
       "r": "(a) **QL** (≤ 5 L) · (b) **QE** E2 : 450 mL ≤ 500 mL · (c) **pleine application** · (d) **QL** · (e) **pleine application** (QL du benzène : 1 L)",
       "src": "Exercices, régimes dérogatoires Q3",
-      "diff": 2
+      "diff": 2,
+      "why": "(c) : pleine application pour le **colis**, mais le **véhicule** peut relever du 1.1.3.6 (catégorie 3 : 20 L de contenance = 20 points). Pour (a), la QE est impossible : E1 = 30 mL par emballage intérieur."
     },
     {
       "n": "Q17",
@@ -170,7 +197,9 @@
       "q": "UN 1796 ACIDE SULFONITRIQUE : peut-on l'expédier en QL ou en QE ?",
       "r": "Plus de 50 % d'acide nitrique (GE I) : **ni QL ni QE** (0 et E0). Au plus 50 % (GE II) : **QL de 1 L** par emballage intérieur, 30 kg par colis ; QE interdite.",
       "why": "3.4.4 : un liquide de classe 8 du GE II en récipient de verre, porcelaine ou grès doit être placé dans un emballage intermédiaire.",
-      "ref": ["3.4.4"],
+      "ref": [
+        "3.4.4"
+      ],
       "diff": 3
     },
     {
@@ -178,7 +207,9 @@
       "type": "vrai_faux",
       "q": "Un colis en quantités limitées doit porter le numéro UN et les étiquettes de danger.",
       "r": "**Faux** : la marque QL suffit.",
-      "ref": ["3.4.7"],
+      "ref": [
+        "3.4.7"
+      ],
       "diff": 1
     },
     {
@@ -187,6 +218,66 @@
       "q": "13 batteries de 6 kg UN 3481 (cat. 2) et 3 fûts de 250 L d'acide chlorhydrique UN 1789 (cat. 3) dans le même véhicule : 1.1.3.6 ?",
       "r": "78 kg × 3 = 234 ; 750 × 1 = 750 → **984 ≤ 1 000** : **oui**.",
       "src": "Module lithium, exercice",
+      "diff": 2
+    },
+    {
+      "n": "Q23",
+      "src": "Guide formateur",
+      "type": "calcul",
+      "q": "Chargement à exactement 1 000 points (750 en catégorie 1 + 250 en catégorie 3). On ajoute un flacon de 1 L de méthanol (catégorie 2). Le 1.1.3.6 tient-il ?",
+      "r": "**Non** : 1 000 + 1 × 3 = **1 003** > 1 000. Il faut alors panneaux orange, équipement complet et conducteur titulaire du certificat ADR.",
+      "diff": 2
+    },
+    {
+      "n": "Q24",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Un même colis peut contenir des marchandises en quantités limitées et en quantités exceptées.",
+      "r": "**Faux**",
+      "why": "Chaque colis relève d'un seul régime ; les deux types de colis peuvent en revanche voyager dans le même véhicule.",
+      "diff": 1
+    },
+    {
+      "n": "Q25",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Quand le régime de minimis est-il utile, et quand est-il impossible ?",
+      "r": "Utile pour des **échantillons de quelques milligrammes** (codes E1, E2, E4, E5). Impossible pour la **classe 7** et pour les codes E0 et E3.",
+      "ref": [
+        "3.5.1.4"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q26",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Quantités limitées et quantités exceptées : quelle information donner au transporteur ?",
+      "r": "QL : la **masse brute totale** (3.4.12) · QE : si un document accompagne l'envoi, la mention QE et le **nombre de colis** (3.5.6)",
+      "ref": [
+        "3.4.12",
+        "3.5.6"
+      ],
+      "diff": 2
+    },
+    {
+      "n": "Q27",
+      "src": "Guide formateur",
+      "type": "vrai_faux",
+      "q": "Sous le régime du 1.1.3.6, on peut utiliser des emballages non homologués.",
+      "r": "**Faux**",
+      "why": "Le 1.1.3.6 allège le **véhicule** (signalisation, équipement, conducteur), pas le colis : classement, emballage homologué et étiquetage restent les mêmes.",
+      "diff": 1
+    },
+    {
+      "n": "Q28",
+      "src": "Guide formateur",
+      "type": "question_ouverte",
+      "q": "Peut-on utiliser les quantités limitées pour des déchets ?",
+      "r": "**Oui**, si chaque emballage intérieur respecte la colonne 7a et les conditions du 3.4. Le bordereau de suivi des déchets reste obligatoire.",
+      "ref": [
+        "3.4"
+      ],
       "diff": 2
     }
   ]
